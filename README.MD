@@ -5,7 +5,7 @@ __Contributors:__ mdibella-dev
 
 __Tags:__ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery
 
-__Requires at least:__ WordPress 6.0X  
+__Requires at least:__ WordPress 6.0  
 
 __Tested up to:__ WordPress 6.0  
 
