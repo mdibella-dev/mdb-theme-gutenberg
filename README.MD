@@ -1,13 +1,13 @@
-# <PROJECT-TITLE>
-<PROJECT-DESCRIPTION>
+#mdb-theme-fse
+The WordPress theme for Marco Di Bella's personal website (full site editing version). Based on mdb-theme (2.1).
 
 __Contributors:__ mdibella-dev
 
-__Tags:__ gutenberg, block-editor, full-site-editing
+__Tags:__ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery
 
-__Requires at least:__ WordPress X.X  
+__Requires at least:__ WordPress 6.0X  
 
-__Tested up to:__ WordPress X.X  
+__Tested up to:__ WordPress 6.0  
 
 ## Changelog
 *Added/Changed/Fixed/Removed*
