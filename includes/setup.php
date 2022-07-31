@@ -91,7 +91,7 @@ function mdb_enqueue_scripts()
     if( defined( 'MDB_DEV' ) and ( true === MDB_DEV ) ):
         wp_enqueue_script(
             'mdb-theme-fse',
-            get_template_directory_uri() . '/assets/src/js/frontend.js',
+            get_template_directory_uri() . '/assets/src/js/style-frontend.js',
             array( 'jquery' ),
             false,
             true
@@ -99,7 +99,7 @@ function mdb_enqueue_scripts()
     else :
         wp_enqueue_script(
             'mdb-theme-fse',
-            get_template_directory_uri() . '/assets/build/js/frontend.min.js',
+            get_template_directory_uri() . '/assets/build/js/style-frontend.min.js',
             'jquery',
             false,
             true

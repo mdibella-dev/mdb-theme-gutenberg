@@ -1,0 +1,43 @@
+/**
+ * HTML tags
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme-fse
+ */
+
+
+
+
+html,
+body {
+    height: 100%;
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 16px;
+ 	font-weight: 300;
+    line-height: 1.7;
+    letter-spacing: .1px;
+    color: var(--wp--preset--color--dark-gray);
+}
+
+
+html {
+    margin: 0 !important;
+}
+
+
+body {
+    background: --wp--preset--color--paper-gray;
+    margin: 0;
+    padding: 0;
+    position: relative; // prevent scrolling at overflow:hidden (iOS)
+    overflow: hidden;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
