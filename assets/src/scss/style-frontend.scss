@@ -16,10 +16,15 @@
 /** Mixins */
 
 @import "mixins/_responsive";
-@import "mixins/_cssvars";
 
 
 /** Page elements / general settings */
 
+@import "site/_vars";
 @import "site/_fonts";
 @import "site/_basics";
+
+
+/** Block elements */
+
+@import "blocks/_paragraph";

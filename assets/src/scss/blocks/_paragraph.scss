@@ -1,0 +1,46 @@
+/**
+ * Block: Paragraph
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ * Default paragraph
+ */
+
+p {
+    // prevent margin-collapsing
+    display: block;
+    width: 100%;
+
+    // typography
+    font-size: 1.275rem; // clamping???
+
+    // spacing
+    * + & {
+        margin-top: var(--mdb-gap-typo);
+    }
+}
+
+
+/**
+ *  A small note
+ */
+
+p.is-style-smallnote {
+    // prevent margin-collapsing
+    display: block;
+    width: 100%;
+
+    // typography
+    font-size: .875rem; // clamping???
+    font-style: italic;
+
+    // spacing
+    * + & {
+        margin-top: var(--mdb-gap-typo);
+    }
+}
