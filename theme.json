@@ -9,9 +9,9 @@
                     "color": "#000000"
                 },
                 {
-                    "name": "White",
-                    "slug": "white",
-                    "color": "#ffffff"
+                    "name": "Dark Gray",
+                    "slug": "dark-gray",
+                    "color": "#333333"
                 },
                 {
                     "name": "Paper Gray",
@@ -19,9 +19,9 @@
                     "color": "#e7e7e7"
                 },
                 {
-                    "name": "Dark Gray",
-                    "slug": "dark-gray",
-                    "color": "#333333"
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#ffffff"
                 },
                 {
                     "name": "Dark Blue",
