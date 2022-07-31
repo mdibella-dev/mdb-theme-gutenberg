@@ -62,22 +62,6 @@ endif;
 function mdb_enqueue_scripts()
 {
     /**
-     * Unloads the jQuery library that comes with WordPress, as it is loaded in the header by default.
-     * Loads a theme-native copy of the jQuery library in the footer instead.
-     */
-
-    wp_deregister_script( 'jquery' );
-    wp_register_script(
-        'jquery',
-        get_template_directory_uri() . '/assets/build/js/jquery-3.6.0.min.js',
-        false,
-        false,
-        true
-    );
-    wp_enqueue_script( 'jquery' );
-
-
-    /**
      * Registers and loads vendor styles and scripts.
      */
 
@@ -101,8 +85,7 @@ function mdb_enqueue_scripts()
     wp_enqueue_style(
         'mdb-theme',
         get_template_directory_uri() . '/assets/build/css/frontend.min.css',
-        array(),
-        filemtime( get_template_directory() . '/assets/build/css/frontend.min.css' )
+        array()
     );
 
     if( defined( 'MDB_DEV' ) and ( true === MDB_DEV ) ):
@@ -118,7 +101,7 @@ function mdb_enqueue_scripts()
             'mdb-theme',
             get_template_directory_uri() . '/assets/build/js/frontend.min.js',
             'jquery',
-            filemtime( get_template_directory() . '/assets/build/js/frontend.min.js' ),
+            false,
             true
         );
     endif;
