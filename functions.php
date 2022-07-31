@@ -24,3 +24,4 @@ define( 'MDB_DEV', true );
 /** Include function library */
 
 require_once( get_template_directory() . '/includes/setup.php' );
+require_once( get_template_directory() . '/includes/block-patterns.php' );

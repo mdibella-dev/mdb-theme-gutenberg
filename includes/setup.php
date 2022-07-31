@@ -3,7 +3,7 @@
  * Main functions for setting up the theme.
  *
  * @author  Marco Di Bella <mdb@marcodibella.de>
- * @package mdb-theme
+ * @package mdb-theme-fse
  */
 
 
@@ -83,14 +83,14 @@ function mdb_enqueue_scripts()
      */
 
     wp_enqueue_style(
-        'mdb-theme',
+        'mdb-theme-fse',
         get_template_directory_uri() . '/assets/build/css/frontend.min.css',
         array()
     );
 
     if( defined( 'MDB_DEV' ) and ( true === MDB_DEV ) ):
         wp_enqueue_script(
-            'mdb-theme',
+            'mdb-theme-fse',
             get_template_directory_uri() . '/assets/src/js/frontend.js',
             array( 'jquery' ),
             false,
@@ -98,7 +98,7 @@ function mdb_enqueue_scripts()
         );
     else :
         wp_enqueue_script(
-            'mdb-theme',
+            'mdb-theme-fse',
             get_template_directory_uri() . '/assets/build/js/frontend.min.js',
             'jquery',
             false,
