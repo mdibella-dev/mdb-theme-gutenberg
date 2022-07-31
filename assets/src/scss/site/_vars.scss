@@ -1,0 +1,19 @@
+/**
+ * CSS variables
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme-fse
+ */
+
+
+
+
+:root {
+
+    // widths, heights and gaps
+    --mdb-navbar-column-width:       clamp(7rem, 8vw, 9rem);
+    --mdb-navbar-row-height:         5rem;       // 80px
+    --mdb-content-padding:           2rem;
+    --mdb-gap-teaser:                4.5rem;
+    --mdb-gap-typo:                  min(2rem, 3.5vw);
+};
