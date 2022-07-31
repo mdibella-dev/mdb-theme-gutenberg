@@ -44,6 +44,31 @@
         "layout": {
             "contentSize": "800px",
             "wideSize": "1024px"
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "name": "Public Sans",
+                    "slug": "primary",
+                    "fontFamily": "Public Sans VF, Arial, sans-serif"
+                },
+                {
+                    "name": "Open Sans",
+                    "slug": "secondary",
+                    "fontFamily": "Open Sans, Arial, sans-serif"
+                },
+                {
+                    "name": "Inconsolata",
+                    "slug": "navigation",
+                    "fontFamily": "Inconsolata, Arial, sans-serif"
+                },
+                {
+                    "name": "Inter",
+                    "slug": "primary-alternative",
+                    "fontFamily": "Inter, Arial, sans-serif"
+                },
+
+            ]
         }
     }
 }
