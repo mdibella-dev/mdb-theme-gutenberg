@@ -28,7 +28,7 @@ if( ! function_exists( 'mdb_after_setup_theme' ) ) :
         add_theme_support( 'align-wide' );
 
         // Adds editor styles.
-        add_editor_style( 'assets/build/css/style-frontend.min.css' );
+        add_editor_style( 'assets/build/css/style-editor.min.css' );
 
         // Sets media sizes.
         if( 320 !== get_option( 'thumbnail_size_w' ) ) :
