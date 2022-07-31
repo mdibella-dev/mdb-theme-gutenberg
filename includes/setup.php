@@ -24,7 +24,7 @@ if( ! function_exists( 'mdb_after_setup_theme' ) ) :
         // Enables internationalization.
         load_theme_textdomain( 'mdb', get_template_directory() . '/languages' );
 
-        // Adds support for the block editor (Gutenberg).
+        // Adds 'wide' support for the block editor (Gutenberg).
         add_theme_support( 'align-wide' );
 
         // Adds editor styles.
