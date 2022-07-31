@@ -38,7 +38,12 @@
                     "slug": "yellow",
                     "color": "#f0a211"
                 }
-            ]
+            ],
+            "defaultPalette" : false
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1024px"
         }
     }
 }
