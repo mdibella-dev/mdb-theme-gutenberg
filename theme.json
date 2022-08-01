@@ -42,8 +42,8 @@
             "defaultPalette" : false
         },
         "layout": {
-            "contentSize": "800px",
-            "wideSize": "1024px"
+            "contentSize": "1024px",
+            "wideSize": "1152px"
         },
         "typography": {
             "fontFamilies": [
