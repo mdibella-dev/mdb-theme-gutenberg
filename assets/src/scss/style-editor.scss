@@ -23,10 +23,12 @@
 @import "site/_vars";
 @import "site/_fonts";
 @import "site/_basics";
+@import "site/_styles";
 @import "site/_elements";
 
 
 /** Block elements */
 
 @import "blocks/_paragraph";
+@import "blocks/_heading";
 @import "blocks/_post-title";
