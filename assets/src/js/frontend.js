@@ -93,14 +93,14 @@ jQuery( document ).ready( function( $ ) {
     } );
 
 
-    // Add a SVG icon to _blank anchors to mark them as external
+    // Add a SVG icon to external anchors
 
     $( '#main a[target="_blank"]' ).each( function() {
-        if( ! $( this ).hasClass( 'a-tag-download' ) ) {
-            var arrow = '<svg aria-hidden="true" class="a-tag-icon" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/></svg>';
+        if( ! $( this ).hasClass( 'is-download' ) ) {
+            var arrow = '<svg aria-hidden="true" class="anchor-icon" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/></svg>';
 
-            $( this ).addClass( 'a-tag-with-icon a-tag-external' );
-            $( this ).wrapInner( '<span class="a-tag-text"></span>').append( arrow );
+            $( this ).addClass( 'is-external' );
+            $( this ).wrapInner( '<span class="anchor-text"></span>').append( arrow );
         }
     } );
 

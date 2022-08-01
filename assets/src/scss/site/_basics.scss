@@ -41,3 +41,69 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/**
+ * Anchors
+ */
+
+a {
+    display: inline;
+    width: auto;
+    outline: none !important;
+
+    // typography
+    text-decoration: none !important;
+    color: var(--wp--preset--color--dark-blue);
+    transition: text-shadow .25s linear;
+
+    &:hover,
+    &:focus {
+        text-shadow: 0 0 10px;
+    }
+
+    & > .anchor-icon {
+        position: relative;
+        width: 1rem;
+        height: auto;
+    }
+}
+
+
+// Anchor contains an external link
+
+a.is-external > .anchor-icon {
+    margin-left: 2px;
+    top: 2px;
+}
+
+/*
+// Anchor contains a download link
+
+.anchor.is-download {
+    // flexbox
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    align-items: baseline;
+    padding: .4rem 0;
+
+    // typography
+    font-size: 1.275rem; // clamping???
+    text-shadow: none;
+    line-height: 1.3;
+    color: var(--mdb-color-white);
+
+    .anchor-icon {
+        top: 1px;
+        width: 1.2rem;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .anchor-text {
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+}
+*/
