@@ -14,6 +14,7 @@ p {
 
     // typography
     font-size: 1.275rem; // clamping???
+    text-shadow: 0 1px 10px rgba(0,0,0,.5);
 
     // spacing
     * + & {

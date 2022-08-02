@@ -37,6 +37,16 @@
                     "name": "Yellow",
                     "slug": "yellow",
                     "color": "#f0a211"
+                },
+                {
+                    "name": "Background",
+                    "slug": "background",
+                    "color": "#262e3e"
+                },
+                {
+                    "name": "Text",
+                    "slug": "text",
+                    "color": "#b0b5d7"
                 }
             ],
             "defaultPalette" : false
