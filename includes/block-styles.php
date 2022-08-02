@@ -24,7 +24,7 @@ function mdb_add_block_editor_assets()
 {
     wp_enqueue_script(
         'block-editor',
-        get_template_directory_uri() . '/assets/src/js/block-styles.js',            // maybe also add a 'build' version?
+        get_template_directory_uri() . '/assets/src/js/block-styles.js',            // maybe add a 'build' version?
         array( 'wp-blocks', 'wp-dom' ),
         0,
         true

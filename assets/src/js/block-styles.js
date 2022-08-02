@@ -37,21 +37,23 @@ wp.domReady( () => {
         }
     );
 
-        
+
     /** core/heading **/
 
     wp.blocks.registerBlockStyle(
         'core/heading',
-        {
-            name: 'big-bold-header',
-            label: 'Große Überschrift',
-            isDefault: false,
-        },
-        {
-            name: 'paragraph-header',
-            label: 'Absatzüberschrift',
-            isDefault: false,
-        }
+        [
+            {
+                name: 'big-bold-header',
+                label: 'Große Überschrift',
+                isDefault: false,
+            },
+            {
+                name: 'paragraph-header',
+                label: 'Absatzüberschrift',
+                isDefault: false,
+            }
+        ]
     );
 
 
