@@ -24,11 +24,19 @@ if( ! function_exists( 'mdb_after_setup_theme' ) ) :
         // Enables internationalization.
         load_theme_textdomain( 'mdb', get_template_directory() . '/languages' );
 
+
         // Adds 'wide' support for the block editor (Gutenberg).
         add_theme_support( 'align-wide' );
 
+
+        // Enable responsive embedding of media embeds.
+        add_theme_support( 'responsive-embeds' );
+
+
         // Adds editor styles.
+        add_theme_support( 'editor-styles' );
         add_editor_style( 'assets/build/css/style-editor.min.css' );
+
 
         // Sets media sizes.
         if( 320 !== get_option( 'thumbnail_size_w' ) ) :
