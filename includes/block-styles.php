@@ -11,70 +11,24 @@ defined( 'ABSPATH' ) or exit;
 
 
 
-if( function_exists( 'register_block_style' ) ) :
+/**
+ * Script and style modifications for the block editor.
+ *
+ * @since 1.0.0
+ *
+ * @see https://die-netzialisten.de/wordpress/gutenberg-breite-des-editors-anpassen/
+ * @see https://www.billerickson.net/block-styles-in-gutenberg/
+ */
 
-    /**
-     * Registers block styles.
-     *
-     * @since 1.0.0
-     */
+function mdb_add_block_editor_assets()
+{
+    wp_enqueue_script(
+        'block-editor',
+        get_template_directory_uri() . '/assets/src/js/block-styles.js',            // maybe also add a 'build' version?
+        array( 'wp-blocks', 'wp-dom' ),
+        0,
+        true
+    );
+}
 
-    function mdb_register_block_styles()
-    {
-        /** core/heading */
-
-        register_block_style(
-            'core/heading',
-            [
-                'name'  => 'big-bold-header',
-                'label' => __( 'Big Bold Header', 'mdb' ),
-            ]
-        );
-
-        register_block_style(
-            'core/heading',
-            [
-                'name'  => 'paragraph-header',
-                'label' => __( 'Paragraph Header', 'mdb' ),
-            ]
-        );
-
-
-        /** core/post-title */
-
-        register_block_style(
-            'core/post-title',
-            [
-                'name'  => 'big-bold-header',
-                'label' => __( 'Big Bold Header', 'mdb' ),
-            ]
-        );
-
-
-        /** core/paragraph */
-
-        register_block_style(
-            'core/paragraph',
-            [
-                'name'  => 'smallnote',
-                'label' => __( 'Small Notice Line', 'mdb' ),
-            ]
-        );
-
-
-        /** core/image */
-
-        unregister_block_style( 'core/image', 'rounded' );
-
-        register_block_style(
-            'core/image',
-            [
-                'name'  => 'shaded',
-                'label' => __( 'Shaded', 'mdb' ),
-            ]
-        );
-    }
-
-    add_action( 'init', 'mdb_register_block_styles' );
-
-endif;
+add_action( 'enqueue_block_editor_assets', 'mdb_add_block_editor_assets' );
