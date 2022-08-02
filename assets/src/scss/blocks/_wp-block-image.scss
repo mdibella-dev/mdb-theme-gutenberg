@@ -1,0 +1,44 @@
+/**
+ * Block: core/image
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme-fse
+ */
+
+
+
+.wp-block-image {
+    // sizing
+    width: auto;
+    max-width: unset !important;
+
+    // spacing
+    margin-top: var(--mdb-gap-typo);
+    margin-bottom: var(--mdb-gap-typo);
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 0;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/** .is-style-shaded */
+
+.wp-block-image.is-style-shaded {
+    // spacing
+    margin-top: calc( 1.5 * var(--mdb-gap-typo) );
+    margin-bottom: calc( 1.5 * var(--mdb-gap-typo) );
+
+    figure {
+        width: 100% !important;
+    }
+
+    img {
+        //background: cssvar(background-universal);
+        box-shadow: 0 1px 10px 0 rgba(#000000,.35);
+    }
+}

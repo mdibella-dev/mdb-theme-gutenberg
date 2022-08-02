@@ -7,10 +7,6 @@
 
 
 
-/**
- * Default paragraph
- */
-
 p {
     // prevent margin-collapsing
     display: block;
@@ -26,9 +22,7 @@ p {
 }
 
 
-/**
- *  A small note
- */
+/** .is-style-smallnote */
 
 p.is-style-smallnote {
     // prevent margin-collapsing
