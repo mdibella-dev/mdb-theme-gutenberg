@@ -61,6 +61,18 @@ if( function_exists( 'register_block_style' ) ) :
             ]
         );
 
+
+        /** core/image */
+
+        unregister_block_style( 'core/image', 'rounded' );
+
+        register_block_style(
+            'core/image',
+            [
+                'name'  => 'shaded',
+                'label' => __( 'Shaded', 'mdb' ),
+            ]
+        );
     }
 
     add_action( 'init', 'mdb_register_block_styles' );
