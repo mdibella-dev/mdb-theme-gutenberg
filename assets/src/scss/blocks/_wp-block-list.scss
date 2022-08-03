@@ -1,0 +1,32 @@
+/**
+ * Block: core/list
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme-fse
+ */
+
+
+
+ol,
+ul {
+    // prevent margin-collapsing
+    display: block;
+    width: 100%;
+
+    // typography
+    font-size: 1.275rem; // clamping???
+    text-shadow: 0 1px 10px rgba(0,0,0,.5);
+
+    // spacing
+    margin-left: 20px;
+
+    * + & {
+        margin-top: var(--mdb-gap-typo);
+    }
+}
+
+
+ol > li,
+ul > li {
+    padding-left: .5rem;
+}
