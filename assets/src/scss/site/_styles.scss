@@ -12,3 +12,22 @@
     text-transform: none;
 }
 */
+
+
+.entry-content > .content {
+    padding: var(--mdb-content-padding);
+
+    @media screen and (min-width: var(--mdb-content-max-width)) {
+        padding: var(--mdb-content-padding) calc( calc(100% - var(--mdb-content-max-width) ) / 2 );
+    }
+}
+
+:root {
+    @include breakpoint(small) {
+        --mdb-content-padding: 2rem;
+    }
+
+    @include breakpoint(large) {
+        --mdb-content-padding: 4rem;
+    }
+}
