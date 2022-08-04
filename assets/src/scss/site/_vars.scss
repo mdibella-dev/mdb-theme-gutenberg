@@ -14,10 +14,21 @@ $content-max-width:     64rem;
 :root {
 
     // widths, heights and gaps
-    --mdb-navbar-column-width:       clamp(7rem, 8vw, 9rem);
+    --mdb-navbar-column-width:       clamp(7rem,8vw,9rem);
     --mdb-navbar-row-height:         5rem;       // 80px
     --mdb-content-padding:           2rem;
     --mdb-content-max-width:         $content-max-width;
     --mdb-gap-teaser:                4.5rem;
-    --mdb-gap-typo:                  unquote('min(2rem, 3.5vw)');       // unquote: prevents error message
+    --mdb-gap-typo:                  min(2rem,3.5vw);
 };
+
+
+:root {
+    @include breakpoint(small) {
+        --mdb-content-padding: 2rem;
+    }
+
+    @include breakpoint(large) {
+        --mdb-content-padding: 4rem;
+    }
+}
