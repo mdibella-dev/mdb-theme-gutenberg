@@ -75,7 +75,7 @@ function mdb_enqueue_scripts()
      */
 
     wp_register_script(
-        'jquery-ui',
+        'jquery-easing',
         get_template_directory_uri() . '/assets/build/js/jquery.easing.min.js',
         array( 'jquery' ),
         false,
@@ -92,14 +92,14 @@ function mdb_enqueue_scripts()
      */
 
     wp_enqueue_style(
-        'mdb-theme-fse',
+        'mdb-frontend-style',
         get_template_directory_uri() . '/assets/build/css/style-frontend.min.css',
         array()
     );
 
     if( defined( 'MDB_DEV' ) and ( true === MDB_DEV ) ):
         wp_enqueue_script(
-            'mdb-theme-fse',
+            'mdb-frontend-script',
             get_template_directory_uri() . '/assets/src/js/frontend.js',
             array( 'jquery' ),
             false,
@@ -107,7 +107,7 @@ function mdb_enqueue_scripts()
         );
     else :
         wp_enqueue_script(
-            'mdb-theme-fse',
+            'mdb-frontend-script',
             get_template_directory_uri() . '/assets/build/js/frontend.min.js',
             'jquery',
             false,
