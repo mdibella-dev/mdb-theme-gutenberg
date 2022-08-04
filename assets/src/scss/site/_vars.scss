@@ -15,5 +15,5 @@
     --mdb-navbar-row-height:         5rem;       // 80px
     --mdb-content-padding:           2rem;
     --mdb-gap-teaser:                4.5rem;
-    --mdb-gap-typo:                  min(2rem, 3.5vw);
+    --mdb-gap-typo:                  unquote('min(2rem, 3.5vw)');       // unquote: prevents error message
 };
