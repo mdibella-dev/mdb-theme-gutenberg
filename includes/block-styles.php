@@ -18,17 +18,18 @@ defined( 'ABSPATH' ) or exit;
  *
  * @see https://die-netzialisten.de/wordpress/gutenberg-breite-des-editors-anpassen/
  * @see https://www.billerickson.net/block-styles-in-gutenberg/
+ * @see https://fullsiteediting.com/lessons/custom-block-styles/
  */
 
-function mdb_add_block_editor_assets()
+function mdb_register_block_styles()
 {
     wp_enqueue_script(
-        'block-editor',
+        'mdb-block-styles',
         get_template_directory_uri() . '/assets/src/js/block-styles.js',            // maybe add a 'build' version?
-        array( 'wp-blocks', 'wp-dom' ),
+        array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
         0,
         true
     );
 }
 
-add_action( 'enqueue_block_editor_assets', 'mdb_add_block_editor_assets' );
+add_action( 'enqueue_block_editor_assets', 'mdb_register_block_styles' );
