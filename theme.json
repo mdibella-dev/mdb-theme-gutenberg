@@ -49,11 +49,9 @@
                     "color": "#b0b5d7"
                 }
             ],
-            "defaultPalette" : false
-        },
-        "layout": {
-            "contentSize": "1024px",
-            "wideSize": "1152px"
+            "defaultPalette" : false,
+            "duotone": [],
+            "customDuotone": false
         },
         "typography": {
             "fontFamilies": [
