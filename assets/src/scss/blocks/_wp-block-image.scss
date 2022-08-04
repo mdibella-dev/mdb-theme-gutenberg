@@ -36,7 +36,10 @@
         // typography
         font-family: var(--wp--preset--font-family--secondary);
         font-weight: 300;
+        line-height: 1.6;
+        letter-spacing: .2px;
         color: var(--wp--preset--color--dark-blue);
+        text-align: left;
     }
 }
 
@@ -49,7 +52,7 @@
     margin-bottom: calc( 2 * var(--mdb-gap-typo) );
 
     figcaption {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 
     img {
