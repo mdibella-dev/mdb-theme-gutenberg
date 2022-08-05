@@ -81,7 +81,7 @@ function mdb_enqueue_scripts()
         false,
         true
     );
-    wp_enqueue_script( 'jquery-ui' );
+    wp_enqueue_script( 'jquery-easing' );
 
 
     /**
