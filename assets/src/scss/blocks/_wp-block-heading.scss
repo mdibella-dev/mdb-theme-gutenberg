@@ -7,12 +7,19 @@
 
 
 
-h1.is-style-big-bold-header,
-h2.is-style-big-bold-header,
-h3.is-style-big-bold-header,
-h4.is-style-big-bold-header,
-h5.is-style-big-bold-header,
-h6.is-style-big-bold-header {
+
+h1.is-style-aricle-header,
+h2.is-style-article-header,
+h3.is-style-article-header,
+h4.is-style-article-header,
+h5.is-style-article-header,
+h6.is-style-article-header,
+h1.is-style-section-header,
+h2.is-style-section-header,
+h3.is-style-section-header,
+h4.is-style-section-header,
+h5.is-style-section-header,
+h6.is-style-section-header  {
     // prevent margin-collapsing
     display: block;
     width: 100%;
@@ -29,6 +36,17 @@ h6.is-style-big-bold-header {
     // spacing
     margin-top: 0 !important;
     margin-bottom: calc(2.5 * var(--mdb-gap-typo));
+}
+
+
+h1.is-style-section-header,
+h2.is-style-section-header,
+h3.is-style-section-header,
+h4.is-style-section-header,
+h5.is-style-section-header,
+h6.is-style-section-header {
+    // typography
+    font-size: clamp(2rem, 4vw, 3.5rem);
 }
 
 

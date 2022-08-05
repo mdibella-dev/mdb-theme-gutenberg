@@ -31,8 +31,8 @@ wp.domReady( () => {
     wp.blocks.registerBlockStyle(
         'core/post-title',
         {
-            name: 'big-bold-header',
-            label: 'Große Überschrift',
+            name: 'article-header',
+            label: 'Seiten- oder Beitragsüberschrft',
             isDefault: false,
         }
     );
@@ -44,8 +44,13 @@ wp.domReady( () => {
         'core/heading',
         [
             {
-                name: 'big-bold-header',
-                label: 'Große Überschrift',
+                name: 'article-header',
+                label: 'Seiten- oder Beitragsüberschrft',
+                isDefault: false,
+            },
+            {
+                name: 'section-header',
+                label: 'Bereichsüberschrift',
                 isDefault: false,
             },
             {
