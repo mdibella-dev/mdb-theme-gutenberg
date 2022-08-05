@@ -26,6 +26,20 @@ wp.domReady( () => {
     );
 
 
+    /** core/embed **/
+
+    wp.blocks.registerBlockStyle(
+        'core/embed',
+        [
+            {
+                name: 'shaded',
+                label: 'Schattiert',
+                isDefault: false,
+            }
+        ]
+    );
+
+
     /** core/heading **/
 
     wp.blocks.registerBlockStyle(
