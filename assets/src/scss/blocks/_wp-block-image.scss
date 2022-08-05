@@ -11,13 +11,21 @@
     // sizing
     width: auto;
     max-width: unset !important;
+    line-height: 0;
 
     // spacing
-    margin-top: calc( 2 * var(--mdb-gap-typo));
-    margin-bottom: calc( 2 * var(--mdb-gap-typo));
     margin-left: 0;
     margin-right: 0;
-    line-height: 0;
+    margin-top: calc( 2 * var(--mdb-gap-typo));
+    margin-bottom: calc( 2 * var(--mdb-gap-typo));
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 
     img {
         width: 100%;
