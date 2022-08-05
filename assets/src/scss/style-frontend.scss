@@ -34,3 +34,10 @@
 @import "blocks/_wp-block-heading";
 @import "blocks/_wp-block-post-title";
 @import "blocks/_wp-block-image";
+
+
+/** Shortcodes */
+
+@import "shortcodes/_teaserblock";
+@import "shortcodes/_vortragsliste";
+@import "shortcodes/_publikationsliste";

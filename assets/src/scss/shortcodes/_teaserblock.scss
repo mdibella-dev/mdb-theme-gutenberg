@@ -1,0 +1,105 @@
+/**
+ * Shortcode [teaserblock]
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme
+ * @source  https://stackoverflow.com/questions/15167545/how-to-crop-a-rectangular-image-into-a-square-with-css/55966300#55966300
+ */
+
+
+
+
+.teaserblock .loadmore-content {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: var(--mdb-gap-teaser);
+
+    @include breakpoint(medium) {
+        grid-template-columns: repeat(2, calc(50% - calc(var(--mdb-gap-teaser) / 2)));
+    }
+}
+
+.teaserblock .loadmore-action-wrapper,
+.teaserblock + .wp-block-buttons {
+    margin-top: var(--mdb-gap-teaser);
+}
+
+.teaserblock .teaser {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+    .teaser-content {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        padding: 0;
+        width: 100%;
+        z-index: 900;
+
+        .teaser-image {
+            box-shadow: 0 1px 10px 0 rgba(0,0,0,.35);
+            border-radius: 3px !important;
+            padding: 0;
+            width: 175px;
+            position: relative;
+            transition: transform .3s ease-in-out;
+            transform: scale(1.0);
+
+            &::after {
+              content: "";
+              display: block;
+              padding-bottom: 100%;
+            }
+
+            img {
+                border-radius: 3px !important;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -o-object-fit: cover;
+                   object-fit: cover;
+                filter: brightness(.7);
+                transition: filter .3s ease-in-out;
+            }
+        }
+
+        .teaser-title {
+            display: inline-block;
+            line-height: 1.3;
+            font-size: 1.1rem;
+            font-family: var(--wp--preset--font-family--primary);
+            font-weight: normal;
+            color: var(--wp--preset--color--dark-blue);
+            text-shadow: none;
+            text-align: left;
+            letter-spacing: unset;
+            transition: all .2s ease-in-out;
+            width: 100%;
+            max-width: 100%;
+            margin-left: 2rem;
+            margin-bottom: 0;
+            padding-left: .5rem;
+            padding-right: .5rem;
+        }
+    }
+
+    .teaser-content:focus,
+    .teaser-content:hover {
+        .teaser-image {
+            z-index: 920;
+            box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+            transform: scale(1.1);
+
+            img {
+                filter: brightness(1);
+            }
+        }
+
+        .teaser-title {
+            color: var(--wp--preset--color--dark-blue) !important;
+            text-shadow: 0 1px 20px rgba(0,0,0,.5);
+        }
+    }
+}

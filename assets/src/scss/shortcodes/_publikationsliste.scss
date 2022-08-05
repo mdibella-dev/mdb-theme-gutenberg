@@ -1,0 +1,71 @@
+/**
+ * Shortcode [publikationsliste]
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme
+ */
+
+
+
+
+.publikationsliste .loadmore-content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2.5rem;
+}
+
+.publikationsliste .loadmore-action-wrapper {
+    margin-top: 2.5rem;
+}
+
+.publikationsliste .publikation {
+    font-size: 1.35rem;
+    letter-spacing: .2px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem 2rem;
+    align-items: baseline;
+
+    @include breakpoint(medium) {
+        flex-wrap: nowrap;
+    }
+
+    .publikation-overview {
+        width: 100%;
+        order: 1;
+
+        @include breakpoint(medium) {
+            width: auto;
+            flex-basis: calc(100% - 140px);
+            flex-grow: 2;
+        }
+
+        p {
+            margin: unset;
+            display: block;
+            line-height: 1.4;
+        }
+
+        p + p {
+            color: inherit;
+        	font-size: 1rem;
+        	margin-top: .5rem;
+        }
+    }
+
+
+    .publikation-details {
+        order: 2;
+        width: 100%;
+
+        @include breakpoint(medium) {
+            width: 140px;
+        }
+
+        a {
+            font-size: inherit;
+            font-family: var(--wp--preset--font-family--primary);
+        }
+    }
+}

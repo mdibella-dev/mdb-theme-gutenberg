@@ -1,0 +1,42 @@
+/**
+ * Shortcode [vortragsliste]
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme
+ */
+
+
+
+
+.vortragsliste .loadmore-content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.vortragsliste .loadmore-action-wrapper {
+    margin-top: 4rem;
+}
+
+.vortragsliste .vortrag {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+
+    @include breakpoint(large) {
+        gap: 3rem;
+    }
+
+    .vortrag-description {
+        p {
+            display: block;
+            margin: unset;
+        }
+
+        p + p {
+            color: inherit;
+            font-size: 1rem;
+            margin-top: .3rem;
+        }
+    }
+}

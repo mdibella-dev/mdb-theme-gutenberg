@@ -1,4 +1,15 @@
+/**
+ * Styles
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme
+ */
 
+
+
+/**
+ * Indented content
+ */
 
 .is-root-container > .content,
 .entry-content > .content {
@@ -11,6 +22,10 @@
 }
 
 
+/**
+ * Padding and margin control
+ */
+
 .no-padding-top,
 .is-root-container > .content.no-padding-top,
 .entry-content > .content.no-padding-top {
@@ -22,4 +37,39 @@
 .is-root-container > .content.no-padding-bottom,
 .entry-content > .content.no-padding-bottom {
     padding-bottom: 0 !important;
+}
+
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+
+/**
+ * Basic styles for AJAX-driven loadmore-elements
+ */
+
+.loadmore {
+
+    .loadmore-content {
+        margin: 0;
+    }
+
+    .loadmore-button {
+        display: block;
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+
+    .loadmore-spinner {
+        display: none;
+
+        & > * {
+            margin: 0 auto;
+        }
+    }
 }
