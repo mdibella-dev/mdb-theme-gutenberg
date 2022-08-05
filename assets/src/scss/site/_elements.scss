@@ -62,8 +62,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: cssvar(color-button);            //
-        background: cssvar(background-button);  //
+        color: var(--wp--preset--color--dark-blue);    //
+        background: var(--wp--preset--color--white);  //
         cursor: pointer;
         box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
 

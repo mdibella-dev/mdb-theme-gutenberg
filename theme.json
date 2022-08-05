@@ -39,6 +39,11 @@
                     "color": "#f0a211"
                 },
                 {
+                    "name": "Light Yellow",
+                    "slug": "light-yellow",
+                    "color": "#dbb46d"
+                },
+                {
                     "name": "Background",
                     "slug": "background",
                     "color": "#262e3e"
