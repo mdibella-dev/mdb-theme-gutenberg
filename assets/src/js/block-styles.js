@@ -31,8 +31,8 @@ wp.domReady( () => {
     wp.blocks.registerBlockStyle(
         'core/post-title',
         {
-            name: 'article-header',
-            label: 'Seiten- oder Beitragsüberschrft',
+            name: 'article',
+            label: 'Seite oder Beitrag',
             isDefault: false,
         }
     );
@@ -44,18 +44,18 @@ wp.domReady( () => {
         'core/heading',
         [
             {
-                name: 'article-header',
-                label: 'Seiten- oder Beitragsüberschrft',
+                name: 'article',
+                label: 'Seite oder Beitrag',
                 isDefault: false,
             },
             {
-                name: 'section-header',
-                label: 'Bereichsüberschrift',
+                name: 'section',
+                label: 'Bereich',
                 isDefault: false,
             },
             {
-                name: 'paragraph-header',
-                label: 'Absatzüberschrift',
+                name: 'paragraph',
+                label: 'Absatz',
                 isDefault: false,
             }
         ]

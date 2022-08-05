@@ -8,18 +8,18 @@
 
 
 
-h1.is-style-aricle-header,
-h2.is-style-article-header,
-h3.is-style-article-header,
-h4.is-style-article-header,
-h5.is-style-article-header,
-h6.is-style-article-header,
-h1.is-style-section-header,
-h2.is-style-section-header,
-h3.is-style-section-header,
-h4.is-style-section-header,
-h5.is-style-section-header,
-h6.is-style-section-header  {
+h1.is-style-article,
+h2.is-style-article,
+h3.is-style-article,
+h4.is-style-article,
+h5.is-style-article,
+h6.is-style-article,
+h1.is-style-section,
+h2.is-style-section,
+h3.is-style-section,
+h4.is-style-section,
+h5.is-style-section,
+h6.is-style-section {
     // prevent margin-collapsing
     display: block;
     width: 100%;
@@ -39,23 +39,23 @@ h6.is-style-section-header  {
 }
 
 
-h1.is-style-section-header,
-h2.is-style-section-header,
-h3.is-style-section-header,
-h4.is-style-section-header,
-h5.is-style-section-header,
-h6.is-style-section-header {
+h1.is-style-section,
+h2.is-style-section,
+h3.is-style-section,
+h4.is-style-section,
+h5.is-style-section,
+h6.is-style-section {
     // typography
-    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-size: clamp(2rem, 3vw, 2.75rem);
 }
 
 
-h1.is-style-paragraph-header,
-h2.is-style-paragraph-header,
-h3.is-style-paragraph-header,
-h4.is-style-paragraph-header,
-h5.is-style-paragraph-header,
-h6.is-style-paragraph-header {
+h1.is-style-paragraph,
+h2.is-style-paragraph,
+h3.is-style-paragraph,
+h4.is-style-paragraph,
+h5.is-style-paragraph,
+h6.is-style-paragraph {
     // prevent margin-collapsing
     display: block;
     width: 100%;
