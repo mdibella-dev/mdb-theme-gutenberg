@@ -16,19 +16,8 @@ $content-max-width:     64rem;
     // widths, heights and gaps
     --mdb-navbar-column-width:       clamp(7rem,8vw,9rem);
     --mdb-navbar-row-height:         5rem;       // 80px
-    --mdb-content-padding:           2rem;
+    --mdb-content-padding:           clamp(2rem,3vw,4rem);
     --mdb-content-max-width:         $content-max-width;
     --mdb-gap-teaser:                4.5rem;
     --mdb-gap-typo:                  2rem;      // min(2rem,3.5vw);
 };
-
-
-:root {
-    @include breakpoint(small) {
-        --mdb-content-padding: 2rem;
-    }
-
-    @include breakpoint(large) {
-        --mdb-content-padding: 4rem;
-    }
-}
