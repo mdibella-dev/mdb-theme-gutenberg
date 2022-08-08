@@ -9,16 +9,6 @@
                     "color": "#000000"
                 },
                 {
-                    "name": "Dark Gray",
-                    "slug": "dark-gray",
-                    "color": "#333333"
-                },
-                {
-                    "name": "Paper Gray",
-                    "slug": "paper-gray",
-                    "color": "#e7e7e7"
-                },
-                {
                     "name": "White",
                     "slug": "white",
                     "color": "#ffffff"
@@ -36,22 +26,22 @@
                 {
                     "name": "Yellow",
                     "slug": "yellow",
-                    "color": "#f0a211"
-                },
-                {
-                    "name": "Light Yellow",
-                    "slug": "light-yellow",
-                    "color": "#dbb46d"
-                },
-                {
-                    "name": "Background",
-                    "slug": "background",
-                    "color": "#262e3e"
+                    "color": "#ffcc74"
                 },
                 {
                     "name": "Text",
                     "slug": "text",
-                    "color": "#b0b5d7"
+                    "color": "hsl(229.1,21.2%,79.6%)"
+                },
+                {
+                    "name": "Background",
+                    "slug": "background",
+                    "color": "hsl(220,24%,19.6%)"
+                },
+                {
+                    "name": "Background 2",
+                    "slug": "background-2",
+                    "color": "hsl(220,24%,24%)"
                 }
             ],
             "defaultPalette" : false,
@@ -66,19 +56,14 @@
                     "fontFamily": "Public Sans VF, Arial, sans-serif"
                 },
                 {
-                    "name": "Open Sans",
+                    "name": "Inter",
                     "slug": "secondary",
-                    "fontFamily": "Open Sans, Arial, sans-serif"
+                    "fontFamily": "Inter, Arial, sans-serif"
                 },
                 {
                     "name": "Inconsolata",
                     "slug": "navigation",
                     "fontFamily": "Inconsolata, Arial, sans-serif"
-                },
-                {
-                    "name": "Inter",
-                    "slug": "primary-alternative",
-                    "fontFamily": "Inter, Arial, sans-serif"
                 }
             ]
         }
