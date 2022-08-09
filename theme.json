@@ -1,4 +1,5 @@
 {
+    "$schema": "https://schemas.wp.org/trunk/theme.json"
     "version": 2,
     "settings": {
         "color": {
@@ -56,8 +57,13 @@
                     "fontFamily": "Public Sans VF, Arial, sans-serif"
                 },
                 {
-                    "name": "Inter",
+                    "name": "Montserrat",
                     "slug": "secondary",
+                    "fontFamily": "Montserrat, Arial, sans-serif"
+                },
+                {
+                    "name": "Inter",
+                    "slug": "tertiary",
                     "fontFamily": "Inter, Arial, sans-serif"
                 },
                 {
