@@ -26,5 +26,4 @@ define( 'MDB_DEV', true );
 require_once( get_template_directory() . '/includes/setup.php' );
 require_once( get_template_directory() . '/includes/block-patterns.php' );
 require_once( get_template_directory() . '/includes/block-styles.php' );
-require_once( get_template_directory() . '/includes/block-variations.php' );
 require_once( get_template_directory() . '/includes/favicon.php' );
