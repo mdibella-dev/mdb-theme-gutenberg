@@ -29,12 +29,12 @@
 
 /** Block elements */
 
-@import "blocks/_embed";
-@import "blocks/_heading";
-@import "blocks/_image";
-@import "blocks/_list";
-@import "blocks/_paragraph";
-@import "blocks/_post-title";
+@import "blocks/core/_embed";
+@import "blocks/core/_heading";
+@import "blocks/core/_image";
+@import "blocks/core/_list";
+@import "blocks/core/_paragraph";
+@import "blocks/core/_post-title";
 
 
 /** Shortcodes */
