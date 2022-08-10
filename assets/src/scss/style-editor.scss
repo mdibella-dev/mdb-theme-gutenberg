@@ -29,9 +29,9 @@
 
 /** Block elements */
 
-@import "blocks/_wp-block-paragraph";
-@import "blocks/_wp-block-list";
-@import "blocks/_wp-block-heading";
-@import "blocks/_wp-block-post-title";
-@import "blocks/_wp-block-image";
-@import "blocks/_wp-block-embed";
+@import "blocks/_embed";
+@import "blocks/_heading";
+@import "blocks/_image";
+@import "blocks/_list";
+@import "blocks/_paragraph";
+@import "blocks/_post-title";
