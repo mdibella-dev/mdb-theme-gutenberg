@@ -2,7 +2,7 @@
 /**
  * Additional setup for the block patterns.
  *
- * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @author  Marco Di Bella
  * @package mdb-theme-fse
  */
 

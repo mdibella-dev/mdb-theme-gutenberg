@@ -2,7 +2,7 @@
 /**
  * Functions related to the display of the site icon.
  *
- * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @author  Marco Di Bella
  * @package mdb-theme-fse
  */
 

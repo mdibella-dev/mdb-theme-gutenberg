@@ -2,7 +2,7 @@
 /**
  * Main functions for setting up the theme.
  *
- * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @author  Marco Di Bella
  * @package mdb-theme-fse
  */
 
