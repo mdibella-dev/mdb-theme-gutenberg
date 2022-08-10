@@ -30,11 +30,6 @@
                     "color": "#ffcc74"
                 },
                 {
-                    "name": "Text",
-                    "slug": "text",
-                    "color": "hsl(229.1,21.2%,79.6%)"
-                },
-                {
                     "name": "Background",
                     "slug": "background",
                     "color": "hsl(220,24%,19.6%)"
@@ -43,6 +38,16 @@
                     "name": "Background 2",
                     "slug": "background-2",
                     "color": "hsl(220,24%,24%)"
+                },
+                {
+                    "name": "Text",
+                    "slug": "text",
+                    "color": "hsl(220,10.5%,65%);"
+                },
+                {
+                    "name": "Headline",
+                    "slug": "headline",
+                    "color": "hsl(220,10%,75%);"
                 }
             ],
             "defaultPalette" : false,
@@ -52,19 +57,14 @@
         "typography": {
             "fontFamilies": [
                 {
-                    "name": "Public Sans",
+                    "name": "Inter",
                     "slug": "primary",
-                    "fontFamily": "Public Sans VF, Arial, sans-serif"
+                    "fontFamily": "Inter, Arial, sans-serif"
                 },
                 {
                     "name": "Montserrat",
                     "slug": "secondary",
                     "fontFamily": "Montserrat, Arial, sans-serif"
-                },
-                {
-                    "name": "Inter",
-                    "slug": "tertiary",
-                    "fontFamily": "Inter, Arial, sans-serif"
                 },
                 {
                     "name": "Inconsolata",
