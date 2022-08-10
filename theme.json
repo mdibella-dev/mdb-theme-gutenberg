@@ -25,9 +25,14 @@
                     "color": "#29b6f6"
                 },
                 {
+                    "name": "Dark Yellow",
+                    "slug": "dark-yellow",
+                    "color": "hsl(38,100%,15%);"
+                },
+                {
                     "name": "Yellow",
                     "slug": "yellow",
-                    "color": "#ffcc74"
+                    "color": "hsl(38,100%,72.7%);"
                 },
                 {
                     "name": "Background",
