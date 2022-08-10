@@ -1,0 +1,54 @@
+/**
+ * Block: core/button
+ * Theme support and custom styles
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme-fse
+ */
+
+
+
+.wp-block-button > .wp-block-button__link  {
+    // typography
+    font-family: var(--wp--preset--font-family--primary);
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+
+    // positioning
+    position: relative;
+    top: 0;
+    left: 0;
+
+    // other styling
+    color: var(--wp--preset--color--white);
+    background: var(--wp--preset--color--link);
+    border: none;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    transition: color .25s linear, background-color .25s linear;
+    cursor: pointer;
+    box-shadow: 0 1px 10px 0 rgba(#000,.15);
+    text-shadow: 0 1px 5px rgba(#000,.5);
+
+    &:hover,
+    &:focus {
+        color: var(--wp--preset--color--white);
+        background: var(--wp--preset--color--link-hover);
+        box-shadow: 0 10px 20px rgba(#000,.15), 0 6px 6px rgba(#000,.10);
+    }
+
+    &:active {
+        top: 2px;
+    }
+/*
+    &:disabled,
+    &:disabled:hover, {
+        color: cssvar(color-button__disabled);
+        background: cssvar(background-button__disabled);
+        pointer-events: none;
+    }
+*/
+}

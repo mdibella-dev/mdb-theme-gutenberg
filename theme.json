@@ -53,6 +53,16 @@
                     "name": "Headline",
                     "slug": "headline",
                     "color": "hsl(220,10%,75%);"
+                },
+                {
+                    "name": "Link",
+                    "slug": "link",
+                    "color": "#1f7db2;"
+                },
+                {
+                    "name": "Link Hover",
+                    "slug": "link-hover",
+                    "color": "#144f71;"
                 }
             ],
             "defaultPalette" : false,
