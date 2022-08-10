@@ -27,7 +27,7 @@
 @import "site/_elements";
 
 
-/** Block elements */
+/** Core block elements */
 
 @import "blocks/core/_embed";
 @import "blocks/core/_heading";
@@ -35,6 +35,11 @@
 @import "blocks/core/_list";
 @import "blocks/core/_paragraph";
 @import "blocks/core/_post-title";
+
+
+/** mdb-theme-blocks block elements */
+
+@import "blocks/mdb-theme-blocks/_download-container";
 
 
 /** Shortcodes */
