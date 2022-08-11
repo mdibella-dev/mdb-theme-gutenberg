@@ -132,7 +132,7 @@ jQuery( document ).ready( function( $ ) {
         }
     } );
 
-    $( '#scrollup button' ).on( 'click', function() {
+    $( '#scrollup a' ).on( 'click', function() {
         $( '#main' ).data( 'isAutoScrollInProgress', 1 );
         $( '#main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutQuint' );
         return false;
