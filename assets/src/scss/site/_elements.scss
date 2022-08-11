@@ -18,11 +18,11 @@
     width: 100vw;
     height: 100vh;
     height: 100dvh;
-/*    display: grid;
+    display: grid;
     grid-auto-flow: row;
     grid-template-columns: auto;
     grid-template-rows: var(--mdb--navbar--row-height) auto;
-
+/*
     @include breakpoint(large) {
         grid-auto-flow: column;
         grid-template-columns: var(--mdb--navbar--column-width) auto;
@@ -41,6 +41,145 @@
     overflow-x: hidden;
     width: 100%;
     height: 100%;
+}
+
+
+
+/**
+ * Component: #slideout (main menue which slides out when mdb-button is clicked)
+ */
+
+#slideout {
+    position: fixed;
+    z-index: 1070;
+    background: $color--slideout;
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#slideout-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - var(--mdb--navbar--row-height));
+    width: 100%;
+    position: relative;
+    top: var(--mdb--navbar--row-height);
+    left: 0;
+
+    @include breakpoint(large) {
+        top: 0;
+        height: 100%;
+    }
+}
+
+#slideout-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    max-height: calc(100% - var(--mdb--navbar--row-height));
+    min-width: 45%;
+    padding: 0;
+
+    @include breakpoint(large) {
+        flex-wrap: nowrap;
+        -moz-column-gap: 6rem;
+             column-gap: 6rem;
+        align-items: baseline;
+    }
+}
+
+
+/** Primary and secondary navigation */
+
+#primary,
+#secondary {
+    width: 100%;
+    display: none;
+
+    @include breakpoint(large) {
+        width: auto;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        text-shadow: none;
+        width: 100%;
+    }
+
+    ul > li {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+
+        // typography
+        letter-spacing: .8px;
+        font-family: var(--wp--preset--font-family--navigation);
+        font-weight: 300;
+        line-height: 1em;
+        text-align: left;
+    }
+
+    a {
+        display: block;
+        padding: 0;
+
+        // typography
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+        text-decoration: none;
+        color: $color--slideout-link;
+        transition: color .5s ease-out;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: $color--slideout-link__hover;
+            outline: 0 !important;
+        }
+    }
+}
+
+#primary {
+    li {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+    }
+
+    li + li {
+        margin-top: unquote("clamp( .8em, .8em + 2vh, 3em)");
+    }
+}
+
+#secondary {
+    li {
+        font-size: clamp(1.2rem, 2vw, 1.5rem);
+    }
+
+    li + li {
+        margin-top: 1em;
+    }
+}
+
+
+/** The slide effect */
+
+body.slide-in-progress {
+    overflow-y: hidden;
+}
+
+body.slideout-visible {
+    #primary,
+    #secondary {
+        display: unset;
+    }
 }
 
 
