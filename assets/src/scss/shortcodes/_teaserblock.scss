@@ -12,16 +12,16 @@
 .teaserblock .loadmore-content {
     display: grid;
     grid-template-columns: 100%;
-    gap: var(--mdb-gap-teaser);
+    gap: var(--mdb--gap--teaser);
 
     @include breakpoint(medium) {
-        grid-template-columns: repeat(2, calc(50% - calc(var(--mdb-gap-teaser) / 2)));
+        grid-template-columns: repeat(2, calc(50% - calc(var(--mdb--gap--teaser) / 2)));
     }
 }
 
 .teaserblock .loadmore-action-wrapper,
 .teaserblock + .wp-block-buttons {
-    margin-top: var(--mdb-gap-teaser);
+    margin-top: var(--mdb--gap--teaser);
 }
 
 .teaserblock .teaser {

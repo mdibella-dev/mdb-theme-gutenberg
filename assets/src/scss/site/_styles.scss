@@ -13,10 +13,10 @@
 
 .is-root-container > .content,
 .entry-content > .content {
-    padding-top: var(--mdb-content-padding);
-    padding-bottom: var(--mdb-content-padding);
-    padding-left: var(--mdb-content-padding);
-    padding-right: var(--mdb-content-padding);
+    padding-top: var(--mdb--content--padding);
+    padding-bottom: var(--mdb--content--padding);
+    padding-left: var(--mdb--content--padding);
+    padding-right: var(--mdb--content--padding);
 
     @media screen and (min-width: #{$content-max-width}) {
         padding-left: calc( calc(100% - #{$content-max-width} ) / 2 );

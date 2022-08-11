@@ -21,11 +21,11 @@
 /*    display: grid;
     grid-auto-flow: row;
     grid-template-columns: auto;
-    grid-template-rows: var(--mdb-navbar-row-height) auto;
+    grid-template-rows: var(--mdb--navbar--row-height) auto;
 
     @include breakpoint(large) {
         grid-auto-flow: column;
-        grid-template-columns: var(--mdb-navbar-column-width) auto;
+        grid-template-columns: var(--mdb--navbar--column-width) auto;
         grid-template-rows: auto;
     }*/
 }
@@ -62,8 +62,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: var(--wp--preset--color--dark-blue);
-        background: var(--wp--preset--color--white);
+        color: var(--mdb--color--button-text);
+        background: var(--mdb--color--button-background);
         cursor: pointer;
         box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
 

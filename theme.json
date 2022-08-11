@@ -12,57 +12,47 @@
                 {
                     "name": "White",
                     "slug": "white",
-                    "color": "#ffffff"
+                    "color": "#FFFFFF"
                 },
                 {
-                    "name": "Dark Blue",
-                    "slug": "dark-blue",
-                    "color": "#1f7db2"
+                    "name": "Midnight Blue",
+                    "slug": "midnightblue",
+                    "color": "#252D3C"
                 },
                 {
-                    "name": "Light Blue",
-                    "slug": "light-blue",
-                    "color": "#29b6f6"
+                    "name": "Slate",
+                    "slug": "slate",
+                    "color": "#2F384C"
                 },
                 {
-                    "name": "Dark Yellow",
-                    "slug": "dark-yellow",
-                    "color": "hsl(38,100%,15%);"
+                    "name": "Denim",
+                    "slug": "denim",
+                    "color": "#1F7DB2"
                 },
                 {
-                    "name": "Yellow",
-                    "slug": "yellow",
-                    "color": "hsl(38,100%,72.7%);"
+                    "name": "Dusk",
+                    "slug": "dusk",
+                    "color": "#144F71"
                 },
                 {
-                    "name": "Background",
-                    "slug": "background",
-                    "color": "hsl(220,24%,19.6%)"
+                    "name": "Sky Blue",
+                    "slug": "skyblue",
+                    "color": "#29B6F6"
                 },
                 {
-                    "name": "Background 2",
-                    "slug": "background-2",
-                    "color": "hsl(220,24%,24%)"
+                    "name": "Sand",
+                    "slug": "sand",
+                    "color": "#FFCB70"
                 },
                 {
-                    "name": "Text",
-                    "slug": "text",
-                    "color": "hsl(220,10.5%,65%);"
+                    "name": "Concrete",
+                    "slug": "concrete",
+                    "color": "#9CA3AF"
                 },
                 {
-                    "name": "Headline",
-                    "slug": "headline",
-                    "color": "hsl(220,10%,75%);"
-                },
-                {
-                    "name": "Link",
-                    "slug": "link",
-                    "color": "#1f7db2;"
-                },
-                {
-                    "name": "Link Hover",
-                    "slug": "link-hover",
-                    "color": "#144f71;"
+                    "name": "Stone",
+                    "slug": "stone",
+                    "color": "#B9BDC6"
                 }
             ],
             "defaultPalette" : false,

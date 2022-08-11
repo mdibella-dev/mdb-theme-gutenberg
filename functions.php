@@ -18,12 +18,14 @@ defined( 'ABSPATH' ) or exit;
 error_reporting( E_ALL ^ E_NOTICE );
 
 
+
 /** Turn off development mode */
 
 define( 'MDB_DEV', true );
 
 
-/** Include function library */
+
+/** Include files */
 
 require_once( get_template_directory() . '/includes/setup.php' );
 require_once( get_template_directory() . '/includes/block-patterns.php' );

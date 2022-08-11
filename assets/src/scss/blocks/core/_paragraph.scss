@@ -18,7 +18,7 @@ p {
 
     // spacing
     * + & {
-        margin-top: var(--mdb-gap-typo);
+        margin-top: var(--mdb--gap--typo);
     }
 }
 
@@ -36,6 +36,6 @@ p.is-style-smallnote {
 
     // spacing
     * + & {
-        margin-top: var(--mdb-gap-typo);
+        margin-top: var(--mdb--gap--typo);
     }
 }

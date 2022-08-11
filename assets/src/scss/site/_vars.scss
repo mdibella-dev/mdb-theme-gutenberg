@@ -7,14 +7,38 @@
 
 
 
+/** Spaces */
+
 $content-max-width:     64rem;
+
+
 
 :root {
     // widths, heights and gaps
-    --mdb-navbar-column-width:       clamp(7rem,8vw,9rem);
-    --mdb-navbar-row-height:         5rem;       // 80px
-    --mdb-content-padding:           clamp(2rem,3vw,4rem);
-    --mdb-content-max-width:         $content-max-width;
-    --mdb-gap-teaser:                4.5rem;
-    --mdb-gap-typo:                  2rem;      // min(2rem,3.5vw);
+
+    --mdb--navbar--column-width:                    clamp(7rem,8vw,9rem);
+    --mdb--navbar--row-height:                      5rem;       // 80px
+    --mdb--content--padding:                        clamp(2rem,3vw,4rem);
+    --mdb--content--max-width:                      $content-max-width;
+    --mdb--gap--teaser:                             4.5rem;
+    --mdb--gap--typo:                               2rem;      // min(2rem,3.5vw); ?
+
+
+    // colors
+    // The naming is based on what the colors represent. The actual color palette stems from theme.json.
+
+    --mdb--color--text:                             var(--wp--preset--color--concrete);
+    --mdb--color--background:                       var(--wp--preset--color--midnightblue);
+    --mdb--color--background--alternate:            var(--wp--preset--color--slate);
+    --mdb--color--link:                             var(--wp--preset--color--denim);
+    --mdb--color--paragraph-heading:                var(--wp--preset--color--denim);
+    --mdb--color--section-heading:                  var(--wp--preset--color--stone);
+    --mdb--color--article-heading:                  var(--wp--preset--color--stone);
+    --mdb--color--figcaption:                       var(--wp--preset--color--denim);
+    --mdb--color--button-text:                      var(--wp--preset--color--white);
+    --mdb--color--button-background:                var(--wp--preset--color--denim);
+    --mdb--color--button-text--hover:               var(--wp--preset--color--white);
+    --mdb--color--button-background--hover:         var(--wp--preset--color--dusk);
+    --mdb--color--download-container-background:    var(--wp--preset--color--stone);
+
 };
