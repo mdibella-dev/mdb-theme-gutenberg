@@ -1,0 +1,72 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mdb-theme-fse\n"
+"POT-Creation-Date: 2022-08-11 15:47+0200\n"
+"PO-Revision-Date: 2022-08-11 15:46+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: download-monitor/content-download-link.php:16
+msgid "Download file"
+msgstr ""
+
+#: includes/block-patterns.php:29
+msgid "Featured"
+msgstr ""
+
+#: includes/block-patterns.php:30
+msgid "Footers"
+msgstr ""
+
+#: includes/block-patterns.php:31
+msgid "Headers"
+msgstr ""
+
+#: includes/block-patterns.php:32
+msgid "Query"
+msgstr ""
+
+#: includes/block-patterns.php:33
+msgid "Pages"
+msgstr ""
+
+#: includes/patterns/scrollup.php:16 includes/patterns/slideout.php:16
+msgid "Scroll up button"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "mdb-theme-fse"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/mdibella-dev/mdb-theme-fse"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The WordPress theme for Marco Di Bella's personal website (full site editing "
+"version). Based on mdb-theme (2.1)."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Marco Di Bella"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.marcodibella.de/"
+msgstr ""
