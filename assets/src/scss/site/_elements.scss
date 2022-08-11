@@ -62,8 +62,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: var(--mdb--color--button-text);
-        background: var(--mdb--color--button-background);
+        color: $color--button-text;
+        background: $color--button--background;
         cursor: pointer;
         box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
 

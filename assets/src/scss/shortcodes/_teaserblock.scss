@@ -12,16 +12,16 @@
 .teaserblock .loadmore-content {
     display: grid;
     grid-template-columns: 100%;
-    gap: var(--mdb--gap--teaser);
+    gap: $gap-teaser;
 
     @include breakpoint(medium) {
-        grid-template-columns: repeat(2, calc(50% - calc(var(--mdb--gap--teaser) / 2)));
+        grid-template-columns: repeat(2, calc(50% - calc(#{$gap-teaser} / 2)));
     }
 }
 
 .teaserblock .loadmore-action-wrapper,
 .teaserblock + .wp-block-buttons {
-    margin-top: var(--mdb--gap--teaser);
+    margin-top: $gap-teaser;
 }
 
 .teaserblock .teaser {
@@ -71,7 +71,7 @@
             font-size: 1.1rem;
             font-family: var(--wp--preset--font-family--primary);
             font-weight: normal;
-            color: var(--wp--preset--color--dark-blue);
+            color: $color--teaser-title;
             text-shadow: none;
             text-align: left;
             letter-spacing: unset;
@@ -98,7 +98,7 @@
         }
 
         .teaser-title {
-            color: var(--wp--preset--color--dark-blue) !important;
+            color: $color--teaser-title !important;
             text-shadow: 0 1px 20px rgba(0,0,0,.5);
         }
     }

@@ -18,12 +18,14 @@ p {
 
     // spacing
     * + & {
-        margin-top: var(--mdb--gap--typo);
+        margin-top: $gap-typo;
     }
 }
 
 
-/** .is-style-smallnote */
+/**
+ * Block style: smallnote
+ */
 
 p.is-style-smallnote {
     // prevent margin-collapsing
@@ -36,6 +38,6 @@ p.is-style-smallnote {
 
     // spacing
     * + & {
-        margin-top: var(--mdb--gap--typo);
+        margin-top: $gap-typo;
     }
 }

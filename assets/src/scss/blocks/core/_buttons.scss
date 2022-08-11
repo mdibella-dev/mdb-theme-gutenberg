@@ -23,8 +23,8 @@
     left: 0;
 
     // other styling
-    color: var(--mdb--color--button-text);
-    background: var(--mdb--color--button-background);
+    color: $color--button-text;
+    background: $color--button--background;
     border: none;
     border-radius: 3px;
     padding: 1rem 2rem;
@@ -35,20 +35,12 @@
 
     &:hover,
     &:focus {
-        color: var(--mdb--color--button-text--hover);
-        background: var(--mdb--color--button-background--hover);
+        color: $color--button-text__hover;
+        background: $color--button--background__hover;
         box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
     }
 
     &:active {
         top: 2px;
     }
-/*
-    &:disabled,
-    &:disabled:hover, {
-        color: cssvar(color-button__disabled);
-        background: cssvar(background-button__disabled);
-        pointer-events: none;
-    }
-*/
 }
