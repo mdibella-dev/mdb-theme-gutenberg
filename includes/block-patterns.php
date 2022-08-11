@@ -49,6 +49,8 @@ function mdb_register_block_patterns()
 
     $block_patterns = array(
         'scrollup',
+        'slideout',
+        'navbar',
     );
 
     foreach( $block_patterns as $block_pattern ) :
