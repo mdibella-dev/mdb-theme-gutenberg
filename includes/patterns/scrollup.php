@@ -1,6 +1,6 @@
 <?php
 /**
- * Block pattern: Scroll up button
+ * Block pattern: Scroll Up Button
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
