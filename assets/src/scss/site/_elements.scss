@@ -28,6 +28,11 @@
         grid-template-columns: var(--mdb--navbar--column-width) auto;
         grid-template-rows: auto;
     }
+
+    body.logged-in.admin-bar & {
+        height: calc(100vh - #{cssvar(wpadminbar-height)});
+        height: calc(100dvh - #{cssvar(wpadminbar-height)});
+    }
 }
 
 
@@ -166,6 +171,12 @@ body.slideout-visible .navbar-button {
     height: 100%;
     top: 0;
     left: 0;
+
+    body.logged-in.admin-bar & {
+        height: calc(100vh - #{cssvar(wpadminbar-height)});
+        height: calc(100dvh - #{cssvar(wpadminbar-height)});
+        top: cssvar(wpadminbar-height);
+    }
 }
 
 #slideout-content-wrapper {
@@ -327,6 +338,19 @@ body.slideout-visible {
         }
     }
 }
+
+
+
+/**
+ * Fix to WordPress #wpadminbar
+ */
+
+@media screen and (max-width: 600px) {
+    #wpadminbar {
+        position: fixed !important;
+    }
+}
+
 
 
 /**
