@@ -57,6 +57,7 @@ if( ! function_exists( 'mdb_after_setup_theme' ) ) :
             update_option( 'large_size_h', 9999 );
         endif;
 
+
         // Registers the navigation menus.
         register_nav_menu( 'primary', __( 'Primary navigation', 'mdb' ) );
         register_nav_menu( 'secondary', __( 'Secondary navigation', 'mdb' ) );
