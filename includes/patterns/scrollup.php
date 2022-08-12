@@ -12,6 +12,9 @@
 defined( 'ABSPATH' ) or exit;
 
 
+
+/** Return the pattern */
+
 return array(
     'title'    => __( 'Scroll up button', 'mdb' ),
     'inserter' => false,

@@ -13,8 +13,6 @@ defined( 'ABSPATH' ) or exit;
 
 
 
-
-
 /** Do the rendering */
 
 ob_start();
