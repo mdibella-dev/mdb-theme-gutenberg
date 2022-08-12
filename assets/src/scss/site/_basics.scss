@@ -31,14 +31,6 @@ body {
     padding: 0;
     position: relative; // prevent scrolling at overflow:hidden (iOS)
     overflow: hidden;
-
-    &.logged-in.admin-bar {
-        --height--wpadminbar: 32px;
-
-        @media screen and (max-width: 782px) {
-            --height--wpadminbar: 46px;
-        }
-    }
 }
 
 

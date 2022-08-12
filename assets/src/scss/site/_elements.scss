@@ -30,8 +30,8 @@
     }
 
     body.logged-in.admin-bar & {
-        height: calc(100vh - #{$wpadminbar-height});
-        height: calc(100dvh - #{$wpadminbar-height});
+        height: calc(100vh - var(--wp-admin--admin-bar--height));
+        height: calc(100dvh - var(--wp-admin--admin-bar--height));
     }
 }
 
@@ -173,9 +173,9 @@ body.slideout-visible .navbar-button {
     left: 0;
 
     body.logged-in.admin-bar & {
-        height: calc(100vh - #{cssvar(wpadminbar-height)});
-        height: calc(100dvh - #{cssvar(wpadminbar-height)});
-        top: cssvar(wpadminbar-height);
+        height: calc(100vh - var(--wp-admin--admin-bar--height));
+        height: calc(100dvh - var(--wp-admin--admin-bar--height));
+        top: var(--wp-admin--admin-bar--height);
     }
 }
 
