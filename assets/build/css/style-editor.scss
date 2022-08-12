@@ -36,15 +36,9 @@
 @import "blocks/core/_paragraph";
 @import "blocks/core/_post-title";
 @import "blocks/core/_buttons";
+@import "blocks/core/_media-text";
 
 
 /** mdb-theme-blocks block elements */
 
 @import "blocks/mdb-theme-blocks/_download-container";
-
-
-/** Shortcodes */
-
-@import "shortcodes/_teaserblock";
-@import "shortcodes/_vortragsliste";
-@import "shortcodes/_publikationsliste";
