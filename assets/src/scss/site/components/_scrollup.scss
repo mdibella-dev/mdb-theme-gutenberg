@@ -1,0 +1,46 @@
+/**
+ * Component: #scrollup
+ * Realised as a block pattern.
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ *
+ *
+ */
+
+#scrollup {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    display: none;
+
+    & > .wp-block-button__link {
+        padding: .75rem;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color--button-text;
+        background: $color--button--background;
+        cursor: pointer;
+        box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
+
+        &:hover,
+        &:focus {
+            color: $color--button-text__hover;
+            background: $color--button--background__hover;
+            box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
+        }
+
+        svg  {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

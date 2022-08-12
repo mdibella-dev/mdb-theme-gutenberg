@@ -1,0 +1,36 @@
+/**
+ * Site components
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+@import "components/_app";
+@import "components/_main";
+@import "components/_navbar";
+@import "components/_scrollup";
+@import "components/_slideout";
+
+
+
+/**
+ * Fix to WordPress #wpadminbar
+ */
+
+@media screen and (max-width: 600px) {
+    #wpadminbar {
+        position: fixed !important;
+    }
+}
+
+
+
+/**
+ * Images
+ */
+
+#marco-01 img,
+#marco-02 img  {
+    filter: drop-shadow(20px 20px 20px #000) opacity(65%);
+}
