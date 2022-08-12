@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2022-08-11 15:47+0200\n"
-"PO-Revision-Date: 2022-08-11 15:50+0200\n"
+"POT-Creation-Date: 2022-08-12 08:46+0200\n"
+"PO-Revision-Date: 2022-08-12 08:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -45,9 +45,45 @@ msgstr "Abfragen"
 msgid "Pages"
 msgstr "Seiten"
 
-#: includes/patterns/scrollup.php:16 includes/patterns/slideout.php:16
+#: includes/patterns/navbar.php:27
+msgid "To the main navigation"
+msgstr "Zur Hauptnavigation"
+
+#: includes/patterns/navbar.php:65
+msgid "Me on Github"
+msgstr "Ich auf Github"
+
+#: includes/patterns/navbar.php:81
+msgid "Me on LinkedIn"
+msgstr "Ich auf LinkedIn"
+
+#: includes/patterns/navbar.php:89
+msgid "Me on XING"
+msgstr "Ich auf XING"
+
+#: includes/patterns/navbar.php:109
+msgid "Navbar"
+msgstr "Navbar"
+
+#: includes/patterns/scrollup.php:16
 msgid "Scroll up button"
 msgstr "Scroll-up-Schaltfläche"
+
+#: includes/patterns/slideout.php:51
+msgid "Slideout navigation"
+msgstr "Slideout-Navigation"
+
+#: includes/setup.php:61
+msgid "Primary navigation"
+msgstr "Primäre Navigation"
+
+#: includes/setup.php:62
+msgid "Secondary navigation"
+msgstr "Sekundäre Navigation"
+
+#: includes/setup.php:63
+msgid "Page navigation"
+msgstr "Seitennavigation"
 
 #. Theme Name of the plugin/theme
 msgid "mdb-theme-fse"
