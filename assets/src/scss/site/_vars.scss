@@ -30,15 +30,11 @@ $color--slideout-link:                      var(--wp--preset--color--white);
 $color--slideout-link__hover:               var(--wp--preset--color--denim);
 
 
-// Spaces
+// Dimensions
 
-$content-max-width:                         64rem;
-$content-padding:                           clamp(2rem,3vw,4rem);
-$gap-teaser:                                4.5rem;
-$gap-typo:                                  2rem;      // min(2rem,3.5vw); ?
-
-
-:root {
-    --mdb--navbar--column-width:            clamp(7rem,8vw,9rem);
-    --mdb--navbar--row-height:              5rem;       // 80px
-};
+$max-width--content:                        64rem;
+$padding--content:                          clamp(2rem,3vw,4rem);
+$gap--teaser:                               4.5rem;
+$gap--typo:                                 2rem;
+$column-width--navbar:                      clamp(7rem,8vw,9rem);
+$row-height--navbar:                        5rem;       // 80px

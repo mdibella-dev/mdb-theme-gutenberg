@@ -21,17 +21,17 @@
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: auto;
-    grid-template-rows: var(--mdb--navbar--row-height) auto;
+    grid-template-rows: $row-height--navbar auto;
 
     @include breakpoint(large) {
         grid-auto-flow: column;
-        grid-template-columns: var(--mdb--navbar--column-width) auto;
+        grid-template-columns: $column-width--navbar auto;
         grid-template-rows: auto;
     }
 
     body.logged-in.admin-bar & {
-        height: calc(100vh - #{cssvar(wpadminbar-height)});
-        height: calc(100dvh - #{cssvar(wpadminbar-height)});
+        height: calc(100vh - #{$wpadminbar-height});
+        height: calc(100dvh - #{$wpadminbar-height});
     }
 }
 
@@ -61,12 +61,12 @@
     align-content: center;
     background: transparent;
     width: 100%;
-    height: var(--mdb--navbar--row-height);
-    padding: $content-padding;
+    height: var($row-height--navbar);
+    padding: $padding--content;
 
     @include breakpoint(large) {
         flex-direction: column;
-        width: var(--mdb--navbar--column-width);
+        width: var($column-width--navbar);
         height: 100%;
     }
 }
@@ -183,10 +183,10 @@ body.slideout-visible .navbar-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100% - var(--mdb--navbar--row-height));
+    height: calc(100% - var($row-height--navbar));
     width: 100%;
     position: relative;
-    top: var(--mdb--navbar--row-height);
+    top: var($row-height--navbar);
     left: 0;
 
     @include breakpoint(large) {
@@ -200,7 +200,7 @@ body.slideout-visible .navbar-button {
     justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 4rem;
-    max-height: calc(100% - var(--mdb--navbar--row-height));
+    max-height: calc(100% - var($row-height--navbar));
     min-width: 45%;
     padding: 0;
 

@@ -32,7 +32,7 @@ h6.is-style-article {
 
     // spacing
     margin-top: 0 !important;
-    margin-bottom: calc(2.5 * #{$gap-typo});
+    margin-bottom: calc(2.5 * #{$gap--typo});
 }
 
 
@@ -61,11 +61,11 @@ h6.is-style-section {
 
     // spacing
     margin-top: 0 !important;
-    margin-bottom: calc(2.5 * #{$gap-typo});
+    margin-bottom: calc(2.5 * #{$gap--typo});
 
     /* idea
     * + & {
-        margin-top: calc(2.5 * #{$gap-typo});
+        margin-top: calc(2.5 * #{$gap--typo});
     }
     */
 }

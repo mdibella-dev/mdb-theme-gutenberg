@@ -21,7 +21,7 @@ ul {
     margin-left: 20px;
 
     * + & {
-        margin-top: $gap-typo;
+        margin-top: $gap--typo;
     }
 }
 
