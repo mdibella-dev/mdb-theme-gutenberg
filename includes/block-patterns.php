@@ -14,39 +14,13 @@ defined( 'ABSPATH' ) or exit;
 
 
 /**
- * Registers block patterns and categories.
+ * Registers block patterns.
  *
  * @since 1.0.0
  */
 
 function mdb_register_block_patterns()
 {
-    /**
-     * Filters the theme block pattern categories.
-     */
-
-    $block_pattern_categories = array(
-        'featured' => array( 'label' => __( 'Featured', 'mdb' ) ),
-        'footer'   => array( 'label' => __( 'Footers', 'mdb' ) ),
-        'header'   => array( 'label' => __( 'Headers', 'mdb' ) ),
-        'query'    => array( 'label' => __( 'Query', 'mdb' ) ),
-        'pages'    => array( 'label' => __( 'Pages', 'mdb' ) ),
-    );
-
-    foreach( $block_pattern_categories as $name => $properties ) :
-        if( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) :
-            register_block_pattern_category(
-                $name,
-                $properties
-            );
-        endif;
-    endforeach;
-
-
-    /**
-     * Filters the theme block patterns.
-     */
-
     $block_patterns = array(
         'scrollup',
         'slideout',
