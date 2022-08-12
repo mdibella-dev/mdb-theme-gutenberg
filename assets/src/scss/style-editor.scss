@@ -13,13 +13,9 @@
 @import "vendors/spinkit/_spinkit";
 
 
-/** Mixins */
-
-@import "mixins/_responsive";
-
-
 /** Page elements / general settings */
 
+@import "site/_responsive";
 @import "site/_vars";
 @import "site/_fonts";
 @import "site/_basics";
