@@ -15,8 +15,8 @@
 
 #scrollup {
     position: fixed;
-    bottom: 1rem;
-    right: 2rem;
+    bottom: 2rem;
+    right: unquote('max(2rem, calc(calc(calc(100% - #{$max-width--content}) / 2 - #{$size--scrollup}) / 3))');
     display: none;
 
     & > .wp-block-button__link {
@@ -39,8 +39,8 @@
         }
 
         svg  {
-            width: 20px;
-            height: 20px;
+            width: $size--scrollup;
+            height: $size--scrollup;
         }
     }
 }
