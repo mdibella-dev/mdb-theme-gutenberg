@@ -76,3 +76,92 @@
         }
     }
 }
+
+
+/**
+ * Styles for publication pages
+ */
+
+.publication-showroom {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include breakpoint(medium) {
+        flex-wrap: nowrap;
+    }
+}
+
+.publication-cover {
+    width: 100%;
+    order: 1;
+
+    @include breakpoint(medium) {
+        order: 2;
+        width: auto;
+    }
+
+    img {
+        width: 300px;
+        height: auto;
+        box-shadow: 0 19px 38px rgba(0,0,0,.3),0 15px 12px rgba(0,0,0,.22);
+        border-radius: 2px;
+    }
+}
+
+.publication-info {
+    width: 100%;
+    order: 2;
+    margin-top: 3rem;
+
+    @include breakpoint(medium) {
+        margin-top: 0;
+        padding-right: 3rem;
+        order: 1;
+
+        & > *:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.publication-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.publication-subtitle {
+    display: block;
+    margin-top: 1.75rem;
+    font-size: 1.25rem;
+}
+
+.publication-sectiontitle {
+    font-size: 1.35rem;
+}
+
+.publication-divider {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    padding: 0;
+    border: none;
+    border-top: 1px solid $color--publication-divider;
+
+    & + * {
+        margin-top: 0 !important;
+    }
+}
+
+.publication-keyword {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+
+    @include breakpoint(medium) {
+        margin-right: 1.5rem;
+    }
+}
+
+.publication-edition-or-periodical {
+    color: rgba(255,255,255,.9);
+    font-weight: bold;
+}
