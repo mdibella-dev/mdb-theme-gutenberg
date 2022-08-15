@@ -10,7 +10,7 @@
 
 .wp-block-button > .wp-block-button__link  {
     // typography
-    font-family: var(--wp--preset--font-family--primary);
+    font-family: $font--primary;
     font-weight: normal;
     font-size: 1rem;
     letter-spacing: .4px;

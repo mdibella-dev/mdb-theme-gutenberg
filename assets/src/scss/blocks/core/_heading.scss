@@ -22,7 +22,7 @@ h6.is-style-article {
     width: 100%;
 
     // typography
-    font-family: var(--wp--preset--font-family--secondary);
+    font-family: $font--primary;
     font-weight: 600;
     font-size: unquote("clamp(3rem, 4vw + 1rem, 4rem)");
     line-height: 1.3;
@@ -52,7 +52,7 @@ h6.is-style-section {
     width: 100%;
 
     // typography
-    font-family: var(--wp--preset--font-family--secondary);
+    font-family: $font--primary;
     font-weight: 600;
     font-size: unquote("clamp(2rem, 3vw + 1rem, 3rem)");
     line-height: 1.3;
@@ -87,7 +87,7 @@ h6.is-style-paragraph {
     width: 100%;
 
     // typography
-    font-family: var(--wp--preset--font-family--secondary);
+    font-family: $font--primary;
     font-weight: 300;
     font-size: unquote("clamp(1.625rem, 2vw + 1rem, 2.125rem)");
     line-height: 1.3;

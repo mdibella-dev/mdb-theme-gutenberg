@@ -65,7 +65,7 @@
 
         a {
             font-size: inherit;
-            font-family: var(--wp--preset--font-family--primary);
+            font-family: $font--primary;
         }
     }
 }
