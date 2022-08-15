@@ -33,11 +33,6 @@
     position: relative;
     top: var($row-height--navbar);
     left: 0;
-
-    @include breakpoint(large) {
-        top: 0;
-        height: 100%;
-    }
 }
 
 #slideout-content {

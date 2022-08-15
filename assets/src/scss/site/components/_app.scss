@@ -19,12 +19,6 @@
     grid-template-columns: auto;
     grid-template-rows: $row-height--navbar auto;
 
-    @include breakpoint(large) {
-        grid-auto-flow: column;
-        grid-template-columns: $column-width--navbar auto;
-        grid-template-rows: auto;
-    }
-
     body.logged-in.admin-bar & {
         height: calc(100vh - var(--wp-admin--admin-bar--height));
         height: calc(100dvh - var(--wp-admin--admin-bar--height));

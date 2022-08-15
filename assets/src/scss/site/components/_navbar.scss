@@ -17,12 +17,6 @@
     width: 100%;
     height: var($row-height--navbar);
     padding: $padding--content;
-
-    @include breakpoint(large) {
-        flex-direction: column;
-        width: var($column-width--navbar);
-        height: 100%;
-    }
 }
 
 
