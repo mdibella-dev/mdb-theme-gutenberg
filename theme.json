@@ -63,17 +63,12 @@
             "fontFamilies": [
                 {
                     "name": "Inter",
-                    "slug": "primary",
+                    "slug": "inter",
                     "fontFamily": "Inter, Arial, sans-serif"
                 },
                 {
-                    "name": "Montserrat",
-                    "slug": "secondary",
-                    "fontFamily": "Montserrat, Arial, sans-serif"
-                },
-                {
                     "name": "Inconsolata",
-                    "slug": "navigation",
+                    "slug": "inconsolata",
                     "fontFamily": "Inconsolata, Arial, sans-serif"
                 }
             ]
