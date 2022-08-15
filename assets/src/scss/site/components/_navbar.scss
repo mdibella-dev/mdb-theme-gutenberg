@@ -28,11 +28,6 @@
     flex-grow: 1;
     align-items: center;
     justify-content: flex-start;
-
-    @include breakpoint(large) {
-        align-items: flex-start;
-        justify-content: center;
-    }
 }
 
 #navbar-middle {
@@ -49,12 +44,6 @@
     gap: 1.5rem;
     align-items: center;
     justify-content: flex-end;
-
-    @include breakpoint(large) {
-        flex-wrap: wrap;
-        align-items: flex-end;
-        justify-content: center;
-    }
 }
 
 
@@ -67,11 +56,6 @@
     cursor: pointer;
     outline: 0 !important;
     position: relative;
-
-    @include breakpoint(large) {
-        // make sure buttons are arranged among themselves
-        width: 100%;
-    }
 
     svg {
         width: auto;
