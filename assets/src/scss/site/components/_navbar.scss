@@ -7,20 +7,26 @@
 
 
 
-#navbar {
+#navbar {  // header?
     position: relative;
     z-index: 1080;
+    width: 100%;
+    height: $height--navbar;
+}
+
+.navbar {   // temporarily
     display: flex;
     flex-direction: row;
     align-content: center;
+    height: 100%;
+    padding-left: unquote('max( #{$min-padding--navbar}, calc( calc(100% - #{$max-width--navbar} ) / 2 ))');
+    padding-right: unquote('max( #{$min-padding--navbar}, calc( calc(100% - #{$max-width--navbar} ) / 2 ))');
     background: transparent;
-    width: 100%;
-    height: var($row-height--navbar);
-    padding: $padding--content;
 }
 
 
-/** Areas inside #navbar */
+
+/** Areas inside .navbar */
 
 #navbar-left {
     display: flex;

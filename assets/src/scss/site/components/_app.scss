@@ -17,7 +17,7 @@
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: auto;
-    grid-template-rows: $row-height--navbar auto;
+    grid-template-rows: $height--navbar auto;
 
     body.logged-in.admin-bar & {
         height: calc(100vh - var(--wp-admin--admin-bar--height));

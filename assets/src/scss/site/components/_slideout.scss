@@ -28,10 +28,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100% - var($row-height--navbar));
+    height: calc(100% - var($height--navbar));
     width: 100%;
     position: relative;
-    top: var($row-height--navbar);
+    top: var($height--navbar);
     left: 0;
 }
 
@@ -40,7 +40,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 4rem;
-    max-height: calc(100% - var($row-height--navbar));
+    max-height: calc(100% - var($height--navbar));
     min-width: 45%;
     padding: 0;
 

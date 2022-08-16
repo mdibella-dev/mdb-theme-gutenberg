@@ -13,15 +13,11 @@
 
 .is-root-container > .content,
 .entry-content > .content {
-    padding-top: $padding--content;
-    padding-bottom: $padding--content;
-    padding-left: $padding--content;
-    padding-right: $padding--content;
+    padding-top: $min-padding--content;
+    padding-bottom: $min-padding--content;
+    padding-left: unquote('max( #{$min-padding--content}, calc( calc(100% - #{$max-width--content} ) / 2 ))');
+    padding-right: unquote('max( #{$min-padding--content}, calc( calc(100% - #{$max-width--content} ) / 2 ))');
 
-    @media screen and (min-width: #{$max-width--content}) {
-        padding-left: calc( calc(100% - #{$max-width--content} ) / 2 );
-        padding-right: calc( calc(100% - #{$max-width--content} ) / 2 );
-    }
 }
 
 

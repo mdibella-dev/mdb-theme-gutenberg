@@ -20,6 +20,8 @@ ob_start();
 ?>
 <nav id="navbar">
 
+<div class="navbar">
+
 <div id="navbar-left">
 
 <button id="logo" class="navbar-button" type="button" aria-label="<?php echo __( 'To the main navigation', 'mdb' ); ?>">
@@ -91,6 +93,8 @@ ob_start();
     7.1.2 14.1-8.5 14.1h-65.2c-7.6 0-13.6-4-18-12.2l-92.4-168.5c3.3-5.8 51.5-90.8 144.8-255.2 4.6-8.1 10.4-12.2 17.5-12.2h65.7c8 0 12.3 6.7 8.5 14.1z"/>
 </svg>
 </button>
+</div>
+
 </div>
 
 </nav>
