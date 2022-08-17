@@ -72,6 +72,14 @@
                     "fontFamily": "Inconsolata, Arial, sans-serif"
                 }
             ]
+        },
+        "custom": {
+            "navbar": {
+                "height": "6rem",
+                "max-width": "70rem",
+                "min-padding": "2rem"
+            }
+
         }
     }
 }
