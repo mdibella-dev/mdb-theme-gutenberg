@@ -84,4 +84,17 @@ wp.domReady( () => {
         }
     );
 
+
+
+    /** core/navigation **/
+
+    wp.blocks.registerBlockStyle(
+        'core/navigation',
+        {
+            name: 'pagenavigation',
+            label: 'Seiten- oder Beitragsnavigation',
+            isDefault: false,
+        }
+    );
+
 } );

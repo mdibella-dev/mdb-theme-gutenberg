@@ -1,0 +1,44 @@
+/**
+ * Block: core/navigation
+ * Theme support and custom styles
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ * Block style: pagenavigation
+ */
+
+.wp-block-navigation.is-style-pagenavigation {
+    gap: 0;
+
+    .wp-block-navigation-item__content {
+        outline: none !important;
+
+        // typography
+        color: $color--link;
+        font-weight: 300;
+        font-family: $font--secondary;
+        font-size: clamp(1.35rem, 2vw, 1.45rem);
+        line-height: 1.4;
+        text-decoration: none;
+        -webkit-text-decoration-style: solid;
+                text-decoration-style: solid;
+        text-underline-offset: .25em;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    .wp-block-navigation-item:not(:last-child)::after {
+        content: "/";
+        display: inline-block;
+        padding: 0 8px;
+        position: relative; // needed for correct display in block-editor
+    }
+}
