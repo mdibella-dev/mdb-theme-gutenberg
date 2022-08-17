@@ -37,7 +37,7 @@ wp.domReady( () => {
     );
 
 
-    /** core/heading **/
+    /** core/post-title **/
 
     wp.blocks.registerBlockStyle(
         'core/post-title',
