@@ -1,4 +1,5 @@
 wp.domReady( () => {
+    
     /** core/image **/
 
     wp.blocks.unregisterBlockStyle(
