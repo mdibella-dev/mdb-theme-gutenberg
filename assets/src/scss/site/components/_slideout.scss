@@ -28,16 +28,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100% - var($row-height--navbar));
+    height: calc(100% - #{$height--navbar});
     width: 100%;
     position: relative;
-    top: var($row-height--navbar);
+    top: $height--navbar;
     left: 0;
-
-    @include breakpoint(large) {
-        top: 0;
-        height: 100%;
-    }
 }
 
 #slideout-content {
@@ -45,7 +40,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 4rem;
-    max-height: calc(100% - var($row-height--navbar));
+    max-height: calc(100% - #{$height--navbar});
     min-width: 45%;
     padding: 0;
 

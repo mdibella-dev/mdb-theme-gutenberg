@@ -42,9 +42,10 @@ $font--secondary:                           var(--wp--preset--font-family--incon
 // Dimensions
 
 $max-width--content:                        64rem;
-$padding--content:                          clamp(2rem,3vw,4rem);
+$max-width--navbar:                         70rem;
+$height--navbar:                            5rem;
+$min-padding--navbar:                       2rem;
+$min-padding--content:                      2rem;
 $gap--teaser:                               4.5rem;
 $gap--typo:                                 2rem;
-$column-width--navbar:                      clamp(7rem,8vw,9rem);
-$row-height--navbar:                        5rem;       // 80px
 $size--scrollup:                            20px;
