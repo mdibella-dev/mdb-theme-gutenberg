@@ -117,7 +117,7 @@ function mdb_enqueue_scripts()
         wp_enqueue_script(
             'mdb-frontend-script',
             get_template_directory_uri() . '/assets/build/js/frontend.min.js',
-            'jquery',
+            array( 'jquery' ),
             false,
             true
         );
