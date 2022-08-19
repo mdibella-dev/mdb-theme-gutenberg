@@ -1,10 +1,12 @@
 wp.domReady( () => {
-    
+
     /** core/image **/
 
     wp.blocks.unregisterBlockStyle(
         'core/image',
-        'rounded',
+        [
+            'rounded'
+        ]
     );
 
     wp.blocks.registerBlockStyle(
@@ -93,9 +95,38 @@ wp.domReady( () => {
         'core/navigation',
         {
             name: 'pagenavigation',
-            label: 'Seiten- oder Beitragsnavigation',
+            label: 'Beitragsnavigation',
             isDefault: false,
         }
     );
+
+
+
+    /** core/button **/
+
+    wp.blocks.unregisterBlockStyle(
+        'core/button',
+        [
+            'fill',
+            'outline',
+        ]
+    );
+
+    wp.blocks.registerBlockStyle(
+        'core/button',
+        [
+            {
+                name: 'default',
+                label: 'Standard',
+                isDefault: true,
+            },
+            {
+                name: 'flat',
+                label: 'Flat',
+                isDefault: false,
+            }
+        ]
+    );
+
 
 } );
