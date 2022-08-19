@@ -22,9 +22,11 @@ ob_start();
     <div class="navbar">
 
         <div id="navbar-left">
+
+            <!-- wp:button {"className":"is-style-flat"} -->
             <div id="logo" aria-label="<?php echo __( 'To the main navigation', 'mdb' ); ?>" class="wp-block-button is-style-flat">
                 <a class="wp-block-button__link">
-                    <svg viewBox="0 0 87.46 32.48">
+                    <svg viewBox="0 0 89 32.48">
                     <path d="M31.2,14.01c-0.41-1.43-1.13-2.57-2.16-3.42s-2.49-1.28-4.37-1.28c-1.14,0-2.22,0.25-3.23,0.76
                         c-1.01,0.5-1.87,1.14-2.59,1.91c-0.67,0.71-1.17,1.41-1.53,2.11c-0.4-1.29-1.02-2.36-1.88-3.19c-1.09-1.05-2.64-1.58-4.66-1.58
                         c-0.95,0-1.84,0.17-2.65,0.52s-1.56,0.79-2.23,1.34c-0.67,0.55-1.22,1.16-1.65,1.82c-0.06,0.1-0.11,0.19-0.16,0.29v-1.37
@@ -57,11 +59,15 @@ ob_start();
                     </svg>
                 </a>
             </div>
+            <!-- /wp:button -->
+
         </div>
 
         <div id="navbar-middle"></div>
 
         <div id="navbar-right">
+
+            <!-- wp:button {"className":"is-style-flat"} -->
             <div id="github" aria-label="<?php echo __( 'Me on Github', 'mdb' ); ?>" data-link="https://github.com/mdibella-dev" class="wp-block-button is-style-flat">
                 <a class="wp-block-button__link">
                     <svg viewBox="0 0 496 512">
@@ -79,7 +85,9 @@ ob_start();
                     </svg>
                 </a>
             </div>
+            <!-- /wp:button -->
 
+            <!-- wp:button {"className":"is-style-flat"} -->
             <div id="linkedin" aria-label="<?php echo __( 'Me on LinkedIn', 'mdb' ); ?>" data-link="https://www.linkedin.com/in/marco-di-bella-59bb56217/" class="wp-block-button is-style-flat">
                 <a class="wp-block-button__link">
                     <svg viewBox="0 0 448 512">
@@ -89,7 +97,9 @@ ob_start();
                     </svg>
                 </a>
             </div>
+            <!-- /wp:button -->
 
+            <!-- wp:button {"className":"is-style-flat"} -->
             <div id="xing" aria-label="<?php echo __( 'Me on XING', 'mdb' ); ?>" data-link="https://www.xing.com/profile/Marco_DiBella4/cv" class="wp-block-button is-style-flat">
                 <a class="wp-block-button__link">
                     <svg viewBox="0 0 384 512">
@@ -99,6 +109,8 @@ ob_start();
                     </svg>
                 </a>
             </div>
+            <!-- /wp:button -->
+
         </div>
 
     </div>
