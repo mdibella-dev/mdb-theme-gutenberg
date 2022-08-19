@@ -10,7 +10,7 @@ jQuery( document ).ready( function( $ ) {
 
     // Do the slideout
 
-    $( '#logo' ).on( 'click', function() {
+    $( '#hamburger' ).on( 'click', function() {
         var duration = 1000;
 
         if( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
