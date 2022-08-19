@@ -32,9 +32,9 @@ $color--calendar:                           var(--wp--preset--color--denim);
 $color--calendar--background:               var(--wp--preset--color--white);
 $color--publication-divider:                var(--wp--preset--color--denim);
 $color--button-is-flat--text:               var(--wp--preset--color--denim);
-$color--button-is-flat--text__hover:        var(--wp--preset--color--white);
+$color--button-is-flat--text__hover:        var(--wp--preset--color--denim);
 $color--button-is-flat--background:         transparent;
-$color--button-is-flat--background__hover:  rgba(255,255,255,.1);
+$color--button-is-flat--background__hover:  var(--wp--preset--color--stone);
 
 
 // Fonts

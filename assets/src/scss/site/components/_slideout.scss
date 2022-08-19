@@ -146,8 +146,8 @@ body.slideout-visible {
 
 /** Buttons inside #navbar */
 
-body:not(.slideout-visible).slide-in-progress .wp-block-button__link,
-body.slideout-visible .wp-block-button__link {
+body:not(.slideout-visible).slide-in-progress .wp-block-button.is-style-flat > .wp-block-button__link,
+body.slideout-visible .wp-block-button.is-style-flat > .wp-block-button__link {
     svg path {
         fill: $color--slideout--text;
     }
