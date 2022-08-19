@@ -94,17 +94,14 @@
         font-size: inherit;
         line-height: inherit;
         letter-spacing: inherit;
-        text-decoration: none;
-        -webkit-text-decoration-style: solid;
-                text-decoration-style: solid;
-        text-underline-offset: .25em;
+        text-decoration: none !important;
         color: $color--slideout--text;
         outline: 0 !important;
 
         &:hover,
         &:focus {
-            text-decoration: underline;
-            color: $color--slideout--text;
+            text-decoration: none !important;
+            color: $color--slideout--text__hover;
         }
     }
 }
@@ -144,7 +141,7 @@ body.slideout-visible {
 }
 
 
-/** Buttons inside #navbar */
+/** Change the behaviour of the buttons inside #navbar: Let them act like normal links. */
 
 body:not(.slideout-visible).slide-in-progress .wp-block-button.is-style-flat > .wp-block-button__link,
 body.slideout-visible .wp-block-button.is-style-flat > .wp-block-button__link {
@@ -154,12 +151,17 @@ body.slideout-visible .wp-block-button.is-style-flat > .wp-block-button__link {
 
     &:hover,
     &:focus {
-        background-color: $color--slideout-button--background__hover;
+        background-color: transparent;
+        box-shadow: none;
 
         svg {
             path {
-                fill: $color--slideout-button--text__hover;
+                fill: $color--slideout--text__hover;
             }
         }
+    }
+
+    &:active {
+        top: 0;
     }
 }
