@@ -68,8 +68,8 @@ ob_start();
         <div id="navbar-right">
 
             <!-- wp:button {"className":"is-style-flat"} -->
-            <div id="github" aria-label="<?php echo __( 'Me on Github', 'mdb' ); ?>" data-link="https://github.com/mdibella-dev" class="wp-block-button is-style-flat">
-                <a class="wp-block-button__link">
+            <div id="github" aria-label="<?php echo __( 'Me on Github', 'mdb' ); ?>" class="wp-block-button is-style-flat">
+                <a class="wp-block-button__link" href="https://github.com/mdibella-dev" target="_blank" rel="noreferrer noopener">>
                     <svg viewBox="0 0 496 512">
                     <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7
                         2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3
@@ -88,8 +88,8 @@ ob_start();
             <!-- /wp:button -->
 
             <!-- wp:button {"className":"is-style-flat"} -->
-            <div id="linkedin" aria-label="<?php echo __( 'Me on LinkedIn', 'mdb' ); ?>" data-link="https://www.linkedin.com/in/marco-di-bella-59bb56217/" class="wp-block-button is-style-flat">
-                <a class="wp-block-button__link">
+            <div id="linkedin" aria-label="<?php echo __( 'Me on LinkedIn', 'mdb' ); ?>" class="wp-block-button is-style-flat">
+                <a class="wp-block-button__link" href="https://www.linkedin.com/in/marco-di-bella-59bb56217/" target="_blank" rel="noreferrer noopener">>
                     <svg viewBox="0 0 448 512">
                     <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79
                         54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5
@@ -100,8 +100,8 @@ ob_start();
             <!-- /wp:button -->
 
             <!-- wp:button {"className":"is-style-flat"} -->
-            <div id="xing" aria-label="<?php echo __( 'Me on XING', 'mdb' ); ?>" data-link="https://www.xing.com/profile/Marco_DiBella4/cv" class="wp-block-button is-style-flat">
-                <a class="wp-block-button__link">
+            <div id="xing" aria-label="<?php echo __( 'Me on XING', 'mdb' ); ?>" class="wp-block-button is-style-flat">
+                <a class="wp-block-button__link" href="https://www.xing.com/profile/Marco_DiBella4/cv" target="_blank" rel="noreferrer noopener">>
                     <svg viewBox="0 0 384 512">
                     <path d="M162.7 210c-1.8 3.3-25.2 44.4-70.1 123.5-4.9 8.3-10.8 12.5-17.7 12.5H9.8c-7.7 0-12.1-7.5-8.5-14.4l69-121.3c.2 0
                         .2-.1 0-.3l-43.9-75.6c-4.3-7.8.3-14.1 8.5-14.1H100c7.3 0 13.3 4.1 18 12.2l44.7 77.5zM382.6 46.1l-144 253v.3L330.2 466c3.9

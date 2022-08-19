@@ -39,14 +39,6 @@ jQuery( document ).ready( function( $ ) {
     } );
 
 
-    // Click on #navbar-icons
-
-    $( '#linkedin, #xing, #github' ).on( 'click', function() {
-         window.open( $( this ).data( 'link' ) );
-        return false;
-    } );
-
-
     // Click on pagenavigation, scroll to anchor
 
     $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function(e) {
@@ -109,25 +101,20 @@ jQuery( document ).ready( function( $ ) {
     // The button only appears if at least half of the visible area (viewport) has been scrolled (threshold value).
 
     $( '#main' ).on( 'scroll', function() {
-        var currentScroll = $( this ).scrollTop();
-        var threshold     = $( window ).scrollTop() + $( window ).height() / 2;
+        var position  = $( this ).scrollTop();
+        var threshold = $( window ).scrollTop() + $( window ).height() / 2;
 
-        if( 1 != $( '#main' ).data( 'isAutoScrollInProgress' ) ) {
-            if( currentScroll > threshold ) {
-                $( '#scrollup' ).fadeIn();
-
-                clearTimeout( $( '#main' ).data( 'checkAutoScroll' ) );
-
-                $( '#main' ).data( 'checkAutoScroll', setTimeout( function() {
-                    $( '#scrollup' ).fadeOut();
-                    $( '#main' ).data( 'isAutoScrollInProgress', 0 );
-                }, 2500 ) );
+        if( 1 == $( '#main' ).data( 'isAutoScrollInProgress' ) ) {
+            if( ( position <= threshold ) && ( 0 != position ) ) {
+                $( '#scrollup' ).fadeOut();
+            } else if( 0 == position ) {
+                $( '#main' ).data( 'isAutoScrollInProgress', 0 );
             }
         } else {
-            if( currentScroll <= threshold ) {
+            if( position > threshold ) {
+                $( '#scrollup' ).fadeIn();
+            } else {
                 $( '#scrollup' ).fadeOut();
-            } else if( 0 == currentScroll ) {
-                $( '#main' ).data( 'isAutoScrollInProgress', 0 );
             }
         }
     } );
