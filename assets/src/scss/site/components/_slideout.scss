@@ -98,12 +98,13 @@
         -webkit-text-decoration-style: solid;
                 text-decoration-style: solid;
         text-underline-offset: .25em;
-        color: $color--slideout-link;
+        color: $color--slideout--text;
         outline: 0 !important;
 
         &:hover,
         &:focus {
             text-decoration: underline;
+            color: $color--slideout--text;
         }
     }
 }
@@ -139,5 +140,26 @@ body.slideout-visible {
     #primary,
     #secondary {
         display: unset;
+    }
+}
+
+
+/** Buttons inside #navbar */
+
+body:not(.slideout-visible).slide-in-progress .wp-block-button__link,
+body.slideout-visible .wp-block-button__link {
+    svg path {
+        fill: $color--slideout--text;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $color--slideout-button--background__hover;
+
+        svg {
+            path {
+                fill: $color--slideout-button--text__hover;
+            }
+        }
     }
 }
