@@ -52,6 +52,8 @@
 
 .wp-block-button.is-style-flat > .wp-block-button__link  {
     // typography
+    font-size: unset;
+    line-height: 0;
     text-shadow: none;
 
     // positioning
