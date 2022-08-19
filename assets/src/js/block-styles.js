@@ -1,6 +1,6 @@
 wp.domReady( () => {
 
-    /** core/image **/
+    /** core/image */
 
     wp.blocks.unregisterBlockStyle(
         'core/image',
@@ -26,7 +26,7 @@ wp.domReady( () => {
     );
 
 
-    /** core/embed **/
+    /** core/embed */
 
     wp.blocks.registerBlockStyle(
         'core/embed',
@@ -40,7 +40,7 @@ wp.domReady( () => {
     );
 
 
-    /** core/post-title **/
+    /** core/post-title */
 
     wp.blocks.registerBlockStyle(
         'core/post-title',
@@ -52,7 +52,7 @@ wp.domReady( () => {
     );
 
 
-    /** core/heading **/
+    /** core/heading */
 
     wp.blocks.registerBlockStyle(
         'core/heading',
@@ -76,7 +76,7 @@ wp.domReady( () => {
     );
 
 
-    /** core/paragraph **/
+    /** core/paragraph */
 
     wp.blocks.registerBlockStyle(
         'core/paragraph',
@@ -89,7 +89,7 @@ wp.domReady( () => {
 
 
 
-    /** core/navigation **/
+    /** core/navigation */
 
     wp.blocks.registerBlockStyle(
         'core/navigation',
@@ -102,7 +102,7 @@ wp.domReady( () => {
 
 
 
-    /** core/button **/
+    /** core/button */
 
     wp.blocks.unregisterBlockStyle(
         'core/button',
