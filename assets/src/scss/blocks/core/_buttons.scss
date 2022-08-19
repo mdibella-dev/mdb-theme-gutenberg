@@ -16,6 +16,8 @@
     letter-spacing: .4px;
     text-transform: uppercase;
     text-decoration: none !important;
+    text-shadow: 0 1px 5px rgba(0,0,0,.5);
+    color: $color--button-text;
 
     // positioning
     position: relative;
@@ -23,7 +25,6 @@
     left: 0;
 
     // other styling
-    color: $color--button-text;
     background: $color--button--background;
     border: none;
     border-radius: 3px;
@@ -31,7 +32,6 @@
     transition: color .25s linear, background-color .25s linear;
     cursor: pointer;
     box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
-    text-shadow: 0 1px 5px rgba(0,0,0,.5);
 
     &:hover,
     &:focus {
@@ -42,5 +42,45 @@
 
     &:active {
         top: 2px;
+    }
+}
+
+
+/**
+ * Block style: flat
+ */
+
+.wp-block-button.is-style-flat > .wp-block-button__link  {
+    // typography
+    text-shadow: none;
+
+    // positioning
+    display: inline-block;
+
+    // other styling
+    background: transparent;
+    border: none;
+    padding: .65rem 1rem;
+    transition: background-color .25s;
+    box-shadow: none;
+
+    svg {
+        width: auto;
+        height: 18px;
+
+        path {
+            transition: all .25s ease-out;
+            fill: $color--link;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        background: #515762;
+        color: #fff;
+
+        svg path {
+            fill: #fff;
+        }
     }
 }
