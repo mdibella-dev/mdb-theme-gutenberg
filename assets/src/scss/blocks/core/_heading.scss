@@ -28,8 +28,10 @@ h6.is-style-article {
     line-height: 1.3;
     text-transform: none;
     text-shadow: 0 1px 10px rgba(0,0,0,.35);
-    color: $color--heading--is-article;
-    hyphens: auto;
+    color: $color--heading-is-article;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
 
     // spacing
     margin-top: 0 !important;
@@ -58,7 +60,7 @@ h6.is-style-section {
     line-height: 1.3;
     text-transform: none;
     text-shadow: 0 1px 10px rgba(0,0,0,.35);
-    color: $color--heading--is-section;
+    color: $color--heading-is-section;
 
     // spacing
     margin-top: 0 !important;
@@ -94,8 +96,10 @@ h6.is-style-paragraph {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 0 1px 10px rgba(0,0,0,.35);
-    color: $color--heading--is-paragraph;
-    hyphens: auto;
+    color: $color--heading-is-paragraph;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
 
     // spacing
     * + & {

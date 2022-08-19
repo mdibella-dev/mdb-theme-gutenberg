@@ -13,24 +13,27 @@
 
 $color--text:                               var(--wp--preset--color--concrete);
 $color--background:                         var(--wp--preset--color--midnightblue);
-$color--background--is-alternate:           var(--wp--preset--color--slate);
+$color--background-is-alternate:            var(--wp--preset--color--slate);
 $color--link:                               var(--wp--preset--color--denim);
-$color--heading--is-paragraph:              var(--wp--preset--color--denim);
-$color--heading--is-section:                var(--wp--preset--color--stone);
-$color--heading--is-article:                var(--wp--preset--color--stone);
+$color--heading-is-paragraph:               var(--wp--preset--color--denim);
+$color--heading-is-section:                 var(--wp--preset--color--stone);
+$color--heading-is-article:                 var(--wp--preset--color--stone);
 $color--figcaption:                         var(--wp--preset--color--denim);
-$color--button-text:                        var(--wp--preset--color--white);
+$color--button--text:                       var(--wp--preset--color--white);
 $color--button--background:                 var(--wp--preset--color--denim);
-$color--button-text__hover:                 var(--wp--preset--color--white);
+$color--button--text__hover:                var(--wp--preset--color--white);
 $color--button--background__hover:          var(--wp--preset--color--dusk);
-$color--download-container-border:          var(--wp--preset--color--dusk);
 $color--teaser-title:                       var(--wp--preset--color--denim);
 $color--slideout:                           var(--wp--preset--color--skyblue);
 $color--slideout-link:                      var(--wp--preset--color--white);
 $color--slideout-link__hover:               var(--wp--preset--color--denim);
 $color--calendar:                           var(--wp--preset--color--denim);
-$color--calendar-background:                var(--wp--preset--color--white);
+$color--calendar--background:               var(--wp--preset--color--white);
 $color--publication-divider:                var(--wp--preset--color--denim);
+$color--button-is-flat--text:               var(--wp--preset--color--denim);
+$color--button-is-flat--text__hover:        var(--wp--preset--color--white);
+$color--button-is-flat--background:         transparent;
+$color--button-is-flat--background__hover:  #515762;
 
 
 // Fonts

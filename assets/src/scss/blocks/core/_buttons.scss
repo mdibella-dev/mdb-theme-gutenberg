@@ -17,7 +17,7 @@
     text-transform: uppercase;
     text-decoration: none !important;
     text-shadow: 0 1px 5px rgba(0,0,0,.5);
-    color: $color--button-text;
+    color: $color--button--text;
 
     // positioning
     position: relative;
@@ -35,7 +35,7 @@
 
     &:hover,
     &:focus {
-        color: $color--button-text__hover;
+        color: $color--button--text__hover;
         background: $color--button--background__hover;
         box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
     }
@@ -60,9 +60,9 @@
     display: inline-block;
 
     // other styling
-    background: transparent;
+    background: $color--button-is-flat--background;
     border: none;
-    padding: .65rem 1rem;
+    padding: .75rem 1rem;
     transition: background-color .25s;
     box-shadow: none;
 
@@ -72,17 +72,16 @@
 
         path {
             transition: all .25s ease-out;
-            fill: $color--link;
+            fill: $color--button-is-flat--text;
         }
     }
 
     &:hover,
     &:focus {
-        background: #515762;
-        color: #fff;
+        background: $color--button-is-flat--background__hover;
 
         svg path {
-            fill: #fff;
+            fill: $color--button-is-flat--text__hover;
         }
     }
 }
