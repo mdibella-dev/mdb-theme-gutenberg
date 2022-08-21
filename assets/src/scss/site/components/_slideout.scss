@@ -145,8 +145,8 @@ body.slideout-visible {
 
 body:not(.slideout-visible).slide-in-progress .wp-block-button.is-style-flat > .wp-block-button__link,
 body.slideout-visible .wp-block-button.is-style-flat > .wp-block-button__link {
-    svg path {
-        fill: $color--slideout--text;
+    .svg-symbol {
+        background-color: $color--slideout--text;
     }
 
     &:hover,
@@ -154,10 +154,8 @@ body.slideout-visible .wp-block-button.is-style-flat > .wp-block-button__link {
         background-color: transparent;
         box-shadow: none;
 
-        svg {
-            path {
-                fill: $color--slideout--text__hover;
-            }
+        .svg-symbol {
+            background-color: $color--slideout--text__hover;
         }
     }
 
