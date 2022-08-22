@@ -35,7 +35,7 @@ h6 {
 
     // spacing
     margin-top: 0;
-    margin-bottom: 1.75em;
+    margin-bottom: 1.35em;
 
     * + & {
         margin-top: 2.75em;
@@ -61,7 +61,7 @@ h6.is-style-blue-uppercase {
 
     // spacing
     margin-bottom: 0;
-    
+
     * + & {
         margin-top: 2em;
     }
