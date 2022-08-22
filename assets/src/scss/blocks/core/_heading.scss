@@ -24,6 +24,9 @@ h6 {
     // typography
     font-family: $font--primary;
     font-weight: 600;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;    
 
     line-height: 1.3;
     text-transform: none;
@@ -55,9 +58,6 @@ h6.is-style-blue-uppercase {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: $color--heading-is-paragraph;
-    -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-            hyphens: auto;
 
     // spacing
     * + & {
