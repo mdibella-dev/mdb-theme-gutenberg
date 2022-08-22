@@ -71,7 +71,13 @@
                     "slug": "inconsolata",
                     "fontFamily": "Inconsolata, Arial, sans-serif"
                 }
-            ]
+            ],
+            "fontSizes": [],
+            "fontWeight": false,
+            "fontStyle": false,
+            "letterSpacing": false,
+            "textDecoration": false,
+            "textTransform": false
         },
         "custom": {
             "navbar": {
@@ -79,7 +85,78 @@
                 "max-width": "70rem",
                 "min-padding": "2rem"
             }
-
+        },
+        "blocks": {
+            "core/paragraph" : {
+                "color": {
+                    "background": false
+                },
+                "typography": {
+                    "dropCap": true
+                }
+            },
+            "core/post-title": {
+                "color": {
+                    "custom": false,
+                    "background": false,
+                    "customGradient": false,
+                    "gradients": [],
+                    "defaultGradients": false
+                },
+                "typography": {
+                    "fontSizes": [
+                        {
+                            "name": "S",
+                            "slug": "small",
+                            "size": "clamp(1.375rem, 1vw + 1rem, 1.563rem);"
+                        },
+                        {
+                            "name": "M",
+                            "slug": "medium",
+                            "size": "clamp(1.625rem, 2vw + 1rem, 2.125rem)"
+                        },
+                        {
+                            "name": "L",
+                            "slug": "large",
+                            "size": "clamp(2rem, 3vw + 1rem, 3rem)"
+                        },
+                        {
+                            "name": "XL",
+                            "slug": "x-large",
+                            "size": "clamp(3rem, 4vw + 1rem, 4rem)"
+                        }
+                    ]
+                }
+            },
+            "core/heading": {
+                "color": {
+                    "background": false
+                },
+                "typography": {
+                    "fontSizes": [
+                        {
+                            "name": "S",
+                            "slug": "small",
+                            "size": "clamp(1.375rem, 1vw + 1rem, 1.563rem);"
+                        },
+                        {
+                            "name": "M",
+                            "slug": "medium",
+                            "size": "clamp(1.625rem, 2vw + 1rem, 2.125rem)"
+                        },
+                        {
+                            "name": "L",
+                            "slug": "large",
+                            "size": "clamp(2rem, 3vw + 1rem, 3rem)"
+                        },
+                        {
+                            "name": "XL",
+                            "slug": "x-large",
+                            "size": "clamp(3rem, 4vw + 1rem, 4rem)"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
