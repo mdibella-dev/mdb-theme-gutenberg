@@ -14,18 +14,7 @@
     line-height: 0;
 
     // spacing
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: calc(2 * #{$gap--typo});
-    margin-bottom: calc(2 * #{$gap--typo});
-
-    &:first-child {
-        margin-top: 0;
-    }
-
-    &:last-child {
-        margin-bottom: 0;
-    }
+    margin: 0;
 
     img {
         width: 100%;
@@ -53,14 +42,30 @@
 
 
 /**
- * Block style: shaded
+ * Block styles: transparent, shaded
  */
 
+.wp-block-image.is-style-transparent,
 .wp-block-image.is-style-shaded {
     // spacing
     margin-top: calc(2 * #{$gap--typo});
     margin-bottom: calc(2 * #{$gap--typo});
 
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/**
+ * Block style: shaded
+ */
+
+.wp-block-image.is-style-shaded {
     figcaption {
         margin-top: 1.5rem;
     }
