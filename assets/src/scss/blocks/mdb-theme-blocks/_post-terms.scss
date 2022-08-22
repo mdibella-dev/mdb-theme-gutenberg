@@ -1,0 +1,51 @@
+/**
+ * Block: mdb-theme-blocks/download-container
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ * Block: Tags
+ */
+
+.tags {
+    margin-top: 3rem;
+
+    @include breakpoint(medium) {
+        margin-top:4rem;
+    }
+
+    ul {
+        all: initial;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: .75rem;
+    }
+
+    .button.button-tag {
+        font-family: $font--primary;
+        font-weight: normal;
+        font-size: .75rem;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        text-shadow: 0 1px 5px rgba(0,0,0,.5);
+        color: $color--tag;
+
+        padding: 8px 12px;
+        background: transparent;
+        border: 2px solid $color--tag;
+        border-radius: 5px;
+        display: inline-block;
+        transition: color .25s linear, border-color .25s linear;
+
+        &:hover,
+        &:focus {
+            color: $color--tag__hover;
+            border-color: $color--tag__hover;
+        }
+    }
+}
