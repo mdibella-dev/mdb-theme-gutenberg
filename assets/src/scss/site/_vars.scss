@@ -52,3 +52,4 @@ $min-padding--content:                      2rem;
 $gap--teaser:                               4.5rem;
 $gap--typo:                                 2rem;
 $size--scrollup:                            1.5rem;
+$autogrow--padding--content:                unquote('clamp(2rem, 5vw + 1.5rem, 6rem)');
