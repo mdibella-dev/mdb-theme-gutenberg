@@ -158,5 +158,13 @@
                 }
             }
         }
-    }
+    },
+    "customTemplates": [
+        {
+            "name": "single-publication",
+            "title": "Single Publication",
+            "postTypes": [ "publication" ]
+        }
+    ]
+
 }
