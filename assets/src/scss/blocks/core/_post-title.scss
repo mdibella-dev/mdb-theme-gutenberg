@@ -7,4 +7,9 @@
 
 
 
-// do nothing; styling is handled by core/heading
+// styling is mostly handled by core/heading
+
+
+.wp-block-post-title {
+    margin-top: 0 !important;
+}

@@ -39,37 +39,32 @@ wp.domReady( () => {
         ]
     );
 
-
-    /** core/post-title */
-
-    wp.blocks.registerBlockStyle(
+/*
+    wp.blocks.unregisterBlockStyle(
         'core/post-title',
-        {
-            name: 'article',
-            label: 'Seite oder Beitrag',
-            isDefault: false,
-        }
+        [
+            'article'
+        ]
     );
 
-
+    wp.blocks.unregisterBlockStyle(
+        'core/heading',
+        [
+            'article',
+            'section',
+            'paragraph',
+            'big-bold'
+        ]
+    );
+*/
     /** core/heading */
 
     wp.blocks.registerBlockStyle(
         'core/heading',
         [
             {
-                name: 'article',
-                label: 'Seite oder Beitrag',
-                isDefault: false,
-            },
-            {
-                name: 'section',
-                label: 'Bereich',
-                isDefault: false,
-            },
-            {
-                name: 'paragraph',
-                label: 'Absatz',
+                name: 'blue-uppercase',
+                label: 'Blau',
                 isDefault: false,
             }
         ]
