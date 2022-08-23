@@ -23,7 +23,7 @@ function mdb_register_block_patterns()
 {
     $block_patterns = array(
         'slideout',
-        '404'
+        '404',
     );
 
     foreach( $block_patterns as $block_pattern ) :
