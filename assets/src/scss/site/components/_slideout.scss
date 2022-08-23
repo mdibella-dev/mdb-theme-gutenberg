@@ -16,7 +16,6 @@
     height: 100%;
     top: 0;
     left: 0;
-    padding: #{$min-padding--content};
 
     body.logged-in.admin-bar & {
         height: calc(100vh - var(--wp-admin--admin-bar--height));
@@ -34,6 +33,7 @@
     position: relative;
     top: $height--navbar;
     left: 0;
+    padding: #{$min-padding--content};
 }
 
 #slideout-content {
