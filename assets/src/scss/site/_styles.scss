@@ -12,7 +12,8 @@
  */
 
 .is-root-container > .content,
-.entry-content > .content {
+.entry-content > .content,
+.content {
     padding-top: $autogrow--padding--content;
     padding-bottom: $autogrow--padding--content;
     padding-left: unquote('max( #{$min-padding--content}, calc( calc(100% - #{$max-width--content} ) / 2 ))');
