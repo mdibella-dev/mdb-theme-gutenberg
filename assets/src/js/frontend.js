@@ -16,11 +16,13 @@ jQuery( document ).ready( function( $ ) {
         if( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
             $( 'body' ).toggleClass( 'slide-in-progress' );
 
+
             if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
                 var w = 100;
 
                 $( '#slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
                 $( '#primary, #secondary' ).delay(800).fadeIn();
+                $( '.is-hamburger span' ).fadeOut().removeClass( 'svg-symbol-hamburger' ).addClass( 'svg-symbol-hamburger-cross' ).fadeIn();
 
                 setTimeout( function() {
                     $( 'body' ).addClass( 'slideout-visible' );
@@ -33,6 +35,7 @@ jQuery( document ).ready( function( $ ) {
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress' );
                     $( 'body' ).removeClass( 'slideout-visible' );
+                    $( '.is-hamburger span' ).fadeOut().removeClass( 'svg-symbol-hamburger-cross' ).addClass( 'svg-symbol-hamburger' ).fadeIn();
                 }, duration );
             }
         }
@@ -48,39 +51,6 @@ jQuery( document ).ready( function( $ ) {
         if( parts.length == 2 ) {
             e.preventDefault();
             scrollToID( parts[1] );
-        }
-    } );
-
-
-    // Handle GDPR checkbox on the contact form
-
-    $( '#gdpr-cbox' ).on( 'click', function() {
-        if( $( this ).is( ':checked' ) ) {
-            $( 'button[type=submit]' ).removeAttr( 'disabled' );
-        } else {
-            $( 'button[type=submit]' ).attr( 'disabled', 'disabled' );
-        }
-    } );
-
-
-    // Handle .form-control
-
-    $( '.form-control' ).on( 'click', function() {
-        if( ! $( this ).hasClass( 'is-active') ) {
-            $( '.form-control' ).removeClass( 'is-active' );
-            $( this ).addClass( 'is-active' );
-
-            if( $( this ).children( 'input' ).length > 0 ) {
-                $( this ).children( 'input' ).focus();
-            } else if( $( this ).children( 'textarea' ).length > 0 ) {
-                $( this ).children( 'textarea' ).focus();
-            }
-        }
-    } );
-
-    $( '.form-control input, .form-control textarea' ).on( 'focusout', function() {
-        if( $( this ).parent().hasClass( 'is-active') ) {
-            $( this ).parent().removeClass( 'is-active' );
         }
     } );
 
