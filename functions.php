@@ -21,7 +21,7 @@ error_reporting( E_ALL ^ E_NOTICE );
 
 /** Turn off development mode */
 
-define( 'MDB_DEV', true );
+define( 'MDB_DEV', false );
 
 
 
