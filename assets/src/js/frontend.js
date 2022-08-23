@@ -22,20 +22,18 @@ jQuery( document ).ready( function( $ ) {
 
                 $( '#slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
                 $( '#primary, #secondary' ).delay(800).fadeIn();
-                $( '.is-hamburger span' ).fadeOut().removeClass( 'svg-symbol-hamburger' ).addClass( 'svg-symbol-hamburger-cross' ).fadeIn();
+                $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
 
                 setTimeout( function() {
-                    $( 'body' ).addClass( 'slideout-visible' );
-                    $( 'body' ).toggleClass( 'slide-in-progress' );
+                    $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                 }, duration );
             } else {
                 $( '#primary, #secondary' ).fadeOut();
                 $( '#slideout' ).delay(200).animate( { width: 0 }, 1000, 'easeInOutExpo' );
 
                 setTimeout( function() {
-                    $( 'body' ).toggleClass( 'slide-in-progress' );
-                    $( 'body' ).removeClass( 'slideout-visible' );
-                    $( '.is-hamburger span' ).fadeOut().removeClass( 'svg-symbol-hamburger-cross' ).addClass( 'svg-symbol-hamburger' ).fadeIn();
+                    $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
+                    $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
                 }, duration );
             }
         }
