@@ -55,8 +55,22 @@
                     "color": "#B9BDC6"
                 }
             ],
-            "defaultPalette" : false,
+            "gradients": [
+                {
+                    "name": "Circular from dusk to transparent, starting at bottom",
+                    "slug": "circular-dusk",
+                    "gradient": "radial-gradient(circle at bottom, var(--wp--preset--color--dusk) 10%, transparent 50%)"
+                },
+                {
+                    "name": "Circular from dusk to transparent, starting at top",
+                    "slug": "circular-dusk-reverse",
+                    "gradient": "radial-gradient(circle at top, var(--wp--preset--color--dusk) 10%, transparent 50%)"
+                }
+            ],
             "duotone": [],
+            "defaultPalette" : false,
+            "defaultGradients": false,
+            "customGradient": false,
             "customDuotone": false
         },
         "typography": {
