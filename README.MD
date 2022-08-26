@@ -13,3 +13,7 @@ __Tested up to:__ WordPress 6.0
 *Added/Changed/Fixed/Removed*
 
 ### main
+
+
+### 1.0.0
+Initial commit
