@@ -26,9 +26,4 @@ body.tag.archive {
             margin-bottom: .3rem;
         }
     }
-
-    .wp-block-post-title + .wp-block-spacer {
-        height: unquote('clamp(5rem, 5vw + 3rem, 8rem)');
-    }
-
 }
