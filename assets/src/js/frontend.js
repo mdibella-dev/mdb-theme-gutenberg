@@ -1,10 +1,23 @@
 jQuery( document ).ready( function( $ ) {
 
+
+    function getNumber( x ) {
+      const parsed = parseInt( x );
+
+      if( isNaN( parsed ) ) {
+          return 0;
+      }
+      return parsed;
+    }
+
+
     // General scrollToAnchor
 
     function scrollToID( id ) {
-        var tag = $( "#"+ id );
-        $( '#main' ).animate( { scrollTop: tag.offset().top }, 2500, 'easeInOutExpo' );
+        let tag     = $( "#"+ id );
+        let offset  = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
+
+        $( '#main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
     }
 
 
