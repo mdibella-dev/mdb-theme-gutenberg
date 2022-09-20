@@ -39,24 +39,7 @@ wp.domReady( () => {
         ]
     );
 
-/*
-    wp.blocks.unregisterBlockStyle(
-        'core/post-title',
-        [
-            'article'
-        ]
-    );
 
-    wp.blocks.unregisterBlockStyle(
-        'core/heading',
-        [
-            'article',
-            'section',
-            'paragraph',
-            'big-bold'
-        ]
-    );
-*/
     /** core/heading */
 
     wp.blocks.registerBlockStyle(
