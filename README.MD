@@ -12,7 +12,9 @@ __Tested up to:__ WordPress 6.0
 ## Changelog
 *Added/Changed/Fixed/Removed*
 
+
 ### main
+Fixed: SVG-buttons in Chrome (#2)
 
 
 ### 1.0.0
