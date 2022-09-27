@@ -14,8 +14,8 @@ __Tested up to:__ WordPress 6.0
 
 
 ### main
-Fixed: SVG-buttons in Chrome (#2)
+* Fixed: SVG-buttons in Chrome (#2)
 
 
 ### 1.0.0
-Initial commit
+* Initial commit
