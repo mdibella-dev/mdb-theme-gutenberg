@@ -31,7 +31,7 @@ if( ! function_exists( 'mdb_after_setup_theme' ) ) :
         add_theme_support( 'align-wide' );
 
 
-        // Enable responsive embedding of media embeds.
+        // Enables responsive embedding of media embeds.
         add_theme_support( 'responsive-embeds' );
 
 
