@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.0
 
 
 ### main
+* Changed: No hyphens in headlines when breakpoint=medium
 * Fixed: SVG-buttons in Chrome (#2)
 
 

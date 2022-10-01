@@ -28,6 +28,12 @@ h6 {
         -ms-hyphens: auto;
             hyphens: auto;
 
+    @include breakpoint(medium) {
+        -webkit-hyphens: none;
+            -ms-hyphens: none;
+                hyphens: none;
+    }
+
     line-height: 1.3;
     text-transform: none;
     text-shadow: 0 1px 10px rgba(0,0,0,.35);
