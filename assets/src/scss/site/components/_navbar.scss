@@ -11,7 +11,7 @@
     position: relative;
     z-index: 1080;
     width: 100%;
-    height: $height--navbar;
+    height: $navbar--height;
 }
 
 .navbar-content {   // temporarily
@@ -19,8 +19,8 @@
     flex-direction: row;
     align-content: center;
     height: 100%;
-    padding-left: unquote('max( #{$min-padding--navbar}, calc( calc(100% - #{$max-width--navbar} ) / 2 ))');
-    padding-right: unquote('max( #{$min-padding--navbar}, calc( calc(100% - #{$max-width--navbar} ) / 2 ))');
+    padding-left: unquote('max( #{$navbar--min-padding}, calc( calc(100% - #{$navbar--max-width} ) / 2 ))');
+    padding-right: unquote('max( #{$navbar--min-padding}, calc( calc(100% - #{$navbar--max-width} ) / 2 ))');
     background: transparent;
 }
 

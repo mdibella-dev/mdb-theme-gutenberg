@@ -11,7 +11,7 @@
 #scrollup {
     position: fixed;
     bottom: 2rem;
-    right: unquote('max(2rem, calc(calc(calc(100% - #{$max-width--content}) / 2 - #{$size--scrollup}) / 3))');
+    right: unquote('max(2rem, calc(calc(calc(100% - #{$content--max-width}) / 2 - #{$size--scrollup}) / 3))');
     display: none;
 
     & > .wp-block-button__link {

@@ -54,9 +54,9 @@ $base--gap:                                 var(--wp--custom--base--gap);
 // Dimensions
 
 $max-width--content:                        64rem;
-$max-width--navbar:                         var(--wp--custom--navbar--max-width);
-$height--navbar:                            var(--wp--custom--navbar--height);
-$min-padding--navbar:                       var(--wp--custom--navbar--min-padding);
+$navbar--max-width:                         var(--wp--custom--navbar--max-width);
+$navbar--height:                            var(--wp--custom--navbar--height);
+$navbar--min-padding:                       var(--wp--custom--navbar--min-padding);
 $min-padding--content:                      2rem;
 $gap--teaser:                               4.5rem;
 $size--scrollup:                            1.5rem;
