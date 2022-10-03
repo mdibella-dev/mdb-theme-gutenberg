@@ -75,32 +75,39 @@ h3 {
 
 
 /**
- * Block style: blue/uppercase
+ * Block style: .is-style-section
  */
 
-h1.is-style-blue-uppercase,
-h2.is-style-blue-uppercase,
-h3.is-style-blue-uppercase,
-h4.is-style-blue-uppercase,
-h5.is-style-blue-uppercase,
-h6.is-style-blue-uppercase {
+h1.is-style-section,
+h2.is-style-section,
+h3.is-style-section,
+h4.is-style-section,
+h5.is-style-section,
+h6.is-style-section {
     // typography
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: $color--heading-is-paragraph;
+    font-size: calc(1.85 * #{$base--font-size});
 
     // spacing
-    margin-bottom: 0;
+    margin-top: 0 !important;
+    margin-bottom: 1.5em;
+}
 
-    * + & {
-        margin-top: 2em;
-    }
 
-    * + &.has-medium-font-size,
-    * + &.has-large-font-size,
-    * + &.has-x-large-font-size {
-        margin-top: 3em;
-    }
 
+/**
+ * Block style: .is-style-section
+ */
+
+h1.is-style-section-large,
+h2.is-style-section-large,
+h3.is-style-section-large,
+h4.is-style-section-large,
+h5.is-style-section-large,
+h6.is-style-section-large {
+    // typography
+    font-size: calc(3 * #{$base--font-size});
+
+    // spacing
+    margin-top: 0 !important;
+    margin-bottom: 1.5em;
 }
