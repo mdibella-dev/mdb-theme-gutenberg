@@ -53,12 +53,14 @@ $base--gap:                                 var(--wp--custom--base--gap);
 
 // Dimensions
 
-$max-width--content:                        64rem;
 $navbar--max-width:                         var(--wp--custom--navbar--max-width);
 $navbar--height:                            var(--wp--custom--navbar--height);
 $navbar--min-padding:                       var(--wp--custom--navbar--min-padding);
-$min-padding--content:                      2rem;
+
+$content--max-width:                        64rem;
+$content--min-padding:                      2rem;
+$content--padding--autogrow:                unquote('clamp(2rem, 5vw + 1.5rem, 6rem)');
+
 $gap--teaser:                               4.5rem;
 $size--scrollup:                            1.5rem;
-$autogrow--padding--content:                unquote('clamp(2rem, 5vw + 1.5rem, 6rem)');
 $autogrow--height--spacer:                  unquote('clamp(5rem, 5vw + 3rem, 8rem)');
