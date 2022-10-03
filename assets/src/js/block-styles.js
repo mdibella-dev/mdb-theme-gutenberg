@@ -46,8 +46,13 @@ wp.domReady( () => {
         'core/heading',
         [
             {
-                name: 'blue-uppercase',
-                label: 'Blau',
+                name: 'section',
+                label: 'Abschnitt',
+                isDefault: false,
+            },
+            {
+                name: 'section-large',
+                label: 'Abschnitt (groß)',
                 isDefault: false,
             }
         ]
@@ -105,6 +110,4 @@ wp.domReady( () => {
             }
         ]
     );
-
-
 } );
