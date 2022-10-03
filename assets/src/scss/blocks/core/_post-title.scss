@@ -13,4 +13,7 @@
 .wp-block-post-title {
     margin-top: 0 !important;
     margin-bottom: 1.5em;
+
+    word-break: normal;
+    hyphens: auto;
 }
