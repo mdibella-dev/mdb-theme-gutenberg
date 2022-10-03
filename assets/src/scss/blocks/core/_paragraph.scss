@@ -13,12 +13,15 @@ p {
     width: 100%;
 
     // typography
-    font-size: unquote("clamp(1.125rem, 1vw + 1rem, 1.375rem)");
+    font-size: $base--font-size;
     text-shadow: 0 1px 10px rgba(0,0,0,.5);
 
     // spacing
+    margin-top: 0;
+    margin-bottom: 0;
+
     * + & {
-        margin-top: $gap--typo;
+        margin-top: $base--gap;
     }
 }
 
@@ -28,16 +31,7 @@ p {
  */
 
 p.is-style-smallnote {
-    // prevent margin-collapsing
-    display: block;
-    width: 100%;
-
     // typography
-    font-size: .875rem; // clamping???
+    font-size: calc(.875 * #{$base--font-size});
     font-style: italic;
-
-    // spacing
-    * + & {
-        margin-top: $gap--typo;
-    }
 }

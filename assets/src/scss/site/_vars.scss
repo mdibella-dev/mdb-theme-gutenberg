@@ -45,6 +45,12 @@ $font--primary:                             var(--wp--preset--font-family--inter
 $font--secondary:                           var(--wp--preset--font-family--inconsolata);
 
 
+// Basic settings
+
+$base--font-size:                           var(--wp--custom--base--font-size);
+$base--gap:                                 var(--wp--custom--base--gap);
+
+
 // Dimensions
 
 $max-width--content:                        64rem;
