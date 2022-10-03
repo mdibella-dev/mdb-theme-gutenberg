@@ -16,8 +16,8 @@
     // spacing
     margin-left: 0;
     margin-right: 0;
-    margin-top: calc(2 * #{$gap--typo});
-    margin-bottom: calc(2 * #{$gap--typo});
+    margin-top: calc(2 * #{$base--gap});
+    margin-bottom: calc(2 * #{$base--gap});
 
     &:first-child {
         margin-top: 0;
@@ -57,10 +57,6 @@
  */
 
 .wp-block-embed.is-style-shaded {
-    // spacing
-    margin-top: calc(2 * #{$gap--typo});
-    margin-bottom: calc(2 * #{$gap--typo});
-
     figcaption {
         margin-top: 1.5rem;
     }

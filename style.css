@@ -5,11 +5,11 @@ Author: Marco Di Bella
 Author URI: https://www.marcodibella.de/
 Description: The WordPress theme for Marco Di Bella's personal website (full site editing version). Based on mdb-theme (2.1).
 Requires at least: 6.0
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 7
 Version: 1.0.0
 Text Domain: mdb
-Tags: gutenberg, block-editor, full-site-editing, translation-ready, responsive
+Tags: gutenberg, block-editor, full-site-editing, translation-ready, responsive, variable-font-size
 */
 
 /* Note: The CSS files are loaded from assets/build/css/ folder. */

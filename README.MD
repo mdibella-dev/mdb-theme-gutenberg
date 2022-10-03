@@ -3,19 +3,23 @@ The WordPress theme for Marco Di Bella's personal website (full site editing ver
 
 __Contributors:__ mdibella-dev
 
-__Tags:__ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery
+__Tags:__ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery, variable-font-size
 
 __Requires at least:__ WordPress 6.0  
 
-__Tested up to:__ WordPress 6.0  
+__Tested up to:__ WordPress 6.1  
 
 ## Changelog
 *Added/Changed/Fixed/Removed*
 
 
 ### main
-* Changed: No hyphens in headlines when breakpoint=medium
-* Fixed: SVG-buttons in Chrome (#2)
+* Added: Base font-size and gap.
+* Changed: Make var names more consistent.
+* Changed: No hyphens in headlines when breakpoint=medium.
+* Changed: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks).
+* Fixed: SVG-buttons in Chrome (#2).
+* Removed: Strip font-sizes from theme.json.
 
 
 ### 1.0.0

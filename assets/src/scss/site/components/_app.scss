@@ -17,7 +17,7 @@
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: auto;
-    grid-template-rows: $height--navbar auto;
+    grid-template-rows: $navbar--height auto;
     background: radial-gradient(circle at top, var(--wp--preset--color--slate) 10%, transparent 40%);
 
     body.logged-in.admin-bar & {

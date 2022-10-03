@@ -23,6 +23,7 @@ h6 {
 
     // typography
     font-family: $font--primary;
+    font-size: $base--font-size;
     font-weight: 600;
     -webkit-hyphens: auto;
         -ms-hyphens: auto;
@@ -41,41 +42,72 @@ h6 {
 
     // spacing
     margin-top: 0;
-    margin-bottom: 1.35em;
+    margin-bottom: 0;
 
     * + & {
-        margin-top: 2.75em;
+        margin-top: $base--gap;
     }
 }
 
 
-/**
- * Block style: blue/uppercase
- */
+h1 {
+    font-size: calc(3 * #{$base--font-size});
+}
 
-h1.is-style-blue-uppercase,
-h2.is-style-blue-uppercase,
-h3.is-style-blue-uppercase,
-h4.is-style-blue-uppercase,
-h5.is-style-blue-uppercase,
-h6.is-style-blue-uppercase {
-    // typography
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: $color--heading-is-paragraph;
 
-    // spacing
-    margin-bottom: 0;
+h2 {
+    font-size: calc(1.85 * #{$base--font-size});
 
     * + & {
-        margin-top: 2em;
+        margin-top: calc( 3 * #{$base--gap});
     }
+}
 
-    * + &.has-medium-font-size,
-    * + &.has-large-font-size,
-    * + &.has-x-large-font-size {
-        margin-top: 3em;
+
+h3 {
+    font-size: calc(1.35 * #{$base--font-size});
+
+    * + & {
+        margin-top: calc( 2 * #{$base--gap});
     }
+}
 
+
+
+/**
+ * Block style: .is-style-section
+ */
+
+h1.is-style-section,
+h2.is-style-section,
+h3.is-style-section,
+h4.is-style-section,
+h5.is-style-section,
+h6.is-style-section {
+    // typography
+    font-size: calc(1.85 * #{$base--font-size});
+
+    // spacing
+    margin-top: 0 !important;
+    margin-bottom: 1.5em;
+}
+
+
+
+/**
+ * Block style: .is-style-section
+ */
+
+h1.is-style-section-large,
+h2.is-style-section-large,
+h3.is-style-section-large,
+h4.is-style-section-large,
+h5.is-style-section-large,
+h6.is-style-section-large {
+    // typography
+    font-size: calc(3 * #{$base--font-size});
+
+    // spacing
+    margin-top: 0 !important;
+    margin-bottom: 1.5em;
 }

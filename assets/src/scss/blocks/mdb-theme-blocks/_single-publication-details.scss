@@ -10,57 +10,94 @@
  * Styles for publication pages
  */
 
-.publication-showroom {
+
+.publication-section {
+    padding: 0;
+    margin: 0;
+    border: none;
+
+    // adopt styling of <hr>
+    border-top: 1px solid $color--ruler;
+    padding-top: 3.5rem;
+    margin-top: 3.5rem;
+
+    &:first-of-type {
+        border-top: none;
+        margin-top: 0;
+    }
+}
+
+
+.publication-section h1 {
+    font-size: unset;
+}
+
+
+.publication-section h2 {
+    // adopt styling of h3
+    font-size: calc(1.35 * #{$base--font-size});
+}
+
+
+#cover-and-title {
     display: flex;
     flex-wrap: wrap;
 
     @include breakpoint(medium) {
         flex-wrap: nowrap;
     }
-}
 
-.publication-cover {
-    width: 100%;
-    order: 1;
 
-    @include breakpoint(medium) {
-        order: 2;
-        width: auto;
-    }
-
-    img {
-        width: 300px;
-        height: auto;
-        box-shadow: 0 19px 38px rgba(0,0,0,.3),0 15px 12px rgba(0,0,0,.22);
-        border-radius: 2px;
-    }
-}
-
-.publication-info {
-    width: 100%;
-    order: 2;
-    margin-top: 3rem;
-
-    @include breakpoint(medium) {
-        margin-top: 0;
-        padding-right: 3rem;
+    & > div:first-child {
+        width: 100%;
         order: 1;
 
-        & > *:first-child {
+        @include breakpoint(medium) {
+            order: 2;
+            width: auto;
+        }
+    }
+
+    & > div:last-child {
+        width: 100%;
+        order: 2;
+        margin-top: 3rem;
+
+        @include breakpoint(medium) {
             margin-top: 0;
+            padding-right: 3rem;
+            order: 1;
+
+            & > *:first-child {
+                margin-top: 0;
+            }
         }
     }
 }
 
-.publication-subtitle {
-    display: block;
-    margin-top: 1.75rem;
-    font-size: 1.25rem;
+
+.publication-cover {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,.3),0 15px 12px rgba(0,0,0,.22);
+    border-radius: 2px;
 }
 
-.publication-sectiontitle {
-    font-size: 1.35rem;
+
+.publication-title {
+    display: block;
+    font-size: calc(2 * #{$base--font-size});
 }
+
+
+.publication-subtitle {
+    display: block;
+    font-size: calc(1.35 * #{$base--font-size});
+    font-weight: 200;
+    color: var(--wp--preset--color--denim);
+    margin-top: 1em;
+}
+
 
 .publication-keyword {
     display: inline-block;
@@ -70,9 +107,4 @@
     @include breakpoint(medium) {
         margin-right: 1.5rem;
     }
-}
-
-.publication-edition-or-periodical {
-    color: rgba(255,255,255,.9);
-    font-weight: bold;
 }

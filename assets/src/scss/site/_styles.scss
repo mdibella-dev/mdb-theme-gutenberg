@@ -14,20 +14,20 @@
 .is-root-container > .content,
 .entry-content > .content,
 .content {
-    padding-top: $autogrow--padding--content;
-    padding-bottom: $autogrow--padding--content;
-    padding-left: unquote('max( #{$min-padding--content}, calc( calc(100% - #{$max-width--content} ) / 2 ))');
-    padding-right: unquote('max( #{$min-padding--content}, calc( calc(100% - #{$max-width--content} ) / 2 ))');
+    padding-top: $content--padding--autogrow;
+    padding-bottom: $content--padding--autogrow;
+    padding-left: unquote('max( #{$content--min-padding}, calc( calc(100% - #{$content--max-width} ) / 2 ))');
+    padding-right: unquote('max( #{$content--min-padding}, calc( calc(100% - #{$content--max-width} ) / 2 ))');
 
     &:first-of-type,
     &.no-padding-autogrow,
     &.no-padding-top-autogrow {
-        padding-top: $min-padding--content;
+        padding-top: $content--min-padding;
     }
 
     &.no-padding-autogrow,
     &.no-padding-bottom-autogrow {
-        padding-bottom: $min-padding--content;
+        padding-bottom: $content--min-padding;
     }
 }
 
