@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.0
 
 
 ### main
+* Added: Base font-size and gap
 * Changed: No hyphens in headlines when breakpoint=medium
 * Changed: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks)
 * Fixed: SVG-buttons in Chrome (#2)
