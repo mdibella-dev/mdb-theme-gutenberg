@@ -19,7 +19,7 @@
     padding-left: unquote('max( #{$content--min-padding}, calc( calc(100% - #{$content--max-width} ) / 2 ))');
     padding-right: unquote('max( #{$content--min-padding}, calc( calc(100% - #{$content--max-width} ) / 2 ))');
 
-    &:first-of-type,
+    //&:first-of-type,
     &.no-padding-autogrow,
     &.no-padding-top-autogrow {
         padding-top: $content--min-padding;
