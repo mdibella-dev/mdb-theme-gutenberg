@@ -23,13 +23,14 @@ defined( 'ABSPATH' ) or exit;
  * @see    https://behind-the-scenes.net/using-wps-the_content-function-and-filter-hook/
  */
 
-add_filter( 'the_content', function( $content ) {
+function mdb_modify_content( $content )
+{
     $content = str_replace( 'no-border-radius', '', $content );
 
     return $content;
-}, 10, 2 );
+}
 
-
+add_filter( 'the_content', 'mdb_modify_content', 10, 2 );
 
 
 
@@ -43,10 +44,13 @@ add_filter( 'the_content', function( $content ) {
  * @see    https://generatepress.com/forums/topic/when-editing-in-gutenberg-remove-the-title-from-the-editing-interface/ (thx David)
  */
 
-add_filter( 'block_editor_settings_all', function( $editor_settings ) {
-    $css = '.edit-post-visual-editor__post-title-wrapper { display: none; }';
-
-    $editor_settings['styles'][] = array( 'css' => $css );
+function mdb_block_editor_settings_all( $editor_settings )
+{
+    $editor_settings['styles'][] = array( 
+        'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; }'
+    );
 
     return $editor_settings;
-} );
+}
+
+add_filter( 'block_editor_settings_all', 'mdb_block_editor_settings_all' );
