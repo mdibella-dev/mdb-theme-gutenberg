@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function mdb_remove_styles_scripts()
+add_action( 'wp_enqueue_scripts', function ()
 {
     remove_action( 'wp_head', 'wlwmanifest_link' );
     remove_action( 'wp_head', 'rsd_link' );
@@ -27,9 +27,7 @@ function mdb_remove_styles_scripts()
     remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
     remove_action( 'wp_print_styles', 'print_emoji_styles' );
     remove_action( 'admin_print_styles', 'print_emoji_styles' );
-}
-
-add_action( 'wp_enqueue_scripts', 'mdb_remove_styles_scripts', 9998 );
+}, 9998 );
 
 
 
@@ -50,7 +48,7 @@ add_action( 'wp_enqueue_scripts', 'mdb_remove_styles_scripts', 9998 );
  * @see    https://developer.wordpress.org/reference/hooks/post_class/
  */
 
-function mdb_remove_post_classes( $classes, $class, $post_id )
+add_action( 'post_class', function ( $classes, $class, $post_id )
 {
     if( ! is_admin() ) :
         $post_type = get_post_type( $post_id );
@@ -59,9 +57,7 @@ function mdb_remove_post_classes( $classes, $class, $post_id )
     endif;
 
     return $classes;
-}
-
-add_filter( 'post_class', 'mdb_remove_post_classes', 10, 3 );
+}, 10, 3 );
 
 
 
@@ -78,30 +74,28 @@ add_filter( 'post_class', 'mdb_remove_post_classes', 10, 3 );
  * @see    https://developer.wordpress.org/reference/hooks/nav_menu_css_class/
  */
 
-function mdb_remove_menu_classes( $classes, $item, $args, $depth )
+add_filter( 'nav_menu_css_class', function ( $classes, $item, $args, $depth )
 {
-	$checked_classes = array();
+    $checked_classes = array();
 
-	if( ! is_admin() ) :
-	    foreach( $classes as $check ) :
+    if( ! is_admin() ) :
+        foreach( $classes as $check ) :
 
-	        if( ( false !== strpos( $check, 'menu-item-type-' ) ) or
-	            ( false !== strpos( $check, 'menu-item-object-' ) ) or
-	            ( false !== strpos( $check, 'page_item' ) ) or
-	            ( false !== strpos( $check, 'page_item-' ) ) or
-	            ( false !== strpos( $check, 'current_page_item' ) ) or
-	            ( false !== strpos( $check, 'menu-item-privacy-policy ' ) ) ) :
-	            // Do nothing!
-	        else :
-	            $checked_classes[] = $check;
-	        endif;
+            if( ( false !== strpos( $check, 'menu-item-type-' ) ) or
+                ( false !== strpos( $check, 'menu-item-object-' ) ) or
+                ( false !== strpos( $check, 'page_item' ) ) or
+                ( false !== strpos( $check, 'page_item-' ) ) or
+                ( false !== strpos( $check, 'current_page_item' ) ) or
+                ( false !== strpos( $check, 'menu-item-privacy-policy ' ) ) ) :
+                // Do nothing!
+            else :
+                $checked_classes[] = $check;
+            endif;
 
-	    endforeach;
-	    $classes = $checked_classes;
+        endforeach;
+        $classes = $checked_classes;
 
-	endif;
+    endif;
 
-	return $classes;
-}
-
-add_filter( 'nav_menu_css_class' , 'mdb_remove_menu_classes' , 10, 4 );
+    return $classes;
+}, 10, 4 );
