@@ -21,7 +21,7 @@ defined( 'ABSPATH' ) or exit;
  * @return array               The modified meta tags.
  */
 
-function mdb_site_icon_meta_tags( $meta_tags )
+add_filter( 'site_icon_meta_tags', function ( $meta_tags )
 {
     $icon_svg = get_template_directory_uri() . '/assets/build/img/marco-logo.svg';
     $icon_512 = get_template_directory_uri() . '/assets/build/img/marco-logo-512.png';
@@ -34,9 +34,7 @@ function mdb_site_icon_meta_tags( $meta_tags )
     $meta_tags[] = sprintf( '<meta name="msapplication-TileImage" content="%s">', esc_url( $icon_192 ) );
 
     return $meta_tags;
-}
-
-add_filter( 'site_icon_meta_tags', 'mdb_site_icon_meta_tags' );
+} );
 
 
 
@@ -47,12 +45,10 @@ add_filter( 'site_icon_meta_tags', 'mdb_site_icon_meta_tags' );
  * @see   https://make.wordpress.org/core/2020/02/19/enhancements-to-favicon-handling-in-wordpress-5-4/
  */
 
-function mdb_do_faviconico()
+add_action( 'do_faviconico', function ()
 {
     $icon_svg = get_template_directory_uri() . '/assets/build/img/marco-logo.svg';
 
     wp_redirect( $icon_svg );
- 	exit;
-}
-
-add_action( 'do_faviconico', 'mdb_do_faviconico' );
+    exit;
+} );
