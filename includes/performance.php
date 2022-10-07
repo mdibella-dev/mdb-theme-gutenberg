@@ -68,7 +68,7 @@ add_filter( 'post_class', 'mdb_remove_post_classes', 10, 3 );
 /**
  * Removes unnecessary classes from a page's menus to reduce the DOM.
  *
- * @since  1.6.0
+ * @since  1.0.0
  * @param  array    $classes    An array of CSS classes to be applied to the <li> tag of the menu item to be checked.
  * @param  WP_POST  $items      The menu item to check.
  * @param  stdClass $args       Arguments from the wp_nav_menu() call.

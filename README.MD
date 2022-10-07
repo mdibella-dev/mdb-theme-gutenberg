@@ -22,6 +22,7 @@ __Tested up to:__ WordPress 6.1
 * Changed: Styling of the block download-container (minimal).
 * Fixed: Wrong spacing in .content class.
 * Fixed: SVG-buttons in Chrome (#2).
+* Fixed: Version numbers.
 * Removed: Strip font-sizes from theme.json.
 
 
