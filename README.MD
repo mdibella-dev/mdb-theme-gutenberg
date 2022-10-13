@@ -23,6 +23,8 @@ __Tested up to:__ WordPress 6.1
 * Fixed: Wrong spacing in .content class.
 * Fixed: SVG-buttons in Chrome (#2).
 * Fixed: Version numbers.
+* Fixed: Wrongful styling in classic editor.
+* Fixed: Wrongful resizing of the classic editor.
 * Removed: Strip font-sizes from theme.json.
 
 
