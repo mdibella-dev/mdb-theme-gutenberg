@@ -11,9 +11,7 @@
     display: block;
     width: 100%;
     height: auto;
-    padding: 3rem 2rem;
-    border-top: 1px solid $color--ruler;
-    border-bottom: 1px solid $color--ruler;
+    border: none;
 
     // spacing
     margin: calc(2 * #{$base--gap}) 0;
@@ -25,7 +23,33 @@
     &:last-child {
         margin-bottom: 0;
     }
+
+    // border styling
+    &::before,
+    &::after {
+        border: 2px solid $color--ruler;
+        display: block;
+        width: 100%;
+        height: 1rem;
+        content: " ";
+    }
+
+    &::before {
+        border-bottom: none;
+        margin-bottom: 1.5rem;
+    }
+
+    &::after {
+        border-top: none;
+        margin-top: 1.5rem;
+    }
 }
+
+
+.download-container-wrapper {
+    padding: 1.5rem 2rem;
+}
+
 
 
 /** Download links **/

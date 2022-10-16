@@ -16,6 +16,7 @@ __Tested up to:__ WordPress 6.1
 ### main
 * Added: Base font-size and gap.
 * Added: .edit-post-visual-editor__post-title-wrapper hidden.
+* Changed: New border style for download-container.
 * Changed: Make var names more consistent.
 * Changed: No hyphens in headlines when breakpoint=medium.
 * Changed: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks).
