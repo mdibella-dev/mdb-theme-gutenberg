@@ -23,30 +23,31 @@
     &:last-child {
         margin-bottom: 0;
     }
-
-    // border styling
-    &::before,
-    &::after {
-        border: 2px solid $color--ruler;
-        display: block;
-        width: 100%;
-        height: 1.5rem;
-        content: " ";
-    }
-
-    &::before {
-        border-bottom: none;
-        margin-bottom: 1rem;
-    }
-
-    &::after {
-        border-top: none;
-        margin-top: 1rem;
-    }
 }
 
 
-.download-container-wrapper {
+.download-container-top,
+.download-container-bottom {
+    border: 2px solid $color--ruler;
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+}
+
+
+.download-container-top {
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+
+.download-container-bottom {
+    border-top: none;
+    margin-top: 1rem;
+}
+
+
+.download-container-inner {
     padding: 0 2rem;
 }
 
@@ -54,7 +55,7 @@
 
 /** Download links **/
 
-.download-link {
+.download {
     // layout
     display: flex;
     gap: 1rem;
