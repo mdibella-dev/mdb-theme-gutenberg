@@ -21,13 +21,14 @@ __Tested up to:__ WordPress 6.1
 * Changed: No hyphens in headlines when breakpoint=medium.
 * Changed: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks).
 * Changed: Styling of the block download-container (minimal).
+* Changed: Move fonts folder to /assets.
 * Fixed: Wrong spacing in .content class.
 * Fixed: SVG-buttons in Chrome (#2).
 * Fixed: Version numbers.
 * Fixed: Wrongful styling in classic editor.
 * Fixed: Wrongful resizing of the classic editor.
 * Fixed: Disable a feature of download-monitor: progress meter when click on download link.
-* Removed: Strip font-sizes from theme.json.
+* Removed: font-sizes from theme.json.
 * Removed: Folder assets/build/images and its images.
 * Removed: favicon.php.
 
