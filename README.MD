@@ -23,6 +23,7 @@ __Tested up to:__ WordPress 6.1
 * Changed: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks).
 * Changed: Styling of the block download-container (minimal).
 * Changed: Move fonts folder to /assets.
+* Changed: .teaser-images are now 100% instead of 175px;
 * Fixed: Wrong spacing in .content class.
 * Fixed: SVG-buttons in Chrome (#2).
 * Fixed: Version numbers.
