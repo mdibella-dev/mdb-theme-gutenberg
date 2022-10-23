@@ -29,6 +29,7 @@ __Tested up to:__ WordPress 6.1
 * Fixed: Wrongful styling in classic editor.
 * Fixed: Wrongful resizing of the classic editor.
 * Fixed: Disable a feature of download-monitor: progress meter when click on download link.
+* Fixed: Paragraph spacing in Borlabs Cookiebox.
 * Removed: font-sizes from theme.json.
 * Removed: Folder assets/build/images and its images.
 * Removed: favicon.php.
