@@ -12,16 +12,16 @@
 .teaserblock .loadmore-content {
     display: grid;
     grid-template-columns: 100%;
-    gap: $teaserblock--teaser--gap;
+    gap: $teaserblock--teaser-gap;
 
     @include breakpoint(large) {
-        grid-template-columns: repeat(2, calc(50% - calc(#{$teaserblock--teaser--gap} / 2)));
+        grid-template-columns: repeat(2, calc(50% - calc(#{$teaserblock--teaser-gap} / 2)));
     }
 }
 
 .teaserblock .loadmore-action-wrapper,
 .teaserblock + .wp-block-buttons {
-    margin-top: $teaserblock--teaser--gap;
+    margin-top: $teaserblock--teaser-gap;
 }
 
 .teaserblock .teaser {
@@ -31,15 +31,19 @@
         flex-wrap: nowrap;
         align-items: center;
         align-content: center;
-        gap: 2rem;
+        gap: 1rem;
         padding: 0;
         width: 100%;
+
+        @include breakpoint(large) {
+            gap: 2rem;
+        }
 
         .teaser-image {
             box-shadow: 0 1px 10px 0 rgba(0,0,0,.35);
             border-radius: 3px !important;
             padding: 0;
-            width: $teaserblock--image--width;
+            width: $teaserblock--image-width;
             position: relative;
             transition: transform .3s ease-in-out;
             transform: scale(1.0);
@@ -64,7 +68,7 @@
 
         .teaser-title {
             display: inline-block;
-            width: calc(100% - #{$teaserblock--image--width} );
+            width: calc(100% - #{$teaserblock--image-width} );
             padding-left: .5rem;
             padding-right: .5rem;
             transition: all .2s ease-in-out;

@@ -61,9 +61,24 @@ $content--max-width:                        var(--wp--custom--content--max-width
 $content--min-padding:                      var(--wp--custom--content--min-padding);
 $content--padding--autogrow:                unquote('clamp(2rem, 5vw + 1.5rem, 6rem)');
 
-$teaserblock--image--width:                 175px;
-$teaserblock--teaser--gap:                  4.5rem;
-
+$teaserblock--image-width:                  var(--wp--custom--teaserblock--image-width);
+$teaserblock--teaser-gap:                   4.5rem;
 
 $size--scrollup:                            1.5rem;
 $autogrow--height--spacer:                  unquote('clamp(5rem, 5vw + 3rem, 8rem)');
+
+
+@include breakpoint(medium) {
+    body {
+        --wp--custom--teaserblock--image-width:     125px;
+    }
+}
+
+
+@include breakpoint(large) {
+    body {
+        --wp--custom--navbar--min-padding:          2rem;
+        --wp--custom--content--min-padding:         3rem;
+        --wp--custom--teaserblock--image-width:     175px;
+    }
+}

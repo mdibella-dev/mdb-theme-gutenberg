@@ -97,7 +97,7 @@
             "navbar": {
                 "height": "8rem",
                 "max-width": "70rem",
-                "min-padding": "2rem"
+                "min-padding": "1rem"
             },
             "base": {
                 "font-size": "clamp(1.125rem, 1.125rem + ((1vw - .355rem) * .5056), 1.35rem)",
@@ -105,7 +105,10 @@
             },
             "content": {
                 "max-width": "64rem",
-                "min-padding": "3rem"
+                "min-padding": "2rem"
+            },
+            "teaserblock": {
+                "image-width": "100px"
             }
         },
         "blocks": {
