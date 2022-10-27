@@ -73,7 +73,7 @@
         width: 100%;
     }
 
-    ul > li {
+    li {
         display: block;
         width: 100%;
         padding-left: 0;
@@ -84,6 +84,10 @@
         font-weight: 300;
         line-height: 1em;
         text-align: left;
+    }
+
+    li + li {
+        margin-top: 1em;
     }
 
     a {
@@ -111,20 +115,6 @@
 #primary {
     li {
         font-size: clamp(1.75rem, 4vw, 2.5rem);
-    }
-
-    li + li {
-        margin-top: unquote("clamp( .8em, .8em + 2vh, 3em)");
-    }
-}
-
-#secondary {
-/*    li {
-        font-size: clamp(1.2rem, 2vw, 1.5rem);
-    }
-*/
-    li + li {
-        margin-top: 1em;
     }
 }
 

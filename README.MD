@@ -15,10 +15,11 @@ __Tested up to:__ WordPress 6.1
 
 ### main
 * Added: New custom variables via theme.json.
+* Changed: Gap in #primary.
 * Fixed: Teaser image is too big in mobile view (#10).
 * Fixed: Navbar: Too much gap between navbar buttons in mobile view (#9).
 * Fixed: Navbar takes too much height in mobile view (#8).
-* Fixed: Slideout: Can't access all menu items in mobile view (#11). 
+* Fixed: Slideout: Can't access all menu items in mobile view (#11).
 
 
 ### 1.1.0
