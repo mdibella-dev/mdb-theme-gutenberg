@@ -57,8 +57,8 @@ $navbar--max-width:                         var(--wp--custom--navbar--max-width)
 $navbar--height:                            var(--wp--custom--navbar--height);
 $navbar--min-padding:                       var(--wp--custom--navbar--min-padding);
 
-$content--max-width:                        64rem;
-$content--min-padding:                      2rem;
+$content--max-width:                        var(--wp--custom--content--max-width);
+$content--min-padding:                      var(--wp--custom--content--min-padding);
 $content--padding--autogrow:                unquote('clamp(2rem, 5vw + 1.5rem, 6rem)');
 
 $teaserblock--image--width:                 175px;
