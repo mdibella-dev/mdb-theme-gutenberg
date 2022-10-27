@@ -5,9 +5,9 @@ __Contributors:__ mdibella-dev
 
 __Tags:__ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery, variable-font-size
 
-__Requires at least:__ WordPress 6.0  
+__Requires at least:__ WordPress 6.0
 
-__Tested up to:__ WordPress 6.1  
+__Tested up to:__ WordPress 6.1
 
 ## Changelog
 *Added/Changed/Fixed/Removed*
