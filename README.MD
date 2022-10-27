@@ -17,7 +17,8 @@ __Tested up to:__ WordPress 6.1
 * Added: New custom variables via theme.json.
 * Fixed: Teaser image is too big in mobile view (#10).
 * Fixed: Navbar: Too much gap between navbar buttons in mobile view (#9).
- 
+* Fixed: Navbar takes too much height in mobile view (#8).
+
 
 ### 1.1.0
 * Added: Base font-size and gap.
