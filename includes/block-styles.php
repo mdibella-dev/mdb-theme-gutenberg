@@ -29,7 +29,7 @@ function mdb_register_block_styles()
         'mdb-block-styles',
         get_template_directory_uri() . '/assets/src/js/block-styles.js',        // maybe add a 'build' version?
         array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
-        0,
+        MDB_THEME_VERSION,
         true
     );
 }

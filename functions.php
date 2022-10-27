@@ -19,9 +19,10 @@ error_reporting( E_ALL ^ E_NOTICE );
 
 
 
-/** Turn off development mode */
+/** Variables and definitions */
 
-define( 'MDB_DEV', false );
+define( 'MDB_DEV', false );                 // Turn development mode on/off
+define( 'MDB_THEME_VERSION', '1.1.0' );     // The theme's version
 
 
 
