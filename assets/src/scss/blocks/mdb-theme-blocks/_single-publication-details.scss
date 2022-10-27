@@ -42,6 +42,7 @@
 #cover-and-title {
     display: flex;
     flex-wrap: wrap;
+    gap: 3rem;
 
     @include breakpoint(medium) {
         flex-wrap: nowrap;
@@ -54,23 +55,17 @@
 
         @include breakpoint(medium) {
             order: 2;
-            width: auto;
+            width: 300px;
         }
     }
 
     & > div:last-child {
         width: 100%;
         order: 2;
-        margin-top: 3rem;
 
         @include breakpoint(medium) {
-            margin-top: 0;
-            padding-right: 3rem;
             order: 1;
-
-            & > *:first-child {
-                margin-top: 0;
-            }
+            width: auto;
         }
     }
 }
@@ -87,6 +82,7 @@
 .publication-title {
     display: block;
     font-size: calc(2 * #{$base--font-size});
+    hyphens: auto !important;
 }
 
 
