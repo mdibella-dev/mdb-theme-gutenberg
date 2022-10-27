@@ -31,7 +31,8 @@ __Tested up to:__ WordPress 6.1
 * Fixed: Wrongful resizing of the classic editor.
 * Fixed: Disable a feature of download-monitor: progress meter when click on download link.
 * Fixed: Paragraph spacing in Borlabs Cookiebox.
-* Fixed: issue #6.
+* Fixed: publication-title forces cover to break out from container when content is too long (#6).
+* Fixed: Slideout: Visual identitation of the content-wrapper (#7).
 * Removed: font-sizes from theme.json.
 * Removed: Folder assets/build/images and its images.
 * Removed: favicon.php.
