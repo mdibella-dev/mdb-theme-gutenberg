@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+* Added: New custom variables via theme.json.
 
 
 ### 1.1.0
