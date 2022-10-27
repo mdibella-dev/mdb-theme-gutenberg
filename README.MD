@@ -14,6 +14,9 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+
+
+### 1.1.0
 * Added: Base font-size and gap.
 * Added: .edit-post-visual-editor__post-title-wrapper hidden.
 * Changed: Make 'bold' bolder.
