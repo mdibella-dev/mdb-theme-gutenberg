@@ -34,6 +34,7 @@
     top: $navbar--height;
     left: 0;
     padding: 0 #{$content--min-padding};
+    overflow: auto;
 }
 
 #slideout-content {
