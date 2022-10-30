@@ -20,6 +20,7 @@ __Tested up to:__ WordPress 6.1
 * Fixed: Navbar: Too much gap between navbar buttons in mobile view (#9).
 * Fixed: Navbar takes too much height in mobile view (#8).
 * Fixed: Slideout: Can't access all menu items in mobile view (#11).
+* Fixed: Path to 404 image in block pattern.
 
 
 ### 1.1.0
