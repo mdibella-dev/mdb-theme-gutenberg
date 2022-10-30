@@ -2,8 +2,8 @@
 /**
  * Block pattern: 404
  *
- * @author  Marco Di Bella
- * @package mdb-theme-fse
+ * @author   Marco Di Bella
+ * @package  mdb-theme-fse
  */
 
 

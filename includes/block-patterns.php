@@ -2,8 +2,8 @@
 /**
  * Additional setup for the block patterns.
  *
- * @author  Marco Di Bella
- * @package mdb-theme-fse
+ * @author   Marco Di Bella
+ * @package  mdb-theme-fse
  */
 
 
@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) or exit;
 /**
  * Registers block patterns.
  *
- * @since 1.0.0
+ * @since  1.0.0
  */
 
 function mdb_register_block_patterns()
