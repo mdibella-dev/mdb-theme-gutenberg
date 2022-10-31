@@ -81,15 +81,18 @@ function mdb_remove_menu_classes( $classes, $item, $args, $depth )
 {
     $checked_classes = array();
 
+
     if( ! is_admin() ) :
         foreach( $classes as $check ) :
+
+            $matches = array();
 
             if( ( false !== strpos( $check, 'menu-item-type-' ) ) or
                 ( false !== strpos( $check, 'menu-item-object-' ) ) or
                 ( false !== strpos( $check, 'page_item' ) ) or
                 ( false !== strpos( $check, 'page_item-' ) ) or
                 ( false !== strpos( $check, 'current_page_item' ) ) or
-                ( false !== strpos( $check, 'menu-item-privacy-policy ' ) ) ) :
+                ( 0 !== preg_match( '/menu-item-[0-9]+/', $check, $matches ) ) ) :
                 // Do nothing!
             else :
                 $checked_classes[] = $check;
