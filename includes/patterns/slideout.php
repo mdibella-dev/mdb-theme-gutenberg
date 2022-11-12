@@ -18,7 +18,7 @@ defined( 'ABSPATH' ) or exit;
 ob_start();
 
 ?>
-<!-- wp:group -->
+<!-- wp:html -->
 <div id="slideout" class="wp-block-group">
 <div id="slideout-content-wrapper">
 <div id="slideout-content">
@@ -39,7 +39,7 @@ wp_nav_menu( array(
 </div>
 </div>
 </div>
-<!-- /wp:group -->
+<!-- /wp:html -->
 <?php
 
 $content = ob_get_contents();
