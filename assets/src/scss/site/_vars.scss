@@ -76,7 +76,6 @@ $autogrow--height--spacer:                  unquote('clamp(5rem, 5vw + 3rem, 8re
 
 @include breakpoint(large) {
     body {
-        --wp--custom--navbar--height:               8rem;
         --wp--custom--navbar--min-padding:          2rem;
         --wp--custom--content--min-padding:         3rem;
         --wp--custom--teaserblock--image-width:     175px;
