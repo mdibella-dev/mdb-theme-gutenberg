@@ -16,6 +16,7 @@ __Tested up to:__ WordPress 6.1
 ### main
 * Added: New custom variables via theme.json.
 * Added: menu-item-* filter.
+* Added: Headline in single.html.
 * Changed: Gap in #primary.
 * Changed: Documentation style in php-files.
 * Fixed: Teaser image is too big in mobile view (#10).
