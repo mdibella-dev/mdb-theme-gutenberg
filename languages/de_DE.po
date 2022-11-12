@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2022-08-12 08:46+0200\n"
-"PO-Revision-Date: 2022-08-12 08:47+0200\n"
+"POT-Creation-Date: 2022-11-12 15:20+0100\n"
+"PO-Revision-Date: 2022-11-12 15:21+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -25,63 +25,23 @@ msgstr ""
 msgid "Download file"
 msgstr "Datei herunterladen"
 
-#: includes/block-patterns.php:29
-msgid "Featured"
-msgstr "Hervorgehoben"
-
-#: includes/block-patterns.php:30
-msgid "Footers"
-msgstr "Fußbereiche"
-
-#: includes/block-patterns.php:31
-msgid "Headers"
-msgstr "Kopfbereiche"
-
-#: includes/block-patterns.php:32
-msgid "Query"
-msgstr "Abfragen"
-
-#: includes/block-patterns.php:33
-msgid "Pages"
-msgstr "Seiten"
-
-#: includes/patterns/navbar.php:27
-msgid "To the main navigation"
-msgstr "Zur Hauptnavigation"
-
-#: includes/patterns/navbar.php:65
-msgid "Me on Github"
-msgstr "Ich auf Github"
-
-#: includes/patterns/navbar.php:81
-msgid "Me on LinkedIn"
-msgstr "Ich auf LinkedIn"
-
-#: includes/patterns/navbar.php:89
-msgid "Me on XING"
-msgstr "Ich auf XING"
-
-#: includes/patterns/navbar.php:109
-msgid "Navbar"
-msgstr "Navbar"
-
-#: includes/patterns/scrollup.php:16
-msgid "Scroll up button"
-msgstr "Scroll-up-Schaltfläche"
+#: includes/patterns/404.php:19
+msgid "404"
+msgstr "404"
 
 #: includes/patterns/slideout.php:51
 msgid "Slideout navigation"
 msgstr "Slideout-Navigation"
 
-#: includes/setup.php:61
+#: includes/setup.php:62
 msgid "Primary navigation"
 msgstr "Primäre Navigation"
 
-#: includes/setup.php:62
+#: includes/setup.php:63
 msgid "Secondary navigation"
 msgstr "Sekundäre Navigation"
 
-#: includes/setup.php:63
+#: includes/setup.php:64
 msgid "Page navigation"
 msgstr "Seitennavigation"
 
@@ -89,7 +49,7 @@ msgstr "Seitennavigation"
 msgid "mdb-theme-fse"
 msgstr "mdb-theme-fse"
 
-#. Theme URI of the plugin/theme
+#. Plugin URI of the plugin/theme
 msgid "https://github.com/mdibella-dev/mdb-theme-fse"
 msgstr "https://github.com/mdibella-dev/mdb-theme-fse"
 
@@ -106,5 +66,38 @@ msgid "Marco Di Bella"
 msgstr "Marco Di Bella"
 
 #. Author URI of the plugin/theme
-msgid "https://www.marcodibella.de/"
-msgstr "https://www.marcodibella.de/"
+msgid "https://www.marcodibella.de"
+msgstr "https://www.marcodibella.de"
+
+#~ msgid "Featured"
+#~ msgstr "Hervorgehoben"
+
+#~ msgid "Footers"
+#~ msgstr "Fußbereiche"
+
+#~ msgid "Headers"
+#~ msgstr "Kopfbereiche"
+
+#~ msgid "Query"
+#~ msgstr "Abfragen"
+
+#~ msgid "Pages"
+#~ msgstr "Seiten"
+
+#~ msgid "To the main navigation"
+#~ msgstr "Zur Hauptnavigation"
+
+#~ msgid "Me on Github"
+#~ msgstr "Ich auf Github"
+
+#~ msgid "Me on LinkedIn"
+#~ msgstr "Ich auf LinkedIn"
+
+#~ msgid "Me on XING"
+#~ msgstr "Ich auf XING"
+
+#~ msgid "Navbar"
+#~ msgstr "Navbar"
+
+#~ msgid "Scroll up button"
+#~ msgstr "Scroll-up-Schaltfläche"

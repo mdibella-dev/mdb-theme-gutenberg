@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2022-08-12 08:45+0200\n"
+"POT-Creation-Date: 2022-11-12 15:20+0100\n"
 "PO-Revision-Date: 2022-08-11 15:46+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -25,63 +25,23 @@ msgstr ""
 msgid "Download file"
 msgstr ""
 
-#: includes/block-patterns.php:29
-msgid "Featured"
-msgstr ""
-
-#: includes/block-patterns.php:30
-msgid "Footers"
-msgstr ""
-
-#: includes/block-patterns.php:31
-msgid "Headers"
-msgstr ""
-
-#: includes/block-patterns.php:32
-msgid "Query"
-msgstr ""
-
-#: includes/block-patterns.php:33
-msgid "Pages"
-msgstr ""
-
-#: includes/patterns/navbar.php:27
-msgid "To the main navigation"
-msgstr ""
-
-#: includes/patterns/navbar.php:65
-msgid "Me on Github"
-msgstr ""
-
-#: includes/patterns/navbar.php:81
-msgid "Me on LinkedIn"
-msgstr ""
-
-#: includes/patterns/navbar.php:89
-msgid "Me on XING"
-msgstr ""
-
-#: includes/patterns/navbar.php:109
-msgid "Navbar"
-msgstr ""
-
-#: includes/patterns/scrollup.php:16
-msgid "Scroll up button"
+#: includes/patterns/404.php:19
+msgid "404"
 msgstr ""
 
 #: includes/patterns/slideout.php:51
 msgid "Slideout navigation"
 msgstr ""
 
-#: includes/setup.php:61
+#: includes/setup.php:62
 msgid "Primary navigation"
 msgstr ""
 
-#: includes/setup.php:62
+#: includes/setup.php:63
 msgid "Secondary navigation"
 msgstr ""
 
-#: includes/setup.php:63
+#: includes/setup.php:64
 msgid "Page navigation"
 msgstr ""
 
@@ -89,7 +49,7 @@ msgstr ""
 msgid "mdb-theme-fse"
 msgstr ""
 
-#. Theme URI of the plugin/theme
+#. Plugin URI of the plugin/theme
 msgid "https://github.com/mdibella-dev/mdb-theme-fse"
 msgstr ""
 
@@ -104,5 +64,5 @@ msgid "Marco Di Bella"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://www.marcodibella.de/"
+msgid "https://www.marcodibella.de"
 msgstr ""
