@@ -19,6 +19,7 @@ __Tested up to:__ WordPress 6.1
 * Added: Part single-related-posts.
 * Changed: Gap in #primary.
 * Changed: Documentation style in php-files.
+* Changed: Do the pattern rendering in 404.php in the same way like slideout.php.
 * Fixed: Teaser image is too big in mobile view (#10).
 * Fixed: Navbar: Too much gap between navbar buttons in mobile view (#9).
 * Fixed: Navbar takes too much height in mobile view (#8).
