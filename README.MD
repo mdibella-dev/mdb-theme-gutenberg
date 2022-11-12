@@ -14,6 +14,9 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+
+
+### 1.2.0
 * Added: New custom variables via theme.json.
 * Added: menu-item-* filter.
 * Added: Part single-related-posts.
