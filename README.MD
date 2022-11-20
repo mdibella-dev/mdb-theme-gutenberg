@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+* Removed: Clamping div at single-related-posts.html.
 
 
 ### 1.2.0
