@@ -10,56 +10,57 @@ __Requires at least:__ WordPress 6.0
 __Tested up to:__ WordPress 6.1
 
 ## Changelog
-*Added/Changed/Fixed/Removed*
+*New/Enhance/Bugfix*
 
 
 ### main
-* Added: Support for separator block (hr element).
-* Changed: Styles for single-publication-details.
-* Removed: Clamping div at single-related-posts.html.
-* Removed: hr styling.
-* Removed: Unused embed block variations.
-* Removed: Unused separator block variations.
+* New: Support for separator block (hr element).
+* Enhance: Styles for single-publication-details.
+* Enhance: Remove Clamping div at single-related-posts.html.
+* Enhance: Remove hr styling.
+* Enhance: Remove Unused embed block variations.
+* Enhance: Remove Unused separator block variations.
 
 
 ### 1.2.0
-* Added: New custom variables via theme.json.
-* Added: menu-item-* filter.
-* Added: Part single-related-posts.
-* Changed: Gap in #primary.
-* Changed: Documentation style in php-files.
-* Changed: Replace group block with spacer block in navbar.html.
-* Changed: Do the pattern rendering in 404.php in the same way like slideout.php.
-* Fixed: Teaser image is too big in mobile view (#10).
-* Fixed: Navbar: Too much gap between navbar buttons in mobile view (#9).
-* Fixed: Navbar takes too much height in mobile view (#8).
-* Fixed: Slideout: Can't access all menu items in mobile view (#11).
-* Fixed: Path to 404 image in block pattern.
+* New: New custom variables via theme.json.
+* New: menu-item-* filter.
+* New: Part single-related-posts.
+* Enhance: Gap in #primary.
+* Enhance: Documentation style in php-files.
+* Enhance: Replace group block with spacer block in navbar.html.
+* Enhance: Do the pattern rendering in 404.php in the same way like slideout.php.
+* Bugfix: Teaser image is too big in mobile view (#10).
+* Bugfix: Navbar: Too much gap between navbar buttons in mobile view (#9).
+* Bugfix: Navbar takes too much height in mobile view (#8).
+* Bugfix: Slideout: Can't access all menu items in mobile view (#11).
+* Bugfix: Path to 404 image in block pattern.
 
 
 ### 1.1.0
-* Added: Base font-size and gap.
-* Added: .edit-post-visual-editor__post-title-wrapper hidden.
-* Changed: Make 'bold' bolder.
-* Changed: New border style for download-container.
-* Changed: Make var names more consistent.
-* Changed: No hyphens in headlines when breakpoint=medium.
-* Changed: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks).
-* Changed: Styling of the block download-container (minimal).
-* Changed: Move fonts folder to /assets.
-* Changed: .teaser-images are now 100% instead of 175px.
-* Fixed: Wrong spacing in .content class.
-* Fixed: SVG-buttons in Chrome (#2).
-* Fixed: Version numbers.
-* Fixed: Wrongful styling in classic editor.
-* Fixed: Wrongful resizing of the classic editor.
-* Fixed: Disable a feature of download-monitor: progress meter when click on download link.
-* Fixed: Paragraph spacing in Borlabs Cookiebox.
-* Fixed: publication-title forces cover to break out from container when content is too long (#6).
-* Fixed: Slideout: Visual identitation of the content-wrapper (#7).
-* Removed: font-sizes from theme.json.
-* Removed: Folder assets/build/images and its images.
-* Removed: favicon.php.
+* New: Base font-size and gap.
+* New: .edit-post-visual-editor__post-title-wrapper hidden.
+* Enhance: Make 'bold' bolder.
+* Enhance: New border style for download-container.
+* Enhance: Make var names more consistent.
+* Enhance: No hyphens in headlines when breakpoint=medium.
+* Enhance: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks).
+* Enhance: Styling of the block download-container (minimal).
+* Enhance: Move fonts folder to /assets.
+* Enhance: .teaser-images are now 100% instead of 175px.
+* Enhance: Remove font-sizes from theme.json.
+* Enhance: Remove Folder assets/build/images and its images.
+* Enhance: Remove favicon.php.
+* Bugfix: Wrong spacing in .content class.
+* Bugfix: SVG-buttons in Chrome (#2).
+* Bugfix: Version numbers.
+* Bugfix: Wrongful styling in classic editor.
+* Bugfix: Wrongful resizing of the classic editor.
+* Bugfix: Disable a feature of download-monitor: progress meter when click on download link.
+* Bugfix: Paragraph spacing in Borlabs Cookiebox.
+* Bugfix: publication-title forces cover to break out from container when content is too long (#6).
+* Bugfix: Slideout: Visual identitation of the content-wrapper (#7).
+
 
 
 ### 1.0.0
