@@ -26,6 +26,7 @@ wp.domReady( () => {
     );
 
 
+
     /** core/embed */
 
     wp.blocks.registerBlockStyle(
@@ -70,6 +71,7 @@ wp.domReady( () => {
     wp.blocks.unregisterBlockVariation( 'core/embed', 'dailymotion' );
 
 
+
     /** core/heading */
 
     wp.blocks.registerBlockStyle(
@@ -87,6 +89,7 @@ wp.domReady( () => {
             }
         ]
     );
+
 
 
     /** core/paragraph */
@@ -138,6 +141,18 @@ wp.domReady( () => {
                 label: 'Flat',
                 isDefault: false,
             }
+        ]
+    );
+
+
+
+    /** core/separator */
+
+    wp.blocks.unregisterBlockStyle(
+        'core/separator',
+        [
+            'wide',
+            'dots',
         ]
     );
 } );
