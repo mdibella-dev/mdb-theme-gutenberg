@@ -15,6 +15,7 @@ __Tested up to:__ WordPress 6.1
 
 ### main
 * Removed: Clamping div at single-related-posts.html.
+* Removed: hr styling.
 
 
 ### 1.2.0
