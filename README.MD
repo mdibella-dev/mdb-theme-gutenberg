@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+* Added: Support for separator block (hr element).
 * Removed: Clamping div at single-related-posts.html.
 * Removed: hr styling.
 
