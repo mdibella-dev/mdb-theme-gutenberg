@@ -27,13 +27,12 @@
 #slideout-content-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: calc(100% - #{$navbar--height});
     width: 100%;
     position: relative;
     top: $navbar--height;
     left: 0;
-    padding: 0 #{$content--min-padding};
+    padding: 15vh #{$content--min-padding} 0;
     overflow: auto;
 }
 
