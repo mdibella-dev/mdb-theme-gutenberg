@@ -20,6 +20,7 @@ __Tested up to:__ WordPress 6.1
 * Enhance: Remove hr styling.
 * Enhance: Remove Unused embed block variations.
 * Enhance: Remove Unused separator block variations.
+* Enhance: Remove arrow symbol next to external links (#14, #3).
 * Bugfix: Indention in list element (#17).
 
 
