@@ -26,6 +26,11 @@
         gap: .75rem;
     }
 
+    ul > li {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
     .button.button-tag {
         // typography
         font-family: $font--primary;

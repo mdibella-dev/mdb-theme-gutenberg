@@ -20,6 +20,7 @@ __Tested up to:__ WordPress 6.1
 * Enhance: Remove hr styling.
 * Enhance: Remove Unused embed block variations.
 * Enhance: Remove Unused separator block variations.
+* Bugfix: Indention in list element (#17).
 
 
 ### 1.2.0
