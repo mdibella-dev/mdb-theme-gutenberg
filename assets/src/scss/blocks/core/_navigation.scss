@@ -30,14 +30,14 @@
         font-family: $font--secondary;
         font-size: calc(1.2 * #{$base--font-size});
         line-height: 1.4;
-        text-decoration: none;
+        text-decoration: underline;
         -webkit-text-decoration-style: solid;
                 text-decoration-style: solid;
         text-underline-offset: .3em;
 
         &:hover,
         &:focus {
-            text-decoration: underline;
+            text-decoration: none;
         }
     }
 

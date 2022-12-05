@@ -21,6 +21,7 @@ __Tested up to:__ WordPress 6.1
 * Enhance: Remove unused embed block variations.
 * Enhance: Remove unused separator block variations.
 * Enhance: Remove arrow symbol next to external links (#14, #3).
+* Enhance: Change anchor styling (#18).
 * Bugfix: Indention in list element (#17).
 * Bugfix: Add minimal gap between flat buttons in navbar (#12).
 
