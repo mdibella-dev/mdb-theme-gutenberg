@@ -16,12 +16,13 @@ __Tested up to:__ WordPress 6.1
 ### main
 * New: Support for separator block (hr element).
 * Enhance: Styles for single-publication-details.
-* Enhance: Remove Clamping div at single-related-posts.html.
+* Enhance: Remove clamping div at single-related-posts.html.
 * Enhance: Remove hr styling.
-* Enhance: Remove Unused embed block variations.
-* Enhance: Remove Unused separator block variations.
+* Enhance: Remove unused embed block variations.
+* Enhance: Remove unused separator block variations.
 * Enhance: Remove arrow symbol next to external links (#14, #3).
 * Bugfix: Indention in list element (#17).
+* Bugfix: Add minimal gap between flat buttons in navbar (#12).
 
 
 ### 1.2.0
