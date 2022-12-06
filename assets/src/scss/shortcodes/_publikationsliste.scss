@@ -78,6 +78,12 @@
         a {
             font-size: inherit;
             font-family: $font--secondary;
+            text-decoration: none;
+
+            &:hover,
+            &:focus {
+                text-decoration: none;
+            }
         }
     }
 }
