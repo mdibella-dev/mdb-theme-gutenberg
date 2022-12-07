@@ -32,36 +32,8 @@
     }
 
     .button.button-tag {
-        // typography
-        font-family: $font--primary;
-        font-weight: normal;
+        @include default_button_style();
         font-size: .75rem;
-        text-transform: uppercase;
-        text-decoration: none !important;
-        text-shadow: 0 1px 5px rgba(0,0,0,.5);
-        color: $color--tag--text;
-
-        // positioning
-        display: inline-block;
-        position: relative;
-        top: 0;
-        left: 0;
-
-        // other styling
         padding: 8px 12px;
-        background: transparent;
-        border: 2px solid $color--tag--border;
-        border-radius: 5px;
-        transition: color .25s linear, border-color .25s linear;
-
-        &:hover,
-        &:focus {
-            color: $color--tag--text;
-            border-color: $color--tag--border__hover;
-        }
-
-        &:active {
-            top: 2px;
-        }
     }
 }

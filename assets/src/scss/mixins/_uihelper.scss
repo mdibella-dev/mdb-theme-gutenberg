@@ -25,3 +25,46 @@
         text-decoration: none;
     }
 }
+
+
+/**
+ * ???
+ */
+
+@mixin default_button_style() {
+    // typography
+    font-family: $font--primary;
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    text-shadow: 0 1px 5px rgba(0,0,0,.5);
+    color: $color--button--text;
+
+    // other styling
+    background: $color--button--background;
+    border: 2px solid $color--button--border;
+    border-radius: 3px;
+    padding: .9rem 1.5rem;
+    transition: color .3s linear, background-color .3s linear, border-color .3s linear;
+    cursor: pointer;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
+
+    &:hover,
+    &:focus {
+        color: $color--button--text__hover;
+        background: $color--button--background__hover;
+        border-color: $color--button--border__hover;
+        box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
+    }
+
+    // positioning
+    position: relative;
+    top: 0;
+    left: 0;
+
+    &:active {
+        top: 2px;
+    }
+}
