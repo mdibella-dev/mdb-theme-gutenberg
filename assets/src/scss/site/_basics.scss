@@ -54,23 +54,7 @@ strong {
  */
 
 a {
-    display: inline;
-    width: auto;
-    outline: none !important;
-
-    // typography
-    color: $color--link;
-    font-weight: 300;
-    text-decoration: underline;
-    -webkit-text-decoration-style: solid;
-            text-decoration-style: solid;
-    text-underline-offset: .3em;
-
-
-    &:hover,
-    &:focus {
-        text-decoration: none;
-    }
+    @include default_anchor_style();
 
     & > .anchor-icon {
         position: relative;

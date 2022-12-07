@@ -1,0 +1,27 @@
+/**
+ * Mixins to unify the styling of certain elements.
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ * ???
+ */
+
+@mixin default_anchor_style() {
+    outline: none !important;
+    font-weight: 300;
+    color: $color--link;
+    text-decoration: none;
+    transition: color .2s;
+
+
+    &:hover,
+    &:focus {
+        color: $color--link__hover;
+        text-decoration: none;
+    }
+}
