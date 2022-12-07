@@ -48,8 +48,8 @@
 .wp-block-image.is-style-transparent,
 .wp-block-image.is-style-shaded {
     // spacing
-    margin-top: calc(2 * #{$base--gap});
-    margin-bottom: calc(2 * #{$base--gap});
+    margin-top: calc(2.5 * #{$base--gap});
+    margin-bottom: calc(2.5 * #{$base--gap});
 
     &:first-child {
         margin-top: 0;
@@ -73,5 +73,6 @@
     img {
         //background: cssvar(background-universal);
         box-shadow: 0 8px 10px 0 rgba(0,0,0,.35);
+        border-radius: 3px;
     }
 }
