@@ -15,6 +15,11 @@
                     "color": "#FFFFFF"
                 },
                 {
+                    "name": "Midnight Dark",
+                    "slug": "midnightdark",
+                    "color": "#181c22"
+                },
+                {
                     "name": "Midnight Blue",
                     "slug": "midnightblue",
                     "color": "#252D3C"
@@ -27,7 +32,7 @@
                 {
                     "name": "Denim",
                     "slug": "denim",
-                    "color": "#1F7DB2"
+                    "color": "#0C7CBB"
                 },
                 {
                     "name": "Dusk",
