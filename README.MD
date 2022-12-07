@@ -24,6 +24,7 @@ __Tested up to:__ WordPress 6.1
 * Enhance: Change anchor styling (#18).
 * Bugfix: Indention in list element (#17).
 * Bugfix: Add minimal gap between flat buttons in navbar (#12).
+* Bugfix: Remove additional padding-left in #primary, #secondary (#23).
 
 
 ### 1.2.0
