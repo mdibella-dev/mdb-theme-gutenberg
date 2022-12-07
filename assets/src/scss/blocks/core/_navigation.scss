@@ -16,20 +16,11 @@
     gap: 0;
 
     .wp-block-navigation-item__content {
-        outline: none !important;
-
-        // typography
-        color: $color--link;
-        font-weight: 300;
+        @include default_anchor_style();
+        
         font-family: $font--secondary;
         font-size: calc(1.2 * #{$base--font-size});
         line-height: 1.4;
-;       text-decoration: none;
-
-        &:hover,
-        &:focus {
-            text-decoration: none;
-        }
     }
 
     .wp-block-navigation-item:not(:last-child)::after {
