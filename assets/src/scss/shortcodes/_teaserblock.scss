@@ -27,6 +27,17 @@
 .teaserblock .teaser {
 
     .teaser-content {
+        @include default_anchor_style();
+
+        // typography
+        text-shadow: none;
+        letter-spacing: unset;
+        hyphens: auto;
+        line-height: 1.4;
+        font-size: 1.1rem;
+        text-shadow: 0 1px 20px rgba(0,0,0,.5);
+
+        // sizing
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
@@ -34,7 +45,6 @@
         gap: 1rem;
         padding: 0;
         width: 100%;
-        text-decoration: none;
 
         @include breakpoint(large) {
             gap: 2rem;
@@ -67,30 +77,8 @@
             }
         }
 
-        .teaser-title {
-            display: inline-block;
-            width: calc(100% - #{$teaserblock--image-width} );
-            padding-left: .5rem;
-            padding-right: .5rem;
-            transition: all .2s ease-in-out;
-
-            // typography
-            text-shadow: none;
-            text-align: left;
-            letter-spacing: unset;
-            hyphens: auto;
-            line-height: 1.4;
-            font-size: 1.1rem;
-            font-family: $font--primary;
-            font-weight: normal;
-            color: $color--teaser-title;
-
-        }
-    }
-
-    .teaser-content:focus,
-    .teaser-content:hover {
-        .teaser-image {
+        &:focus .teaser-image,
+        &:hover .teaser-image {
             box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
             transform: scale(1.1);
 
@@ -100,8 +88,8 @@
         }
 
         .teaser-title {
-            color: $color--teaser-title !important;
-            text-shadow: 0 1px 20px rgba(0,0,0,.5);
+            display: inline-block;
+            width: calc(100% - #{$teaserblock--image-width} );
         }
     }
 }
