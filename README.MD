@@ -10,18 +10,27 @@ __Requires at least:__ WordPress 6.0
 __Tested up to:__ WordPress 6.1
 
 ## Changelog
-*New/Enhance/Bugfix*
+*New/Improve/Bugfix*
 
 
 ### main
+
+
+
+### 1.3.0
 * New: Support for separator block (hr element).
-* Enhance: Styles for single-publication-details.
-* Enhance: Remove clamping div at single-related-posts.html.
-* Enhance: Remove hr styling.
-* Enhance: Remove unused embed block variations.
-* Enhance: Remove unused separator block variations.
-* Enhance: Remove arrow symbol next to external links (#14, #3).
-* Enhance: Change anchor styling (#18).
+* Improve: Styles for single-publication-details.
+* Improve: Remove clamping div at single-related-posts.html.
+* Improve: Remove hr styling.
+* Improve: Remove unused embed block variations.
+* Improve: Remove unused separator block variations.
+* Improve: Remove arrow symbol next to external links (#14, #3).
+* Improve: Change anchor styling (#18).
+* Improve: Make marco-404.png monochrome.
+* Improve: Replace "Enhance" with "Improve (#19).
+* Improve: Add more consistency in links and buttons (see #20).
+* Improve: Add desaturated teaser thumbnails.
+* Improve: Add rounded border on images.
 * Bugfix: Indention in list element (#17).
 * Bugfix: Add minimal gap between flat buttons in navbar (#12).
 * Bugfix: Remove additional padding-left in #primary, #secondary (#23).
@@ -31,10 +40,10 @@ __Tested up to:__ WordPress 6.1
 * New: New custom variables via theme.json.
 * New: menu-item-* filter.
 * New: Part single-related-posts.
-* Enhance: Gap in #primary.
-* Enhance: Documentation style in php-files.
-* Enhance: Replace group block with spacer block in navbar.html.
-* Enhance: Do the pattern rendering in 404.php in the same way like slideout.php.
+* Improve: Gap in #primary.
+* Improve: Documentation style in php-files.
+* Improve: Replace group block with spacer block in navbar.html.
+* Improve: Do the pattern rendering in 404.php in the same way like slideout.php.
 * Bugfix: Teaser image is too big in mobile view (#10).
 * Bugfix: Navbar: Too much gap between navbar buttons in mobile view (#9).
 * Bugfix: Navbar takes too much height in mobile view (#8).
@@ -45,17 +54,17 @@ __Tested up to:__ WordPress 6.1
 ### 1.1.0
 * New: Base font-size and gap.
 * New: .edit-post-visual-editor__post-title-wrapper hidden.
-* Enhance: Make 'bold' bolder.
-* Enhance: New border style for download-container.
-* Enhance: Make var names more consistent.
-* Enhance: No hyphens in headlines when breakpoint=medium.
-* Enhance: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks).
-* Enhance: Styling of the block download-container (minimal).
-* Enhance: Move fonts folder to /assets.
-* Enhance: .teaser-images are now 100% instead of 175px.
-* Enhance: Remove font-sizes from theme.json.
-* Enhance: Remove Folder assets/build/images and its images.
-* Enhance: Remove favicon.php.
+* Improve: Make 'bold' bolder.
+* Improve: New border style for download-container.
+* Improve: Make var names more consistent.
+* Improve: No hyphens in headlines when breakpoint=medium.
+* Improve: Styling of the block single-publication-details (as a result of the changes in mdb-theme-blocks).
+* Improve: Styling of the block download-container (minimal).
+* Improve: Move fonts folder to /assets.
+* Improve: .teaser-images are now 100% instead of 175px.
+* Improve: Remove font-sizes from theme.json.
+* Improve: Remove Folder assets/build/images and its images.
+* Improve: Remove favicon.php.
 * Bugfix: Wrong spacing in .content class.
 * Bugfix: SVG-buttons in Chrome (#2).
 * Bugfix: Version numbers.

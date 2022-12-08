@@ -22,7 +22,7 @@ error_reporting( E_ALL ^ E_NOTICE );
 /** Variables and definitions */
 
 define( 'MDB_DEV', false );                 // Turn development mode on/off
-define( 'MDB_THEME_VERSION', '1.2.0' );     // The theme's version
+define( 'MDB_THEME_VERSION', '1.3.0' );     // The theme's version
 
 
 
