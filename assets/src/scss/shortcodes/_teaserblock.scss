@@ -72,7 +72,7 @@
                 height: 100%;
                 -o-object-fit: cover;
                    object-fit: cover;
-                filter: brightness(.7);
+                filter: brightness(.7) saturate(0);
                 transition: filter .3s ease-in-out;
             }
         }
