@@ -21,7 +21,7 @@ ob_start();
 <!-- wp:group {"tagName":"section","className":"content"} -->
 <section class="wp-block-group content">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-transparent marco-404 no-margin-top"} -->
-<figure class="wp-block-image size-full is-style-transparent marco-404 no-margin-top"><img src="<?php echo get_stylesheet_directory_uri(); ?>'/assets/images/marco-404.png"></figure>
+<figure class="wp-block-image size-full is-style-transparent marco-404 no-margin-top"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/marco-404.png"></figure>
 <!-- /wp:image -->
 </section>
 <!-- /wp:group -->'
