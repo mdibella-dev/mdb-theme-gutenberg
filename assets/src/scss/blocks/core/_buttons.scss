@@ -17,36 +17,21 @@
  * Block style: flat
  */
 
-.wp-block-button.is-style-flat > .wp-block-button__link  {
-    // typography
-    font-size: unset;
-    line-height: 0;
-    text-shadow: none;
-    color: $color--button-is-flat--text;
-
-    // positioning
+.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link  {
     display: inline-block;
-
-    // other styling
-    background: $color--button-is-flat--background;
-    border: none;
-    padding: .75rem 1rem;
-    transition: background-color .25s;
+    outline: none !important;
+    border: none !important;
+    background: none !important;
     box-shadow: none;
-
-    &:hover,
-    &:focus {
-        color: $color--button-is-flat--text__hover;
-        background: $color--button-is-flat--background__hover;
-        box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
-    }
+    padding: .75rem 1rem;
 }
 
-.wp-block-button.is-style-flat > .wp-block-button__link .svg-symbol {
-    background-color: $color--button-is-flat--text;
+.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link .svg-symbol {
+    background-color: $color--link;
+    transition: background-color .2s;
 }
 
-.wp-block-button.is-style-flat > .wp-block-button__link:hover .svg-symbol,
-.wp-block-button.is-style-flat > .wp-block-button__link:focus .svg-symbol {
-    background-color: $color--button-is-flat--text__hover;
+.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:hover .svg-symbol,
+.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:focus .svg-symbol {
+    background-color: $color--link__hover;
 }

@@ -137,8 +137,8 @@ wp.domReady( () => {
                 isDefault: true,
             },
             {
-                name: 'flat',
-                label: 'Flat',
+                name: 'navigation-faux-anchor',
+                label: 'Navigationsschalter',
                 isDefault: false,
             }
         ]
