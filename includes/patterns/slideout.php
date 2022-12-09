@@ -2,8 +2,8 @@
 /**
  * Block pattern: Slideout
  *
- * @author   Marco Di Bella
- * @package  mdb-theme-fse
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
  */
 
 

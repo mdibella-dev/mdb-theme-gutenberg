@@ -3,8 +3,8 @@
  * Simple download links.
  * Custom template file for the plugin download-monitor.
  *
- * @author   Marco Di Bella
- * @package  mdb-theme-fse
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
  */
 
 
