@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2022-11-12 15:20+0100\n"
+"POT-Creation-Date: 2022-12-09 13:36+0100\n"
 "PO-Revision-Date: 2022-08-11 15:46+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -21,15 +21,11 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: download-monitor/content-download-link.php:16
-msgid "Download file"
-msgstr ""
-
-#: includes/patterns/404.php:19
+#: includes/patterns/404.php:38
 msgid "404"
 msgstr ""
 
-#: includes/patterns/slideout.php:51
+#: includes/patterns/slideout.php:53
 msgid "Slideout navigation"
 msgstr ""
 
