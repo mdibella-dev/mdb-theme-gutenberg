@@ -2,8 +2,8 @@
 /**
  * Main functions for setting up the theme.
  *
- * @author   Marco Di Bella
- * @package  mdb-theme-fse
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
  */
 
 
@@ -18,7 +18,7 @@ if( ! function_exists( 'mdb_after_setup_theme' ) ) :
     /**
      * Performs basic settings for the theme.
      *
-     * @since  1.0.0
+     * @since 1.0.0
      */
 
      function mdb_after_setup_theme()
@@ -73,7 +73,7 @@ endif;
 /**
  * Loads a set of necessary JS scripts and stylesheets.
  *
- * @since  1.0.0
+ * @since 1.0.0
  */
 
 function mdb_enqueue_scripts()
@@ -103,26 +103,17 @@ function mdb_enqueue_scripts()
         'mdb-frontend-style',
         get_template_directory_uri() . '/assets/build/css/style-frontend.min.css',
         array(),
-        MDB_THEME_VERSION
+        THEME_VERSION
     );
 
-    if( defined( 'MDB_DEV' ) and ( true === MDB_DEV ) ):
-        wp_enqueue_script(
-            'mdb-frontend-script',
-            get_template_directory_uri() . '/assets/src/js/frontend.js',
-            array( 'jquery' ),
-            MDB_THEME_VERSION,
-            true
-        );
-    else :
-        wp_enqueue_script(
-            'mdb-frontend-script',
-            get_template_directory_uri() . '/assets/build/js/frontend.min.js',
-            array( 'jquery' ),
-            MDB_THEME_VERSION,
-            true
-        );
-    endif;
+    wp_enqueue_script(
+        'mdb-frontend-script',
+        get_template_directory_uri() . '/assets/build/js/frontend.min.js',
+        array( 'jquery' ),
+        THEME_VERSION,
+        true
+    );
+
 }
 
 add_action( 'wp_enqueue_scripts', 'mdb_enqueue_scripts', 9999 );
