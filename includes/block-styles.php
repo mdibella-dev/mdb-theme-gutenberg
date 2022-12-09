@@ -2,8 +2,8 @@
 /**
  * Additional setup for the block styles.
  *
- * @author   Marco Di Bella
- * @package  mdb-theme-fse
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
  */
 
 
@@ -16,10 +16,10 @@ defined( 'ABSPATH' ) or exit;
 /**
  * Script and style modifications for the block editor.
  *
- * @since  1.0.0
- * @see    https://die-netzialisten.de/wordpress/gutenberg-breite-des-editors-anpassen/
- * @see    https://www.billerickson.net/block-styles-in-gutenberg/
- * @see    https://fullsiteediting.com/lessons/custom-block-styles/
+ * @since 1.0.0
+ * @see   https://die-netzialisten.de/wordpress/gutenberg-breite-des-editors-anpassen/
+ * @see   https://www.billerickson.net/block-styles-in-gutenberg/
+ * @see   https://fullsiteediting.com/lessons/custom-block-styles/
  */
 
 function mdb_register_block_styles()

@@ -15,6 +15,7 @@ __Tested up to:__ WordPress 6.1
 
 ### main
 * Improve: Replace flat button style with navigation-faux-anchor style (see #20).
+* Improve: Remove unnecessary whitespaces.
 
 
 ### 1.3.0

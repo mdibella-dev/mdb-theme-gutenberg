@@ -2,8 +2,8 @@
 /**
  * The theme's core file.
  *
- * @author   Marco Di Bella
- * @package  mdb-theme-fse
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
  */
 
 
