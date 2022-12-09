@@ -6,6 +6,8 @@
  * @package mdb-theme-fse
  */
 
+namespace mdb_theme_fse;
+
 
 /** Prevent direct access */
 
@@ -22,7 +24,7 @@ defined( 'ABSPATH' ) or exit;
  * @see   https://fullsiteediting.com/lessons/custom-block-styles/
  */
 
-function mdb_register_block_styles()
+function register_block_styles()
 {
     wp_enqueue_script(
         'mdb-block-styles',
@@ -33,4 +35,4 @@ function mdb_register_block_styles()
     );
 }
 
-add_action( 'enqueue_block_editor_assets', 'mdb_register_block_styles' );
+add_action( 'enqueue_block_editor_assets', 'mmdb_theme_fse\register_block_styles' );

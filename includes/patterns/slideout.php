@@ -6,6 +6,8 @@
  * @package mdb-theme-fse
  */
 
+namespace mdb_theme_fse;
+
 
 /** Prevent direct access */
 

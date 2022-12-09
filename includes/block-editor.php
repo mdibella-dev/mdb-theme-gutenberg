@@ -6,6 +6,8 @@
  * @package mdb-theme-fse
  */
 
+namespace mdb_theme_fse;
+
 
 /** Prevent direct access */
 
@@ -22,14 +24,14 @@ defined( 'ABSPATH' ) or exit;
  * @return string             The modified content.
  */
 
-function mdb_modify_content( $content )
+function remove_no_border_radius( $content )
 {
     $content = str_replace( 'no-border-radius', '', $content );
 
     return $content;
 }
 
-add_filter( 'the_content', 'mdb_modify_content', 10, 2 );
+add_filter( 'the_content', 'mdb_theme_fse\remove_no_border_radius', 10, 2 );
 
 
 
@@ -42,7 +44,7 @@ add_filter( 'the_content', 'mdb_modify_content', 10, 2 );
  * @return array                     The modified settings.
  */
 
-function mdb_block_editor_settings_all( $editor_settings )
+function block_editor_settings_all( $editor_settings )
 {
     $editor_settings['styles'][] = array(
         'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; }'
@@ -51,4 +53,4 @@ function mdb_block_editor_settings_all( $editor_settings )
     return $editor_settings;
 }
 
-add_filter( 'block_editor_settings_all', 'mdb_block_editor_settings_all' );
+add_filter( 'block_editor_settings_all', 'mdb_theme_fse\block_editor_settings_all' );

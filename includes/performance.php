@@ -6,6 +6,8 @@
  * @package mdb-theme-fse
  */
 
+namespace mdb_theme_fse;
+
 
 /** Prevent direct access */
 
@@ -19,7 +21,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function mdb_remove_styles_scripts()
+function remove_styles_scripts()
 {
     remove_action( 'wp_head', 'wlwmanifest_link' );
     remove_action( 'wp_head', 'rsd_link' );
@@ -29,7 +31,7 @@ function mdb_remove_styles_scripts()
     remove_action( 'admin_print_styles', 'print_emoji_styles' );
 }
 
-add_action( 'wp_enqueue_scripts', 'mdb_remove_styles_scripts', 9998 );
+add_action( 'wp_enqueue_scripts', 'mdb_theme_fse\remove_styles_scripts', 9998 );
 
 
 
@@ -49,7 +51,7 @@ add_action( 'wp_enqueue_scripts', 'mdb_remove_styles_scripts', 9998 );
  * @return array             Modified class array.
  */
 
-function mdb_remove_post_classes( $classes, $class, $post_id )
+function remove_post_classes( $classes, $class, $post_id )
 {
     if( ! is_admin() ) :
         $post_type = get_post_type( $post_id );
@@ -60,7 +62,7 @@ function mdb_remove_post_classes( $classes, $class, $post_id )
     return $classes;
 }
 
-add_filter( 'post_class', 'mdb_remove_post_classes', 10, 3 );
+add_filter( 'post_class', 'mdb_theme_fse\remove_post_classes', 10, 3 );
 
 
 
@@ -77,7 +79,7 @@ add_filter( 'post_class', 'mdb_remove_post_classes', 10, 3 );
 
  */
 
-function mdb_remove_menu_classes( $classes, $item, $args, $depth )
+function remove_menu_classes( $classes, $item, $args, $depth )
 {
     $checked_classes = array();
 
@@ -106,4 +108,4 @@ function mdb_remove_menu_classes( $classes, $item, $args, $depth )
     return $classes;
 }
 
-add_filter( 'nav_menu_css_class' , 'mdb_remove_menu_classes' , 10, 4 );
+add_filter( 'nav_menu_css_class' , 'mdb_theme_fse\remove_menu_classes' , 10, 4 );

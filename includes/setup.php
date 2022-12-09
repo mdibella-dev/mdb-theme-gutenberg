@@ -6,6 +6,8 @@
  * @package mdb-theme-fse
  */
 
+namespace mdb_theme_fse;
+
 
 /** Prevent direct access */
 
@@ -13,7 +15,7 @@ defined( 'ABSPATH' ) or exit;
 
 
 
-if( ! function_exists( 'mdb_after_setup_theme' ) ) :
+if( ! function_exists( 'theme_setup' ) ) :
 
     /**
      * Performs basic settings for the theme.
@@ -21,7 +23,7 @@ if( ! function_exists( 'mdb_after_setup_theme' ) ) :
      * @since 1.0.0
      */
 
-     function mdb_after_setup_theme()
+     function theme_setup()
      {
         // Enables internationalization.
         load_theme_textdomain( THEME_DOMAIN, get_template_directory() . '/languages' );
@@ -64,7 +66,7 @@ if( ! function_exists( 'mdb_after_setup_theme' ) ) :
         register_nav_menu( 'page', __( 'Page navigation', THEME_DOMAIN ) );
     }
 
-    add_action( 'after_setup_theme', 'mdb_after_setup_theme' );
+    add_action( 'after_setup_theme', 'mdb_theme_fse\theme_setup' );
 
 endif;
 
@@ -76,7 +78,7 @@ endif;
  * @since 1.0.0
  */
 
-function mdb_enqueue_scripts()
+function theme_scripts()
 {
     /**
      * Registers and loads vendor styles and scripts.
@@ -116,4 +118,4 @@ function mdb_enqueue_scripts()
 
 }
 
-add_action( 'wp_enqueue_scripts', 'mdb_enqueue_scripts', 9999 );
+add_action( 'wp_enqueue_scripts', 'mdb_theme_fse\theme_scripts', 9999 );

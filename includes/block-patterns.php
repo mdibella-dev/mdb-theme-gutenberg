@@ -6,6 +6,8 @@
  * @package mdb-theme-fse
  */
 
+namespace mdb_theme_fse;
+
 
 /** Prevent direct access */
 
@@ -19,7 +21,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function mdb_register_block_patterns()
+function register_block_patterns()
 {
     $block_patterns = array(
         'slideout',
@@ -36,4 +38,4 @@ function mdb_register_block_patterns()
     endforeach;
 }
 
-add_action( 'init', 'mdb_register_block_patterns', 9 );
+add_action( 'init', 'mdb_theme_fse\register_block_patterns', 9 );
