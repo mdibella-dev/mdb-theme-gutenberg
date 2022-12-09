@@ -35,7 +35,7 @@ ob_end_clean();
 /** Return the pattern */
 
 return array(
-    'title'    => __( '404', 'mdb' ),
+    'title'    => __( '404', THEME_DOMAIN ),
     'inserter' => false,
     'content'  => $content
 );

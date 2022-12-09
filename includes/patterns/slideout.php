@@ -50,7 +50,7 @@ ob_end_clean();
 /** Return the pattern */
 
 return array(
-    'title'    => __( 'Slideout navigation', 'mdb' ),
+    'title'    => __( 'Slideout navigation', THEME_DOMAIN ),
     'inserter' => false,
     'content'  => $content
 );
