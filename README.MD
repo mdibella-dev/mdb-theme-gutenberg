@@ -18,6 +18,7 @@ __Tested up to:__ WordPress 6.1
 * Improve: Replace flat button style with navigation-faux-anchor style (see #20).
 * Improve: Remove unnecessary whitespaces.
 * Improve: Remove dev mode switch.
+* Bugfix: Flexbox causes too much gap between #primary, #secondary (#14).
 
 
 ### 1.3.0
