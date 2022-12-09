@@ -21,7 +21,8 @@ error_reporting( E_ALL ^ E_NOTICE );
 
 /** Variables and definitions */
 
-define( 'MDB_THEME_VERSION', '1.3.0' );     // The theme's version
+const THEME_VERSION = '1.3.0';     // The theme's version
+const THEME_DOMAIN  = 'mdb';       // The theme's text domain
 
 
 
