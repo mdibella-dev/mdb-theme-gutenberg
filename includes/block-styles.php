@@ -35,4 +35,4 @@ function register_block_styles()
     );
 }
 
-add_action( 'enqueue_block_editor_assets', 'mmdb_theme_fse\register_block_styles' );
+add_action( 'enqueue_block_editor_assets', 'mdb_theme_fse\register_block_styles' );

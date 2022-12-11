@@ -20,6 +20,7 @@ __Tested up to:__ WordPress 6.1
 * Improve: Remove dev mode switch.
 * Bugfix: Flexbox causes too much gap between #primary, #secondary (#14).
 * Bugfix: Fix missing row gap in tags list.
+* Bugfix: Missing custom block styles in backend (#27).
 
 
 ### 1.3.0
