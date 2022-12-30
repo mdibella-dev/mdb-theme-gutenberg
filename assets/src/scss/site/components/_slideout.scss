@@ -83,7 +83,6 @@
         letter-spacing: .8px;
         font-family: $font--secondary;
         font-weight: 300;
-        line-height: 1em;
         text-align: left;
     }
 
@@ -118,6 +117,7 @@
     padding-bottom: 2rem;
 
     li {
+        line-height: unquote('max(1em, 5vh)');
         font-size: clamp(1.75rem, 4vw, 2.5rem);
     }
 }
@@ -125,6 +125,10 @@
 #secondary {
     padding-top: 2rem;
     padding-bottom: 2rem;
+
+    li {
+        line-height: unquote('max(1em, 3vh)');
+    }
 }
 
 

@@ -18,6 +18,7 @@ __Tested up to:__ WordPress 6.1
 * Improve: Replace flat button style with navigation-faux-anchor style (see #20).
 * Improve: Remove unnecessary whitespaces.
 * Improve: Remove dev mode switch.
+* Improve: Add a more dynamic line-height in #primary, #secondary.
 * Bugfix: Flexbox causes too much gap between #primary, #secondary (#14).
 * Bugfix: Fix missing row gap in tags list.
 * Bugfix: Missing custom block styles in backend (#27).
