@@ -30,9 +30,17 @@
 .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link .svg-symbol {
     background-color: $color--link;
     transition: background-color .2s;
+
+    .slideout-visible & {
+        background-color: $color--slideout--text;
+    }
 }
 
 .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:hover .svg-symbol,
 .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:focus .svg-symbol {
     background-color: $color--link__hover;
+
+    .slideout-visible & {
+        background-color: $color--slideout--text__hover;
+    }
 }
