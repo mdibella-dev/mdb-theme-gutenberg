@@ -76,7 +76,6 @@ add_filter( 'post_class', 'mdb_theme_fse\remove_post_classes', 10, 3 );
  * @param  stdClass $args       Arguments from the wp_nav_menu() call.
  * @param  int      $depth      The level depth of the menu item.
  * @return array                Modified class array.
-
  */
 
 function remove_menu_classes( $classes, $item, $args, $depth )
