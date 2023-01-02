@@ -27,13 +27,13 @@ defined( 'ABSPATH' ) or exit;
 function neutralize_php_error_class()
 {
     echo "
-	<style type='text/css'>
+    <style type='text/css'>
     .php-error #adminmenuback,
     .php-error #adminmenuwrap {
       margin-top: 0 !important;
     }
-	</style>
-	";
+    </style>
+    ";
 }
 
 add_action( 'admin_head', 'mdb_theme_fse\neutralize_php_error_class' );
