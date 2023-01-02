@@ -15,6 +15,7 @@ __Tested up to:__ WordPress 6.1
 
 ### main
 * New: Namespace (#25).
+* Improve: Neutralize .php-class side effect in admin pages (#31).
 * Improve: Replace flat button style with navigation-faux-anchor style (see #20).
 * Improve: Remove unnecessary whitespaces.
 * Improve: Remove dev mode switch.
