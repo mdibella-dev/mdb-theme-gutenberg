@@ -34,7 +34,7 @@
     & > div:last-child {
         display: flex;
         flex-wrap: wrap;
-        gap: .75rem 2rem;
+        gap: .9em 2rem;
         align-items: baseline;
 
         @include breakpoint(medium) {
@@ -56,11 +56,12 @@
         div:last-child {
             width: 100%;
             order: 2;
+            line-height: 1;
 
             @include breakpoint(medium) {
                 width: auto;
                 flex-shrink: 1;
-                flex-grow: 1
+                flex-grow: 1;
             }
         }
 

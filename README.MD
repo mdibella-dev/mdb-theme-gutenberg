@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+* Improve: Tune the spaces in .publikationsliste.
 
 
 ## 1.4.0
