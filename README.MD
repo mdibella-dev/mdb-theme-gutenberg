@@ -15,6 +15,7 @@ __Tested up to:__ WordPress 6.1
 
 ### main
 * Improve: Tune the spaces in .publikationsliste.
+* Improve: LinkedIn-Link.
 
 
 ## 1.4.0
