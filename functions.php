@@ -23,9 +23,9 @@ error_reporting( E_ALL ^ E_NOTICE );
 
 /** Variables and definitions */
 
-define( 'THEME_VERSION', '1.4.0' );                     // The theme's version
-define( 'THEME_DOMAIN', 'mdb' );                        // The theme's text domain
-define( 'THEME_DIR', get_template_directory() );        // The theme's directory
+const THEME_VERSION = '1.4.0';                     // The theme's version
+const THEME_DOMAIN  = 'mdb';                       // The theme's text domain
+const THEME_DIR     = get_template_directory();    // The theme's directory
 
 
 
