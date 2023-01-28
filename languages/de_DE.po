@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2022-12-09 13:36+0100\n"
-"PO-Revision-Date: 2022-12-09 13:36+0100\n"
+"POT-Creation-Date: 2023-01-28 16:38+0100\n"
+"PO-Revision-Date: 2023-01-28 16:41+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -21,23 +21,23 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: includes/patterns/404.php:38
+#: includes/patterns/404.php:40
 msgid "404"
 msgstr "404"
 
-#: includes/patterns/slideout.php:53
+#: includes/patterns/slideout.php:55
 msgid "Slideout navigation"
 msgstr "Slideout-Navigation"
 
-#: includes/setup.php:62
+#: includes/setup.php:64
 msgid "Primary navigation"
 msgstr "Primäre Navigation"
 
-#: includes/setup.php:63
+#: includes/setup.php:65
 msgid "Secondary navigation"
 msgstr "Sekundäre Navigation"
 
-#: includes/setup.php:64
+#: includes/setup.php:66
 msgid "Page navigation"
 msgstr "Seitennavigation"
 
@@ -54,49 +54,13 @@ msgid ""
 "The WordPress theme for Marco Di Bella's personal website (full site editing "
 "version). Based on mdb-theme (2.1)."
 msgstr ""
-"Das WordPress-Theme für Marco Di Bellas persönlicher Webseite (Full-Site-"
-"Editing-Version). Basiert auf mdb-theme (2.1)."
+"Das WordPress-Theme für die persönliche Website von Marco Di Bella (Version "
+"mit Full-Site-Editing). Basiert auf mdb-theme (2.1)."
 
 #. Author of the plugin/theme
 msgid "Marco Di Bella"
-msgstr "Marco Di Bella"
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://www.marcodibella.de"
 msgstr "https://www.marcodibella.de"
-
-#~ msgid "Download file"
-#~ msgstr "Datei herunterladen"
-
-#~ msgid "Featured"
-#~ msgstr "Hervorgehoben"
-
-#~ msgid "Footers"
-#~ msgstr "Fußbereiche"
-
-#~ msgid "Headers"
-#~ msgstr "Kopfbereiche"
-
-#~ msgid "Query"
-#~ msgstr "Abfragen"
-
-#~ msgid "Pages"
-#~ msgstr "Seiten"
-
-#~ msgid "To the main navigation"
-#~ msgstr "Zur Hauptnavigation"
-
-#~ msgid "Me on Github"
-#~ msgstr "Ich auf Github"
-
-#~ msgid "Me on LinkedIn"
-#~ msgstr "Ich auf LinkedIn"
-
-#~ msgid "Me on XING"
-#~ msgstr "Ich auf XING"
-
-#~ msgid "Navbar"
-#~ msgstr "Navbar"
-
-#~ msgid "Scroll up button"
-#~ msgstr "Scroll-up-Schaltfläche"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2022-12-09 13:36+0100\n"
-"PO-Revision-Date: 2022-08-11 15:46+0200\n"
+"POT-Creation-Date: 2023-01-28 16:38+0100\n"
+"PO-Revision-Date: 2023-01-28 16:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,23 +21,23 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: includes/patterns/404.php:38
+#: includes/patterns/404.php:40
 msgid "404"
 msgstr ""
 
-#: includes/patterns/slideout.php:53
+#: includes/patterns/slideout.php:55
 msgid "Slideout navigation"
 msgstr ""
 
-#: includes/setup.php:62
+#: includes/setup.php:64
 msgid "Primary navigation"
 msgstr ""
 
-#: includes/setup.php:63
+#: includes/setup.php:65
 msgid "Secondary navigation"
 msgstr ""
 
-#: includes/setup.php:64
+#: includes/setup.php:66
 msgid "Page navigation"
 msgstr ""
 
