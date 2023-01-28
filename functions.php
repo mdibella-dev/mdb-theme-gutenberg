@@ -23,16 +23,17 @@ error_reporting( E_ALL ^ E_NOTICE );
 
 /** Variables and definitions */
 
-const THEME_VERSION = '1.4.0';     // The theme's version
-const THEME_DOMAIN  = 'mdb';       // The theme's text domain
+define( 'THEME_VERSION', '1.4.0' );                     // The theme's version
+define( 'THEME_DOMAIN', 'mdb' );                        // The theme's text domain
+define( 'THEME_DIR', get_template_directory() );        // The theme's directory
 
 
 
 /** Include files */
 
-require_once( get_template_directory() . '/includes/setup.php' );
-require_once( get_template_directory() . '/includes/block-patterns.php' );
-require_once( get_template_directory() . '/includes/block-styles.php' );
-require_once( get_template_directory() . '/includes/block-editor.php' );
-require_once( get_template_directory() . '/includes/performance.php' );
-require_once( get_template_directory() . '/includes/backend.php' );
+require_once( THEME_DIR . '/includes/setup.php' );
+require_once( THEME_DIR . '/includes/block-patterns.php' );
+require_once( THEME_DIR . '/includes/block-styles.php' );
+require_once( THEME_DIR . '/includes/block-editor.php' );
+require_once( THEME_DIR . '/includes/performance.php' );
+require_once( THEME_DIR . '/includes/backend.php' );
