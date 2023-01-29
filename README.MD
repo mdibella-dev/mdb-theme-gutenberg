@@ -17,6 +17,7 @@ __Tested up to:__ WordPress 6.1
 * Improve: Tune the spaces in .publikationsliste.
 * Improve: LinkedIn-Link.
 * Improve: Change text domain.
+* Bugfix: Namespace issues.
 
 
 ## 1.4.0
