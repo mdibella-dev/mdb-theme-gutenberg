@@ -52,7 +52,7 @@ ob_end_clean();
 /** Return the pattern */
 
 return array(
-    'title'    => __( 'Slideout navigation', THEME_DOMAIN ),
+    'title'    => __( 'Slideout navigation', 'mdb-theme-fse' ),
     'inserter' => false,
     'content'  => $content
 );

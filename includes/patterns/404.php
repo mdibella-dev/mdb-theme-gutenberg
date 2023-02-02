@@ -37,7 +37,7 @@ ob_end_clean();
 /** Return the pattern */
 
 return array(
-    'title'    => __( '404', THEME_DOMAIN ),
+    'title'    => __( '404', 'mdb-theme-fse' ),
     'inserter' => false,
     'content'  => $content
 );

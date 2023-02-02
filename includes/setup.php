@@ -26,7 +26,7 @@ if( ! function_exists( 'theme_setup' ) ) :
      function theme_setup()
      {
         // Enables internationalization.
-        load_theme_textdomain( THEME_DOMAIN, get_template_directory() . '/languages' );
+        load_theme_textdomain( 'mdb-theme-fse', get_template_directory() . '/languages' );
 
 
         // Adds 'wide' support for the block editor (Gutenberg).
@@ -61,9 +61,9 @@ if( ! function_exists( 'theme_setup' ) ) :
 
 
         // Registers the navigation menus.
-        register_nav_menu( 'primary', __( 'Primary navigation', THEME_DOMAIN ) );
-        register_nav_menu( 'secondary', __( 'Secondary navigation', THEME_DOMAIN ) );
-        register_nav_menu( 'page', __( 'Page navigation', THEME_DOMAIN ) );
+        register_nav_menu( 'primary', __( 'Primary navigation', 'mdb-theme-fse' ) );
+        register_nav_menu( 'secondary', __( 'Secondary navigation', 'mdb-theme-fse' ) );
+        register_nav_menu( 'page', __( 'Page navigation', 'mdb-theme-fse' ) );
     }
 
     add_action( 'after_setup_theme', 'mdb_theme_fse\theme_setup' );
