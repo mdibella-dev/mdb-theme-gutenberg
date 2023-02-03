@@ -16,12 +16,15 @@ defined( 'ABSPATH' ) or exit;
 
 
 /**
- * Removes php-error side effect.
+ * Removes .php-error side effect.
  *
- * @since  1.4.0
- * @see    https://developer.wordpress.org/reference/hooks/admin_body_class/
- * @param  string $classes    A space separated list of class names.
- * @return string             The modified list of classes.
+ * @since 1.4.0
+ *
+ * @see https://developer.wordpress.org/reference/hooks/admin_body_class/
+ *
+ * @param string $classes A space separated list of class names.
+ *
+ * @return string The modified classes list.
  */
 
 function neutralize_php_error_class()
