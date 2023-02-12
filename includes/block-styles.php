@@ -30,7 +30,11 @@ function register_block_styles()
     wp_enqueue_script(
         'mdb-block-styles',
         THEME_URI . 'assets/src/js/block-styles.js',        // maybe add a 'build' version?
-        array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
+        array(
+            'wp-blocks',
+            'wp-dom-ready',
+            'wp-edit-post'
+        ),
         THEME_VERSION,
         true
     );
