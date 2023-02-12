@@ -18,8 +18,9 @@ __Tested up to:__ WordPress 6.1
 * Improve: LinkedIn-Link.
 * Improve: Change text domain.
 * Improve: Replace text domain constant with text domain string.
+* Improve: Change order of symbols in navbar.
 * Bugfix: Namespace issues.
-* Bugfix: Fatal error when using theme's consts. 
+* Bugfix: Fatal error when using theme's consts.
 
 
 ## 1.4.0
