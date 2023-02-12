@@ -36,4 +36,4 @@ require_once( THEME_DIR . 'includes/block-patterns.php' );
 require_once( THEME_DIR . 'includes/block-styles.php' );
 require_once( THEME_DIR . 'includes/block-editor.php' );
 require_once( THEME_DIR . 'includes/performance.php' );
-require_once( THEME_DIR . 'includes/backend.php' );
+require_once( THEME_DIR . 'includes/patches.php' );

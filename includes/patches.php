@@ -1,6 +1,6 @@
 <?php
 /**
- * Backend related functions.
+ * WordPress patches.
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
