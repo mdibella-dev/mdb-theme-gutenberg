@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+* New: THEME_URI.
 * Improve: Tune the spaces in .publikationsliste.
 * Improve: LinkedIn-Link.
 * Improve: Change text domain.

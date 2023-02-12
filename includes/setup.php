@@ -26,7 +26,7 @@ if( ! function_exists( 'theme_setup' ) ) :
      function theme_setup()
      {
         // Enables internationalization.
-        load_theme_textdomain( 'mdb-theme-fse', get_template_directory() . '/languages' );
+        load_theme_textdomain( 'mdb-theme-fse', THEME_URI . 'languages' );
 
 
         // Adds 'wide' support for the block editor (Gutenberg).
@@ -86,7 +86,7 @@ function theme_scripts()
 
     wp_register_script(
         'jquery-easing',
-        get_template_directory_uri() . '/assets/build/js/jquery.easing.min.js',
+        THEME_URI . 'assets/build/js/jquery.easing.min.js',
         array( 'jquery' ),
         false,
         true
@@ -103,14 +103,14 @@ function theme_scripts()
 
     wp_enqueue_style(
         'mdb-frontend-style',
-        get_template_directory_uri() . '/assets/build/css/style-frontend.min.css',
+        THEME_URI . 'assets/build/css/style-frontend.min.css',
         array(),
         THEME_VERSION
     );
 
     wp_enqueue_script(
         'mdb-frontend-script',
-        get_template_directory_uri() . '/assets/build/js/frontend.min.js',
+        THEME_URI . 'assets/build/js/frontend.min.js',
         array( 'jquery' ),
         THEME_VERSION,
         true
