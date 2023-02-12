@@ -19,6 +19,7 @@ __Tested up to:__ WordPress 6.1
 * Improve: Change text domain.
 * Improve: Replace text domain constant with text domain string.
 * Bugfix: Namespace issues.
+* Bugfix: Fatal error when using theme's consts. 
 
 
 ## 1.4.0
