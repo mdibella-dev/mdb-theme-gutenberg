@@ -49,7 +49,7 @@ __Tested up to:__ WordPress 6.1
 * Improve: Remove arrow symbol next to external links (#14, #3).
 * Improve: Change anchor styling (#18).
 * Improve: Make marco-404.png monochrome.
-* Improve: Replace "Enhance" with "Improve (#19).
+* Improve: Replace "Enhance" with "Improve" (#19).
 * Improve: Add more consistency in links and buttons (see #20).
 * Improve: Add desaturated teaser thumbnails.
 * Improve: Add rounded border on images.
