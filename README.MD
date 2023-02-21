@@ -10,7 +10,7 @@ __Requires at least:__ WordPress 6.0
 __Tested up to:__ WordPress 6.1
 
 ## Changelog
-*New/Improve/Bugfix*
+*New / Improve / Bugfix*
 
 
 ### main
