@@ -15,7 +15,8 @@ __Tested up to:__ WordPress 6.1
 
 ### main
 * New: THEME_URI.
-* Improve: Move backend patches to patches.php.
+* Improve: Rename /assets/src/scss to /assets/src/css
+* Improve: Move backend patches to patches.php
 * Improve: Tune the spaces in .publikationsliste.
 * Improve: LinkedIn-Link.
 * Improve: Change text domain.
