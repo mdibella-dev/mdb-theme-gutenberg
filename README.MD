@@ -18,6 +18,7 @@ __Tested up to:__ WordPress 6.1
 * Improve: Rename /assets/src/scss to /assets/src/css
 * Improve: Move backend patches to patches.php
 * Improve: Tune the spaces in .publikationsliste.
+* Improve: Tune the spaces in .teaserblock.
 * Improve: LinkedIn-Link.
 * Improve: Change text domain.
 * Improve: Replace text domain constant with text domain string.
