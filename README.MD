@@ -14,6 +14,9 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+
+
+## 1.5.0
 * New: THEME_URI.
 * Improve: Rename /assets/src/scss to /assets/src/css
 * Improve: Move backend patches to patches.php
