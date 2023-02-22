@@ -6,11 +6,30 @@
 
 #BorlabsCookieBox ._brlbs-box {
     padding: 1rem;
-    color: var(--wp--preset--color--concrete) !important;
+    color: var(--wp--preset--color--stone) !important;
 }
 
 
 #BorlabsCookieBox ._brlbs-btn {
+    @include default_button_style();
+
+    // typography
+    font-size: .9rem !important;
+    letter-spacing: .4px;
+
+    // other styling
+    padding: .85rem !important;
+    background: rgba(0,0,0,0) !important;
+    color: var(--wp--preset--color--denim) !important;
+
+    &:hover,
+    &:focus {
+        color: $color--button--text__hover !important;
+        background: $color--button--background__hover !important;
+        box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
+    }
+
+    /*
     // typography
     font-family: $font--primary;
     font-weight: normal;
@@ -44,7 +63,7 @@
 
     &:active {
         top: 2px;
-    }
+    } */
 }
 
 
@@ -56,7 +75,9 @@
 #BorlabsCookieBox h3,
 #BorlabsCookieBox ._brlbs-h3 {
     color: var(--wp--preset--color--stone) !important;
-    font-weight: 300;
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: .5px;
     margin: 1rem auto !important;
 }
 
