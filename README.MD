@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+* Improve: Update Borlabs Cookiebox.
 
 
 ## 1.5.0
