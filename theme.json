@@ -94,8 +94,7 @@
                     "name": "Roboto Slab",
                     "slug": "roboto-slab",
                     "fontFamily": "Roboto Slab, Courier, sans-serif"
-                },
-
+                }
             ],
             "fontSizes": [],
             "fontWeight": false,
