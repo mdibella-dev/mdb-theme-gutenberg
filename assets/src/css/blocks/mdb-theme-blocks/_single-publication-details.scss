@@ -65,6 +65,7 @@
 
 .publication-subtitle {
     display: block;
+    font-family: $font--primary;
     font-size: calc(1.35 * #{$base--font-size});
     font-weight: 200;
     color: var(--wp--preset--color--denim);
