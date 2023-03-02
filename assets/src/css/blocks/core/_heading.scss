@@ -59,7 +59,7 @@ h2 {
     font-size: calc(1.95 * #{$base--font-size});
 
     * + & {
-        margin-top: calc( 3.5 * #{$base--gap});
+        margin-top: calc(3.5 * #{$base--gap});
     }
 }
 
@@ -68,7 +68,7 @@ h3 {
     font-size: calc(1.125 * #{$base--font-size});
 
     * + & {
-        margin-top: calc( 2 * #{$base--gap});
+        margin-top: calc(2 * #{$base--gap});
     }
 }
 
