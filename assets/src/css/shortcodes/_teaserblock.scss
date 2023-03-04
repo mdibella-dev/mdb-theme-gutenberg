@@ -53,12 +53,12 @@
         flex-wrap: nowrap;
         align-items: center;
         align-content: center;
-        gap: 1rem;
+        gap: 2rem;
         padding: 0;
         width: 100%;
 
         @include breakpoint(large) {
-            gap: 2rem;
+            gap: 3rem;
         }
 
         .teaser-image {

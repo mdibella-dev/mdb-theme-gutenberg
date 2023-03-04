@@ -14,7 +14,8 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
-* Improve: Update Borlabs Cookiebox.
+* Improve: Replace Inconsolata with RobotoSlab.
+* Improve: Update Borlabs Cookiebox (#26).
 
 
 ## 1.5.0
