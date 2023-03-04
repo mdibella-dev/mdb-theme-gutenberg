@@ -82,7 +82,7 @@
         // typography
         letter-spacing: .8px;
         font-family: $font--secondary;
-        font-weight: 300;
+        font-weight: 400;
         text-align: left;
     }
 
@@ -117,7 +117,7 @@
     padding-bottom: 2rem;
 
     li {
-        line-height: unquote('max(1em, 7vh)');
+        line-height: unquote('max(1em, 6vh)');
         font-size: clamp(1.75rem, 4vw, 2.5rem);
     }
 }

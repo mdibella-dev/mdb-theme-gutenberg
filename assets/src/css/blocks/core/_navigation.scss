@@ -17,10 +17,11 @@
 
     .wp-block-navigation-item__content {
         @include default_anchor_style();
-        
+
         font-family: $font--secondary;
         font-size: calc(1.2 * #{$base--font-size});
         line-height: 1.4;
+        letter-spacing: 1px;
     }
 
     .wp-block-navigation-item:not(:last-child)::after {
