@@ -86,11 +86,6 @@
                     "fontFamily": "Inter, Arial, sans-serif"
                 },
                 {
-                    "name": "Inconsolata",
-                    "slug": "inconsolata",
-                    "fontFamily": "Inconsolata, Arial, sans-serif"
-                },
-                {
                     "name": "Roboto Slab",
                     "slug": "roboto-slab",
                     "fontFamily": "Roboto Slab, Courier, sans-serif"
