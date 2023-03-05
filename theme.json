@@ -88,7 +88,7 @@
                 {
                     "name": "Roboto Slab",
                     "slug": "roboto-slab",
-                    "fontFamily": "Roboto Slab, Courier, sans-serif"
+                    "fontFamily": "Roboto Slab, Georgia, serif"
                 }
             ],
             "fontSizes": [],
