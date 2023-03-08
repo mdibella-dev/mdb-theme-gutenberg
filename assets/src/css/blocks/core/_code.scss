@@ -24,3 +24,12 @@
         margin-bottom: 0 !important;
     }
 }
+
+// probably move this to another location (cause this are modification related to a plugin)
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+    background: $color--code--selection--background !important;
+    color: $color--code--selection--text !important;
+}
