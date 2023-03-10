@@ -63,6 +63,6 @@
 
     .wp-block-embed__wrapper {
         box-shadow: 0 8px 10px 0 rgba(0,0,0000,.35);
-        border-radius: 3px;
+        border-radius: $base--border-radius;
     }
 }

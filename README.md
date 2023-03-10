@@ -15,6 +15,7 @@ __Tested up to:__ WordPress 6.1
 
 ### main
 * New: Support for wp-block-code.
+* Improve: Add more rounder elements.
 * Improve: Replace Inconsolata with RobotoSlab.
 * Improve: Update Borlabs Cookiebox (#26).
 * Improve: Set font-display of RobotoSlab to block;

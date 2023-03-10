@@ -37,15 +37,15 @@
 
 .download-container-top {
     border-bottom: none;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: $base--border-radius;
+    border-top-right-radius: $base--border-radius;
 }
 
 
 .download-container-bottom {
     border-top: none;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: $base--border-radius;
+    border-bottom-right-radius: $base--border-radius;
 }
 
 
