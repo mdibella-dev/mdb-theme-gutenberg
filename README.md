@@ -18,7 +18,8 @@ __Tested up to:__ WordPress 6.1
 * Improve: Add more rounder elements.
 * Improve: Replace Inconsolata with RobotoSlab.
 * Improve: Update Borlabs Cookiebox (#26).
-* Improve: Set font-display of RobotoSlab to block;
+* Improve: Set font-display of RobotoSlab to block.
+* Bugfix: Google PageSpeed Insights: "Links can be crawled"-Test (SEO). 
 
 
 ## 1.5.0
