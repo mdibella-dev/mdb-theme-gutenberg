@@ -22,6 +22,7 @@ __Tested up to:__ WordPress 6.1
 * Bugfix: Google PageSpeed Insights: "Links can be crawled" test (SEO).
 * Bugfix: Google PageSpeed Insights: "Links must have discernible text" test (accessibility).
 * Bugfix: Google PageSpeed Insights: Reduce CLS on #marco-01 image (Core Web Vitals).
+* Bugfix: Remove hyphens=none from headings (causes overflows).
 
 
 ## 1.5.0
