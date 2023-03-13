@@ -70,7 +70,7 @@ add_filter( 'post_class', 'mdb_theme_fse\remove_post_classes', 10, 3 );
 
 
 /**
- * Removes unnecessary classes from a page's menus to reduce the DOM.
+ * Removes unnecessary classes from a page's menu to reduce the DOM.
  *
  * @since 1.0.0
  *
