@@ -19,6 +19,7 @@ __Tested up to:__ WordPress 6.1
 * Improve: Replace Inconsolata with RobotoSlab.
 * Improve: Update Borlabs Cookiebox (#26).
 * Improve: Set font-display of RobotoSlab to block.
+* Improve: Better hyphens in headings (via plugin).
 * Bugfix: Google PageSpeed Insights: "Links can be crawled" test (SEO).
 * Bugfix: Google PageSpeed Insights: "Links must have discernible text" test (accessibility).
 * Bugfix: Google PageSpeed Insights: Reduce CLS on #marco-01 image (Core Web Vitals).
