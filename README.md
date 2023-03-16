@@ -14,6 +14,7 @@ __Tested up to:__ WordPress 6.1
 
 
 ### main
+* New: Add package.json with SASS scripts.
 * New: Support for wp-block-code.
 * Improve: Add more rounder elements.
 * Improve: Replace Inconsolata with RobotoSlab.
