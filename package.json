@@ -1,0 +1,17 @@
+{
+    "name": "mdb-theme-fse",
+    "version": "1.0.0",
+    "description": "Development Scripts",
+    "config" : {
+        "SASS_SRC": "./assets/src/css",
+        "SASS_BLD": "./assets/build/css"
+    },
+    "scripts": {
+        "sass:front": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/style-frontend.scss $npm_package_config_SASS_BLD/style-frontend.min.css",
+        "sass:edit": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/style-editor.scss $npm_package_config_SASS_BLD/style-editor.min.css",
+        "sass:both": "npm run sass:front && npm run sass:edit"
+    },
+    "devDependecies": {
+        "sass": "^1.59.3"
+    }
+}
