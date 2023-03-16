@@ -14,8 +14,8 @@ jQuery( document ).ready( function( $ ) {
     // General scrollToAnchor
 
     function scrollToID( id ) {
-        let tag     = $( "#"+ id );
-        let offset  = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
+        let tag    = $( "#"+ id );
+        let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
 
         $( '#main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
     }
@@ -24,14 +24,14 @@ jQuery( document ).ready( function( $ ) {
     // Do the slideout
 
     $( '.is-hamburger' ).on( 'click', function() {
-        var duration = 1000;
+        let duration = 1000;
 
         if( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
             $( 'body' ).toggleClass( 'slide-in-progress' );
 
 
             if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
-                var w = 100;
+                let w = 100;
 
                 $( '#slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
                 $( '#primary, #secondary' ).delay(800).fadeIn();
@@ -56,8 +56,8 @@ jQuery( document ).ready( function( $ ) {
     // Click on pagenavigation, scroll to anchor
 
     $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function(e) {
-        var full_url = this.href;
-        var parts    = full_url.split( '#' );
+        let full_url = this.href;
+        let parts    = full_url.split( '#' );
 
         if( parts.length == 2 ) {
             e.preventDefault();
@@ -71,8 +71,8 @@ jQuery( document ).ready( function( $ ) {
     // The button only appears if at least half of the visible area (viewport) has been scrolled (threshold value).
 
     $( '#main' ).on( 'scroll', function() {
-        var position  = $( this ).scrollTop();
-        var threshold = $( window ).scrollTop() + $( window ).height() / 2;
+        let position  = $( this ).scrollTop();
+        let threshold = $( window ).scrollTop() + $( window ).height() / 2;
 
         if( 1 == $( '#main' ).data( 'isAutoScrollInProgress' ) ) {
             if( ( position <= threshold ) && ( 0 != position ) ) {
