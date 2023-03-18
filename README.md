@@ -25,6 +25,7 @@ __Tested up to:__ WordPress 6.1
 * Bugfix: Google PageSpeed Insights: "Links must have discernible text" test (accessibility).
 * Bugfix: Google PageSpeed Insights: Reduce CLS on #marco-01 image (Core Web Vitals).
 * Bugfix: Remove hyphens=none from headings (causes overflows).
+* Bugfix: Remove ARIA tags from template parts, as they lead to invalid block code in Gutenberg.
 
 
 ## 1.5.0
