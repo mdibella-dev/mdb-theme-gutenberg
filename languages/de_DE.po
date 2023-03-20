@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2023-01-28 16:38+0100\n"
-"PO-Revision-Date: 2023-01-28 16:41+0100\n"
+"POT-Creation-Date: 2023-03-20 10:45+0100\n"
+"PO-Revision-Date: 2023-03-20 10:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -21,12 +21,20 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: includes/patterns/404.php:40
+#: includes/block-patterns.php:28
 msgid "404"
 msgstr "404"
 
-#: includes/patterns/slideout.php:55
-msgid "Slideout navigation"
+#: includes/patterns/404.php:30
+msgid "My great heading text"
+msgstr "Mein toller Überschriftentext"
+
+#: includes/patterns/404.php:56
+msgid "404 image"
+msgstr "404-Bild"
+
+#: includes/patterns/slideout.php:76
+msgid "Slideout Navigation"
 msgstr "Slideout-Navigation"
 
 #: includes/setup.php:64
@@ -59,8 +67,14 @@ msgstr ""
 
 #. Author of the plugin/theme
 msgid "Marco Di Bella"
-msgstr ""
+msgstr "Marco Di Bella"
 
 #. Author URI of the plugin/theme
 msgid "https://www.marcodibella.de"
 msgstr "https://www.marcodibella.de"
+
+#~ msgid "Tag"
+#~ msgstr "Schlagwort"
+
+#~ msgid "Tag Archive Kicker"
+#~ msgstr "Kicker für Schlagwort-Archiv"
