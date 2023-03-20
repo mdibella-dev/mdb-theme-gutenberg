@@ -26,7 +26,9 @@ if( ! function_exists( 'theme_setup' ) ) :
      function theme_setup()
      {
         // Enables internationalization.
-        load_theme_textdomain( 'mdb-theme-fse', THEME_URI . 'languages' );
+        $errorcode = load_theme_textdomain( 'mdb-theme-fse', THEME_DIR . 'languages' );
+
+        error_log( (true == $errorcode)? 'true' : 'false' );
 
 
         // Adds 'wide' support for the block editor (Gutenberg).

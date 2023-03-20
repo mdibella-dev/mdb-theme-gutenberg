@@ -26,6 +26,7 @@ __Tested up to:__ WordPress 6.1
 * Bugfix: Google PageSpeed Insights: Reduce CLS on #marco-01 image (Core Web Vitals).
 * Bugfix: Remove hyphens=none from headings (causes overflows).
 * Bugfix: Remove ARIA tags from template parts, as they lead to invalid block code in Gutenberg.
+* Bugfix: Change THEME_URI to THEME_DIR when loading textdomain.
 
 
 ## 1.5.0
