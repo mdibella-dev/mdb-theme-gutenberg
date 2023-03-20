@@ -35,3 +35,22 @@ p.is-style-smallnote {
     font-size: calc(.8 * #{$base--font-size});
     font-style: italic;
 }
+
+
+/**
+ * Block style: tag-archive-kicker
+ */
+
+p.is-style-tag-archive-kicker {
+    font-family: $font--primary;
+    font-weight: 300;
+    font-size: calc(1.5 * var(--wp--custom--base--font-size));
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $color--heading-is-paragraph;
+
+    // spacing
+    & + * {
+        margin-top: .3rem;
+    }
+}
