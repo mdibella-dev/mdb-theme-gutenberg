@@ -28,9 +28,9 @@ ob_start();
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/marco-404.png">
     </figure>
     <!-- /wp:image -->
-    
+
 </section>
-<!-- /wp:group -->'
+<!-- /wp:group -->
 <?php
 
 $content = ob_get_contents();
@@ -41,7 +41,8 @@ ob_end_clean();
 /** Return the pattern */
 
 return array(
-    'title'    => __( '404', 'mdb-theme-fse' ),
-    'inserter' => false,
-    'content'  => $content
+    'title'         => __( '404 image', 'mdb-theme-fse' ),
+    'inserter'      => false,
+    'content'       => $content,
+    'templateTypes' => array( '404' );
 );

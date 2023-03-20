@@ -20,28 +20,40 @@ defined( 'ABSPATH' ) or exit;
 ob_start();
 
 ?>
-<!-- wp:html -->
+<!-- wp:group -->
 <div id="slideout" class="wp-block-group">
-<div id="slideout-content-wrapper">
-<div id="slideout-content">
-<?php
-wp_nav_menu( array(
-    'theme_location' => 'primary',
-    'container'      => 'nav',
-    'container_id'   => 'primary',
-) );
-?>
-<?php
-wp_nav_menu( array(
-    'theme_location' => 'secondary',
-    'container'      => 'nav',
-    'container_id'   => 'secondary',
-) );
-?>
+
+    <!-- wp:group -->
+    <div id="slideout-content-wrapper" class="wp-block-group">
+
+        <!-- wp:group -->
+        <div id="slideout-content" class="wp-block-group">
+
+            <!-- wp:html -->
+            <?php
+            wp_nav_menu( array(
+                'theme_location' => 'primary',
+                'container'      => 'nav',
+                'container_id'   => 'primary',
+            ) );
+            ?>
+            <?php
+            wp_nav_menu( array(
+                'theme_location' => 'secondary',
+                'container'      => 'nav',
+                'container_id'   => 'secondary',
+            ) );
+            ?>
+            <!-- /wp:html -->
+
+        </div>
+        <!-- /wp:group -->
+
+    </div>
+    <!-- /wp:group -->
+
 </div>
-</div>
-</div>
-<!-- /wp:html -->
+<!-- /wp:group -->
 <?php
 
 $content = ob_get_contents();
@@ -52,7 +64,7 @@ ob_end_clean();
 /** Return the pattern */
 
 return array(
-    'title'    => __( 'Slideout navigation', 'mdb-theme-fse' ),
+    'title'    => __( 'Slideout Navigation', 'mdb-theme-fse' ),
     'inserter' => false,
     'content'  => $content
 );
