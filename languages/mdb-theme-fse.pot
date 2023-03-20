@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2023-03-20 10:45+0100\n"
+"POT-Creation-Date: 2023-03-20 17:38+0100\n"
 "PO-Revision-Date: 2023-01-28 16:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -21,32 +21,24 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: includes/block-patterns.php:28
-msgid "404"
-msgstr ""
-
-#: includes/patterns/404.php:30
-msgid "My great heading text"
-msgstr ""
-
-#: includes/patterns/404.php:56
+#: includes/patterns/404.php:44
 msgid "404 image"
 msgstr ""
 
-#: includes/patterns/slideout.php:76
+#: includes/patterns/slideout.php:67
 msgid "Slideout Navigation"
 msgstr ""
 
 #: includes/setup.php:64
-msgid "Primary navigation"
+msgid "Primary Navigation"
 msgstr ""
 
 #: includes/setup.php:65
-msgid "Secondary navigation"
+msgid "Secondary Navigation"
 msgstr ""
 
 #: includes/setup.php:66
-msgid "Page navigation"
+msgid "Page Navigation"
 msgstr ""
 
 #. Theme Name of the plugin/theme

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2023-03-20 10:45+0100\n"
-"PO-Revision-Date: 2023-03-20 10:45+0100\n"
+"POT-Creation-Date: 2023-03-20 17:38+0100\n"
+"PO-Revision-Date: 2023-03-20 17:40+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -21,33 +21,25 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: includes/block-patterns.php:28
-msgid "404"
-msgstr "404"
-
-#: includes/patterns/404.php:30
-msgid "My great heading text"
-msgstr "Mein toller Überschriftentext"
-
-#: includes/patterns/404.php:56
+#: includes/patterns/404.php:44
 msgid "404 image"
 msgstr "404-Bild"
 
-#: includes/patterns/slideout.php:76
+#: includes/patterns/slideout.php:67
 msgid "Slideout Navigation"
 msgstr "Slideout-Navigation"
 
 #: includes/setup.php:64
-msgid "Primary navigation"
+msgid "Primary Navigation"
 msgstr "Primäre Navigation"
 
 #: includes/setup.php:65
-msgid "Secondary navigation"
+msgid "Secondary Navigation"
 msgstr "Sekundäre Navigation"
 
 #: includes/setup.php:66
-msgid "Page navigation"
-msgstr "Seitennavigation"
+msgid "Page Navigation"
+msgstr "Beitrags-/Seitennavigation"
 
 #. Theme Name of the plugin/theme
 msgid "mdb-theme-fse"
@@ -62,8 +54,8 @@ msgid ""
 "The WordPress theme for Marco Di Bella's personal website (full site editing "
 "version). Based on mdb-theme (2.1)."
 msgstr ""
-"Das WordPress-Theme für die persönliche Website von Marco Di Bella (Version "
-"mit Full-Site-Editing). Basiert auf mdb-theme (2.1)."
+"Das WordPress-Theme für Marco Di Bellas persönlicher Webseite (Version mit "
+"Full-Site-Editing). Basiert auf mdb-theme (2.1)."
 
 #. Author of the plugin/theme
 msgid "Marco Di Bella"
@@ -72,6 +64,12 @@ msgstr "Marco Di Bella"
 #. Author URI of the plugin/theme
 msgid "https://www.marcodibella.de"
 msgstr "https://www.marcodibella.de"
+
+#~ msgid "404"
+#~ msgstr "404"
+
+#~ msgid "My great heading text"
+#~ msgstr "Mein toller Überschriftentext"
 
 #~ msgid "Tag"
 #~ msgstr "Schlagwort"
