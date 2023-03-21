@@ -1,17 +1,26 @@
 # mdb-theme-fse
 The WordPress theme for Marco Di Bella's personal website (full site editing version). Based on mdb-theme (2.1).
 
-__Contributors:__ [Marco Di Bella ](https://github.com/mdibella-dev)
+<br>
 
-__Tags:__ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery, variable-font-size
+## Development Info
 
-__Requires at least:__ WordPress 6.0
+### Contributors 
+[Marco Di Bella ](https://github.com/mdibella-dev)
 
-__Tested up to:__ WordPress 6.2 RC2
+### Tags
+gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery, variable-font-size
 
+### Requires at least
 
+* WordPress 6.0
+* ACF 5.0
 
----
+### Tested up to
+
+* WordPress 6.2 RC2
+
+<br>
 
 ## Changelog
 
