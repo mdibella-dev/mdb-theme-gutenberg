@@ -44,5 +44,5 @@ return array(
     'title'         => __( '404 image', 'mdb-theme-fse' ),
     'inserter'      => false,
     'content'       => $content,
-    'templateTypes' => array( '404' );
+    'templateTypes' => array( '404' ),
 );
