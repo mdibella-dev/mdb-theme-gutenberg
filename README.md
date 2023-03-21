@@ -44,4 +44,4 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Previous changes
 
-See [CHANGELOG.md](https://github.com/mdibella-dev/mdb-theme-fse/blob/master/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/mdibella-dev/mdb-theme-fse/blob/main/CHANGELOG.md).
