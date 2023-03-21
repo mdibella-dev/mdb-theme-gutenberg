@@ -3,7 +3,7 @@
 *New / Improve / Bugfix*
 
 
-## 1.5.0
+### 1.5.0
 Released: 21-02-2023
 
 * New: THEME_URI
@@ -19,7 +19,7 @@ Released: 21-02-2023
 * Bugfix: Fatal error when using theme's consts
 
 
-## 1.4.0
+### 1.4.0
 Released: 02-01-2023
 
 * New: Namespace (#25)
