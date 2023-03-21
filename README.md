@@ -9,11 +9,13 @@ __Requires at least:__ WordPress 6.0
 
 __Tested up to:__ WordPress 6.2 RC2
 
+
+
 ---
 
 ## Changelog
 
-### Latest changes in the main branch
+### Latest changes to the main branch
 
 * New: Add package.json with SASS scripts.
 * New: Support for wp-block-code.
@@ -31,4 +33,6 @@ __Tested up to:__ WordPress 6.2 RC2
 * Bugfix: Remove ARIA tags from template parts, as they lead to invalid block code in Gutenberg.
 * Bugfix: Change THEME_URI to THEME_DIR when loading textdomain.
 
-See [CHANGELOG.md](https://github.com/mdibella-dev/sass-autocompile/blob/master/CHANGELOG.md) for all previous changes.
+### Previous changes
+
+See [CHANGELOG.md](https://github.com/mdibella-dev/mdb-theme-fse/blob/master/CHANGELOG.md).

@@ -4,6 +4,8 @@
 
 
 ## 1.5.0
+Released: 21-02-2023
+
 * New: THEME_URI.
 * Improve: Rename /assets/src/scss to /assets/src/css
 * Improve: Move backend patches to patches.php
@@ -18,6 +20,8 @@
 
 
 ## 1.4.0
+Released: 02-01-2023
+
 * New: Namespace (#25).
 * Improve: Neutralize .php-class side effect in admin pages (#31).
 * Improve: Replace flat button style with navigation-faux-anchor style (see #20).
@@ -31,6 +35,8 @@
 
 
 ### 1.3.0
+Released: 08-12-2022
+
 * New: Support for separator block (hr element).
 * Improve: Styles for single-publication-details.
 * Improve: Remove clamping div at single-related-posts.html.
@@ -50,6 +56,8 @@
 
 
 ### 1.2.0
+Released: 12-11-2022
+
 * New: New custom variables via theme.json.
 * New: menu-item-* filter.
 * New: Part single-related-posts.
@@ -65,6 +73,8 @@
 
 
 ### 1.1.0
+Released: 27-10-2022
+
 * New: Base font-size and gap.
 * New: .edit-post-visual-editor__post-title-wrapper hidden.
 * Improve: Make 'bold' bolder.
@@ -91,4 +101,6 @@
 
 
 ### 1.0.0
+Released: 30-07-2022
+
 * Initial commit
