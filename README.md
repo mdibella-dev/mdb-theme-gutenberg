@@ -7,7 +7,7 @@ __Tags:__ gutenberg, block-editor, full-site-editing, translation-ready, respons
 
 __Requires at least:__ WordPress 6.0
 
-__Tested up to:__ WordPress 6.1
+__Tested up to:__ WordPress 6.2 RC2
 
 ## Changelog
 *New / Improve / Bugfix*
