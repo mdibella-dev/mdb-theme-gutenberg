@@ -38,6 +38,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Better hyphens in headings (via plugin)
 * Improve: Rename block pattern '404' to '404-image' to clearify its purpose
 * Improve: Change default padding of standard buttons
+* Improve: Make theme compatible to mdb-theme-blocks-two 1.1.2
 * Bugfix: Google PageSpeed Insights: "Links can be crawled" test (SEO)
 * Bugfix: Google PageSpeed Insights: "Links must have discernible text" test (accessibility)
 * Bugfix: Google PageSpeed Insights: Reduce CLS on #marco-01 image (Core Web Vitals)
