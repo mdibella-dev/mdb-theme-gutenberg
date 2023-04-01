@@ -7,11 +7,14 @@
 
 
 
-// styling is mostly handled by core/heading
-
+/**
+ * default
+ */
 
 .wp-block-post-title {
     margin-top: 0 !important;
     margin-bottom: 1.5em;
     word-break: normal;
+
+    // styling is mostly handled by core/heading
 }

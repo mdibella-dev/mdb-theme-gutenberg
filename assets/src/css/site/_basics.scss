@@ -7,7 +7,6 @@
 
 
 
-
 html,
 body {
     height: 100%;
@@ -49,10 +48,6 @@ strong {
     letter-spacing: .8px;
 }
 
-
-/**
- * Anchors
- */
 
 a {
     @include default_anchor_style();

@@ -7,6 +7,10 @@
 
 
 
+/**
+ * default
+ */
+
 p {
     // prevent margin-collapsing
     display: block;
@@ -26,8 +30,9 @@ p {
 }
 
 
+
 /**
- * Block style: smallnote
+ * .is-style-smallnote
  */
 
 p.is-style-smallnote {
@@ -37,11 +42,13 @@ p.is-style-smallnote {
 }
 
 
+
 /**
- * Block style: tag-archive-kicker
+ * .is-style-tag-archive-kicker
  */
 
 p.is-style-tag-archive-kicker {
+    // typography
     font-family: $font--primary;
     font-weight: 300;
     font-size: calc(1.5 * var(--wp--custom--base--font-size));

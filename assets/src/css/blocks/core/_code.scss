@@ -7,6 +7,10 @@
 
 
 
+/**
+ * default
+ */
+ 
 .wp-block-code {
     border-radius: $base--border-radius !important;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.15) !important;
@@ -25,7 +29,9 @@
     }
 }
 
+
 // probably move this to another location (cause this are modification related to a plugin)
+
 pre[class*="language-"]::selection,
 pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
