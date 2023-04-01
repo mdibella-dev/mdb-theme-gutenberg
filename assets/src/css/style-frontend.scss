@@ -52,14 +52,10 @@
 @import "blocks/mdb-theme-blocks/_post-terms";
 
 
-/** Shortcodes */
-
-@import "shortcodes/_teaserblock";
-@import "shortcodes/_vortragsliste";
-@import "shortcodes/_publikationsliste";
-
-
 /** Plugins */
 
+@import "plugins/mdb-theme-blocks/_teaserblock";
+@import "plugins/mdb-theme-blocks/_vortragsliste";
+@import "plugins/mdb-theme-blocks/_publikationsliste";
 @import "plugins/_borlabs";
 @import "plugins/_download-monitor";
