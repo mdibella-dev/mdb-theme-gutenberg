@@ -29,6 +29,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * New: Add package.json with SASS scripts
 * New: Support for wp-block-code
 * New: Extract changelog from README.md
+* New: Prevent visible infusion of dlm-xlr-classes (plugin Download Monitor)
 * Improve: Minor changes to figcaption-tag (wp-block-image)
 * Improve: Add more rounder elements
 * Improve: Replace Inconsolata with RobotoSlab

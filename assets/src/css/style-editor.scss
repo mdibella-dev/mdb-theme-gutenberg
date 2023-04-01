@@ -52,6 +52,11 @@
 @import "blocks/mdb-theme-blocks/_post-terms";
 
 
+/** Plugins */
+
+@import "plugins/_download-monitor";
+
+
 /** Editor only settings */
 
 @import "block-editor/_tinymce";
