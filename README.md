@@ -28,6 +28,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 * Improve: Enhance changelog with links to issues
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
+* Bugfix: Tags button list is displayed the same in block editor and frontend
 
 ### Previous changes
 
