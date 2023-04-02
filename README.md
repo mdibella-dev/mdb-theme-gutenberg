@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 * Improve: Enhance changelog with links to issues
+* Bugfix: Tags buttons are displayed the same in block editor and frontend
 
 ### Previous changes
 
