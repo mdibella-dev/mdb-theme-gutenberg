@@ -10,7 +10,7 @@
 /**
  * default
  */
- 
+
 .tags {
     margin-top: 3rem;
 
@@ -19,11 +19,11 @@
     }
 
     ul {
-        all: initial;
         list-style: none;
         display: flex;
         flex-wrap: wrap;
-        gap: 1.75rem .75rem;
+        gap: 1.125rem;
+        padding: 0;
     }
 
     ul > li {
