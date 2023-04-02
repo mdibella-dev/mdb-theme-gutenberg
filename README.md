@@ -26,6 +26,8 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+* Improve: Enhance changelog with links to issues
+
 ### Previous changes
 
 See [CHANGELOG.md](https://github.com/mdibella-dev/mdb-theme-fse/blob/main/CHANGELOG.md).
