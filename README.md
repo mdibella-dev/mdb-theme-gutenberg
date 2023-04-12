@@ -6,7 +6,7 @@ The WordPress theme for Marco Di Bella's personal website (full site editing ver
 ## Development Info
 
 ### Contributors
-[Marco Di Bella ](https://github.com/mdibella-dev)
+[Marco Di Bella](https://github.com/mdibella-dev)
 
 ### Tags
 gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery, variable-font-size
