@@ -16,7 +16,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.is-style-h1,
+.is-style-h2,
+.is-style-h3 {
     // prevent margin-collapsing
     display: block;
     width: 100%;
@@ -42,17 +45,20 @@ h6 {
 }
 
 
-h1 {
+h1,
+:is(h1, h2, h3, h4, h5, h6).is-style-h1 {
     font-size: calc(3 * #{$base--font-size});
     letter-spacing: 2px;
 
     @include breakpoint(large) {
         font-size: calc(4 * #{$base--font-size});
     }
+
 }
 
 
-h2 {
+h2,
+:is(h1, h2, h3, h4, h5, h6).is-style-h2 {
     font-size: calc(1.95 * #{$base--font-size});
     letter-spacing: 2px;
 
@@ -62,8 +68,10 @@ h2 {
 }
 
 
-h3 {
+h3,
+:is(h1, h2, h3, h4, h5, h6).is-style-h3 {
     font-size: calc(1.125 * #{$base--font-size});
+    letter-spacing: 1px;
 
     * + & {
         margin-top: calc(2 * #{$base--gap});
@@ -76,12 +84,8 @@ h3 {
  * .is-style-section
  */
 
-h1.is-style-section,
-h2.is-style-section,
-h3.is-style-section,
-h4.is-style-section,
-h5.is-style-section,
-h6.is-style-section {
+.is-style-section,
+:is(.is-style-h1,.is-style-h2,.is-style-h3).is-style-section {
     // typography
     font-size: calc(1.95 * #{$base--font-size});
 
@@ -96,12 +100,8 @@ h6.is-style-section {
  * .is-style-section-large
  */
 
-h1.is-style-section-large,
-h2.is-style-section-large,
-h3.is-style-section-large,
-h4.is-style-section-large,
-h5.is-style-section-large,
-h6.is-style-section-large {
+.is-style-section-large,
+:is(.is-style-h1,.is-style-h2,.is-style-h3).is-style-section-large {
     // typography
     font-size: calc(3 * #{$base--font-size});
 
