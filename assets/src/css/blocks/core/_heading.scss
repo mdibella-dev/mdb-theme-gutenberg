@@ -26,10 +26,7 @@ h6 {
     font-size: $base--font-size;
     font-weight: 600;
     letter-spacing: 1px;
-    -webkit-hyphens: unset;
-        -ms-hyphens: unset;
-            hyphens: unset;
-
+    hyphens: manual;        // support of plugin wp-typography;
     line-height: 1.3;
     text-transform: none;
     text-shadow: 0 1px 10px rgba(0,0,0,.35);
