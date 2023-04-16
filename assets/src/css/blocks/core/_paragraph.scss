@@ -30,19 +30,6 @@ p {
 }
 
 
-.has-drop-cap:not(:focus) {
-    &::first-letter {
-        font-size: 300%;
-        font-weight: 450;
-        padding: 1rem 0;
-        border-bottom: 2px solid var(--wp--preset--color--denim);   // SASS variable?
-        // override disturbing WordPress settings
-        margin: 0 1rem .5rem .5rem;
-        line-height: 100%;
-    }
-}
-
-
 
 /**
  * .is-style-smallnote
