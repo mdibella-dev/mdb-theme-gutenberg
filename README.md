@@ -29,6 +29,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * New: Add header-style-h1, -h2, -h3 to give heading elements the outer appearance of a heading of a different order (accessibility)
 * Improve: Enhance changelog with links to issues
 * Improve: Add better CSS support for plugin wp-typography
+* Improve: Remove support for download-container
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
 * Bugfix: Tags button list is displayed the same in block editor and frontend
 
