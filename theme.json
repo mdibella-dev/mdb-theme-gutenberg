@@ -27,7 +27,12 @@
                 {
                     "name": "Dusk",
                     "slug": "dusk",
-                    "color": "hsl(202,82%,22%);"
+                    "color": "hsl(202,82%,22%)"
+                },
+                {
+                    "name": "Sky Blue",
+                    "slug": "skyblue",
+                    "color": "hsl(199,92%,56%)"
                 },
                 {
                     "name": "Sand",
@@ -37,7 +42,7 @@
                 {
                     "name": "Concrete",
                     "slug": "concrete",
-                    "color": "hsl(222,7%,45%)"
+                    "color": "hsl(222,7%,53%)"
                 },
                 {
                     "name": "Stone",
