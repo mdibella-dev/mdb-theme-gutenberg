@@ -37,12 +37,12 @@
                 {
                     "name": "Concrete",
                     "slug": "concrete",
-                    "color": "hsl(222,7%,40%)"
+                    "color": "hsl(222,7%,45%)"
                 },
                 {
                     "name": "Stone",
                     "slug": "stone",
-                    "color": "hsl(222,7%,70%)"
+                    "color": "hsl(222,7%,75%)"
                 }
             ],
             "gradients": [
