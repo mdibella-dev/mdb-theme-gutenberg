@@ -115,17 +115,27 @@
         text-decoration-thickness: 1px;
     }
 
-    .download-icon {
-        position: relative;
-        width: 1.2rem;
-        height: auto;
-        flex-shrink: 0;
-        flex-grow: 0;
+    *:not(.download) + & {
+        margin-top: $base--gap;
     }
 
-    .download-text {
-        flex-shrink: 1;
-        flex-grow: 1;
-        width: auto;
+    & + & {
+        margin-top: $base--font-size;
     }
+}
+
+
+.download-icon {
+    position: relative;
+    width: 1.2rem;
+    height: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+
+.download-text {
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: auto;
 }
