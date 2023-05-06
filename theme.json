@@ -91,7 +91,7 @@
         "custom": {
             "navbar": {
                 "height": "5rem",
-                "max-width": "70rem",
+                "max-width": "80rem",
                 "min-padding": "1rem"
             },
             "base": {
