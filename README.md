@@ -31,6 +31,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Add better CSS support for plugin wp-typography
 * Improve: Remove support for download-container
 * Improve: Remove unused colors and refine HSL values
+* Improve: Change navbar max-width to 80rem
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
 * Bugfix: Tags button list is displayed the same in block editor and frontend
 
