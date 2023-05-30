@@ -11,12 +11,12 @@
 // The naming is based on what the colors represent. The actual color palette stems from theme.json.
 
 $color--text:                               var(--wp--preset--color--concrete);
-$color--background:                         var(--wp--preset--color--midnightdark);
+$color--background:                         var(--wp--preset--color--darkness);
 $color--link:                               var(--wp--preset--color--denim);
 $color--link__hover:                        var(--wp--preset--color--white);
 $color--heading-is-paragraph:               var(--wp--preset--color--denim);
-$color--heading-is-section:                 var(--wp--preset--color--stone);
-$color--heading-is-article:                 var(--wp--preset--color--stone);
+$color--heading-is-section:                 var(--wp--preset--color--gypsum);
+$color--heading-is-article:                 var(--wp--preset--color--gypsum);
 $color--figcaption:                         var(--wp--preset--color--denim);
 $color--button--text:                       var(--wp--preset--color--denim);
 $color--button--background:                 transparent;
@@ -24,12 +24,12 @@ $color--button--border:                     var(--wp--preset--color--denim);
 $color--button--text__hover:                var(--wp--preset--color--white);
 $color--button--background__hover:          var(--wp--preset--color--denim);
 $color--button--border__hover:              var(--wp--preset--color--denim);
-$color--slideout:                           var(--wp--preset--color--skyblue);
+$color--slideout:                           var(--wp--preset--color--denim);
 $color--slideout--text:                     var(--wp--preset--color--white);
-$color--slideout--text__hover:              var(--wp--preset--color--dusk);
+$color--slideout--text__hover:              var(--wp--preset--color--denim-dark);
 $color--calendar:                           var(--wp--preset--color--denim);
 $color--calendar--background:               var(--wp--preset--color--white);
-$color--ruler:                              var(--wp--preset--color--dusk);
+$color--ruler:                              var(--wp--preset--color--denim-dark);
 $color--button-is-flat--text:               var(--wp--preset--color--denim);
 $color--button-is-flat--text__hover:        var(--wp--preset--color--denim);
 $color--button-is-flat--background:         transparent;
