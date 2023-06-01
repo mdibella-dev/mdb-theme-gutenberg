@@ -35,6 +35,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Change sass:both to sass:all
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
 * Bugfix: Tags button list is displayed the same in block editor and frontend
+* Bugfix: Add missing z-index to scrollup
 
 ### Previous changes
 
