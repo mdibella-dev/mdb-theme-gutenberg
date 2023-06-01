@@ -127,6 +127,11 @@
             "name": "single-publication",
             "title": "Single Publication",
             "postTypes": [ "publication" ]
+        },
+        {
+            "name": "single-blog-post",
+            "title": "Single Blog Post",
+            "postTypes": [ "post" ]
         }
     ]
 }

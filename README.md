@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 * New: Add header-style-h1, -h2, -h3 to give heading elements the appearance of a heading of a different order (accessibility)
+* New: Add template for single blog posts
 * Improve: Enhance changelog with links to issues
 * Improve: Add better CSS support for plugin wp-typography
 * Improve: Remove support for download-container
