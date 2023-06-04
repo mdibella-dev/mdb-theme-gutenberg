@@ -42,14 +42,19 @@
             ],
             "gradients": [
                 {
-                    "name": "Circular from dusk to transparent, starting at bottom",
-                    "slug": "circular-dusk",
-                    "gradient": "radial-gradient(circle at bottom, var(--wp--preset--color--dusk) 10%, transparent 50%)"
+                    "name": "Circular from darkness to transparent, starting at top",
+                    "slug": "circular-darkness",
+                    "gradient": "radial-gradient(circle at top, var(--wp--preset--color--darkness) 10%, transparent 50%)"
                 },
                 {
-                    "name": "Circular from dusk to transparent, starting at top",
-                    "slug": "circular-dusk-reverse",
-                    "gradient": "radial-gradient(circle at top, var(--wp--preset--color--dusk) 10%, transparent 50%)"
+                    "name": "Circular from darkness to transparent, starting at bottom",
+                    "slug": "circular-darkness-reverse",
+                    "gradient": "radial-gradient(circle at bottom, var(--wp--preset--color--darkness) 10%, transparent 50%)"
+                },
+                {
+                    "name": "Linear from darkness to transparent, starting at top",
+                    "slug": "linear-darkness",
+                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--darkness) 20%, transparent 50%)"
                 }
             ],
             "duotone": [],

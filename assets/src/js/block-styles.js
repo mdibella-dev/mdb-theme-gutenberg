@@ -156,4 +156,18 @@ wp.domReady( () => {
             'dots',
         ]
     );
+
+
+
+    /** core/cover */
+
+    wp.blocks.registerBlockStyle(
+        'core/cover',
+        {
+            name: 'portfolio',
+            label: 'Portfolio',
+            isDefault: false,
+        }
+    );
+    
 } );
