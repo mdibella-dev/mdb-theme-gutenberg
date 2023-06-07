@@ -28,17 +28,24 @@
     figure {
         width: 100% !important;
     }
-
-    figcaption {
-        // spacing
-        margin-top: 1rem;
-        margin-bottom: 0;
-
-        // typography
-        // text-align: left;
-    }
 }
 
+
+/**
+ * Caption element
+ */
+
+.wp-element-caption,
+.wp-block-audio figcaption,
+.wp-block-embed figcaption,
+.wp-block-gallery figcaption,
+.wp-block-image figcaption,
+.wp-block-table figcaption,
+.wp-block-video figcaption {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: left;
+}
 
 
 /**
@@ -78,13 +85,13 @@
         margin-bottom: 0;
     }
 
-    figcaption {
-        margin-top: 1.3rem;
-    }
-
     img {
         //background: cssvar(background-universal);
         box-shadow: 0 8px 10px 0 rgba(0,0,0,.35);
         border-radius: $base--border-radius;
     }
+}
+
+.wp-block-image.is-style-shaded .wp-element-caption {
+    margin-top: 1.3rem;
 }
