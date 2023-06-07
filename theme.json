@@ -159,7 +159,8 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--roboto-slab)",
                     "fontWeight": "600",
-                    "lineHeight": "1.3"
+                    "lineHeight": "1.3",
+                    "letterSpacing": "1.5px"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--gypsum)"
@@ -177,6 +178,17 @@
                     "color": {
                         "text": "var(--wp--preset--color--white)"
                     }
+                }
+            },
+            "caption": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--inter)",
+                    "fontWeight": "300",
+                    "lineHeight": "1.5",
+                    "letterSpacing": ".2px"
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--denim)"
                 }
             }
         },
