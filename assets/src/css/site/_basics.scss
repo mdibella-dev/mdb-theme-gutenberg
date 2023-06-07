@@ -11,6 +11,13 @@ html,
 body {
     height: 100%;
     font-size: 16px;
+
+    // interim settings (still needed as long theme blocks aren't updated)
+    font-family: $font--primary;
+    font-weight: 200;
+    line-height: 1.7;
+    letter-spacing: .2px;
+    color: $color--text;
 }
 
 
