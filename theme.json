@@ -184,6 +184,7 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--inter)",
                     "fontWeight": "300",
+                    "fontSize": "var(--wp--preset--font-size--small)",
                     "lineHeight": "1.5",
                     "letterSpacing": ".2px"
                 },
@@ -198,7 +199,7 @@
                     "fontFamily": "var(--wp--preset--font-family--inter)",
                     "fontWeight": "200",
                     "fontSize": "var(--wp--preset--font-size--medium)",
-                    "lineHeight": "1.6"
+                    "lineHeight": "1.7"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--concrete)"
@@ -209,7 +210,7 @@
                     "fontFamily": "var(--wp--preset--font-family--inter)",
                     "fontWeight": "200",
                     "fontSize": "var(--wp--preset--font-size--medium)",
-                    "lineHeight": "1.6"
+                    "lineHeight": "1.7"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--concrete)"
