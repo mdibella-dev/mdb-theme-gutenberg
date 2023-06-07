@@ -168,15 +168,12 @@
             "link": {
                 "typography": {
                     "fontWeight": "300",
-                    "textDecoration": false
+                    "textDecoration": "none"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--denim)"
                 },
                 ":hover": {
-                    "typography": {
-                        "textDecoration": false
-                    },
                     "color": {
                         "text": "var(--wp--preset--color--white)"
                     }
