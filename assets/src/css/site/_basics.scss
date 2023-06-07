@@ -51,10 +51,4 @@ strong {
 
 a {
     @include default_anchor_style();
-
-    & > .anchor-icon {
-        position: relative;
-        width: 1rem;
-        height: auto;
-    }
 }
