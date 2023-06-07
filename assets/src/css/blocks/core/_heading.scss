@@ -26,7 +26,6 @@ h6,
 
     // typography
     font-size: $base--font-size;
-    letter-spacing: 1px;
     hyphens: manual;        // support of plugin wp-typography;
     text-transform: none;
     text-shadow: 0 1px 10px rgba(0,0,0,.35);
@@ -44,7 +43,6 @@ h6,
 h1,
 :is(h1, h2, h3, h4, h5, h6).is-style-h1 {
     font-size: calc(3 * #{$base--font-size});
-    letter-spacing: 2px;
 
     @include breakpoint(large) {
         font-size: calc(4 * #{$base--font-size});
@@ -56,7 +54,6 @@ h1,
 h2,
 :is(h1, h2, h3, h4, h5, h6).is-style-h2 {
     font-size: calc(1.95 * #{$base--font-size});
-    letter-spacing: 2px;
 
     * + & {
         margin-top: calc(3.5 * #{$base--gap});
@@ -67,7 +64,6 @@ h2,
 h3,
 :is(h1, h2, h3, h4, h5, h6).is-style-h3 {
     font-size: calc(1.125 * #{$base--font-size});
-    letter-spacing: 1px;
 
     * + & {
         margin-top: calc(2 * #{$base--gap});
