@@ -36,6 +36,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Change navbar max-width to 80rem
 * Improve: Change sass:both to sass:all
 * Improve: Remove unused anchor-icon code
+* Improve: Remove default_anchor_style()
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
 * Bugfix: Tags button list is displayed the same in block editor and frontend
 * Bugfix: Add missing z-index to scrollup

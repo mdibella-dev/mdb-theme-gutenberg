@@ -49,8 +49,3 @@ strong {
     font-weight: 600;
     letter-spacing: .8px;
 }
-
-
-a {
-    @include default_anchor_style();
-}
