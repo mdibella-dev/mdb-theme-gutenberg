@@ -13,26 +13,17 @@
 
 .tags {
     margin-top: 3rem;
+    //display: flex;
+    //flex-wrap: wrap;
+    gap: 1.125rem;
+    padding: 0;
 
     @include breakpoint(medium) {
         margin-top:4rem;
     }
 
-    ul {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.125rem;
-        padding: 0;
-    }
 
-    ul > li {
-        padding-left: 0;
-        margin-left: 0;
-    }
-
-    .button.button-tag {
-        @include default_button_style();
+    .wp-element-button {
         font-size: .75rem;
         padding: 8px 12px;
     }
