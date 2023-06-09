@@ -1,0 +1,35 @@
+/**
+ * Block elements
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ * Core block elements
+ */
+
+@import "core/_code";
+@import "core/_cover";
+@import "core/_buttons";
+@import "core/_embed";
+@import "core/_heading";
+@import "core/_image";
+@import "core/_list";
+@import "core/_media-text";
+@import "core/_navigation";
+@import "core/_paragraph";
+@import "core/_post-title";
+@import "core/_separator";
+@import "core/_spacer";
+
+
+
+/**
+ * mdb-theme-blocks block elements
+ */
+
+@import "mdb-theme-blocks/_single-publication-details";
+@import "mdb-theme-blocks/_post-terms";
