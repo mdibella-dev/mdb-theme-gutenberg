@@ -223,30 +223,6 @@
                     }
                 }
             }
-        },
-        "blocks": {
-            "core/paragraph": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--inter)",
-                    "fontWeight": "200",
-                    "fontSize": "var(--wp--preset--font-size--medium)",
-                    "lineHeight": "1.7"
-                },
-                "color": {
-                    "text": "var(--wp--preset--color--concrete)"
-                }
-            },
-            "core/list": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--inter)",
-                    "fontWeight": "200",
-                    "fontSize": "var(--wp--preset--font-size--medium)",
-                    "lineHeight": "1.7"
-                },
-                "color": {
-                    "text": "var(--wp--preset--color--concrete)"
-                }
-            }
         }
     },
     "customTemplates": [
