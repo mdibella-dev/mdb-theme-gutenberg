@@ -29,6 +29,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * New: Add header-style-h1, -h2, -h3 to give heading elements the appearance of a heading of a different order (accessibility)
 * New: Add template for single blog posts
 * New: Add portfolio style to cover block
+* New: Add theme.json element section in basic.scss
 * Improve: Enhance changelog with links to issues
 * Improve: Add better CSS support for plugin wp-typography
 * Improve: Remove support for download-container
@@ -36,7 +37,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Change navbar max-width to 80rem
 * Improve: Change sass:both to sass:all
 * Improve: Remove unused anchor-icon code
-* Improve: Remove default_anchor_style()
+* Improve: Remove uihelper mixins
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
 * Bugfix: Tags button list is displayed the same in block editor and frontend
 * Bugfix: Add missing z-index to scrollup
