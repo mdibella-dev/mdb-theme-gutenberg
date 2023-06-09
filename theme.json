@@ -216,7 +216,6 @@
                 "dimensions": {
                     "minHeight": "auto"
                 },
-                "css": "transition: color .2s",
                 ":hover": {
                     "color": {
                         "text": "var(--wp--preset--color--white)",
