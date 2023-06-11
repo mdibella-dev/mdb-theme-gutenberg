@@ -42,7 +42,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Bugfix: Tags button list is displayed the same in block editor and frontend
 * Bugfix: Add missing z-index to scrollup
 * Bugfix: Fix 1rem setting
-* Bugfix: Custom blocks: Inline core block scripts are not loaded
+
 
 ### Previous changes
 
