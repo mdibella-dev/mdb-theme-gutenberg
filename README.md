@@ -33,7 +33,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Enhance changelog with links to issues
 * Improve: Add better CSS support for plugin wp-typography
 * Improve: Remove support for download-container
-* Improve: Remove unused colors and refine HSL values
+* Improve: Remove unused colors, gradients and refine HSL values
 * Improve: Change navbar max-width to 80rem
 * Improve: Change sass:both to sass:all
 * Improve: Remove unused anchor-icon code
