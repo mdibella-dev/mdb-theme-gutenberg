@@ -16,34 +16,15 @@ h2,
 h3,
 h4,
 h5,
-h6,
-.is-style-h1,
-.is-style-h2,
-.is-style-h3 {
+h6 {
 
-    // typography
-    font-size: $base--font-size;
-
-    * + & {
+* + & {
         margin-top: $base--gap;
     }
 }
 
 
-h1,
-:is(h1, h2, h3, h4, h5, h6).is-style-h1 {
-    font-size: calc(3 * #{$base--font-size});
-
-    @include breakpoint(large) {
-        font-size: calc(4 * #{$base--font-size});
-    }
-
-}
-
-
-h2,
-:is(h1, h2, h3, h4, h5, h6).is-style-h2 {
-    font-size: calc(1.95 * #{$base--font-size});
+h2 {
 
     * + & {
         margin-top: calc(3.5 * #{$base--gap});
@@ -51,10 +32,7 @@ h2,
 }
 
 
-h3,
-:is(h1, h2, h3, h4, h5, h6).is-style-h3 {
-    font-size: calc(1.125 * #{$base--font-size});
-
+h3 {
     * + & {
         margin-top: calc(2 * #{$base--gap});
     }
@@ -67,26 +45,7 @@ h3,
  */
 
 .is-style-section,
-:is(.is-style-h1,.is-style-h2,.is-style-h3).is-style-section {
-    // typography
-    font-size: calc(1.95 * #{$base--font-size});
-
-    // spacing
-    margin-top: 0 !important;
-    margin-bottom: 1.5em;
-}
-
-
-
-/**
- * .is-style-section-large
- */
-
-.is-style-section-large,
-:is(.is-style-h1,.is-style-h2,.is-style-h3).is-style-section-large {
-    // typography
-    font-size: calc(3 * #{$base--font-size});
-
+.is-style-section-large {
     // spacing
     margin-top: 0 !important;
     margin-bottom: 1.5em;

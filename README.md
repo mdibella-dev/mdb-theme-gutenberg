@@ -26,7 +26,6 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-* New: Add header-style-h1, -h2, -h3 to give heading elements the appearance of a heading of a different order (accessibility)
 * New: Add template for single blog posts
 * New: Add portfolio style to cover block
 * New: Add theme.json element section in basic.scss
