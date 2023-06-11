@@ -10,17 +10,16 @@
 html,
 body {
     height: 100%;
-    font-size: 16px;
 }
 
 
 html {
+    font-size: 16px;
     margin: 0 !important;
 }
 
 
 body {
-    background: $color--background;
     margin: 0;
     padding: 0;
     position: relative; // prevent scrolling at overflow:hidden (iOS)
@@ -46,14 +45,8 @@ strong {
 p,
 ol,
 ul {
-    // typography
-    font-family: var(--wp--preset--font-family--inter);
-    font-weight: 200;
-    font-size: var(--wp--preset--font-size--medium);
-    line-height: 1.6;
     letter-spacing: .2px;
     text-shadow: 0 1px 10px rgba(0,0,0,.5);
-    color: var(--wp--preset--color--concrete);
 }
 
 
@@ -132,7 +125,13 @@ h4,
 h5,
 h6 {
     // typography
+    font-family: var(--wp--preset--font-family--roboto-slab);
+    font-weight: 600;
+    font-size: var(--wp--preset--font-size--large);
+    line-height: 1.3;
+    letter-spacing: 1.5px;
     text-shadow: 0 1px 10px rgba(0,0,0,.35);
+    color: var(--wp--preset--color--gypsum);
 
     // support of plugin wp-typography;
     hyphens: manual;
@@ -140,4 +139,16 @@ h6 {
     // dimensions
     margin-top: 0;
     margin-bottom: 0;
+}
+
+
+h1 {
+    // typography
+    font-size: var(--wp--preset--font-size--xx-large);
+}
+
+
+h2 {
+    // typography
+    font-size: var(--wp--preset--font-size--x-large);
 }
