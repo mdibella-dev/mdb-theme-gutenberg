@@ -29,7 +29,7 @@ function register_block_styles()
 {
     wp_enqueue_script(
         'mdb-block-styles',
-        THEME_URI . 'assets/src/js/block-styles.js',        // maybe add a 'build' version?
+        THEME_URI . 'assets/src/js/block-styles.js',        // maybe add a minified 'build' version?
         array(
             'wp-blocks',
             'wp-dom-ready',
@@ -41,3 +41,23 @@ function register_block_styles()
 }
 
 add_action( 'enqueue_block_editor_assets', 'mdb_theme_fse\register_block_styles' );
+
+
+
+/**
+ * Filters whether block styles should be loaded separately.
+ *
+ * Some custom blocks that consist of core blocks (for example paragraph) are not recognised as such during the rendering process.
+ * This means that the corresponding inline styles are not loaded. The following filter seems to fix this.
+ * Please remove it if a better solution is found or the rendering of the affected block has been redesigned.
+ *
+ * @since 1.7.0
+ *
+ * @param bool $load_separate_assets Whether separate assets will be loaded.
+ *                                   Default false (all block assets are loaded, even when not used).
+ *
+ * @see https://github.com/WordPress/gutenberg/issues/38905
+ * @see https://developer.wordpress.org/reference/functions/wp_should_load_separate_core_block_assets/
+ */
+
+add_filter( 'should_load_separate_core_block_assets', '__return_false' );
