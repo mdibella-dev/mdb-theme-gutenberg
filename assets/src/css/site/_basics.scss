@@ -123,4 +123,21 @@ a {
 }
 
 
-/** @todo: theme.json element: heading */
+/** theme.json element: heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // typography
+    text-shadow: 0 1px 10px rgba(0,0,0,.35);
+
+    // support of plugin wp-typography;
+    hyphens: manual;
+
+    // dimensions
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -20,18 +20,9 @@ h6,
 .is-style-h1,
 .is-style-h2,
 .is-style-h3 {
-    // prevent margin-collapsing
-    display: block;
-    width: 100%;
 
     // typography
     font-size: $base--font-size;
-    hyphens: manual;        // support of plugin wp-typography;
-    text-shadow: 0 1px 10px rgba(0,0,0,.35);
-
-    // spacing
-    margin-top: 0;
-    margin-bottom: 0;
 
     * + & {
         margin-top: $base--gap;
