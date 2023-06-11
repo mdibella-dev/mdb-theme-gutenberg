@@ -95,6 +95,33 @@
                     },
                     "slug": "medium",
                     "name": "Medium"
+                },
+                {
+                    "size": "1.375rem",
+                    "fluid": {
+                        "min": "1.375rem",
+                        "max": "1.625rem"
+                    },
+                    "slug": "large",
+                    "name": "Large"
+                },
+                {
+                    "size": "2rem",
+                    "fluid": {
+                        "min": "2rem",
+                        "max": "2.625rem"
+                    },
+                    "slug": "xlarge",
+                    "name": "X-Large"
+                },
+                {
+                    "size": "3rem",
+                    "fluid": {
+                        "min": "3rem",
+                        "max": "4rem"
+                    },
+                    "slug": "xxlarge",
+                    "name": "XX-Large"
                 }
             ],
             "fontWeight": false,
