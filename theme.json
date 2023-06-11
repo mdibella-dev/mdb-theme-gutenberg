@@ -85,7 +85,7 @@
                         "max": "1rem"
                     },
                     "slug": "small",
-                    "name": "Small"
+                    "name": "Small",
                 },
                 {
                     "size": "1rem",
@@ -111,8 +111,8 @@
                         "min": "2rem",
                         "max": "2.625rem"
                     },
-                    "slug": "xlarge",
-                    "name": "X-Large"
+                    "slug": "x-large",
+                    "name": "X-large"
                 },
                 {
                     "size": "3rem",
@@ -120,8 +120,8 @@
                         "min": "3rem",
                         "max": "4rem"
                     },
-                    "slug": "xxlarge",
-                    "name": "XX-Large"
+                    "slug": "xx-large",
+                    "name": "2X-Large"
                 }
             ],
             "fontWeight": false,
