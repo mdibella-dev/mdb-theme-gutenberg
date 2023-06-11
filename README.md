@@ -34,9 +34,10 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Remove support for download-container
 * Improve: Remove unused colors, gradients and refine HSL values
 * Improve: Change navbar max-width to 80rem
-* Improve: Change sass:both to sass:all
+* Improve: Rename sass:both to sass:all
 * Improve: Remove unused anchor-icon code
 * Improve: Remove uihelper mixins
+* Improve: Remove .is-style-section, .is-style-section-large
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
 * Bugfix: Tags button list is displayed the same in block editor and frontend
 * Bugfix: Add missing z-index to scrollup
