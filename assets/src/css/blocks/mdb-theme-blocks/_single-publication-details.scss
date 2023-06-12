@@ -11,12 +11,6 @@
  * Styles for publication pages
  */
 
-.publication-section-title {
-    // adopt styling of h3
-    font-size: calc(1.35 * #{$base--font-size});
-}
-
-
 #cover-and-title {
     display: flex;
     flex-wrap: wrap;
@@ -82,5 +76,11 @@
 
     @include breakpoint(medium) {
         margin-right: 1.5rem;
+    }
+
+    :before {
+        content: "#";
+        margin-right: 3px;
+        color: var(--wp--preset--color--denim-dark);
     }
 }

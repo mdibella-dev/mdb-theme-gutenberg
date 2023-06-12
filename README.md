@@ -29,6 +29,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * New: Add template for single blog posts
 * New: Add portfolio style to cover block
 * New: Add theme.json element section in basic.scss
+* New: Add hash symbol to publication keywords
 * Improve: Enhance changelog with links to issues
 * Improve: Add better CSS support for plugin wp-typography
 * Improve: Remove support for download-container
@@ -37,7 +38,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Rename sass:both to sass:all
 * Improve: Remove unused anchor-icon code
 * Improve: Remove uihelper mixins
-* Improve: Remove .is-style-section, .is-style-section-large
+* Improve: Remove .is-style-section, .is-style-section-large, .publication-section-title
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
 * Bugfix: Tags button list is displayed the same in block editor and frontend
 * Bugfix: Add missing z-index to scrollup
