@@ -68,17 +68,16 @@
 
         p {
             margin: unset;
-            display: block;
             line-height: 1.4;
 
             &.small {
-                font-size: 1rem;
+                font-size: var(--wp--preset--font-size--small);
                 margin-top: .5rem;
             }
         }
 
         a {
-            font-family: $font--secondary;
+            font-family: var(--wp--preset--font-family--roboto-slab);
         }
     }
 }
