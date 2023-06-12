@@ -66,18 +66,20 @@
             }
         }
 
-        p {
-            margin: unset;
-            line-height: 1.4;
+    }
 
-            &.small {
-                font-size: var(--wp--preset--font-size--small);
-                margin-top: .5rem;
-            }
-        }
+    p {
+        margin: unset;
+        line-height: 1.4;
 
-        a {
-            font-family: var(--wp--preset--font-family--roboto-slab);
+        &.small {
+            font-size: var(--wp--preset--font-size--small);
+            margin-top: .3rem;
         }
     }
+
+    a {
+        font-family: var(--wp--preset--font-family--roboto-slab);
+    }
+
 }
