@@ -20,16 +20,29 @@
 
 
 #BorlabsCookieBox ._brlbs-btn {
-    @include default_button_style();
+    // positioning
+    position: relative;
+    top: 0;
+    left: 0;
 
     // typography
     font-size: .9rem !important;
     letter-spacing: .4px;
+    text-shadow: 0 1px 5px rgba(0,0,0,.5);
 
     // other styling
+    display: inline-block;
+    margin-bottom: 0;
     padding: .85rem !important;
     background: rgba(0,0,0,0) !important;
     color: var(--wp--preset--color--denim) !important;
+    transition: color .3s linear, background-color .3s linear, border-color .3s linear;
+    cursor: pointer;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
+
+    &:active {
+        top: 2px;
+    }
 
     &:hover,
     &:focus {

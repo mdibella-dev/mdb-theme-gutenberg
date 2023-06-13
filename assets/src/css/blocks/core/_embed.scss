@@ -39,20 +39,6 @@
     figure {
         width: 100% !important;
     }
-
-    figcaption {
-        // spacing
-        margin-top: 1rem;
-        margin-bottom: 0;
-
-        // typography
-        font-family: $font--primary;
-        font-weight: 300;
-        line-height: 1.6;
-        letter-spacing: .2px;
-        color: $color--figcaption;
-        text-align: left;
-    }
 }
 
 

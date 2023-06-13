@@ -15,20 +15,7 @@ p {
     // prevent margin-collapsing
     display: block;
     width: 100%;
-
-    // typography
-    font-size: $base--font-size;
-    text-shadow: 0 1px 10px rgba(0,0,0,.5);
-
-    // spacing
-    margin-top: 0;
-    margin-bottom: 0;
-
-    * + & {
-        margin-top: $base--gap;
-    }
 }
-
 
 
 /**
@@ -37,8 +24,9 @@ p {
 
 p.is-style-smallnote {
     // typography
-    font-size: calc(.8 * #{$base--font-size});
     font-style: italic;
+    line-height: 1.5;
+    font-size: var(--wp--preset--font-size--small);
 }
 
 
@@ -49,12 +37,12 @@ p.is-style-smallnote {
 
 p.is-style-tag-archive-kicker {
     // typography
-    font-family: $font--primary;
+    font-family: var(--wp--preset--font-family--inter);
     font-weight: 300;
     font-size: calc(1.5 * var(--wp--custom--base--font-size));
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: $color--heading-is-paragraph;
+    color: var(--wp--preset--color--denim);
 
     // spacing
     & + * {

@@ -7,23 +7,12 @@
 
 
 
-@import "components/_app";
-@import "components/_main";
-@import "components/_navbar";
-@import "components/_scrollup";
-@import "components/_slideout";
+@import "_component-app";
+@import "_component-main";
+@import "_component-navbar";
+@import "_component-scrollup";
+@import "_component-slideout";
 
-
-
-/**
- * Fix to WordPress #wpadminbar
- */
-
-@media screen and (max-width: 600px) {
-    #wpadminbar {
-        position: fixed !important;
-    }
-}
 
 
 

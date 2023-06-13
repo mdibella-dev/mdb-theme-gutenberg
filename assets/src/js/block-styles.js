@@ -75,19 +75,11 @@ wp.domReady( () => {
 
     /** core/heading */
 
-    wp.blocks.registerBlockStyle(
+    wp.blocks.unregisterBlockStyle(
         'core/heading',
         [
-            {
-                name: 'section',
-                label: 'Abschnitt',
-                isDefault: false,
-            },
-            {
-                name: 'section-large',
-                label: 'Abschnitt (groß)',
-                isDefault: false,
-            }
+            'section',
+            'section-large'
         ]
     );
 
@@ -169,5 +161,5 @@ wp.domReady( () => {
             isDefault: false,
         }
     );
-    
+
 } );

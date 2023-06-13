@@ -10,33 +10,28 @@
 html,
 body {
     height: 100%;
-    font-family: $font--primary;
-    font-size: 16px;
-    font-weight: 200;
-    line-height: 1.7;
-    letter-spacing: .2px;
-    color: $color--text;
 }
 
 
 html {
+    font-size: 16px;
     margin: 0 !important;
 }
 
 
 body {
-    background: $color--background;
     margin: 0;
     padding: 0;
     position: relative; // prevent scrolling at overflow:hidden (iOS)
     overflow: hidden;
+    background: var(--wp--preset--color--darkness);
+    color: var(--wp--preset--color--concrete);
 }
 
 
 *,
 *::before,
 *::after {
-    //margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -49,12 +44,119 @@ strong {
 }
 
 
-a {
-    @include default_anchor_style();
+p,
+ol,
+ul {
+    // typography
+    font-family: var(--wp--preset--font-family--inter);
+    font-weight: 200;
+    font-size: var(--wp--preset--font-size--medium);
+    line-height: 1.6;
+    letter-spacing: .2px;
+    color: var(--wp--preset--color--concrete);
+    text-shadow: 0 1px 10px rgba(0,0,0,.5);
+}
 
-    & > .anchor-icon {
-        position: relative;
-        width: 1rem;
-        height: auto;
+
+
+/**
+ * Basic elements
+ *
+ * These basic elements are partly designed via settings contained in the theme.json file.
+ * Settings that exceed the current capabilities of theme.json (as of June 2023) and/or are necessary for reasons of compatibility can be found at this point.
+ */
+
+
+/** theme.json element: link */
+
+a {
+    transition: all .2s;
+}
+
+
+/** theme.json element: button */
+
+.wp-element-button,
+.wp-block-button__link {
+    // typography
+    text-shadow: 0 1px 5px rgba(0,0,0,.5);
+
+    // other styling
+    transition: color .3s linear, background-color .3s linear, border-color .3s linear;
+    cursor: pointer;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
+
+    // dimensions
+    display: inline-block;
+    margin-bottom: 0;
+    padding: .75rem 1.5rem;
+
+    // positioning
+    position: relative;
+    top: 0;
+    left: 0;
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
     }
+
+    &:active {
+        top: 2px;
+    }
+}
+
+
+/** theme.json element: caption */
+
+.wp-element-caption,
+.wp-block-audio figcaption,
+.wp-block-embed figcaption,
+.wp-block-gallery figcaption,
+.wp-block-image figcaption,
+.wp-block-table figcaption,
+.wp-block-video figcaption {
+    // typography
+    text-align: left;
+
+    // dimensions
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+
+/** theme.json element: heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // typography
+    font-family: var(--wp--preset--font-family--roboto-slab);
+    font-weight: 600;
+    font-size: var(--wp--preset--font-size--large);
+    line-height: 1.3;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 10px rgba(0,0,0,.35);
+    color: var(--wp--preset--color--gypsum);
+
+    // support of plugin wp-typography;
+    hyphens: manual;
+
+    // dimensions
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+h1 {
+    // typography
+    font-size: var(--wp--preset--font-size--xx-large);
+}
+
+
+h2 {
+    // typography
+    font-size: var(--wp--preset--font-size--x-large);
 }

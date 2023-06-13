@@ -1,0 +1,20 @@
+/**
+ * WordPress fixes
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ * WordPress admin bar support
+ */
+
+#wpadminbar {
+    position: fixed !important;
+
+    @media screen and (max-width:600px) {
+        position: fixed !important;
+    }
+}

@@ -28,20 +28,6 @@
     figure {
         width: 100% !important;
     }
-
-    figcaption {
-        // spacing
-        margin-top: 1rem;
-        margin-bottom: 0;
-
-        // typography
-        font-family: $font--primary;
-        font-weight: 300;
-        line-height: 1.6;
-        letter-spacing: .2px;
-        color: $color--figcaption;
-        text-align: left;
-    }
 }
 
 
@@ -83,13 +69,13 @@
         margin-bottom: 0;
     }
 
-    figcaption {
-        margin-top: 1.3rem;
-    }
-
     img {
         //background: cssvar(background-universal);
         box-shadow: 0 8px 10px 0 rgba(0,0,0,.35);
         border-radius: $base--border-radius;
     }
+}
+
+.wp-block-image.is-style-shaded .wp-element-caption {
+    margin-top: 1.3rem;
 }

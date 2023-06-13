@@ -30,14 +30,13 @@
 
     .vortrag-description {
         p {
-            display: block;
             margin: unset;
-        }
+            line-height: 1.4;
 
-        p + p {
-            color: inherit;
-            font-size: 1rem;
-            margin-top: .3rem;
+            &.small {
+                font-size: var(--wp--preset--font-size--small);
+                margin-top: .3rem;
+            }
         }
     }
 }
@@ -49,9 +48,7 @@
  */
 
 .calendar {
-    border-color: $color--calendar;
-    border-width: 1px;
-    border-style: solid;
+    border: 1px solid var(--wp--preset--color--denim);
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -66,19 +63,18 @@
     .calendar-month {
         padding: .3rem 1rem;
         font-size: 1rem;
-        font-family: $font--primary;
+        font-family: var(--wp--preset--font-family--inter);
         text-align: center;
     }
 
     .calendar-year {
-        color: $color--calendar--background;
-        background: $color--calendar;
+        color: var(--wp--preset--color--white);
+        background: var(--wp--preset--color--denim);
     }
 
     .calendar-month {
-        color: $color--calendar;
+        color: var(--wp--preset--color--denim);
         text-transform: uppercase;
-        font-weight: bolder;
         font-size: .875rem;
     }
 }

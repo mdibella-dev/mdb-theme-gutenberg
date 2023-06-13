@@ -38,16 +38,6 @@
 .teaserblock .teaser {
 
     .teaser-content {
-        @include default_anchor_style();
-
-        // typography
-        text-shadow: none;
-        letter-spacing: unset;
-        hyphens: manual;        // support of plugin wp-typography
-        line-height: 1.4;
-        font-size: 1.1rem;
-        text-shadow: 0 1px 20px rgba(0,0,0,.5);
-
         // sizing
         display: flex;
         flex-wrap: nowrap;
@@ -101,6 +91,17 @@
         .teaser-title {
             display: inline-block;
             width: calc(100% - #{$teaserblock--image-width} );
+
+            // typography
+            line-height: 1.4;
+            letter-spacing: .4px;
+            font-family: var(--wp--preset--font-family--inter);
+            font-weight: 200;
+            font-size: var(--wp--preset--font-size--small);
+            text-shadow: 0 1px 20px rgba(0,0,0,.5);
+
+            // support of plugin wp-typography
+            hyphens: manual;
         }
     }
 }

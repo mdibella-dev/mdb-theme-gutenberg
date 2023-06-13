@@ -16,46 +16,33 @@
 /** Mixins */
 
 @import "mixins/_responsive";
-@import "mixins/_uihelper";
 
 
-/** Page elements / general settings */
+/** Basic framework */
 
-@import "site/_vars";
 @import "site/_fonts";
-@import "site/_svg-buttons";
+@import "site/_vars";
 @import "site/_basics";
 @import "site/_styles";
-@import "site/_components";
+@import "site/_svg-buttons";
+@import 'site/_wordpress';
 
 
-/** Core block elements */
+/** Main components */
 
-@import "blocks/core/_code";
-@import "blocks/core/_cover";
-@import "blocks/core/_buttons";
-@import "blocks/core/_embed";
-@import "blocks/core/_heading";
-@import "blocks/core/_image";
-@import "blocks/core/_list";
-@import "blocks/core/_media-text";
-@import "blocks/core/_navigation";
-@import "blocks/core/_paragraph";
-@import "blocks/core/_post-title";
-@import "blocks/core/_separator";
-@import "blocks/core/_spacer";
+@import "site/components/_index";
 
 
-/** mdb-theme-blocks block elements */
+/** Block elements */
 
-@import "blocks/mdb-theme-blocks/_single-publication-details";
-@import "blocks/mdb-theme-blocks/_post-terms";
+@import "blocks/_index";
+
+
+/** Shortcodes */
+
+@import "shortcodes/_index";
 
 
 /** Plugins */
 
-@import "plugins/mdb-theme-blocks/_teaserblock";
-@import "plugins/mdb-theme-blocks/_vortragsliste";
-@import "plugins/mdb-theme-blocks/_publikationsliste";
-@import "plugins/_borlabs";
-@import "plugins/_download-monitor";
+@import "plugins/_index";
