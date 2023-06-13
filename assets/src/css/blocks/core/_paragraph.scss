@@ -50,7 +50,7 @@ p.is-style-tag-archive-kicker {
     font-size: calc(1.5 * var(--wp--custom--base--font-size));
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: $color--heading-is-paragraph;
+    color: var(--wp--preset--color--denim);
 
     // spacing
     & + * {
