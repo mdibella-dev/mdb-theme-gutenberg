@@ -15,14 +15,6 @@ p {
     // prevent margin-collapsing
     display: block;
     width: 100%;
-
-    // spacing
-    margin-top: 0;
-    margin-bottom: 0;
-
-    * + & {
-        margin-top: $base--gap;
-    }
 }
 
 
