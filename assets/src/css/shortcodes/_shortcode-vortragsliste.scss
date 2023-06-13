@@ -48,7 +48,7 @@
  */
 
 .calendar {
-    border: 1px solid $color--calendar;
+    border: 1px solid var(--wp--preset--color--denim);
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -68,12 +68,12 @@
     }
 
     .calendar-year {
-        color: $color--calendar--background;
-        background: $color--calendar;
+        color: var(--wp--preset--color--white);
+        background: var(--wp--preset--color--denim);
     }
 
     .calendar-month {
-        color: $color--calendar;
+        color: var(--wp--preset--color--denim);
         text-transform: uppercase;
         font-size: .875rem;
     }

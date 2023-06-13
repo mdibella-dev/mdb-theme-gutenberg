@@ -10,9 +10,9 @@
 /**
  * default
  */
- 
+
 .wp-block-separator {
-    border-top: 1px solid $color--ruler;
+    border-top: 1px solid var(--wp--preset--color--denim-dark);
     border-bottom: 1px solid transparent;         // don't know why the original code needs both border lines
     border-left: none;
     border-right: none;
