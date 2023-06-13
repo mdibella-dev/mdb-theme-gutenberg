@@ -299,7 +299,7 @@
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
                 }
-            }
+            },
             "core/heading": {
                 "spacing": {
                     "margin": {
