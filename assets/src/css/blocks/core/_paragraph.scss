@@ -45,7 +45,7 @@ p.is-style-smallnote {
 
 p.is-style-tag-archive-kicker {
     // typography
-    font-family: $font--primary;
+    font-family: var(--wp--preset--font-family--inter);
     font-weight: 300;
     font-size: calc(1.5 * var(--wp--custom--base--font-size));
     letter-spacing: 1px;

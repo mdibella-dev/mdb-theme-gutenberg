@@ -60,7 +60,7 @@
 
 .publication-subtitle {
     display: block;
-    font-family: $font--primary;
+    font-family: var(--wp--preset--font-family--inter);
     font-size: calc(1.35 * #{$base--font-size});
     font-weight: 200;
     letter-spacing: 0;
