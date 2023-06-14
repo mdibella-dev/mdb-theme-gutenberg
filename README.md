@@ -39,6 +39,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Remove unused anchor-icon code
 * Improve: Remove uihelper mixins
 * Improve: Remove .is-style-section, .is-style-section-large, .publication-section-title
+* Improve: Remove image size modification for marco-01
 * Bugfix: Tags buttons are displayed the same in block editor and frontend
 * Bugfix: Tags button list is displayed the same in block editor and frontend
 * Bugfix: Add missing z-index to scrollup
