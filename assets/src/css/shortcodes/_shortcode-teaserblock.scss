@@ -9,11 +9,8 @@
 
 
 .teaserblock.loadmore {
-    margin-top: $teaserblock--teaser-gap;
-
-    @include breakpoint(large) {
-        margin-top: calc(2 * #{$teaserblock--teaser-gap});
-    }
+    margin-top: var(--wp--preset--spacing--60);
+    margin-bottom: var(--wp--preset--spacing--50);
 }
 
 
@@ -26,12 +23,6 @@
         grid-template-columns: repeat(2, calc(50% - calc(#{$teaserblock--teaser-gap} / 2)));
         gap: calc(2 * #{$teaserblock--teaser-gap}) $teaserblock--teaser-gap;
     }
-}
-
-
-.teaserblock .loadmore-action-wrapper,
-.teaserblock + .wp-block-buttons {
-    margin-top: $teaserblock--teaser-gap;
 }
 
 
