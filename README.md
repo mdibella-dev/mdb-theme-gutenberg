@@ -33,7 +33,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * New: Add better wp-block-heading spacing
 * Improve: Enhance changelog with links to issues
 * Improve: Add better CSS support for plugin wp-typography
-* Improve: Remove support for download-container
+* Improve: Remove support for download-container, download-links
 * Improve: Remove unused colors, gradients ([#28](https://github.com/mdibella-dev/mdb-theme-fse/issues/28)) and refine HSL values
 * Improve: Change navbar max-width to 80rem
 * Improve: Rename sass:both to sass:all
