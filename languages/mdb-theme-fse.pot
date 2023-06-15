@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2023-03-20 17:38+0100\n"
+"POT-Creation-Date: 2023-06-15 12:06+0200\n"
 "PO-Revision-Date: 2023-01-28 16:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -21,11 +21,11 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: includes/patterns/404.php:44
+#: includes/patterns/404-image.php:44
 msgid "404 image"
 msgstr ""
 
-#: includes/patterns/slideout.php:67
+#: includes/patterns/slideout.php:60
 msgid "Slideout Navigation"
 msgstr ""
 
@@ -34,10 +34,6 @@ msgid "Primary Navigation"
 msgstr ""
 
 #: includes/setup.php:65
-msgid "Secondary Navigation"
-msgstr ""
-
-#: includes/setup.php:66
 msgid "Page Navigation"
 msgstr ""
 

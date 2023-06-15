@@ -62,8 +62,9 @@ if( ! function_exists( 'theme_setup' ) ) :
 
         // Registers the navigation menus.
         register_nav_menu( 'primary', __( 'Primary Navigation', 'mdb-theme-fse' ) );
-        register_nav_menu( 'secondary', __( 'Secondary Navigation', 'mdb-theme-fse' ) );
         register_nav_menu( 'page', __( 'Page Navigation', 'mdb-theme-fse' ) );
+
+        unregister_nav_menu( 'secondary' );
     }
 
     add_action( 'after_setup_theme', 'mdb_theme_fse\theme_setup' );

@@ -37,13 +37,6 @@ ob_start();
                 'container_id'   => 'primary',
             ) );
             ?>
-            <?php
-            wp_nav_menu( array(
-                'theme_location' => 'secondary',
-                'container'      => 'nav',
-                'container_id'   => 'secondary',
-            ) );
-            ?>
             <!-- /wp:html -->
 
         </div>

@@ -57,8 +57,7 @@
 
 /** Primary and secondary navigation */
 
-#primary,
-#secondary {
+#primary {
     width: 100%;
     display: none;
 
@@ -87,7 +86,7 @@
     }
 
     li + li {
-        margin-top: 1em;
+        margin-top: var(--wp--preset--spacing--40);
     }
 
     a {
@@ -122,15 +121,6 @@
     }
 }
 
-#secondary {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
-    li {
-        line-height: unquote('max(1em, 3vh)');
-    }
-}
-
 
 /** The slide effect */
 
@@ -139,8 +129,7 @@ body.slide-in-progress {
 }
 
 body.slideout-visible {
-    #primary,
-    #secondary {
+    #primary {
         display: unset;
     }
 }
