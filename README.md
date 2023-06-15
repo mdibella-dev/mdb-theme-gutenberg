@@ -42,9 +42,9 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Remove .is-style-section, .is-style-section-large, .publication-section-title
 * Improve: Remove image size modification for marco-01
 * Improve: Remove secondary menu
-* Improve: Add theme.json spacing to loadmore object 
-* Bugfix: Tags buttons are displayed the same in block editor and frontend
-* Bugfix: Tags button list is displayed the same in block editor and frontend
+* Improve: Add theme.json spacing to loadmore object
+* Bugfix: Tags buttons are displayed the same way in block editor and frontend
+* Bugfix: Tags button list is displayed the same way in block editor and frontend
 * Bugfix: Add missing z-index to scrollup
 * Bugfix: Fix 1rem setting
 
