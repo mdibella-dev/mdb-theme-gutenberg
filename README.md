@@ -30,6 +30,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * New: Add portfolio style to cover block
 * New: Add theme.json element section in basic.scss
 * New: Add hash symbol to publication keywords
+* New: Add better wp-block-heading spacing
 * Improve: Enhance changelog with links to issues
 * Improve: Add better CSS support for plugin wp-typography
 * Improve: Remove support for download-container
