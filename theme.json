@@ -194,6 +194,14 @@
                 "color": {
                     "custom": false,
                     "background": false
+                },
+                "spacing": {
+                    "margin": {
+                        "left": false,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
                 }
             },
             "core/post-title": {
@@ -303,7 +311,6 @@
             "core/heading": {
                 "spacing": {
                     "margin": {
-                        "top": "var(--wp--preset--spacing--70)",
                         "bottom": "var(--wp--preset--spacing--40)"
                     }
                 }
