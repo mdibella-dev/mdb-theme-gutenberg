@@ -73,17 +73,6 @@ wp.domReady( () => {
 
 
 
-    /** core/heading */
-
-    wp.blocks.unregisterBlockStyle(
-        'core/heading',
-        [
-            'section',
-            'section-large'
-        ]
-    );
-
-
 
     /** core/paragraph */
 
