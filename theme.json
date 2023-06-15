@@ -299,13 +299,6 @@
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
                 }
-            },
-            "core/heading": {
-                "spacing": {
-                    "margin": {
-                        "bottom": "var(--wp--preset--spacing--40)"
-                    }
-                }
             }
         }
     },

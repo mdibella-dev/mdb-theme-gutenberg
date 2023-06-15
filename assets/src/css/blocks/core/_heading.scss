@@ -1,0 +1,29 @@
+/**
+ * Block: core/heading
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+.wp-block-heading {
+    margin-bottom: var(--wp--preset--spacing--30);
+
+    *:not(.wp-block-heading) + & {
+        margin-top: var(--wp--preset--spacing--50);
+    }
+
+    & + & {
+        margin-top: var(--wp--preset--spacing--30);
+    }
+}
+
+
+h2.wp-block-heading {
+    margin-bottom: var(--wp--preset--spacing--40);
+
+    *:not(.wp-block-heading) + & {
+        margin-top: var(--wp--preset--spacing--70);
+    }
+}
