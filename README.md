@@ -26,6 +26,9 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+### 2.0.0
+Released: 16-06-2023
+
 * New: Add template for single blog posts
 * New: Add portfolio style to cover block
 * New: Add theme.json element section in basic.scss
@@ -43,6 +46,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Remove image size modification for marco-01
 * Improve: Remove secondary menu
 * Improve: Add theme.json spacing to loadmore object
+* Improve: Improved display of the teaser list
 * Bugfix: Tags buttons are displayed the same way in block editor and frontend
 * Bugfix: Tags button list is displayed the same way in block editor and frontend
 * Bugfix: Add missing z-index to scrollup
