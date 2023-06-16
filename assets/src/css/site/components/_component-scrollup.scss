@@ -13,7 +13,7 @@
     bottom: 2rem;
     right: unquote('max(2rem, calc(calc(calc(100% - #{$content--max-width}) / 2 - #{$size--scrollup}) / 3))');
     display: none;
-    z-index: 1070;
+    z-index: 1000;
 
     & > .wp-block-button__link {
 

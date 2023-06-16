@@ -47,6 +47,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Bugfix: Tags button list is displayed the same way in block editor and frontend
 * Bugfix: Add missing z-index to scrollup
 * Bugfix: Fix 1rem setting
+* Bugfix: Fix ScrollUp shows up in the slideout menu ([#43](https://github.com/mdibella-dev/mdb-theme-fse/issues/43))
 
 
 ### Previous changes
