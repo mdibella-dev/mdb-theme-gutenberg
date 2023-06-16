@@ -14,6 +14,16 @@
 }
 
 
+.teaserblock .loadmore-content-wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+
+    @include breakpoint(large) {
+        max-width: unset;
+    }
+}
+
+
 .teaserblock .loadmore-content {
     display: grid;
     grid-template-columns: 100%;
