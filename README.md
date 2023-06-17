@@ -26,32 +26,6 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-### 2.0.0
-Released: 16-06-2023
-
-* New: Add template for single blog posts
-* New: Add portfolio style to cover block
-* New: Add theme.json element section in basic.scss
-* New: Add hash symbol to publication keywords
-* New: Add better wp-block-heading spacing
-* Improve: Enhance changelog with links to issues
-* Improve: Add better CSS support for plugin wp-typography
-* Improve: Remove support for download-container, download-links
-* Improve: Remove unused colors, gradients ([#28](https://github.com/mdibella-dev/mdb-theme-fse/issues/28)) and refine HSL values
-* Improve: Change navbar max-width to 80rem
-* Improve: Rename sass:both to sass:all
-* Improve: Remove unused anchor-icon code
-* Improve: Remove uihelper mixins
-* Improve: Remove .is-style-section, .is-style-section-large, .publication-section-title
-* Improve: Remove image size modification for marco-01
-* Improve: Remove secondary menu
-* Improve: Add theme.json spacing to loadmore object
-* Improve: Improved display of the teaser list
-* Bugfix: Tags buttons are displayed the same way in block editor and frontend
-* Bugfix: Tags button list is displayed the same way in block editor and frontend
-* Bugfix: Add missing z-index to scrollup
-* Bugfix: Fix 1rem setting
-* Bugfix: Fix ScrollUp shows up in the slideout menu ([#43](https://github.com/mdibella-dev/mdb-theme-fse/issues/43))
 
 
 ### Previous changes
