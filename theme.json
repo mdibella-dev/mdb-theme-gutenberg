@@ -53,6 +53,10 @@
             "customGradient": false,
             "customDuotone": false
         },
+        "layout": {
+            "contentSize": "64rem",
+            "wideSize": "80rem"
+        },
         "spacing": {
             "spacingScale": {
                 "steps": 0
