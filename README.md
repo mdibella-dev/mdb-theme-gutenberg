@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 * Improve: Improve the spacing between consecutive headings
+* Improve: Base size of 1rem is increased from 16px to 18px on a trial basis
 
 
 ### Previous changes
