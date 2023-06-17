@@ -54,8 +54,8 @@
             "customDuotone": false
         },
         "layout": {
-            "contentSize": "64rem",
-            "wideSize": "80rem"
+            "contentSize": "960px",
+            "wideSize": "1280px"
         },
         "spacing": {
             "spacingScale": {
