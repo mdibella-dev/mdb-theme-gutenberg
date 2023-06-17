@@ -26,6 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+* Improve: Improve the spacing between consecutive headings
 
 
 ### Previous changes
