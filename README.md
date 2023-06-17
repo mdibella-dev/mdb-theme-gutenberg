@@ -28,6 +28,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 * Improve: Improve the spacing between consecutive headings
 * Improve: Base size of 1rem is increased from 16px to 18px on a trial basis
+* Improve: Remove template-part single-related-post and template single-blog-post
 
 
 ### Previous changes
