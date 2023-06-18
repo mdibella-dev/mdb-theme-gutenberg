@@ -12,14 +12,9 @@
  */
 
 .tags {
-    margin-top: 3rem;
+    margin-top: var(--wp--preset--spacing--50);
     gap: 1.125rem;
     padding: 0;
-
-    @include breakpoint(medium) {
-        margin-top:4rem;
-    }
-
 
     .wp-element-button {
         font-size: .75rem;
