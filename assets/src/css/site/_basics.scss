@@ -121,6 +121,9 @@ a {
     // dimensions
     margin-top: 1rem;
     margin-bottom: 0;
+    max-width: var(--wp--style--global--content-size);
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 
