@@ -30,6 +30,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Base size of 1rem is increased from 16px to 18px on a trial basis
 * Improve: Remove template-part single-related-post and template single-blog-post
 * Improve: Remove support for .content class
+* Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 
 
 ### Previous changes
