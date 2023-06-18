@@ -27,6 +27,9 @@ p.is-style-smallnote {
     font-style: italic;
     line-height: 1.5;
     font-size: var(--wp--preset--font-size--small);
+
+    // spacing
+    margin-top: var(--wp--preset--spacing--50);
 }
 
 
@@ -39,13 +42,15 @@ p.is-style-tag-archive-kicker {
     // typography
     font-family: var(--wp--preset--font-family--inter);
     font-weight: 300;
-    font-size: calc(1.5 * var(--wp--custom--base--font-size));
+    font-size: var(--wp--preset--font-size--large);
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--wp--preset--color--denim);
 
     // spacing
+    margin-bottom: .3rem;
+
     & + * {
-        margin-top: .3rem;
+        margin-top: 0;
     }
 }

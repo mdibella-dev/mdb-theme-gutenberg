@@ -13,8 +13,6 @@
 
 .wp-block-image {
     // sizing
-    width: auto;
-    max-width: unset !important;
     line-height: 0;
 
     // spacing
@@ -38,8 +36,8 @@
 
 .wp-block-image.is-style-transparent {
     // spacing
-    margin-top: calc(2.5 * #{$base--gap});
-    margin-bottom: calc(2.5 * #{$base--gap});
+    margin-top: var(--wp--preset--spacing--50);
+    margin-bottom: var(--wp--preset--spacing--50);
 
     &:first-child {
         margin-top: 0;
@@ -58,8 +56,8 @@
 
 .wp-block-image.is-style-shaded {
     // spacing
-    margin-top: calc(2.5 * #{$base--gap});
-    margin-bottom: calc(2.5 * #{$base--gap});
+    margin-top: var(--wp--preset--spacing--50);
+    margin-bottom: var(--wp--preset--spacing--50);
 
     &:first-child {
         margin-top: 0;
@@ -70,7 +68,6 @@
     }
 
     img {
-        //background: cssvar(background-universal);
         box-shadow: 0 8px 10px 0 rgba(0,0,0,.35);
         border-radius: $base--border-radius;
     }

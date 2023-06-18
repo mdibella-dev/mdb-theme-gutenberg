@@ -13,15 +13,13 @@
 
 .wp-block-embed {
     // sizing
-    width: auto;
-    max-width: unset !important;
     line-height: 0;
 
     // spacing
     margin-left: 0;
     margin-right: 0;
-    margin-top: calc(2.5 * #{$base--gap});
-    margin-bottom: calc(2.5 * #{$base--gap});
+    margin-top: var(--wp--preset--spacing--50);
+    margin-bottom: var(--wp--preset--spacing--50);
 
     &:first-child {
         margin-top: 0;
