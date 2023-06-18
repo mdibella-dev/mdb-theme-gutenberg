@@ -59,6 +59,7 @@
         },
         "spacing": {
             "margin": true,
+            "padding": false,
             "spacingScale": {
                 "steps": 0
             },
