@@ -8,22 +8,16 @@
     <!-- wp:group {"tagName":"main"} -->
     <main id="main" class="wp-block-group">
 
-        <!-- wp:group {"className":"entry-content"} -->
-        <div class="wp-block-group entry-content">
+        <!-- wp:group {"className":"entry-content has-global-padding is-layout-constrained"} -->
+        <div class="wp-block-group entry-content has-global-padding is-layout-constrained">
 
-            <!-- wp:group {"tagName":"section","className":"content"} -->
-            <section class="wp-block-group content">
+            <!-- wp:paragraph {"align":"center","className":"is-style-tag-archive-kicker"} -->
+            <p class="has-text-align-center is-style-tag-archive-kicker">Schlagwort</p>
+            <!-- /wp:paragraph -->
 
-                <!-- wp:paragraph {"align":"center","className":"is-style-tag-archive-kicker"} -->
-                <p class="has-text-align-center is-style-tag-archive-kicker">Schlagwort</p>
-                <!-- /wp:paragraph -->
+            <!-- wp:query-title {"type":"archive","textAlign":"center","showPrefix":false,"} /-->
 
-                <!-- wp:query-title {"type":"archive","textAlign":"center","showPrefix":false,"className":"no-margin-bottom"} /-->
-
-                <!-- wp:mdb-theme-blocks/post-terms-archive /-->
-
-            </section>
-            <!-- /wp:group -->
+            <!-- wp:mdb-theme-blocks/post-terms-archive /-->
 
         </div>
         <!-- /wp:group -->
