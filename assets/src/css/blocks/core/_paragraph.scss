@@ -27,6 +27,9 @@ p.is-style-smallnote {
     font-style: italic;
     line-height: 1.5;
     font-size: var(--wp--preset--font-size--small);
+
+    // spacing
+    margin-top: var(--wp--preset--spacing--50);
 }
 
 
