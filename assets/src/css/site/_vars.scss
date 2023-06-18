@@ -43,14 +43,12 @@ $base--border-radius:                       var(--wp--custom--base--border-radiu
 $navbar--max-width:                         var(--wp--custom--navbar--max-width);
 $navbar--height:                            var(--wp--custom--navbar--height);
 $navbar--min-padding:                       var(--wp--custom--navbar--min-padding);
-$content--max-width:                        var(--wp--custom--content--max-width);
-$content--min-padding:                      var(--wp--custom--content--min-padding);
-$content--padding--autogrow:                unquote('clamp(2rem, 5vw + 1.5rem, 6rem)');
+$content--max-width:                        var(--wp--custom--content--max-width);    // used in scrollup, need to be fixed
+$content--min-padding:                      var(--wp--custom--content--min-padding);  // used in slideout, need to be fixed
 $teaserblock--image-width:                  var(--wp--custom--teaserblock--image-width);
 $teaserblock--teaser-gap:                   4.5rem;
 
 $size--scrollup:                            1.5rem;
-$autogrow--height--spacer:                  unquote('clamp(5rem, 5vw + 3rem, 8rem)');
 
 
 @include breakpoint(medium) {

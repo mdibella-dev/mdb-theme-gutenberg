@@ -8,56 +8,15 @@
 
 
 /**
- * Indented content
- */
-
-.is-root-container > .content,
-.entry-content > .content,
-.content {
-    padding-top: $content--padding--autogrow;
-    padding-bottom: $content--padding--autogrow;
-    padding-left: unquote('max( #{$content--min-padding}, calc( calc(100% - #{$content--max-width} ) / 2 ))');
-    padding-right: unquote('max( #{$content--min-padding}, calc( calc(100% - #{$content--max-width} ) / 2 ))');
-
-    //&:first-of-type,
-    &.no-padding-autogrow,
-    &.no-padding-top-autogrow {
-        padding-top: $content--min-padding;
-    }
-
-    &.no-padding-autogrow,
-    &.no-padding-bottom-autogrow {
-        padding-bottom: $content--min-padding;
-    }
-}
-
-
-.content > *:first-child {
-    margin-top: 0 !important;
-}
-
-
-.content > *:last-child {
-    margin-bottom: 0 !important;
-}
-
-
-
-
-/**
  * Padding and margin control
  */
 
-.no-padding-top,
-.is-root-container > .content.no-padding-top,
-.entry-content > .content.no-padding-top {
+.no-padding-top {
     padding-top: 0 !important;
 }
 
 
-.no-padding-bottom,
-.is-root-container > .content.no-padding-bottom,
-.entry-content > .content.no-padding-bottom {
+.no-padding-bottom {
     padding-bottom: 0 !important;
 }
 
