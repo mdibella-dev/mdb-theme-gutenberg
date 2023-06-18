@@ -10,15 +10,15 @@
 /**
  * default
  */
- 
+
 .wp-block-code {
     border-radius: $base--border-radius !important;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.15) !important;
 
     // spacing
     padding: 1.5rem !important;
-    margin-top: calc(2.5 * #{$base--gap}) !important;
-    margin-bottom: calc(2.5 * #{$base--gap}) !important;
+    margin-top: var(--wp--preset--spacing--50) !important;
+    margin-bottom: var(--wp--preset--spacing--50) !important;
 
     &:first-child {
         margin-top: 0 !important;

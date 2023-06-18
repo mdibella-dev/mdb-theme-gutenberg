@@ -36,8 +36,8 @@
 
 .wp-block-image.is-style-transparent {
     // spacing
-    margin-top: calc(2.5 * #{$base--gap});
-    margin-bottom: calc(2.5 * #{$base--gap});
+    margin-top: var(--wp--preset--spacing--50);
+    margin-bottom: var(--wp--preset--spacing--50);
 
     &:first-child {
         margin-top: 0;
@@ -56,8 +56,8 @@
 
 .wp-block-image.is-style-shaded {
     // spacing
-    margin-top: calc(2.5 * #{$base--gap});
-    margin-bottom: calc(2.5 * #{$base--gap});
+    margin-top: var(--wp--preset--spacing--50);
+    margin-bottom: var(--wp--preset--spacing--50);
 
     &:first-child {
         margin-top: 0;
