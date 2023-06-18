@@ -71,7 +71,7 @@
 
 .publication-keyword {
     display: inline-block;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
     margin-right: 1rem;
 
     @include breakpoint(medium) {
@@ -81,7 +81,6 @@
     &::before {
         content: "#";
         margin-right: 3px;
-        color: var(--wp--preset--color--stone);
     }
 }
 
