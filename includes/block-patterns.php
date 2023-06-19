@@ -25,7 +25,6 @@ function register_block_patterns()
 {
     $block_patterns = array(
         'slideout',
-        '404-image',
     );
 
     foreach( $block_patterns as $block_pattern ) :

@@ -33,6 +33,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Remove template-part single-related-post and template single-blog-post
 * Improve: Remove support for .content class (#40](https://github.com/mdibella-dev/mdb-theme-fse/issues/40))
 * Improve: Captions do not go beyond the normal content width even with wide images and videos
+* Improve: Remove 404 image block pattern
 * Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 * Bugfix: ScrollToID misses the anchor
 
