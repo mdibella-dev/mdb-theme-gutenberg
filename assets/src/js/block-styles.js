@@ -70,7 +70,7 @@ wp.domReady( () => {
     wp.blocks.unregisterBlockVariation( 'core/embed', 'pocketcasts' );
     wp.blocks.unregisterBlockVariation( 'core/embed', 'dailymotion' );
     wp.blocks.unregisterBlockVariation( 'core/embed', 'pinterest' );
-
+    wp.blocks.unregisterBlockVariation( 'core/embed', 'reddit' );
 
 
 
