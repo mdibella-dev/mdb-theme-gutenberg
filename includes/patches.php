@@ -39,4 +39,4 @@ function neutralize_php_error_class()
     ";
 }
 
-add_action( 'admin_head', 'mdb_theme_fse\neutralize_php_error_class' );
+add_action( 'admin_head', __NAMESPACE__ . '\neutralize_php_error_class' );

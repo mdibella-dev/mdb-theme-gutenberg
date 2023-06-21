@@ -31,7 +31,7 @@ function remove_styles_scripts()
     remove_action( 'admin_print_styles', 'print_emoji_styles' );
 }
 
-add_action( 'wp_enqueue_scripts', 'mdb_theme_fse\remove_styles_scripts', 9998 );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\remove_styles_scripts', 9998 );
 
 
 
@@ -65,7 +65,7 @@ function remove_post_classes( $classes, $class, $post_id )
     return $classes;
 }
 
-add_filter( 'post_class', 'mdb_theme_fse\remove_post_classes', 10, 3 );
+add_filter( 'post_class', __NAMESPACE__ . '\remove_post_classes', 10, 3 );
 
 
 
@@ -113,4 +113,4 @@ function remove_menu_classes( $classes, $item, $args, $depth )
     return $classes;
 }
 
-add_filter( 'nav_menu_css_class' , 'mdb_theme_fse\remove_menu_classes' , 10, 4 );
+add_filter( 'nav_menu_css_class' , __NAMESPACE__ . '\remove_menu_classes' , 10, 4 );

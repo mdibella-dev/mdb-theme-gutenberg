@@ -15,59 +15,59 @@ defined( 'ABSPATH' ) or exit;
 
 
 
-if( ! function_exists( 'theme_setup' ) ) :
-
-    /**
-     * Performs basic settings for the theme.
-     *
-     * @since 1.0.0
-     */
-
-     function theme_setup()
-     {
-        // Enables internationalization.
-        load_theme_textdomain( 'mdb-theme-fse', THEME_DIR . 'languages' );
 
 
-        // Adds 'wide' support for the block editor (Gutenberg).
-        add_theme_support( 'align-wide' );
+/**
+ * Performs basic settings for the theme.
+ *
+ * @since 1.0.0
+ */
+
+ function theme_setup()
+ {
+    // Enables internationalization.
+    load_theme_textdomain( 'mdb-theme-fse', THEME_DIR . 'languages' );
 
 
-        // Enables responsive embedding of media embeds.
-        add_theme_support( 'responsive-embeds' );
+    // Adds 'wide' support for the block editor (Gutenberg).
+    add_theme_support( 'align-wide' );
 
 
-        // Adds editor styles.
-        add_theme_support( 'editor-styles' );
-        add_editor_style( 'assets/build/css/style-editor.min.css' );
+    // Enables responsive embedding of media embeds.
+    add_theme_support( 'responsive-embeds' );
 
 
-        // Sets media sizes.
-        if( 320 !== get_option( 'thumbnail_size_w' ) ) :
-            update_option( 'thumbnail_size_w', 320 );
-            update_option( 'thumbnail_size_h', 9999 );
-            update_option( 'thumbnail_crop', 0 );
-        endif;
-
-        if( 640 !== get_option( 'medium_size_w' ) ) :
-            update_option( 'medium_size_w', 640 );
-            update_option( 'medium_size_h', 9999 );
-        endif;
-
-        if( 1200 !== get_option( 'large_size_w' ) ) :
-            update_option( 'large_size_w', 1200 );
-            update_option( 'large_size_h', 9999 );
-        endif;
+    // Adds editor styles.
+    add_theme_support( 'editor-styles' );
+    add_editor_style( 'assets/build/css/style-editor.min.css' );
 
 
-        // Registers the navigation menus.
-        register_nav_menu( 'primary', __( 'Primary Navigation', 'mdb-theme-fse' ) );
-        register_nav_menu( 'page', __( 'Page Navigation', 'mdb-theme-fse' ) );
-    }
+    // Sets media sizes.
+    if( 320 !== get_option( 'thumbnail_size_w' ) ) :
+        update_option( 'thumbnail_size_w', 320 );
+        update_option( 'thumbnail_size_h', 9999 );
+        update_option( 'thumbnail_crop', 0 );
+    endif;
 
-    add_action( 'after_setup_theme', 'mdb_theme_fse\theme_setup' );
+    if( 640 !== get_option( 'medium_size_w' ) ) :
+        update_option( 'medium_size_w', 640 );
+        update_option( 'medium_size_h', 9999 );
+    endif;
 
-endif;
+    if( 1200 !== get_option( 'large_size_w' ) ) :
+        update_option( 'large_size_w', 1200 );
+        update_option( 'large_size_h', 9999 );
+    endif;
+
+
+    // Registers the navigation menus.
+    register_nav_menu( 'primary', __( 'Primary Navigation', 'mdb-theme-fse' ) );
+    register_nav_menu( 'page', __( 'Page Navigation', 'mdb-theme-fse' ) );
+}
+
+add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
+
+
 
 
 
@@ -117,4 +117,4 @@ function theme_scripts()
 
 }
 
-add_action( 'wp_enqueue_scripts', 'mdb_theme_fse\theme_scripts', 9999 );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\theme_scripts', 9999 );

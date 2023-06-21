@@ -37,4 +37,4 @@ function register_block_patterns()
     endforeach;
 }
 
-add_action( 'init', 'mdb_theme_fse\register_block_patterns', 9 );
+add_action( 'init', __NAMESPACE__ . '\register_block_patterns', 9 );

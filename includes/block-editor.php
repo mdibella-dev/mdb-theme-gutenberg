@@ -34,7 +34,7 @@ function remove_no_border_radius( $content )
     return $content;
 }
 
-add_filter( 'the_content', 'mdb_theme_fse\remove_no_border_radius', 10, 2 );
+add_filter( 'the_content', __NAMESPACE__ . '\remove_no_border_radius', 10, 2 );
 
 
 
@@ -59,4 +59,4 @@ function block_editor_settings_all( $editor_settings )
     return $editor_settings;
 }
 
-add_filter( 'block_editor_settings_all', 'mdb_theme_fse\block_editor_settings_all' );
+add_filter( 'block_editor_settings_all', __NAMESPACE__ . '\block_editor_settings_all' );
