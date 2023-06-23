@@ -94,4 +94,5 @@ jQuery( document ).ready( function( $ ) {
         $( '#main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutQuint' );
         return false;
     } );
+    
 } );
