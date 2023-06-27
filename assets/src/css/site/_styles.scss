@@ -31,6 +31,11 @@
 }
 
 
+.no-root-padding-top {
+  margin-top: calc(var(--wp--style--root--padding-top)*-1) !important;
+}
+
+
 /**
  * Basic styles for AJAX-driven loadmore-elements
  */
