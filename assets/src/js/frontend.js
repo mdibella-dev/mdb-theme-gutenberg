@@ -34,14 +34,14 @@ jQuery( document ).ready( function( $ ) {
                 let w = 100;
 
                 $( '#slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
-                $( '#primary, #secondary' ).delay(800).fadeIn();
+                $( '#primary' ).delay(800).fadeIn();
                 $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                 }, duration );
             } else {
-                $( '#primary, #secondary' ).fadeOut();
+                $( '#primary' ).fadeOut();
                 $( '#slideout' ).delay(200).animate( { width: 0 }, 1000, 'easeInOutExpo' );
 
                 setTimeout( function() {
@@ -94,5 +94,5 @@ jQuery( document ).ready( function( $ ) {
         $( '#main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutQuint' );
         return false;
     } );
-    
+
 } );
