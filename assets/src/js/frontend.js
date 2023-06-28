@@ -1,27 +1,8 @@
 jQuery( document ).ready( function( $ ) {
 
-
-    function getNumber( x ) {
-      const parsed = parseInt( x );
-
-      if( isNaN( parsed ) ) {
-          return 0;
-      }
-      return parsed;
-    }
-
-
-    // General scrollToAnchor
-
-    function scrollToID( id ) {
-        let tag    = $( "#"+ id );
-        let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
-
-        $( '#main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
-    }
-
-
-    // Do the slideout
+    /**
+     * Slideout Menu Animation
+     */
 
     $( '.is-hamburger' ).on( 'click', function() {
         let duration = 1000;
@@ -53,7 +34,34 @@ jQuery( document ).ready( function( $ ) {
     } );
 
 
-    // Click on pagenavigation, scroll to anchor
+
+    /**
+     * Smooth Scroll to Anchor (pagenavigation)
+     */
+
+    // Helper function
+
+    function getNumber( x ) {
+      const parsed = parseInt( x );
+
+      if( isNaN( parsed ) ) {
+          return 0;
+      }
+      return parsed;
+    }
+
+
+    // General scrollToAnchor
+
+    function scrollToAnchor( id ) {
+        let tag    = $( "#"+ id );
+        let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
+
+        $( '#main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
+    }
+
+
+    // Event handler
 
     $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function(e) {
         let full_url = this.href;
@@ -61,13 +69,16 @@ jQuery( document ).ready( function( $ ) {
 
         if( parts.length == 2 ) {
             e.preventDefault();
-            scrollToID( parts[1] );
+            scrollToAnchor( parts[1] );
         }
     } );
 
 
 
-    // Add a 'to Top'-Button
+    /**
+     * Smooth Scroll to Top
+     */
+    
     // The button only appears if at least half of the visible area (viewport) has been scrolled (threshold value).
 
     $( '#main' ).on( 'scroll', function() {
