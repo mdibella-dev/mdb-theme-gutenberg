@@ -26,7 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-* New: Add symbols for site up/down and home
+* New: Add symbols for site up/down and home ([#48](https://github.com/mdibella-dev/mdb-theme-fse/issues/48))
 * New: Add support for plugin Embed Privacy
 * New: Add Gutenberg's margin control ([#41](https://github.com/mdibella-dev/mdb-theme-fse/issues/41))
 * New: Add a footer which contains the buttons to the social media profiles, links to the imprint and to the mail address ([#48](https://github.com/mdibella-dev/mdb-theme-fse/issues/48))
