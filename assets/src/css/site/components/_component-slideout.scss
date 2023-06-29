@@ -35,6 +35,11 @@
     left: 0;
     padding: 0 #{$content--min-padding};
     overflow: auto;
+
+    @include breakpoint(large) {
+        top: 0;
+        height: 100%;
+    }
 }
 
 
@@ -45,6 +50,10 @@
     flex-wrap: nowrap;
     max-height: calc(100% - #{$navbar--height});
     padding: 0;
+
+    @include breakpoint(large) {
+        max-height: 100%;
+    }
 }
 
 
