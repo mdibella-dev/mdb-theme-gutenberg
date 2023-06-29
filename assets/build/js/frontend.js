@@ -16,7 +16,7 @@ jQuery( document ).ready( function( $ ) {
 
                 $( '#slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
                 $( '#primary' ).delay(800).fadeIn();
-                $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' ).blur();
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
@@ -27,7 +27,7 @@ jQuery( document ).ready( function( $ ) {
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
-                    $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                    $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' ).blur();
                 }, duration );
             }
         }
@@ -84,13 +84,15 @@ jQuery( document ).ready( function( $ ) {
     function scrollToEdge( selector ) {
         let offset = 0;
 
-        if( 'scrolldown' == selector ) {
+        if( '#scrolldown' == selector ) {
             $( '#main > *' ).each( function( index ) {
                 offset +=  $( this ).outerHeight();
             });
         }
 
         $( '#main' ).animate( { scrollTop: offset }, 1500, 'easeInOutExpo' );
+        $( selector ).blur();
+
     }
 
 
@@ -98,7 +100,7 @@ jQuery( document ).ready( function( $ ) {
 
     $( '#scrollup' ).on( 'click', function( e ) {
         e.preventDefault();
-        scrollToEdge( 'scrollup' );
+        scrollToEdge( '#scrollup' );
     } );
 
 
@@ -106,6 +108,6 @@ jQuery( document ).ready( function( $ ) {
 
     $( '#scrolldown' ).on( 'click', function( e ) {
         e.preventDefault();
-        scrollToEdge( 'scrolldown' );
+        scrollToEdge( '#scrolldown' );
     } );
 } );
