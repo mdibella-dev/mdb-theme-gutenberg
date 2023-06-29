@@ -160,4 +160,4 @@ Released: 30-07-2022
 
 * Initial commit
 
-For changes prior to this version see the [change log](https://github.com/mdibella-dev/mdb-theme/blob/main/CHANGELOG.md) of the predecessor of this theme.
+For changes prior to this version see the [CHANGELOG.md](https://github.com/mdibella-dev/mdb-theme/blob/main/CHANGELOG.md) of the predecessor of this theme.
