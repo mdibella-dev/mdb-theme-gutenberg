@@ -7,6 +7,22 @@
 
 
 #footer {
-    padding-top: var(--wp--preset--spacing--50);
+    padding-top: var(--wp--preset--spacing--70);
     padding-bottom: var(--wp--preset--spacing--30);
+}
+
+
+#footer > p:nth-of-type(1) {
+    font-size: 1rem;
+}
+
+
+#footer > p:nth-of-type(2) {
+    font-size: .875rem;
+    margin-bottom: 0;
+}
+
+
+#footer > .wp-block-buttons {
+    margin-bottom: 2rem;
 }
