@@ -37,6 +37,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Captions do not go beyond the normal content width even with wide images and videos
 * Improve: Remove 404 image block pattern
 * Improve: Simplify the inclusion of SVG in CSS
+* Improve: Remove extra padding on primary
 * Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 * Bugfix: ScrollToID misses the anchor
 

@@ -72,6 +72,8 @@
         font-family: var(--wp--preset--font-family--roboto-slab);
         font-weight: 400;
         text-align: left;
+        line-height: unquote('max(1em, 6vh)');
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
     }
 
     li + li {
@@ -97,17 +99,6 @@
             text-decoration: none !important;
             color: $color--slideout--text__hover;
         }
-    }
-}
-
-
-#primary {
-    padding-top: 10vh;
-    padding-bottom: 2rem;
-
-    li {
-        line-height: unquote('max(1em, 6vh)');
-        font-size: clamp(1.75rem, 4vw, 2.5rem);
     }
 }
 
