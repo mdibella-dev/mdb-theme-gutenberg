@@ -65,7 +65,7 @@ Released: 21-02-2023
 * Improve: Rename /assets/src/scss to /assets/src/css
 * Improve: Move backend patches to patches.php
 * Improve: Tune the spaces in .publikationsliste
-* Improve: Tune the spaces in .teaserblock ([#21](https://github.com/mdibella-dev/mdb-theme-fse/issues/21)
+* Improve: Tune the spaces in .teaserblock ([#21](https://github.com/mdibella-dev/mdb-theme-fse/issues/21))
 * Improve: LinkedIn-Link
 * Improve: Change text domain
 * Improve: Replace text domain constant with text domain string
