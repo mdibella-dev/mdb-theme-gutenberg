@@ -39,7 +39,7 @@ jQuery( document ).ready( function( $ ) {
      * Smooth Scroll to Anchor (pagenavigation)
      */
 
-    // Helper function
+    // helper function
 
     function getNumber( x ) {
       const parsed = parseInt( x );
@@ -51,19 +51,19 @@ jQuery( document ).ready( function( $ ) {
     }
 
 
-    // General scrollToAnchor
+    // general scroll function
 
     function scrollToAnchor( id ) {
-        let tag    = $( "#"+ id );
+        let tag    = $( "#" + id );
         let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
 
         $( '#main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
     }
 
 
-    // Event handler
+    // event handler
 
-    $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function(e) {
+    $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function( e ) {
         let full_url = this.href;
         let parts    = full_url.split( '#' );
 
@@ -76,34 +76,36 @@ jQuery( document ).ready( function( $ ) {
 
 
     /**
-     * Smooth Scroll to Top
+     * Smooth Scroll to top/bottom
      */
-    
-    // The button only appears if at least half of the visible area (viewport) has been scrolled (threshold value).
 
-    $( '#main' ).on( 'scroll', function() {
-        let position  = $( this ).scrollTop();
-        let threshold = $( window ).scrollTop() + $( window ).height() / 2;
+    // general scroll function
 
-        if( 1 == $( '#main' ).data( 'isAutoScrollInProgress' ) ) {
-            if( ( position <= threshold ) && ( 0 != position ) ) {
-                $( '#scrollup' ).fadeOut();
-            } else if( 0 == position ) {
-                $( '#main' ).data( 'isAutoScrollInProgress', 0 );
-            }
-        } else {
-            if( position > threshold ) {
-                $( '#scrollup' ).fadeIn();
-            } else {
-                $( '#scrollup' ).fadeOut();
-            }
+    function scrollToEdge( selector ) {
+        let offset = 0;
+
+        if( 'scrolldown' == selector ) {
+            $( '#main > *' ).each( function( index ) {
+                offset +=  $( this ).outerHeight();
+            });
         }
+
+        $( '#main' ).animate( { scrollTop: offset }, 1500, 'easeInOutExpo' );
+    }
+
+
+    // event handler for scrolling to the top
+
+    $( '#scrollup' ).on( 'click', function( e ) {
+        e.preventDefault();
+        scrollToEdge( 'scrollup' );
     } );
 
-    $( '#scrollup a' ).on( 'click', function() {
-        $( '#main' ).data( 'isAutoScrollInProgress', 1 );
-        $( '#main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutQuint' );
-        return false;
-    } );
 
+    // event handler for scrolling to the bottom
+
+    $( '#scrolldown' ).on( 'click', function( e ) {
+        e.preventDefault();
+        scrollToEdge( 'scrolldown' );
+    } );
 } );
