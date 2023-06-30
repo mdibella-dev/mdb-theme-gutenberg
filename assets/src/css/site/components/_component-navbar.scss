@@ -11,12 +11,13 @@
     position: relative;
     z-index: 3000;
     width: 100%;
+    height: 100%;
     height: $navbar--height;
-
+/*
     @include breakpoint(large) {
         width: $navbar--height;     // navbar-width;
         height: 100%;
-    }
+    }*/
 }
 
 .navbar-content {   // temporarily
@@ -24,8 +25,7 @@
     flex-direction: row;
     align-content: center;
     height: 100%;
-    padding-left: unquote('max( #{$navbar--min-padding}, calc( calc(100% - #{$navbar--max-width} ) / 2 ))');
-    padding-right: unquote('max( #{$navbar--min-padding}, calc( calc(100% - #{$navbar--max-width} ) / 2 ))');
+    padding: 1rem;
     background: transparent;
 
     @include breakpoint(large) {
@@ -41,28 +41,32 @@
     align-items: center;
     flex-wrap: nowrap;
 
-    @include breakpoint(large) {
-        flex-wrap: wrap;
-    }
-
-    // left element
+    // left/top element
     &:nth-of-type(1) {
         order: 1;
         flex-grow: 0;
         justify-content: flex-start;
     }
 
-    // middle element
+    // middle/center element
     &:nth-of-type(2) {
         order: 2;
         flex-grow: 2;
     }
 
-    // right element
+    // right/bottom element
     &:nth-of-type(3) {
         gap: .2em;
         order: 3;
         flex-grow: 0;
         justify-content: flex-end;
+    }
+
+    @include breakpoint(large) {
+        &:nth-of-type(1),
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+            flex-wrap: wrap;
+        }
     }
 }
