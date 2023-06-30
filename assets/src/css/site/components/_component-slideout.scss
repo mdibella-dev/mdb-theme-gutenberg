@@ -33,7 +33,7 @@
     position: relative;
     top: $navbar--height;
     left: 0;
-    padding: 0 #{$content--min-padding};
+    padding: 0 1rem;
     overflow: auto;
 
     @include breakpoint(large) {
