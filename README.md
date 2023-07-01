@@ -41,6 +41,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Remove extra padding on primary
 * Improve: Font faces are loaded by theme.json ([#58](https://github.com/mdibella-dev/mdb-theme-fse/issues/58))
 * Improve: Remove normalize.scss ([#47](https://github.com/mdibella-dev/mdb-theme-fse/issues/47))
+* Improve: Add better support of root padding top/bottom
 * Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 * Bugfix: ScrollToID misses the anchor
 
