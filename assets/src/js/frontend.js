@@ -16,7 +16,8 @@ jQuery( document ).ready( function( $ ) {
 
                 $( '#slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
                 $( '#primary' ).delay(800).fadeIn();
-                $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' ).blur();
+                $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                $( '.navbar-content-area--right-bottom' ).fadeOut();
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
@@ -27,7 +28,8 @@ jQuery( document ).ready( function( $ ) {
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
-                    $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' ).blur();
+                    $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                    $( '.navbar-content-area--right-bottom' ).fadeIn();
                 }, duration );
             }
         }
