@@ -25,6 +25,7 @@
 
     @include breakpoint(large) {
         flex-direction: column;
+        padding-bottom: var(--wp--style--root--padding-bottom);
     }
 }
 
