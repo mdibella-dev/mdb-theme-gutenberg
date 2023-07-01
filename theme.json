@@ -101,11 +101,31 @@
             "fluid": true,
             "fontFamilies": [
                 {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Inter-VariableFont_slnt,wght.woff2"
+                            ]
+                        }
+                    ],
                     "name": "Inter",
                     "slug": "inter",
                     "fontFamily": "Inter, Arial, sans-serif"
                 },
                 {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Roboto Slab",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/RobotoSlab-VariableFont_wght.woff2"
+                            ]
+                        }
+                    ],
                     "name": "Roboto Slab",
                     "slug": "roboto-slab",
                     "fontFamily": "Roboto Slab, Georgia, serif"
