@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) or exit;
 function register_block_patterns()
 {
     $block_patterns = array(
-        'slideout',
+        'primary',
     );
 
     foreach( $block_patterns as $block_pattern ) :
