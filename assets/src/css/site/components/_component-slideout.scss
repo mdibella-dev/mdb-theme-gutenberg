@@ -1,5 +1,5 @@
 /**
- * Component: #slideout (main menue which slides out when mdb-button is clicked)
+ * Component: .slideout (main menue which slides out when mdb-button is clicked)
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
@@ -7,7 +7,7 @@
 
 
 
-#slideout {
+.slideout {
     position: fixed;
     z-index: 2000;
     background: $color--slideout;
@@ -16,16 +16,10 @@
     height: 100%;
     top: 0;
     left: 0;
-
-    body.logged-in.admin-bar & {
-        height: calc(100vh - var(--wp-admin--admin-bar--height));
-        height: calc(100dvh - var(--wp-admin--admin-bar--height));
-        top: var(--wp-admin--admin-bar--height);
-    }
 }
 
 
-#slideout-content-wrapper {
+.slideout-content-wrapper {
     display: flex;
     justify-content: center;
     height: calc(100% - var(--wp--custom--navbar--row-height));
@@ -43,7 +37,7 @@
 }
 
 
-#slideout-content {
+.slideout-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +51,7 @@
 }
 
 
-/** Primary and secondary navigation */
+/** Primary navigation */
 
 #primary {
     width: auto;

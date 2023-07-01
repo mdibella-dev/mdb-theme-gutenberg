@@ -1,45 +1,51 @@
-<!-- wp:group {"className":"navbar-content"} -->
-<div class="wp-block-group navbar-content-wrapper">
+<!-- wp:group {"className":"navbar"} -->
+<div class="wp-block-group navbar">
 
-    <!-- wp:buttons {"className":"navbar-content navbar-content-first","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-    <div class="wp-block-buttons navbar-content navbar-content-first">
+    <!-- wp:group {"className":"navbar-content"} -->
+    <div class="wp-block-group navbar-content-wrapper">
 
-        <!-- wp:button {"className":"is-style-navigation-faux-anchor is-hamburger"} -->
-        <div class="wp-block-button is-style-navigation-faux-anchor is-hamburger">
-            <a class="wp-block-button__link" href="#"><span class="svg-symbol svg-symbol-hamburger"></span></a>
+        <!-- wp:buttons {"className":"navbar-content navbar-content-first","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+        <div class="wp-block-buttons navbar-content navbar-content-first">
+
+            <!-- wp:button {"className":"is-style-navigation-faux-anchor is-hamburger"} -->
+            <div class="wp-block-button is-style-navigation-faux-anchor is-hamburger">
+                <a class="wp-block-button__link" href="#"><span class="svg-symbol svg-symbol-hamburger"></span></a>
+            </div>
+            <!-- /wp:button -->
+
         </div>
-        <!-- /wp:button -->
+        <!-- /wp:buttons -->
+
+        <!-- wp:spacer {"className":"navbar-content navbar-content-second"} -->
+        <div aria-hidden="true" class="wp-block-spacer navbar-content navbar-content-second"></div>
+        <!-- /wp:spacer -->
+
+        <!-- wp:buttons {"className":"navbar-content navbar-content-third","layout":{"type":"flex","justifyContent":"right","flexWrap":"nowrap"}} -->
+        <div class="wp-block-buttons navbar-content navbar-content-third">
+
+            <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
+            <div class="wp-block-button is-style-navigation-faux-anchor">
+                <a class="wp-block-button__link" href="/"><span class="svg-symbol svg-symbol-home"></span></a>
+            </div>
+            <!-- /wp:button -->
+
+            <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
+            <div class="wp-block-button is-style-navigation-faux-anchor">
+                <a id="scrollup" class="wp-block-button__link" href="#"><span class="svg-symbol svg-symbol-up"></span></a>
+            </div>
+            <!-- /wp:button -->
+
+            <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
+            <div class="wp-block-button is-style-navigation-faux-anchor">
+                <a id="scrolldown" class="wp-block-button__link" href="#"><span class="svg-symbol svg-symbol-down"></span></a>
+            </div>
+            <!-- /wp:button -->
+
+        </div>
+        <!-- /wp:buttons -->
 
     </div>
-    <!-- /wp:buttons -->
-
-    <!-- wp:spacer {"className":"navbar-content navbar-content-second"} -->
-    <div aria-hidden="true" class="wp-block-spacer navbar-content navbar-content-second"></div>
-    <!-- /wp:spacer -->
-
-    <!-- wp:buttons {"className":"navbar-content navbar-content-third","layout":{"type":"flex","justifyContent":"right","flexWrap":"nowrap"}} -->
-    <div class="wp-block-buttons navbar-content navbar-content-area--right-bottom">
-
-        <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
-        <div class="wp-block-button is-style-navigation-faux-anchor">
-            <a class="wp-block-button__link" href="/"><span class="svg-symbol svg-symbol-home"></span></a>
-        </div>
-        <!-- /wp:button -->
-
-        <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
-        <div class="wp-block-button is-style-navigation-faux-anchor">
-            <a id="scrollup" class="wp-block-button__link" href="#"><span class="svg-symbol svg-symbol-up"></span></a>
-        </div>
-        <!-- /wp:button -->
-
-        <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
-        <div class="wp-block-button is-style-navigation-faux-anchor">
-            <a id="scrolldown" class="wp-block-button__link" href="#"><span class="svg-symbol svg-symbol-down"></span></a>
-        </div>
-        <!-- /wp:button -->
-
-    </div>
-    <!-- /wp:buttons -->
+    <!-- /wp:group -->
 
 </div>
 <!-- /wp:group -->

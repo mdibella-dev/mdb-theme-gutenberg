@@ -14,7 +14,7 @@ jQuery( document ).ready( function( $ ) {
             if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
                 let w = 100;
 
-                $( '#slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
+                $( '.slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
                 $( '#primary' ).delay(800).fadeIn();
                 $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
                 $( '.navbar-content-third' ).fadeOut();
@@ -24,7 +24,7 @@ jQuery( document ).ready( function( $ ) {
                 }, duration );
             } else {
                 $( '#primary' ).fadeOut();
-                $( '#slideout' ).delay(200).animate( { width: 0 }, 1000, 'easeInOutExpo' );
+                $( '.slideout' ).delay(200).animate( { width: 0 }, 1000, 'easeInOutExpo' );
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
