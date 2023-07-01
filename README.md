@@ -28,7 +28,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 * New: Restore the ability of the navbar to become a sidebar on larger displays ([#48](https://github.com/mdibella-dev/mdb-theme-fse/issues/48))
 * New: Add symbols for site up/down and home ([#48](https://github.com/mdibella-dev/mdb-theme-fse/issues/48))
-* New: Add support for plugin Embed Privacy
+* New: Add support for plugin [Embed Privacy](https://de.wordpress.org/plugins/embed-privacy/)
 * New: Add Gutenberg's margin control ([#41](https://github.com/mdibella-dev/mdb-theme-fse/issues/41))
 * New: Add a footer which contains the buttons to the social media profiles, links to the imprint and to the mail address ([#48](https://github.com/mdibella-dev/mdb-theme-fse/issues/48))
 * Improve: Improve the spacing between consecutive headings
@@ -39,6 +39,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Remove 404 image block pattern
 * Improve: Simplify the inclusion of SVG in CSS
 * Improve: Remove extra padding on primary
+* Improve: Font faces are loaded by theme.json ([#58](https://github.com/mdibella-dev/mdb-theme-fse/issues/58))
 * Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 * Bugfix: ScrollToID misses the anchor
 
