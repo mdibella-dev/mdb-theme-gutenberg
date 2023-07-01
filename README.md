@@ -30,6 +30,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Add more space to mdb-theme-blocks/post-terms
 * Improve: Separate HTML code from the slideout block pattern (now in slideout template part) and rename the block pattern to primary
 * Improve: Make structure and selectors of site components more consistent
+* Improve: Change selectors of navbar buttons from id to class name
 
 ### Previous changes
 
