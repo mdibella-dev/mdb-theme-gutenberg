@@ -42,6 +42,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Font faces are loaded by theme.json ([#58](https://github.com/mdibella-dev/mdb-theme-fse/issues/58))
 * Improve: Remove normalize.scss ([#47](https://github.com/mdibella-dev/mdb-theme-fse/issues/47))
 * Improve: Add better support of root padding top/bottom
+* Improve: Replace header tag on navbar with div tag ([#54](https://github.com/mdibella-dev/mdb-theme-fse/issues/54))
 * Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 * Bugfix: ScrollToID misses the anchor
 
