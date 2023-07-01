@@ -44,6 +44,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Add better support of root padding top/bottom
 * Improve: Replace header tag on navbar with div tag ([#54](https://github.com/mdibella-dev/mdb-theme-fse/issues/54))
 * Improve: Change font family slugs to primary, secondary ([#60](https://github.com/mdibella-dev/mdb-theme-fse/issues/60))
+* Improve: Remove --wp--custom--base--font-size
 * Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 * Bugfix: ScrollToID misses the anchor
 

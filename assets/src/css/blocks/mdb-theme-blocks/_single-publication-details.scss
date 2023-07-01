@@ -53,7 +53,7 @@
 
 .publication-title {
     display: block;
-    font-size: calc(2.5 * #{$base--font-size});
+    font-size: var(--wp--preset--font-size--x-large);
     hyphens: auto !important;
 }
 
@@ -61,7 +61,7 @@
 .publication-subtitle {
     display: block;
     font-family: var(--wp--preset--font-family--primary);
-    font-size: calc(1.35 * #{$base--font-size});
+    font-size: calc(.8 * var(--wp--preset--font-size--x-large));
     font-weight: 200;
     letter-spacing: 0;
     color: var(--wp--preset--color--denim);

@@ -191,7 +191,6 @@
                 "row-height": "5rem"
             },
             "base": {
-                "font-size": "clamp(1rem, calc(1rem + ((1vw - 0.3rem) * 0.5)), 1.25rem)",
                 "gap": "calc(1.5 * var(--wp--custom--base--font-size))",
                 "border-radius": "8px"
             },
