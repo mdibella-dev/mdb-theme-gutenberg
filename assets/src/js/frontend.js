@@ -4,7 +4,7 @@ jQuery( document ).ready( function( $ ) {
      * Slideout Menu Animation
      */
 
-    $( '.is-hamburger' ).on( 'click', function() {
+    $( '.is-navbar-hamburger' ).on( 'click', function() {
         let duration = 1000;
 
         if( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
@@ -16,7 +16,7 @@ jQuery( document ).ready( function( $ ) {
 
                 $( '.slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
                 $( '#primary' ).delay(800).fadeIn();
-                $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
                 $( '.navbar-content-third' ).fadeOut();
 
                 setTimeout( function() {
@@ -28,7 +28,7 @@ jQuery( document ).ready( function( $ ) {
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
-                    $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                    $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
                     $( '.navbar-content-third' ).fadeIn();
                 }, duration );
             }
@@ -86,7 +86,7 @@ jQuery( document ).ready( function( $ ) {
     function scrollToEdge( selector ) {
         let offset = 0;
 
-        if( '#scrolldown' == selector ) {
+        if( '.is-navbar-scrolldown' == selector ) {
             $( '#main > *' ).each( function( index ) {
                 offset +=  $( this ).outerHeight();
             });
@@ -94,22 +94,21 @@ jQuery( document ).ready( function( $ ) {
 
         $( '#main' ).animate( { scrollTop: offset }, 1500, 'easeInOutExpo' );
         $( selector ).blur();
-
     }
 
 
     // event handler for scrolling to the top
 
-    $( '#scrollup' ).on( 'click', function( e ) {
+    $( '.is-navbar-scrollup' ).on( 'click', function( e ) {
         e.preventDefault();
-        scrollToEdge( '#scrollup' );
+        scrollToEdge( '.is-navbar-scrollup' );
     } );
 
 
     // event handler for scrolling to the bottom
 
-    $( '#scrolldown' ).on( 'click', function( e ) {
+    $( '.is-navbar-scrolldown' ).on( 'click', function( e ) {
         e.preventDefault();
-        scrollToEdge( '#scrolldown' );
+        scrollToEdge( '.is-navbar-scrolldown' );
     } );
 } );
