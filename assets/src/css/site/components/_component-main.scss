@@ -16,7 +16,11 @@
 }
 
 
-#main > .entry-content {
+#main > :first-child {
     padding-top: var(--wp--style--root--padding-top);
+}
+
+
+#main > :last-child {
     padding-bottom: var(--wp--style--root--padding-bottom);
 }
