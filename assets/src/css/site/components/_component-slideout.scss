@@ -28,7 +28,7 @@
 #slideout-content-wrapper {
     display: flex;
     justify-content: center;
-    height: calc(100% - var(--wp--custom--navbar--row-height) );
+    height: calc(100% - var(--wp--custom--navbar--row-height));
     width: 100%;
     position: relative;
     top: var(--wp--custom--navbar--row-height);
