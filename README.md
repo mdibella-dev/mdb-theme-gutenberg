@@ -26,7 +26,8 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-
+* New: Add a minified block-styles.js
+* Improve: Add more space to mdb-theme-blocks/post-terms
 
 ### Previous changes
 
