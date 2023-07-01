@@ -26,6 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+* New: Restore the ability of the navbar to become a sidebar on larger displays ([#48](https://github.com/mdibella-dev/mdb-theme-fse/issues/48))
 * New: Add symbols for site up/down and home ([#48](https://github.com/mdibella-dev/mdb-theme-fse/issues/48))
 * New: Add support for plugin Embed Privacy
 * New: Add Gutenberg's margin control ([#41](https://github.com/mdibella-dev/mdb-theme-fse/issues/41))
