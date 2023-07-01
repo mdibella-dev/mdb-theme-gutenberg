@@ -40,7 +40,6 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Simplify the inclusion of SVG in CSS
 * Improve: Remove extra padding on primary
 * Improve: Font faces are loaded by theme.json ([#58](https://github.com/mdibella-dev/mdb-theme-fse/issues/58))
-* Improve: Make icon size bigger ([#52](https://github.com/mdibella-dev/mdb-theme-fse/issues/52))
 * Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 * Bugfix: ScrollToID misses the anchor
 
