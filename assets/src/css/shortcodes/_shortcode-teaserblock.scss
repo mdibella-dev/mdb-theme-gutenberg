@@ -26,11 +26,11 @@
 .teaserblock .loadmore-content {
     display: grid;
     grid-template-columns: 100%;
-    gap: $teaserblock--teaser-gap;
+    gap: var(--wp--custom--teaserblock--gap);
 
     @include breakpoint(large) {
-        grid-template-columns: repeat(2, calc(50% - calc(#{$teaserblock--teaser-gap} / 2)));
-        gap: calc(2 * #{$teaserblock--teaser-gap}) $teaserblock--teaser-gap;
+        grid-template-columns: repeat(2, calc(50% - calc(var(--wp--custom--teaserblock--gap) / 2)));
+        gap: calc(2 * var(--wp--custom--teaserblock--gap)) var(--wp--custom--teaserblock--gap);
     }
 }
 
@@ -55,7 +55,7 @@
             box-shadow: 0 1px 10px 0 rgba(0,0,0,.35);
             border-radius: $base--border-radius !important;
             padding: 0;
-            width: $teaserblock--image-width;
+            width: var(--wp--custom--teaserblock--image-width);
             position: relative;
             transition: transform .3s ease-in-out;
             transform: scale(1.0);
@@ -90,7 +90,7 @@
 
         .teaser-title {
             display: inline-block;
-            width: calc(100% - #{$teaserblock--image-width} );
+            width: calc(100% - var(--wp--custom--teaserblock--image-width));
 
             // typography
             line-height: 1.4;

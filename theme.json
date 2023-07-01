@@ -195,7 +195,8 @@
                 "border-radius": "8px"
             },
             "teaserblock": {
-                "image-width": "100px"
+                "image-width": "100px",
+                "gap": "4.5rem"
             }
         },
         "blocks": {

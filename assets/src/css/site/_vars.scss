@@ -39,10 +39,6 @@ $base--border-radius:                       var(--wp--custom--base--border-radiu
 
 // Dimensions
 
-$teaserblock--image-width:                  var(--wp--custom--teaserblock--image-width);
-$teaserblock--teaser-gap:                   4.5rem;
-
-
 @include breakpoint(medium) {
     body {
         --wp--custom--teaserblock--image-width:     125px;
