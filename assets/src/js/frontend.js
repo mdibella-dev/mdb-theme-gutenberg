@@ -1,27 +1,8 @@
 jQuery( document ).ready( function( $ ) {
 
-
-    function getNumber( x ) {
-      const parsed = parseInt( x );
-
-      if( isNaN( parsed ) ) {
-          return 0;
-      }
-      return parsed;
-    }
-
-
-    // General scrollToAnchor
-
-    function scrollToID( id ) {
-        let tag    = $( "#"+ id );
-        let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
-
-        $( '#main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
-    }
-
-
-    // Do the slideout
+    /**
+     * Slideout Menu Animation
+     */
 
     $( '.is-hamburger' ).on( 'click', function() {
         let duration = 1000;
@@ -34,65 +15,101 @@ jQuery( document ).ready( function( $ ) {
                 let w = 100;
 
                 $( '#slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
-                $( '#primary, #secondary' ).delay(800).fadeIn();
+                $( '#primary' ).delay(800).fadeIn();
                 $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                $( '.navbar-content-area--right-bottom' ).fadeOut();
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                 }, duration );
             } else {
-                $( '#primary, #secondary' ).fadeOut();
+                $( '#primary' ).fadeOut();
                 $( '#slideout' ).delay(200).animate( { width: 0 }, 1000, 'easeInOutExpo' );
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                     $( '.is-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                    $( '.navbar-content-area--right-bottom' ).fadeIn();
                 }, duration );
             }
         }
     } );
 
 
-    // Click on pagenavigation, scroll to anchor
 
-    $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function(e) {
+    /**
+     * Smooth Scroll to Anchor (pagenavigation)
+     */
+
+    // helper function
+
+    function getNumber( x ) {
+      const parsed = parseInt( x );
+
+      if( isNaN( parsed ) ) {
+          return 0;
+      }
+      return parsed;
+    }
+
+
+    // general scroll function
+
+    function scrollToAnchor( id ) {
+        let tag    = $( "#" + id );
+        let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
+
+        $( '#main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
+    }
+
+
+    // event handler
+
+    $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function( e ) {
         let full_url = this.href;
         let parts    = full_url.split( '#' );
 
         if( parts.length == 2 ) {
             e.preventDefault();
-            scrollToID( parts[1] );
+            scrollToAnchor( parts[1] );
         }
     } );
 
 
 
-    // Add a 'to Top'-Button
-    // The button only appears if at least half of the visible area (viewport) has been scrolled (threshold value).
+    /**
+     * Smooth Scroll to top/bottom
+     */
 
-    $( '#main' ).on( 'scroll', function() {
-        let position  = $( this ).scrollTop();
-        let threshold = $( window ).scrollTop() + $( window ).height() / 2;
+    // general scroll function
 
-        if( 1 == $( '#main' ).data( 'isAutoScrollInProgress' ) ) {
-            if( ( position <= threshold ) && ( 0 != position ) ) {
-                $( '#scrollup' ).fadeOut();
-            } else if( 0 == position ) {
-                $( '#main' ).data( 'isAutoScrollInProgress', 0 );
-            }
-        } else {
-            if( position > threshold ) {
-                $( '#scrollup' ).fadeIn();
-            } else {
-                $( '#scrollup' ).fadeOut();
-            }
+    function scrollToEdge( selector ) {
+        let offset = 0;
+
+        if( '#scrolldown' == selector ) {
+            $( '#main > *' ).each( function( index ) {
+                offset +=  $( this ).outerHeight();
+            });
         }
+
+        $( '#main' ).animate( { scrollTop: offset }, 1500, 'easeInOutExpo' );
+        $( selector ).blur();
+
+    }
+
+
+    // event handler for scrolling to the top
+
+    $( '#scrollup' ).on( 'click', function( e ) {
+        e.preventDefault();
+        scrollToEdge( '#scrollup' );
     } );
 
-    $( '#scrollup a' ).on( 'click', function() {
-        $( '#main' ).data( 'isAutoScrollInProgress', 1 );
-        $( '#main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutQuint' );
-        return false;
+
+    // event handler for scrolling to the bottom
+
+    $( '#scrolldown' ).on( 'click', function( e ) {
+        e.preventDefault();
+        scrollToEdge( '#scrolldown' );
     } );
-    
 } );

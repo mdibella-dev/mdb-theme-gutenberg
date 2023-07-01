@@ -159,3 +159,5 @@ Released: 27-10-2022
 Released: 30-07-2022
 
 * Initial commit
+
+For changes prior to this version see the [changelog](https://github.com/mdibella-dev/mdb-theme/blob/main/README.md) of the predecessor of this theme (**mdb-theme**).

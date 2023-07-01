@@ -11,17 +11,22 @@
     position: relative;
     z-index: 3000;
     width: 100%;
-    height: $navbar--height;
+    height: 100%;
 }
+
 
 .navbar-content {   // temporarily
     display: flex;
     flex-direction: row;
     align-content: center;
     height: 100%;
-    padding-left: unquote('max( #{$navbar--min-padding}, calc( calc(100% - #{$navbar--max-width} ) / 2 ))');
-    padding-right: unquote('max( #{$navbar--min-padding}, calc( calc(100% - #{$navbar--max-width} ) / 2 ))');
+    padding: 1rem;
     background: transparent;
+
+    @include breakpoint(large) {
+        flex-direction: column;
+        padding-bottom: var(--wp--style--root--padding-bottom);
+    }
 }
 
 
@@ -31,25 +36,31 @@
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    gap: .5em !important;
+    flex-direction: row;
 
-    // left element
-    &:nth-of-type(1) {
-        order: 1;
-        flex-grow: 0;
-        justify-content: flex-start;
+    @include breakpoint(large) {
+        flex-wrap: wrap;
+        flex-direction: column;
     }
+}
 
-    // middle element
-    &:nth-of-type(2) {
-        order: 2;
-        flex-grow: 2;
-    }
 
-    // right element
-    &:nth-of-type(3) {
-        order: 3;
-        flex-grow: 0;
-        justify-content: flex-end;
-    }
+.navbar-content-area--left-top {
+    order: 1;
+    flex-grow: 0;
+    justify-content: flex-start;
+}
+
+
+.navbar-content-area--center {
+    order: 2;
+    flex-grow: 2;
+}
+
+
+.navbar-content-area--right-bottom {
+    gap: .2em;
+    order: 3;
+    flex-grow: 0;
+    justify-content: flex-end;
 }

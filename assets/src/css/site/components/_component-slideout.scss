@@ -28,13 +28,18 @@
 #slideout-content-wrapper {
     display: flex;
     justify-content: center;
-    height: calc(100% - #{$navbar--height});
+    height: calc(100% - var(--wp--custom--navbar--row-height) );
     width: 100%;
     position: relative;
-    top: $navbar--height;
+    top: var(--wp--custom--navbar--row-height);
     left: 0;
-    padding: 0 #{$content--min-padding};
+    padding: 0 1rem;
     overflow: auto;
+
+    @include breakpoint(large) {
+        top: 0;
+        height: 100%;
+    }
 }
 
 
@@ -43,8 +48,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    max-height: calc(100% - #{$navbar--height});
+    max-height: calc(100% - var(--wp--custom--navbar--row-height));
     padding: 0;
+
+    @include breakpoint(large) {
+        max-height: 100%;
+    }
 }
 
 
@@ -72,6 +81,8 @@
         font-family: var(--wp--preset--font-family--roboto-slab);
         font-weight: 400;
         text-align: left;
+        line-height: unquote('max(1em, 6vh)');
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
     }
 
     li + li {
@@ -97,17 +108,6 @@
             text-decoration: none !important;
             color: $color--slideout--text__hover;
         }
-    }
-}
-
-
-#primary {
-    padding-top: 10vh;
-    padding-bottom: 2rem;
-
-    li {
-        line-height: unquote('max(1em, 6vh)');
-        font-size: clamp(1.75rem, 4vw, 2.5rem);
     }
 }
 
