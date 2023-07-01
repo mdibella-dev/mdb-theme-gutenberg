@@ -7,7 +7,7 @@
 
 
 
-.navbar {  // header?
+.navbar {
     position: relative;
     z-index: 3000;
     width: 100%;
@@ -15,7 +15,7 @@
 }
 
 
-.navbar-content {   // temporarily
+.navbar-content-wrapper {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -29,9 +29,7 @@
 }
 
 
-/** Areas inside .navbar-content */
-
-.navbar-content-area {
+.navbar-content {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -44,20 +42,26 @@
 }
 
 
-.navbar-content-area--left-top {
+// top / left
+
+.navbar-content-first {
     order: 1;
     flex-grow: 0;
     justify-content: flex-start;
 }
 
 
-.navbar-content-area--center {
+// center / middle
+
+.navbar-content-second {
     order: 2;
     flex-grow: 2;
 }
 
 
-.navbar-content-area--right-bottom {
+// bottom / right
+
+.navbar-content-third {
     gap: .2em;
     order: 3;
     flex-grow: 0;
