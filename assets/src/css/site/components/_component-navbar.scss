@@ -23,7 +23,7 @@
     padding: 1rem;
     background: transparent;
 
-    @include breakpoint(large) {
+    @include breakpoint(huge) {
         flex-direction: column;
     }
 }
@@ -35,7 +35,7 @@
     flex-wrap: nowrap;
     flex-direction: row;
 
-    @include breakpoint(large) {
+    @include breakpoint(huge) {
         flex-wrap: wrap;
         flex-direction: column;
     }

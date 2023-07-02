@@ -20,7 +20,7 @@
     grid-template-columns: auto;
     grid-template-rows: var(--wp--custom--navbar--row-height) auto;
 
-    @include breakpoint(large) {
+    @include breakpoint(huge) {
         grid-auto-flow: column;
         grid-template-columns: var(--wp--custom--navbar--column-width) auto;
         grid-template-rows: auto;
