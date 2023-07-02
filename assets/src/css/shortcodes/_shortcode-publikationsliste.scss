@@ -24,13 +24,10 @@
     letter-spacing: .2px;
     width: 100%;
     display: grid;
-    grid-template-columns: 2ch unquote('calc(100% - 2ch - 2rem)');  // - 2rem = gap
+    grid-template-columns: 1ch auto;
     grid-auto-flow: column;
     gap: .75rem 2rem;
     align-items: baseline;
-
-    & > div:first-child {
-    }
 
     & > div:last-child {
         display: flex;
