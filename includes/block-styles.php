@@ -29,7 +29,7 @@ function register_block_styles()
 {
     wp_enqueue_script(
         'mdb-block-styles',
-        THEME_URI . 'assets/src/js/block-styles.min.js',
+        THEME_URI . 'assets/build/js/block-styles.min.js',
         array(
             'wp-blocks',
             'wp-dom-ready',
