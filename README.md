@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 * New: Add a minified block-styles.js
+* Improve: Set rem base to 18px
 * Improve: Add more space to mdb-theme-blocks/post-terms
 * Improve: Separate HTML code from the slideout block pattern (now in slideout template part) and rename the block pattern to primary
 * Improve: Make structure and selectors of site components more consistent
