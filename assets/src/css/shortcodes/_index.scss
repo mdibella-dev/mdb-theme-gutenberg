@@ -7,6 +7,6 @@
 
 
 
-@import "_shortcode-publikationsliste";
-@import "_shortcode-teaserblock";
-@import "_shortcode-vortragsliste";
+@use "_shortcode-publikationsliste";
+@use "_shortcode-teaserblock";
+@use "_shortcode-vortragsliste";

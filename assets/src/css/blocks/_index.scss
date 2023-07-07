@@ -11,18 +11,18 @@
  * Core block elements
  */
 
-@import "core/_code";
-@import "core/_cover";
-@import "core/_buttons";
-@import "core/_embed";
-@import "core/_image";
-@import "core/_list";
-@import "core/_media-text";
-@import "core/_navigation";
-@import "core/_heading";
-@import "core/_paragraph";
-@import "core/_post-title";
-@import "core/_separator";
+@use "core/_code";
+@use "core/_cover";
+@use "core/_buttons";
+@use "core/_embed";
+@use "core/_image";
+@use "core/_list";
+@use "core/_media-text";
+@use "core/_navigation";
+@use "core/_heading";
+@use "core/_paragraph";
+@use "core/_post-title";
+@use "core/_separator";
 
 
 
@@ -30,5 +30,5 @@
  * mdb-theme-blocks block elements
  */
 
-@import "mdb-theme-blocks/_single-publication-details";
-@import "mdb-theme-blocks/_post-terms";
+@use "mdb-theme-blocks/_single-publication-details";
+@use "mdb-theme-blocks/_post-terms";
