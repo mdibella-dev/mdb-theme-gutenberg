@@ -33,6 +33,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Make structure and selectors of site components more consistent
 * Improve: Change selectors of navbar buttons from id to class name
 * Improve: Trigger the conversion of the header navigation bar to a side navigation bar only with a screen resolution of 1440px
+* Improve: Replace @import with @use rule ([deprecated](https://www.koderhq.com/tutorial/sass/importing/#import))
 * Bugfix: Fix path to block-styles.min.js
 
 ### Previous changes
