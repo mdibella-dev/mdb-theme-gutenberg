@@ -9,38 +9,38 @@
 
 /** Third party */
 
-@use "vendors/spinkit/_spinkit";
+@import "vendors/spinkit/_spinkit";
 
 
 /** Mixins */
 
-@use "mixins/_responsive";
+@import "mixins/_responsive";
 
 
 /** Basic framework */
 
-@use "site/_vars";
-@use "site/_basics";
-@use "site/_styles";
-@use "site/_svg-buttons";
-@use 'site/_wordpress';
+@import "site/_vars";
+@import "site/_basics";
+@import "site/_styles";
+@import "site/_svg-buttons";
+@import 'site/_wordpress';
 
 
 /** Main components */
 
-@use "site/components/_index";
+@import "site/components/_index";
 
 
 /** Block elements */
 
-@use "blocks/_index";
+@import "blocks/_index";
 
 
 /** Shortcodes */
 
-@use "shortcodes/_index";
+@import "shortcodes/_index";
 
 
 /** Plugins */
 
-@use "plugins/_index";
+@import "plugins/_index";
