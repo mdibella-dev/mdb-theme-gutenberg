@@ -6,46 +6,7 @@
  */
 
 
-
-/** Third party */
-
-@use "vendors/spinkit/_spinkit";
+$condition-block-editor: true;
 
 
-/** Mixins */
-
-@use "mixins/_responsive";
-
-
-/** Basic framework */
-
-@use "site/_vars";
-@use "site/_basics";
-@use "site/_styles";
-@use "site/_svg-buttons";
-@use 'site/_wordpress';
-
-
-/** Main components */
-
-@use "site/components/_index";
-
-
-/** Block elements */
-
-@use "blocks/_index";
-
-
-/** Shortcodes */
-
-@use "shortcodes/_index";
-
-
-/** Plugins */
-
-@use "plugins/_plugin-download-monitor";
-
-
-/** Editor only settings */
-
-@use "block-editor/_tinymce";
+@use "style-frontend.scss";
