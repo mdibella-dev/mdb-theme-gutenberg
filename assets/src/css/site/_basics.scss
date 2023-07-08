@@ -59,7 +59,9 @@ ul {
 
 
 footer {
-    background: linear-gradient(to bottom, transparent, rgba(0,0,0,.2));
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,.4));
+    padding-bottom: var(--wp--style--root--padding-bottom);
+    margin-bottom: calc(var(--wp--style--root--padding-bottom) * -1);
 }
 
 
