@@ -42,7 +42,6 @@ jQuery( document ).ready( function( $ ) {
      */
 
     // helper function
-
     function getNumber( x ) {
       const parsed = parseInt( x );
 
@@ -54,7 +53,6 @@ jQuery( document ).ready( function( $ ) {
 
 
     // general scroll function
-
     function scrollToAnchor( id ) {
         let tag    = $( "#" + id );
         let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
@@ -64,7 +62,6 @@ jQuery( document ).ready( function( $ ) {
 
 
     // event handler
-
     $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function( e ) {
         let full_url = this.href;
         let parts    = full_url.split( '#' );
@@ -82,7 +79,6 @@ jQuery( document ).ready( function( $ ) {
      */
 
     // general scroll function
-
     function scrollToEdge( selector ) {
         let offset = 0;
 
@@ -98,7 +94,6 @@ jQuery( document ).ready( function( $ ) {
 
 
     // event handler for scrolling to the top
-
     $( '.is-navbar-scrollup' ).on( 'click', function( e ) {
         e.preventDefault();
         scrollToEdge( '.is-navbar-scrollup' );
@@ -106,9 +101,32 @@ jQuery( document ).ready( function( $ ) {
 
 
     // event handler for scrolling to the bottom
-
     $( '.is-navbar-scrolldown' ).on( 'click', function( e ) {
         e.preventDefault();
         scrollToEdge( '.is-navbar-scrolldown' );
     } );
+
+
+
+    /**
+     * Fix header centering
+     */
+
+    // toggle header fix
+    function toggleHeaderFix() {
+        let scrollVisible = $( '#main' ).get(0).scrollHeight > $( '#main' ).height();
+
+        if( true == scrollVisible ) {
+            let scrollWidth = $( '#main' ).get(0).offsetWidth - $( '#main' ).get(0).clientWidth;
+
+            $( 'header' ).css( 'padding-right', scrollWidth );
+        } else {
+            $( 'header' ).css( 'padding-right', '' );
+        }
+    }
+
+    // event handler for re-checking after resizing
+    $( window ).on( 'resize', function(e) { toggleHeaderFix(); } );
+
+    toggleHeaderFix();
 } );
