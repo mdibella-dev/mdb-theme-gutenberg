@@ -30,10 +30,12 @@
     padding: 0 1rem;
     overflow: auto;
 
+/*  sidebar
     @include breakpoint(huge) {
         top: 0;
         height: 100%;
     }
+*/
 }
 
 
@@ -45,9 +47,11 @@
     max-height: calc(100% - var(--wp--custom--navbar--row-height));
     padding: 0;
 
+/*  sidebar
     @include breakpoint(huge) {
         max-height: 100%;
     }
+*/
 }
 
 

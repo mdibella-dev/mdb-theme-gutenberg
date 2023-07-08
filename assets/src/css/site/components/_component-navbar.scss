@@ -35,10 +35,12 @@
     flex-wrap: nowrap;
     flex-direction: row;
 
+/*  sidebar
     @include breakpoint(huge) {
         flex-wrap: wrap;
         flex-direction: column;
     }
+*/
 }
 
 
