@@ -10,8 +10,10 @@
 .navbar {
     position: relative;
     z-index: 3000;
-    width: 100%;
     height: 100%;
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -22,10 +24,6 @@
     height: 100%;
     padding: 1rem;
     background: transparent;
-
-    @include breakpoint(huge) {
-        flex-direction: column;
-    }
 }
 
 
@@ -34,18 +32,10 @@
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
-
-/*  sidebar
-    @include breakpoint(huge) {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-*/
 }
 
 
-// top / left
-
+// left
 .navbar-content-first {
     order: 1;
     flex-grow: 0;
@@ -53,16 +43,14 @@
 }
 
 
-// center / middle
-
+// middle
 .navbar-content-second {
     order: 2;
     flex-grow: 2;
 }
 
 
-// bottom / right
-
+// right
 .navbar-content-third {
     gap: .2em;
     order: 3;
