@@ -89,7 +89,6 @@ jQuery( document ).ready( function( $ ) {
         }
 
         $( '#main' ).animate( { scrollTop: offset }, 1500, 'easeInOutExpo' );
-        $( selector ).blur();
     }
 
 
