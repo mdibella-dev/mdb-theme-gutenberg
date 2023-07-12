@@ -54,6 +54,7 @@ function block_editor_settings_all( $editor_settings )
 {
     $editor_settings['styles'][] = array(
         'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; }'
+                 . '.is-root-container { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }'
     );
 
     return $editor_settings;

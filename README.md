@@ -36,6 +36,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Change selectors of navbar buttons from id to class name
 * Bugfix: Fix path to block-styles.min.js
 * Bugfix: Fix header centering ([#63](https://github.com/mdibella-dev/mdb-theme-fse/issues/63))
+* Bugfix: Set root padding top/bottom in root-container (block editor)
 
 ### Previous changes
 
