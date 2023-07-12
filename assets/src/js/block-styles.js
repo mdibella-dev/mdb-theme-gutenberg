@@ -27,6 +27,21 @@ wp.domReady( () => {
 
 
 
+    /** core/media-text */
+
+    wp.blocks.registerBlockStyle(
+        'core/media-text',
+        [
+            {
+                name: 'shaded',
+                label: 'Schattiert',
+                isDefault: false,
+            }
+        ]
+    );
+
+
+
     /** core/embed */
 
     wp.blocks.registerBlockStyle(
@@ -39,6 +54,7 @@ wp.domReady( () => {
             }
         ]
     );
+
 
     // Remove unused block variations
     // Current block manager plugins are failing
@@ -63,7 +79,6 @@ wp.domReady( () => {
     wp.blocks.unregisterBlockVariation( 'core/embed', 'tumblr' );
     wp.blocks.unregisterBlockVariation( 'core/embed', 'videopress' );
     wp.blocks.unregisterBlockVariation( 'core/embed', 'wordpress' );
-    wp.blocks.unregisterBlockVariation( 'core/embed', 'wordpress-tv' );
     wp.blocks.unregisterBlockVariation( 'core/embed', 'amazon-kindle' );
     wp.blocks.unregisterBlockVariation( 'core/embed', 'wolfram-cloud' );
     wp.blocks.unregisterBlockVariation( 'core/embed', 'issuu' );
