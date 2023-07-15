@@ -17,7 +17,7 @@ jQuery( document ).ready( function( $ ) {
 
                 $( '.slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
 
-                $( '#primary' ).delay(800).fadeIn( function() {
+                $( '.slideout-primary' ).delay(800).fadeIn( function() {
                     $( '.is-navbar-home' ).fadeIn();
                     $( '.is-navbar-mail' ).fadeIn();
                 } );
@@ -31,7 +31,7 @@ jQuery( document ).ready( function( $ ) {
                 $( '.is-navbar-home' ).fadeOut();
                 $( '.is-navbar-mail' ).fadeOut();
 
-                $( '#primary' ).delay(200).fadeOut( function() {
+                $( '.slideout-primary' ).delay(200).fadeOut( function() {
                     $( '.slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
                 } );
 
