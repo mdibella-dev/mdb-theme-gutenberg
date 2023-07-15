@@ -62,7 +62,6 @@ defined( 'ABSPATH' ) or exit;
 
     // Registers the navigation menus.
     register_nav_menu( 'primary', __( 'Primary Navigation', 'mdb-theme-fse' ) );
-    register_nav_menu( 'page', __( 'Page Navigation', 'mdb-theme-fse' ) );
 }
 
 add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
