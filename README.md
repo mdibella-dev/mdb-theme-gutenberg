@@ -35,6 +35,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Make structure and selectors of site components more consistent
 * Improve: Change selectors of navbar buttons from id to class name
 * Improve: Add buttons to the slideout; remove scroll-down-button
+* Improve: Remove 'Page Navigation' (obsolete)
 * Bugfix: Fix path to block-styles.min.js
 * Bugfix: Fix header centering ([#63](https://github.com/mdibella-dev/mdb-theme-fse/issues/63))
 * Bugfix: Set root padding top/bottom in root-container (block editor)
