@@ -26,19 +26,6 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-* New: Add a minified block-styles.js
-* New: Add WordPress profile
-* New: Add footer gradient
-* Improve: Set rem base to 18px
-* Improve: Add more space to mdb-theme-blocks/post-terms
-* Improve: Separate HTML code from the slideout block pattern (now in slideout template part) and rename the block pattern to primary
-* Improve: Make structure and selectors of site components more consistent
-* Improve: Change selectors of navbar buttons from id to class name
-* Improve: Add buttons to the slideout; remove scroll-down-button
-* Improve: Remove 'Page Navigation' (obsolete)
-* Bugfix: Fix path to block-styles.min.js
-* Bugfix: Fix header centering ([#63](https://github.com/mdibella-dev/mdb-theme-fse/issues/63))
-* Bugfix: Set root padding top/bottom in root-container (block editor)
 
 ### Previous changes
 
