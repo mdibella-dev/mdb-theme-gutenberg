@@ -10,26 +10,38 @@ jQuery( document ).ready( function( $ ) {
         if( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
             $( 'body' ).toggleClass( 'slide-in-progress' );
 
-
             if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
-                let w = 100;
+                $( '.is-navbar-home' ).fadeOut();
+                $( '.is-navbar-mail' ).fadeOut();
+                $( '.is-navbar-scrollup' ).fadeOut();
 
-                $( '.slideout' ).animate( { width: w+'%' }, 1000, 'easeInOutExpo' );
-                $( '#primary' ).delay(800).fadeIn();
+                $( '.slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
+
+                $( '#primary' ).delay(800).fadeIn( function() {
+                    $( '.is-navbar-home' ).fadeIn();
+                    $( '.is-navbar-mail' ).fadeIn();
+                } );
+
                 $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
-                $( '.navbar-content-third' ).fadeOut();
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                 }, duration );
             } else {
-                $( '#primary' ).fadeOut();
-                $( '.slideout' ).delay(200).animate( { width: 0 }, 1000, 'easeInOutExpo' );
+                $( '.is-navbar-home' ).fadeOut();
+                $( '.is-navbar-mail' ).fadeOut();
+
+                $( '#primary' ).delay(200).fadeOut( function() {
+                    $( '.slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
+                } );
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                     $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
-                    $( '.navbar-content-third' ).fadeIn();
+
+                    $( '.is-navbar-home' ).fadeIn();
+                    $( '.is-navbar-mail' ).fadeIn();
+                    $( '.is-navbar-scrollup' ).fadeIn();
                 }, duration );
             }
         }
@@ -42,6 +54,7 @@ jQuery( document ).ready( function( $ ) {
      */
 
     // helper function
+
     function getNumber( x ) {
       const parsed = parseInt( x );
 
@@ -53,6 +66,7 @@ jQuery( document ).ready( function( $ ) {
 
 
     // general scroll function
+
     function scrollToAnchor( id ) {
         let tag    = $( "#" + id );
         let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
@@ -62,6 +76,7 @@ jQuery( document ).ready( function( $ ) {
 
 
     // event handler
+
     $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function( e ) {
         let full_url = this.href;
         let parts    = full_url.split( '#' );
@@ -78,31 +93,12 @@ jQuery( document ).ready( function( $ ) {
      * Smooth Scroll to top/bottom
      */
 
-    // general scroll function
-    function scrollToEdge( selector ) {
-        let offset = 0;
-
-        if( '.is-navbar-scrolldown' == selector ) {
-            $( '#main > *' ).each( function( index ) {
-                offset +=  $( this ).outerHeight();
-            });
-        }
-
-        $( '#main' ).animate( { scrollTop: offset }, 1500, 'easeInOutExpo' );
-    }
-
-
     // event handler for scrolling to the top
+
     $( '.is-navbar-scrollup' ).on( 'click', function( e ) {
         e.preventDefault();
-        scrollToEdge( '.is-navbar-scrollup' );
-    } );
 
-
-    // event handler for scrolling to the bottom
-    $( '.is-navbar-scrolldown' ).on( 'click', function( e ) {
-        e.preventDefault();
-        scrollToEdge( '.is-navbar-scrolldown' );
+        $( '#main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutExpo' );
     } );
 
 
@@ -111,7 +107,6 @@ jQuery( document ).ready( function( $ ) {
      * Fix header centering
      */
 
-    // toggle header fix
     function toggleHeaderFix() {
         let scrollVisible = $( '#main' ).get(0).scrollHeight > $( '#main' ).height();
 
@@ -125,6 +120,7 @@ jQuery( document ).ready( function( $ ) {
     }
 
     // event handler for re-checking after resizing
+
     $( window ).on( 'resize', function(e) { toggleHeaderFix(); } );
 
     toggleHeaderFix();
