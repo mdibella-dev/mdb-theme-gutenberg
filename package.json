@@ -7,9 +7,7 @@
         "SASS_BLD": "./assets/build/css"
     },
     "scripts": {
-        "sass:front": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/style-frontend.scss $npm_package_config_SASS_BLD/style-frontend.min.css",
-        "sass:edit": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/style-editor.scss $npm_package_config_SASS_BLD/style-editor.min.css",
-        "sass:all": "npm run sass:front && npm run sass:edit"
+        "sass:front": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/style-frontend.scss $npm_package_config_SASS_BLD/style-frontend.min.css"
     },
     "devDependecies": {
         "sass": "^1.59.3"

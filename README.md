@@ -26,6 +26,8 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+* Improve: Use frontend style as editor style.
+
 
 ### Previous changes
 
