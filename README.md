@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 * Improve: Use frontend style as editor style.
+* Fix: Use correct gap on core/media-text block when stacked on mobile.
 
 
 ### Previous changes
