@@ -23,9 +23,9 @@ defined( 'ABSPATH' ) or exit;
 
 function register_block_patterns()
 {
-    $block_patterns = array(
-        'primary',
-    );
+    $block_patterns = [
+        'primary'
+    ];
 
     foreach( $block_patterns as $block_pattern ) :
         $pattern_file = THEME_DIR . 'includes/patterns/' . $block_pattern . '.php';
