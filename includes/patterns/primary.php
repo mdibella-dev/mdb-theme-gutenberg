@@ -22,11 +22,11 @@ ob_start();
 ?>
 <!-- wp:html -->
 <?php
-wp_nav_menu( array(
+wp_nav_menu( [
     'theme_location'  => 'primary',
     'container'       => 'nav',
     'container_class' => 'slideout-primary',
-) );
+] );
 ?>
 <!-- /wp:html -->
 <?php
@@ -38,8 +38,8 @@ ob_end_clean();
 
 /** Return the pattern */
 
-return array(
+return [
     'title'    => __( 'Primary Navigation', 'mdb-theme-fse' ),
     'inserter' => false,
     'content'  => $content
-);
+];
