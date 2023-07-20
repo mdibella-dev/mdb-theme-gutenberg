@@ -58,7 +58,7 @@ function remove_post_classes( $classes, $class, $post_id )
 {
     if( ! is_admin() ) :
         $post_type = get_post_type( $post_id );
-        $classes   = array();
+        $classes   = [];
         $classes[] = sanitize_html_class( $post_type );
     endif;
 
@@ -86,13 +86,13 @@ add_filter( 'post_class', __NAMESPACE__ . '\remove_post_classes', 10, 3 );
 
 function remove_menu_classes( $classes, $item, $args, $depth )
 {
-    $checked_classes = array();
+    $checked_classes = [];
 
 
     if( ! is_admin() ) :
         foreach( $classes as $check ) :
 
-            $matches = array();
+            $matches = [];
 
             if( ( false !== strpos( $check, 'menu-item-type-' ) ) or
                 ( false !== strpos( $check, 'menu-item-object-' ) ) or
