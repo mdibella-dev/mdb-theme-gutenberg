@@ -85,7 +85,9 @@ function theme_scripts()
     wp_register_script(
         'jquery-easing',
         THEME_URI . 'assets/build/js/jquery.easing.min.js',
-        array( 'jquery' ),
+        [
+            'jquery'
+        ],
         false,
         true
     );
@@ -102,14 +104,16 @@ function theme_scripts()
     wp_enqueue_style(
         'mdb-frontend-style',
         THEME_URI . 'assets/build/css/style-frontend.min.css',
-        array(),
+        [],
         THEME_VERSION
     );
 
     wp_enqueue_script(
         'mdb-frontend-script',
         THEME_URI . 'assets/build/js/frontend.min.js',
-        array( 'jquery' ),
+        [
+            'jquery'
+        ],
         THEME_VERSION,
         true
     );
