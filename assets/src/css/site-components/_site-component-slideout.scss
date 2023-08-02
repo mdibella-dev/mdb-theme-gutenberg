@@ -1,5 +1,5 @@
 /**
- * Component: .slideout (main menue which slides out when mdb-button is clicked)
+ * Site component: slideout (main menue which slides out when mdb-button is clicked)
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
@@ -7,7 +7,7 @@
 
 
 
-.slideout {
+.site-component-slideout {
     position: fixed;
     z-index: 2000;
     background: $color--slideout;
@@ -104,6 +104,6 @@ body.slide-in-progress {
 }
 
 
-body.slideout-visible #primary {
+body.slideout-visible .slideout-primary {
     display: unset;
 }

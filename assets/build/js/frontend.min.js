@@ -15,7 +15,7 @@ jQuery( document ).ready( function( $ ) {
                 $( '.is-navbar-mail' ).fadeOut();
                 $( '.is-navbar-scrollup' ).fadeOut();
 
-                $( '.slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
+                $( '.site-component-slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
 
                 $( '.slideout-primary' ).delay(800).fadeIn( function() {
                     $( '.is-navbar-home' ).fadeIn();
@@ -32,7 +32,7 @@ jQuery( document ).ready( function( $ ) {
                 $( '.is-navbar-mail' ).fadeOut();
 
                 $( '.slideout-primary' ).delay(200).fadeOut( function() {
-                    $( '.slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
+                    $( '.site-component-slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
                 } );
 
                 setTimeout( function() {
@@ -71,7 +71,7 @@ jQuery( document ).ready( function( $ ) {
         let tag    = $( "#" + id );
         let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
 
-        $( '#main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
+        $( '.site-component-main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
     }
 
 
@@ -98,7 +98,7 @@ jQuery( document ).ready( function( $ ) {
     $( '.is-navbar-scrollup' ).on( 'click', function( e ) {
         e.preventDefault();
 
-        $( '#main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutExpo' );
+        $( '.site-component-main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutExpo' );
     } );
 
 
@@ -108,10 +108,10 @@ jQuery( document ).ready( function( $ ) {
      */
 
     function toggleHeaderFix() {
-        let scrollVisible = $( '#main' ).get(0).scrollHeight > $( '#main' ).height();
+        let scrollVisible = $( '.site-component-main' ).get(0).scrollHeight > $( '.site-component-main' ).height();
 
         if( true == scrollVisible ) {
-            let scrollWidth = $( '#main' ).get(0).offsetWidth - $( '#main' ).get(0).clientWidth;
+            let scrollWidth = $( '.site-component-main' ).get(0).offsetWidth - $( '.site-component-main' ).get(0).clientWidth;
 
             $( 'header' ).css( 'padding-right', scrollWidth );
         } else {

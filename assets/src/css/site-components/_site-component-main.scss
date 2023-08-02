@@ -1,5 +1,5 @@
 /**
- * Component: #main (the content area)
+ * Site component: main (the content area)
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
@@ -7,7 +7,7 @@
 
 
 
-#main {
+.site-component-main {
     position: relative;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -16,12 +16,12 @@
 }
 
 
-#main > :first-child {
+.site-component-main > :first-child {
     padding-top: var(--wp--style--root--padding-top);
     padding-bottom: var(--wp--style--root--padding-bottom);
 }
 
 
-#main > :last-child {
+.site-component-main > :last-child {
     padding-bottom: var(--wp--style--root--padding-bottom);
 }
