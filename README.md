@@ -26,9 +26,11 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-* Improve: Use frontend style as editor style.
-* Improve: Change array notation.
-* Bugfix: Use correct gap on core/media-text block when stacked on mobile.
+* New: Introduce a new naming scheme for site components
+* Improve: Use frontend style as editor style
+* Improve: Change array notation
+* Improve: Move site component files to a new position.
+* Bugfix: Use correct gap on core/media-text block when stacked on mobile
 
 
 ### Previous changes
