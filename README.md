@@ -28,7 +28,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 * New: Introduce a new naming scheme for site components
 * Improve: Use frontend style as editor style
-* Improve: Change array notation
+* Improve: Refactor code: Change array notation, clamping style
 * Improve: Move site component files to a new position.
 * Bugfix: Use correct gap on core/media-text block when stacked on mobile
 

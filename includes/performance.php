@@ -21,8 +21,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function remove_styles_scripts()
-{
+function remove_styles_scripts() {
     remove_action( 'wp_head', 'wlwmanifest_link' );
     remove_action( 'wp_head', 'rsd_link' );
     remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
@@ -54,8 +53,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\remove_styles_scripts', 9998
  * @return array The modified class array.
  */
 
-function remove_post_classes( $classes, $class, $post_id )
-{
+function remove_post_classes( $classes, $class, $post_id ) {
     if( ! is_admin() ) :
         $post_type = get_post_type( $post_id );
         $classes   = [];
@@ -84,8 +82,7 @@ add_filter( 'post_class', __NAMESPACE__ . '\remove_post_classes', 10, 3 );
  * @return array The modified class array.
  */
 
-function remove_menu_classes( $classes, $item, $args, $depth )
-{
+function remove_menu_classes( $classes, $item, $args, $depth ) {
     $checked_classes = [];
 
 

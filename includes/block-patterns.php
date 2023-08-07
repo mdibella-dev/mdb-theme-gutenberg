@@ -21,8 +21,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function register_block_patterns()
-{
+function register_block_patterns() {
     $block_patterns = [
         'primary'
     ];

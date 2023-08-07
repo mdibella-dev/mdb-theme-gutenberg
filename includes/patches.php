@@ -27,8 +27,7 @@ defined( 'ABSPATH' ) or exit;
  * @return string The modified classes list.
  */
 
-function neutralize_php_error_class()
-{
+function neutralize_php_error_class() {
     echo "
     <style type='text/css'>
     .php-error #adminmenuback,

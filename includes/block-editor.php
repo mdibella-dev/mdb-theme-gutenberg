@@ -27,8 +27,7 @@ defined( 'ABSPATH' ) or exit;
  * @return string The modified content.
  */
 
-function remove_no_border_radius( $content )
-{
+function remove_no_border_radius( $content ) {
 
     $content = str_replace( 'no-border-radius', '', $content );
 
@@ -51,8 +50,7 @@ add_filter( 'the_content', __NAMESPACE__ . '\remove_no_border_radius', 10, 2 );
  * @return array The modified settings.
  */
 
-function block_editor_settings_all( $editor_settings )
-{
+function block_editor_settings_all( $editor_settings ) {
     $editor_settings['styles'][] = [
         'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; }'
     ];

@@ -25,8 +25,7 @@ defined( 'ABSPATH' ) or exit;
  * @see https://fullsiteediting.com/lessons/custom-block-styles/
  */
 
-function register_block_styles()
-{
+function register_block_styles() {
     wp_enqueue_script(
         'mdb-block-styles',
         THEME_URI . 'assets/build/js/block-styles.min.js',
