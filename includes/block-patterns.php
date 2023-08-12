@@ -22,18 +22,26 @@ defined( 'ABSPATH' ) or exit;
  */
 
 function register_block_patterns() {
-    $block_patterns = [
-        'primary'
-    ];
 
-    foreach( $block_patterns as $block_pattern ) :
-        $pattern_file = THEME_DIR . 'includes/patterns/' . $block_pattern . '.php';
+    try {
 
-        register_block_pattern(
-            'mdb-theme-fse/' . $block_pattern,
-            require $pattern_file
-        );
-    endforeach;
+        $block_patterns = [
+            'primary'
+        ];
+
+        foreach( $block_patterns as $block_pattern ) :
+            $pattern_file = THEME_DIR . 'includes/patterns/' . $block_pattern . '.php';
+
+            register_block_pattern(
+                'mdb-theme-fse/' . $block_pattern,
+                require $pattern_file
+            );
+        endforeach;
+
+    } catch( Exception ) {
+        // do nothing!
+    }
+    
 }
 
 add_action( 'init', __NAMESPACE__ . '\register_block_patterns', 9 );
