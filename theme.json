@@ -194,6 +194,9 @@
                 "gap": "calc(1.5 * var(--wp--custom--base--font-size))",
                 "border-radius": "8px"
             },
+            "main": {
+                "spacing-top": "var(--wp--preset--spacing--50)"
+            },
             "teaserblock": {
                 "image-width": "100px",
                 "gap": "4.5rem"
