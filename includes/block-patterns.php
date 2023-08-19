@@ -41,7 +41,7 @@ function register_block_patterns() {
     } catch( Exception ) {
         // do nothing!
     }
-    
+
 }
 
 add_action( 'init', __NAMESPACE__ . '\register_block_patterns', 9 );
