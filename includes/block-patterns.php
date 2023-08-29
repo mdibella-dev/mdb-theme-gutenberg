@@ -29,14 +29,14 @@ function register_block_patterns() {
             'primary'
         ];
 
-        foreach( $block_patterns as $block_pattern ) :
+        foreach( $block_patterns as $block_pattern ) {
             $pattern_file = THEME_DIR . 'includes/patterns/' . $block_pattern . '.php';
 
             register_block_pattern(
                 'mdb-theme-fse/' . $block_pattern,
                 require $pattern_file
             );
-        endforeach;
+        };
 
     } catch( Exception ) {
         // do nothing!
