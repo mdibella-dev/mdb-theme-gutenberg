@@ -23,8 +23,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
- function theme_setup()
- {
+function theme_setup() {
     // Enables internationalization.
     load_theme_textdomain( 'mdb-theme-fse', THEME_DIR . 'languages' );
 
@@ -76,8 +75,7 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
  * @since 1.0.0
  */
 
-function theme_scripts()
-{
+function theme_scripts() {
     /**
      * Registers and loads vendor styles and scripts.
      */
