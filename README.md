@@ -30,7 +30,6 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Use frontend style as editor style
 * Improve: Code style: Change array notation
 * Improve: Code style: Change clamping style
-* Improve: Code style: Replace control structures
 * Improve: Move site component files to a new position.
 * Improve: Add exception handling in block-patterns.php
 * Bugfix: Use correct gap on core/media-text block when stacked on mobile
