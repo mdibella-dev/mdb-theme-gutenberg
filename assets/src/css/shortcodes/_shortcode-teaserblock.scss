@@ -23,6 +23,11 @@
 }
 
 
+.teaserblock .loadmore-action-wrapper {
+  margin-top: var(--wp--preset--spacing--60);
+}
+
+
 .teaserblock .loadmore-content {
     display: grid;
     grid-template-columns: 100%;

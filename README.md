@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 * New: Introduce a new naming scheme for site components
+* Improve: Minor changes to tag.html and teaser-loadmore
 * Improve: Use frontend style as editor style
 * Improve: Code style: Change array notation
 * Improve: Code style: Change clamping style
