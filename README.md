@@ -13,12 +13,12 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Requires at least
 
-* WordPress 6.2
-* ACF 5.0
+- WordPress 6.2
+- ACF 5.0
 
 ### Tested up to
 
-* WordPress 6.2
+- WordPress 6.2
 
 <br>
 
@@ -26,14 +26,14 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-* New: Introduce a new naming scheme for site components
-* Improve: Minor changes to tag.html and teaser-loadmore
-* Improve: Use frontend style as editor style
-* Improve: Code style: Change array notation
-* Improve: Code style: Change clamping style
-* Improve: Move site component files to a new position.
-* Improve: Add exception handling in block-patterns.php
-* Bugfix: Use correct gap on core/media-text block when stacked on mobile
+- New: Introduce a new naming scheme for site components
+- Improve: Minor changes to tag.html and teaser-loadmore
+- Improve: Use frontend style as editor style
+- Improve: Code style: Change array notation
+- Improve: Code style: Change clamping style
+- Improve: Move site component files to a new position.
+- Improve: Add exception handling in block-patterns.php
+- Bugfix: Use correct gap on core/media-text block when stacked on mobile
 
 
 ### Previous changes
