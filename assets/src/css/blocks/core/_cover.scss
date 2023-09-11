@@ -12,17 +12,14 @@
  */
 
 .wp-block-cover.is-style-portfolio {
-    box-shadow: 0 65px 80px 5px rgba(0,0,0,.35);
 
     .wp-block-cover__background {
-        background: linear-gradient(to bottom, var(--wp--preset--color--darkness) 5%, transparent 50%) !important;
+        background: linear-gradient(to bottom, hsla(228, 21.7%, 9%, 20%) 5%, transparent 50%) !important;
         opacity: 100 !important;
     }
-}
 
-
-
-.wp-block-cover.is-style-portfolio .wp-block-button > .wp-block-button__link:not(:hover,:focus) {
-    background: hsla(228,21.7%,9%,.5);  // var darkness
-    box-shadow: 0 8px 30px 5px rgba(0,0,0,.3);
+    .wp-block-button > .wp-block-button__link:not(:hover,:focus) {
+        background: transparent;
+        box-shadow: 0 8px 30px 5px rgba(0,0,0,.3);
+    }
 }
