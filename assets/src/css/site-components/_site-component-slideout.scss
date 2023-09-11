@@ -29,6 +29,7 @@
     left: 0;
     padding: 0 1rem;
     overflow: auto;
+    min-height: 450px;
 }
 
 
@@ -85,12 +86,15 @@
         line-height: inherit;
         letter-spacing: inherit;
         text-decoration: none !important;
+        text-shadow: 0 1px 10px rgba(0,0,0,.25);
         color: $color--slideout--text;
         outline: 0 !important;
+        transition: all .4s;
 
         &:hover,
         &:focus {
             text-decoration: none !important;
+            text-shadow: none !important;
             color: $color--slideout--text__hover;
         }
     }

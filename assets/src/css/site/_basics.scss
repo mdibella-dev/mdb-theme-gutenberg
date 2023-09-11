@@ -24,7 +24,7 @@ body {
     padding: 0;
     position: relative; // prevent scrolling at overflow:hidden (iOS)
     overflow: hidden;
-    background: var(--wp--preset--color--darkness);
+    background: var(--wp--preset--gradient--linear-body);
     color: var(--wp--preset--color--concrete);
 }
 
