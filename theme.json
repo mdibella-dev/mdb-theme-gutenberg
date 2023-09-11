@@ -45,6 +45,11 @@
                     "name": "Linear from darkness to transparent, starting at top",
                     "slug": "linear-darkness",
                     "gradient": "linear-gradient(to bottom, var(--wp--preset--color--darkness) 20%, transparent 50%)"
+                },
+                {
+                    "name": "Linear from #545569 to darkness, starting at top left",
+                    "slug": "linear-body",
+                    "gradient": "linear-gradient(to bottom right, #545569, var(--wp--preset--color--darkness))"
                 }
             ],
             "duotone": [],
