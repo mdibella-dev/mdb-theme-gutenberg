@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 - New: Introduce a new naming scheme for site components
+- New: Change color setup ([#64](https://github.com/mdibella-dev/mdb-theme-fse/issues/64))
 - Improve: Minor changes to tag.html and teaser-loadmore
 - Improve: Use frontend style as editor style
 - Improve: Code style: Change array notation
