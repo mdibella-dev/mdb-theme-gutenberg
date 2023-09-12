@@ -10,8 +10,18 @@
                     "color": "#FFFFFF"
                 },
                 {
-                    "name": "Darkness",
-                    "slug": "darkness",
+                    "name": "Body",
+                    "slug": "body",
+                    "color": "#2c2e3a"
+                },
+                {
+                    "name": "Body Gradient 01",
+                    "slug": "body-gradient-01",
+                    "color": "hsl(237,11%,37%)"
+                },
+                {
+                    "name": "Body Gradient 02",
+                    "slug": "body-gradient-02",
                     "color": "hsl(228,21.7%,9%)"
                 },
                 {
@@ -42,14 +52,9 @@
             ],
             "gradients": [
                 {
-                    "name": "Linear from darkness to transparent, starting at top",
-                    "slug": "linear-darkness",
-                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--darkness) 20%, transparent 50%)"
-                },
-                {
-                    "name": "Linear from #545569 to darkness, starting at top left",
-                    "slug": "linear-body",
-                    "gradient": "linear-gradient(to bottom right, #545569, var(--wp--preset--color--darkness))"
+                    "name": "Body Gradient",
+                    "slug": "body",
+                    "gradient": "linear-gradient(to bottom left, var(--wp--preset--color--body-gradient-01), var(--wp--preset--color--body-gradient-02))"
                 }
             ],
             "duotone": [],

@@ -24,8 +24,12 @@ body {
     padding: 0;
     position: relative; // prevent scrolling at overflow:hidden (iOS)
     overflow: hidden;
-    background: var(--wp--preset--gradient--linear-body);
+    background: var(--wp--preset--color--body);
     color: var(--wp--preset--color--concrete);
+
+    @include breakpoint(large) {
+        background: var(--wp--preset--gradient--body);
+    }
 }
 
 
@@ -59,7 +63,7 @@ ul {
 
 
 footer {
-    background: linear-gradient(to bottom, transparent, rgba(0,0,0,.4));
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,.5));
     padding-bottom: var(--wp--style--root--padding-bottom);
     margin-bottom: calc(var(--wp--style--root--padding-bottom) * -1);
 }
