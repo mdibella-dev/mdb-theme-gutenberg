@@ -38,7 +38,7 @@ function register_block_patterns() {
             );
         };
 
-    } catch( Exception ) {
+    } catch ( Exception ) {
         // do nothing!
     }
 

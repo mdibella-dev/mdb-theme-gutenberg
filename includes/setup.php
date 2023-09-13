@@ -42,21 +42,21 @@ function theme_setup() {
 
 
     // Sets media sizes.
-    if( 320 !== get_option( 'thumbnail_size_w' ) ) :
+    if ( 320 !== get_option( 'thumbnail_size_w' ) ) {
         update_option( 'thumbnail_size_w', 320 );
         update_option( 'thumbnail_size_h', 9999 );
         update_option( 'thumbnail_crop', 0 );
-    endif;
+    }
 
-    if( 640 !== get_option( 'medium_size_w' ) ) :
+    if ( 640 !== get_option( 'medium_size_w' ) ) {
         update_option( 'medium_size_w', 640 );
         update_option( 'medium_size_h', 9999 );
-    endif;
+    }
 
-    if( 1200 !== get_option( 'large_size_w' ) ) :
+    if ( 1200 !== get_option( 'large_size_w' ) ) {
         update_option( 'large_size_w', 1200 );
         update_option( 'large_size_h', 9999 );
-    endif;
+    }
 
 
     // Registers the navigation menus.

@@ -54,7 +54,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\remove_styles_scripts', 9998
  */
 
 function remove_post_classes( $classes, $class, $post_id ) {
-    if( ! is_admin() ) {
+    if ( ! is_admin() ) {
         $post_type = get_post_type( $post_id );
         $classes   = [];
         $classes[] = sanitize_html_class( $post_type );
@@ -86,17 +86,17 @@ function remove_menu_classes( $classes, $item, $args, $depth ) {
     $checked_classes = [];
 
 
-    if( ! is_admin() ) {
-        foreach( $classes as $check ) {
+    if ( ! is_admin() ) {
+        foreach ( $classes as $check ) {
 
             $matches = [];
 
-            if( ( false !== strpos( $check, 'menu-item-type-' ) ) or
-                ( false !== strpos( $check, 'menu-item-object-' ) ) or
-                ( false !== strpos( $check, 'page_item' ) ) or
-                ( false !== strpos( $check, 'page_item-' ) ) or
-                ( false !== strpos( $check, 'current_page_item' ) ) or
-                ( 0 !== preg_match( '/menu-item-[0-9]+/', $check, $matches ) ) ) {
+            if ( ( false !== strpos( $check, 'menu-item-type-' ) ) or
+                 ( false !== strpos( $check, 'menu-item-object-' ) ) or
+                 ( false !== strpos( $check, 'page_item' ) ) or
+                 ( false !== strpos( $check, 'page_item-' ) ) or
+                 ( false !== strpos( $check, 'current_page_item' ) ) or
+                 ( 0 !== preg_match( '/menu-item-[0-9]+/', $check, $matches ) ) ) {
                 // Do nothing!
             } else {
                 $checked_classes[] = $check;
