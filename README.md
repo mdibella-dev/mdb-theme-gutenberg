@@ -26,20 +26,6 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-- New: Introduce a new naming scheme for site components
-- New: Change color setup ([#64](https://github.com/mdibella-dev/mdb-theme-fse/issues/64))
-- Improve: Remove footer gradient
-- Improve: Remove grayscale on teaser images
-- Improve: Minor changes to tag.html and teaser-loadmore
-- Improve: Use frontend style as editor style
-- Improve: Code style: Change array notation
-- Improve: Code style: Change clamping style
-- Improve: Code style: Use WP standard for control structures
-- Improve: Move site component files to a new position.
-- Improve: Add exception handling in block-patterns.php
-- Bugfix: Use correct gap on core/media-text block when stacked on mobile
-- Bugfix: Add proper color setting for text selections
-
 
 ### Previous changes
 
