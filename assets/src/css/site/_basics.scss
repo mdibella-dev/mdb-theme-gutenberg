@@ -41,6 +41,12 @@ body {
 }
 
 
+*::selection {
+  background: var(--wp--preset--color--denim) !important;
+  color: var(--wp--preset--color--white) !important;
+}
+
+
 b,
 strong {
     font-weight: 600;

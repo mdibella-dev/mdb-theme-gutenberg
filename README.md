@@ -38,6 +38,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Move site component files to a new position.
 - Improve: Add exception handling in block-patterns.php
 - Bugfix: Use correct gap on core/media-text block when stacked on mobile
+- Bugfix: Add proper color setting for text selections
 
 
 ### Previous changes
