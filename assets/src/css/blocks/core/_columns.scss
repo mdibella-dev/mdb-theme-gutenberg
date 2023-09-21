@@ -31,6 +31,10 @@
     margin-bottom: 0;
     // aspect-ratio: 1;
     // object-fit: cover;
+
+    img {
+        box-shadow: 0 19px 38px rgba(0,0,0,.3),0 05px 15px rgba(0,0,0,.22);
+    }
 }
 
 
