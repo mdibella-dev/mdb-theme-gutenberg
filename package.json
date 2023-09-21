@@ -1,6 +1,6 @@
 {
     "name": "mdb-theme-fse",
-    "version": "1.0.0",
+    "version": "3.1.2",
     "description": "Development Scripts",
     "config" : {
         "SASS_SRC": "./assets/src/css",
