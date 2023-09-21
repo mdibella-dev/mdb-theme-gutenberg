@@ -246,9 +246,9 @@
         "spacing": {
             "padding": {
                 "top": "0",
-                "right": "var(--wp--preset--spacing--30)",
+                "right": "var(--wp--preset--spacing--50)",
                 "bottom": "0",
-                "left": "var(--wp--preset--spacing--30)"
+                "left": "var(--wp--preset--spacing--50)"
             }
         },
         "elements": {
