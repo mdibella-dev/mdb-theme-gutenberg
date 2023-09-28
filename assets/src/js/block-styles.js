@@ -159,11 +159,18 @@ wp.domReady( () => {
 
     wp.blocks.registerBlockStyle(
         'core/cover',
-        {
-            name: 'portfolio',
-            label: 'Portfolio',
-            isDefault: false,
-        }
+        [
+            {
+                name: 'portfolio',
+                label: 'Portfolio',
+                isDefault: false,
+            },
+            {
+                name: 'fusion',
+                label: 'Fusion',
+                isDefault: false,
+            }
+        ]
     );
 
 } );
