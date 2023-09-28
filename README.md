@@ -26,6 +26,9 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+- New: Add block style "Fusion" to core/cover (experimental)
+- Improve: Reduce font size in block style pagenavigation (core/navigation)
+
 
 ### Previous changes
 
