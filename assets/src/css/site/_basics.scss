@@ -26,10 +26,6 @@ body {
     overflow: hidden;
     background: var(--wp--preset--color--body);
     color: var(--wp--preset--color--concrete);
-
-    /*@include breakpoint(large) {
-        background: var(--wp--preset--gradient--body);
-    }*/
 }
 
 
