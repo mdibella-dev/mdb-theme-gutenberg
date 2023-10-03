@@ -15,16 +15,6 @@
                     "color": "#2c2e3a"
                 },
                 {
-                    "name": "Body Gradient 01",
-                    "slug": "body-gradient-01",
-                    "color": "hsl(237,11%,37%)"
-                },
-                {
-                    "name": "Body Gradient 02",
-                    "slug": "body-gradient-02",
-                    "color": "hsl(228,21.7%,9%)"
-                },
-                {
                     "name": "Denim",
                     "slug": "denim",
                     "color": "hsl(202,82%,50%)"
@@ -50,13 +40,7 @@
                     "color": "hsl(222,0%,90%)"
                 }
             ],
-            "gradients": [
-                {
-                    "name": "Body Gradient",
-                    "slug": "body",
-                    "gradient": "linear-gradient(to bottom left, var(--wp--preset--color--body-gradient-01), var(--wp--preset--color--body-gradient-02))"
-                }
-            ],
+            "gradients": [],
             "duotone": [],
             "defaultPalette" : false,
             "defaultGradients": false,
