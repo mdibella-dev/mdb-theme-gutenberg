@@ -5,9 +5,34 @@
         "color": {
             "palette": [
                 {
-                    "name": "Body",
-                    "slug": "body",
+                    "name": "Back 0",
+                    "slug": "back-0",
                     "color": "#2c2e3a"
+                },
+                {
+                    "name": "Back 1",
+                    "slug": "back-1",
+                    "color": "#30333F"
+                },
+                {
+                    "name": "Back 2",
+                    "slug": "back-2",
+                    "color": "#353744"
+                },
+                {
+                    "name": "Back 3",
+                    "slug": "back-3",
+                    "color": "#393C49"
+                },
+                {
+                    "name": "Back 4",
+                    "slug": "back-4",
+                    "color": "#3D404E"
+                },
+                {
+                    "name": "Back 5",
+                    "slug": "back-5",
+                    "color": "#424553"
                 },
                 {
                     "name": "Denim",
@@ -33,6 +58,11 @@
                     "name": "Gypsum",
                     "slug": "gypsum",
                     "color": "hsl(222,0%,90%)"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#FFFFFF"
                 }
             ],
             "gradients": [],
