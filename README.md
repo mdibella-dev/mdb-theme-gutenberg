@@ -28,6 +28,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 - New: Add block style "Fusion" to core/cover (experimental, issue [#71](https://github.com/mdibella-dev/mdb-theme-fse/issues/71))
 - Improve: Reduce font size in block style pagenavigation (core/navigation)
+- Improve: Add dynamic height adjustment to navbar (issue [#72](https://github.com/mdibella-dev/mdb-theme-fse/issues/72))
 
 
 ### Previous changes
