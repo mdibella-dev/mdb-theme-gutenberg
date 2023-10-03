@@ -5,11 +5,6 @@
         "color": {
             "palette": [
                 {
-                    "name": "White",
-                    "slug": "white",
-                    "color": "#FFFFFF"
-                },
-                {
                     "name": "Body",
                     "slug": "body",
                     "color": "#2c2e3a"
