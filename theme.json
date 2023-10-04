@@ -5,24 +5,34 @@
         "color": {
             "palette": [
                 {
-                    "name": "White",
-                    "slug": "white",
-                    "color": "#FFFFFF"
-                },
-                {
-                    "name": "Body",
-                    "slug": "body",
+                    "name": "Back 0",
+                    "slug": "back-0",
                     "color": "#2c2e3a"
                 },
                 {
-                    "name": "Body Gradient 01",
-                    "slug": "body-gradient-01",
-                    "color": "hsl(237,11%,37%)"
+                    "name": "Back 1",
+                    "slug": "back-1",
+                    "color": "#30333F"
                 },
                 {
-                    "name": "Body Gradient 02",
-                    "slug": "body-gradient-02",
-                    "color": "hsl(228,21.7%,9%)"
+                    "name": "Back 2",
+                    "slug": "back-2",
+                    "color": "#353744"
+                },
+                {
+                    "name": "Back 3",
+                    "slug": "back-3",
+                    "color": "#393C49"
+                },
+                {
+                    "name": "Back 4",
+                    "slug": "back-4",
+                    "color": "#3D404E"
+                },
+                {
+                    "name": "Back 5",
+                    "slug": "back-5",
+                    "color": "#424553"
                 },
                 {
                     "name": "Denim",
@@ -48,15 +58,14 @@
                     "name": "Gypsum",
                     "slug": "gypsum",
                     "color": "hsl(222,0%,90%)"
-                }
-            ],
-            "gradients": [
+                },
                 {
-                    "name": "Body Gradient",
-                    "slug": "body",
-                    "gradient": "linear-gradient(to bottom left, var(--wp--preset--color--body-gradient-01), var(--wp--preset--color--body-gradient-02))"
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#FFFFFF"
                 }
             ],
+            "gradients": [],
             "duotone": [],
             "defaultPalette" : false,
             "defaultGradients": false,
@@ -198,7 +207,7 @@
         "custom": {
             "navbar": {
                 "column-width": "9rem",
-                "row-height": "5rem"
+                "row-height": "clamp(5rem, calc(5rem + ((1vw - 0.48rem) * 3.8462)), 7rem)"
             },
             "base": {
                 "gap": "calc(1.5 * var(--wp--custom--base--font-size))",

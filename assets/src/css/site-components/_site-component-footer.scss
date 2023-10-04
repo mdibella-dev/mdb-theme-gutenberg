@@ -6,6 +6,14 @@
  */
 
 
+
+
+.site-component-footer {
+    background: url("../../images/footer-gradient.png");
+    background-repeat: repeat-x;
+}
+
+
 .site-component-footer > p:nth-of-type(1) {
     font-size: 1rem;
 }
