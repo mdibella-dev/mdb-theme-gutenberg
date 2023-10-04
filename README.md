@@ -30,6 +30,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Reduce font size in block style pagenavigation (core/navigation)
 - Improve: Add dynamic height adjustment to navbar (issue [#72](https://github.com/mdibella-dev/mdb-theme-fse/issues/72))
 - Improve: Add more background colors
+- Improve: Reintroduce footer gradient
 
 
 ### Previous changes
