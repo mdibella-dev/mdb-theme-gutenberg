@@ -31,6 +31,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Add dynamic height adjustment to navbar (issue [#72](https://github.com/mdibella-dev/mdb-theme-fse/issues/72))
 - Improve: Add more background colors
 - Improve: Reintroduce footer gradient
+- Improve: Add more text shadow to headings
 
 
 ### Previous changes
