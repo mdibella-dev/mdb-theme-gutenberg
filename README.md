@@ -34,7 +34,8 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Reintroduce footer gradient
 - Improve: Add more text shadow to headings
 - Improve: Reduce left and right global spacing
-
+- Improve: Change appearance of the slideout
+- Fix: Slideout content doesn't disappear on small screen heights
 
 ### Previous changes
 
