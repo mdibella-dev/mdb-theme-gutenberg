@@ -33,16 +33,6 @@
 }
 
 
-.slideout-content {
-/*    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    //max-height: calc(100% - var(--wp--custom--navbar--row-height));
-    padding: 0;*/
-}
-
-
 /** Primary navigation */
 
 .slideout-primary {
@@ -78,7 +68,7 @@
         text-shadow: 0 1px 10px rgba(0,0,0,.2);
         color: $color--slideout--text;
         outline: 0 !important;
-        transition: all .4s;
+        transition: all .4s ease-out;
 
         &:hover,
         &:focus {
