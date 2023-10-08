@@ -33,6 +33,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Add more background colors
 - Improve: Reintroduce footer gradient
 - Improve: Add more text shadow to headings
+- Improve: Reduce left and right global spacing
 
 
 ### Previous changes
