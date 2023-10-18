@@ -22,7 +22,7 @@
 
 body.logged-in.admin-bar {
 
-    .site-component-app {
+    .wp-site-blocks {
         height: calc(100vh - var(--wp-admin--admin-bar--height));
         height: calc(100dvh - var(--wp-admin--admin-bar--height));
     }
