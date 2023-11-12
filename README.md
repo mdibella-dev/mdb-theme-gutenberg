@@ -26,6 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+- New: Rework of the site's main structural elements
 - New: Add block style "Fusion" to core/cover (experimental, issue [#71](https://github.com/mdibella-dev/mdb-theme-fse/issues/71))
 - New: Add color to the scrollbar (issue [#75](https://github.com/mdibella-dev/mdb-theme-fse/issues/75))
 - Improve: Reduce font size in block style pagenavigation (core/navigation)
@@ -34,6 +35,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Reintroduce footer gradient
 - Improve: Add more text shadow to headings
 - Improve: Change appearance of the slideout
+- Improve: Remove obsolete CSS vars
 - Fix: Slideout content doesn't disappear on small screen heights
 
 
