@@ -260,6 +260,10 @@
                 "left": "var(--wp--preset--spacing--50)"
             }
         },
+        "color": {
+            "background": "var(--wp--preset--color--back-0)",
+            "text": "var(--wp--preset--color--concrete)"
+        },
         "elements": {
             "heading": {
                 "typography": {

@@ -14,7 +14,7 @@ body {
 
 
 html {
-    font-size: 18px;
+    font-size: 18px;        // = 1rem
     margin: 0 !important;
 }
 
@@ -24,8 +24,6 @@ body {
     padding: 0;
     position: relative; // prevent scrolling at overflow:hidden (iOS)
     overflow: hidden;
-    background: var(--wp--preset--color--back-0);
-    color: var(--wp--preset--color--concrete);
     width: 100vw;
 }
 
