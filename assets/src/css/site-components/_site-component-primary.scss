@@ -1,0 +1,26 @@
+/**
+ * Site component: primary navigation
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+.site-component-primary {
+
+    .wp-block-navigation-item {
+        padding: 0 .3rem;
+        font-size: 75%;
+    }
+
+    .wp-block-navigation-item {
+        color: var(--wp--preset--color--denim);
+        transition: color .2s;
+
+        &:hover,
+        &:focus {
+            color: var(--wp--preset--color--white);
+        }
+    }
+}
