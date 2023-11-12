@@ -23,8 +23,12 @@
 body.logged-in.admin-bar {
 
     .wp-site-blocks {
+        position: absolute;
         height: calc(100vh - var(--wp-admin--admin-bar--height));
         height: calc(100dvh - var(--wp-admin--admin-bar--height));
+        width: 100%;
+        top: var(--wp-admin--admin-bar--height);
+        left: 0;
     }
 
     .site-component-slideout {
