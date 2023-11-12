@@ -37,3 +37,13 @@ body.logged-in.admin-bar {
         top: var(--wp-admin--admin-bar--height);
     }
 }
+
+
+
+/**
+ * WordPress block editor patch
+ */
+
+.edit-site-block-editor__block-list [data-title="slideout"] {
+    display: none;
+}
