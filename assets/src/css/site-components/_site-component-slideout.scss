@@ -10,7 +10,7 @@
 .site-component-slideout {
     position: fixed;
     z-index: 2000;
-    background: $color--slideout;
+    background: var(--wp--preset--color--denim);
     overflow: hidden;
     width: 0%;
     height: 100%;
@@ -29,7 +29,7 @@
     left: 0;
     padding: 0 1rem;
     overflow: auto;
-    scrollbar-color: $color--slideout--text transparent;
+    scrollbar-color: var(--wp--preset--color--white) transparent;
 }
 
 
@@ -39,45 +39,24 @@
     width: auto;
     display: none;
 
-    ul {
-        list-style: none;
-        margin: 0;
-        padding-left: 0;
-        text-shadow: none;
-        width: 100%;
-    }
-
-    li {
-        display: block;
-        width: 100%;
+    .wp-block-navigation-item {
         padding: 1.25rem 0;
-    }
-
-    a {
         display: block;
-        padding: 0;
-
-        // typography
         letter-spacing: .8px;
         font-family: var(--wp--preset--font-family--secondary);
         font-weight: 200;
         font-size: clamp(2rem, 4vw, 2.5rem);
-        line-height: 150%;
-        text-align: center;
-        text-decoration: none !important;
-        text-shadow: 0 1px 10px rgba(0,0,0,.2);
-        color: $color--slideout--text;
-        outline: 0 !important;
-        transition: all .4s ease-out;
+        line-height: 1.5;
+        text-shadow: none;
+        color: var(--wp--preset--color--white);
+    }
 
-        &:hover,
-        &:focus {
-            text-decoration: none !important;
-            text-shadow: 0 1px 20px rgba(255,255,255,.5);
-            color: $color--slideout--text__hover;
-        }
+    .wp-block-navigation-item__content.wp-block-navigation-item__content:hover,
+    .wp-block-navigation-item__content.wp-block-navigation-item__content:focus {
+        color: var(--wp--preset--color--denim-dark);
     }
 }
+
 
 
 /** The slide effect */
@@ -85,7 +64,6 @@
 body.slide-in-progress {
     overflow-y: hidden;
 }
-
 
 body.slideout-visible .slideout-primary {
     display: unset;
