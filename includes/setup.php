@@ -57,10 +57,6 @@ function theme_setup() {
         update_option( 'large_size_w', 1200 );
         update_option( 'large_size_h', 9999 );
     }
-
-
-    // Registers the navigation menus.
-    register_nav_menu( 'primary', __( 'Primary Navigation', 'mdb-theme-fse' ) );
 }
 
 add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
