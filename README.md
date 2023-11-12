@@ -36,6 +36,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Add more text shadow to headings
 - Improve: Change appearance of the slideout
 - Improve: Remove obsolete CSS vars
+- Improve: Reinstate secondary font type in slideout navigation
 - Fix: Slideout content doesn't disappear on small screen heights
 
 
