@@ -10,7 +10,7 @@
 .site-component-app {
     position: absolute;
     left: 0;
-    top: 0;
+    top: var(--wp-admin--admin-bar--height);
     width: 100vw;
     height: 100vh;
     height: 100dvh;
