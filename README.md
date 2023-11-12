@@ -37,6 +37,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Change appearance of the slideout
 - Improve: Remove obsolete CSS vars
 - Improve: Reinstate secondary font type in slideout navigation
+- Improve: Remove scrollup from navbar (placement makes no sense anymore)
 - Fix: Slideout content doesn't disappear on small screen heights
 
 
