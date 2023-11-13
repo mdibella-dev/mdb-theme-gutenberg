@@ -32,7 +32,7 @@ define( __NAMESPACE__ . "\THEME_URI", get_template_directory_uri() .'/' );    //
 /** Include files */
 
 require_once THEME_DIR . 'includes/setup.php';
-require_once THEME_DIR . 'includes/block-patterns.php';
+// require_once THEME_DIR . 'includes/block-patterns.php';
 require_once THEME_DIR . 'includes/block-styles.php';
 require_once THEME_DIR . 'includes/block-editor.php';
 require_once THEME_DIR . 'includes/performance.php';

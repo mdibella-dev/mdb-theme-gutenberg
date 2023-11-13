@@ -1,6 +1,6 @@
 <?php
 /**
- * Additional setup for the block patterns.
+ * Additional setup for the block patterns. (deprecated)
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
@@ -26,7 +26,7 @@ function register_block_patterns() {
     try {
 
         $block_patterns = [
-            'primary'
+            ''
         ];
 
         foreach( $block_patterns as $block_pattern ) {
