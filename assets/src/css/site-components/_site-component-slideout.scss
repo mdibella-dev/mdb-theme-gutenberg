@@ -20,8 +20,6 @@
 
 
 .slideout-content-wrapper {
-    display: flex;
-    justify-content: center;
     height: calc(100% - var(--wp--custom--navbar--row-height));
     width: 100%;
     position: relative;
@@ -43,7 +41,7 @@
         list-style: none;
         margin: 0;
         padding-left: 0;
-        text-shadow: none;
+        text-align: center;
         width: 100%;
     }
 
@@ -51,6 +49,17 @@
         display: block;
         width: 100%;
         padding: 1.25rem 0;
+        text-shadow: none;
+
+        // typography
+        letter-spacing: .8px;
+        font-family: var(--wp--preset--font-family--secondary);
+        font-weight: 200;
+        font-size: clamp(1.5rem,4vw,2rem);
+        line-height: 150%;
+        text-decoration: none !important;
+        color: $color--slideout--text;
+        text-shadow: 0 1px 10px rgba(0,0,0,.2);
     }
 
     a {
@@ -58,22 +67,20 @@
         padding: 0;
 
         // typography
-        letter-spacing: .8px;
+/*        letter-spacing: .8px;
         font-family: var(--wp--preset--font-family--secondary);
         font-weight: 200;
         font-size: clamp(2rem, 4vw, 2.5rem);
         line-height: 150%;
-        text-align: center;
         text-decoration: none !important;
-        text-shadow: 0 1px 10px rgba(0,0,0,.2);
-        color: $color--slideout--text;
+        //text-shadow: 0 1px 10px rgba(0,0,0,.2);
+        */
         outline: 0 !important;
         transition: all .4s ease-out;
 
         &:hover,
         &:focus {
             text-decoration: none !important;
-            text-shadow: 0 1px 20px rgba(255,255,255,.5);
             color: $color--slideout--text__hover;
         }
     }
@@ -88,5 +95,5 @@ body.slide-in-progress {
 
 
 body.slideout-visible .slideout-primary {
-    display: unset;
+    display: flex;
 }
