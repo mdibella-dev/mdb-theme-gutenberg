@@ -40,6 +40,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Remove scrollup from navbar (placement makes no sense anymore)
 - Improve: Revamp the slideout menu and remove pattern
 - Improve: Remove support for classic menu (primary menu)
+- Improve: Remove extra big font in post-title
 - Fix: Slideout content doesn't disappear on small screen heights
 - Fix: The site editor creates a large gap where the slideout is implemented in the code
 

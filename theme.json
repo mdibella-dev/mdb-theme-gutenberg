@@ -335,11 +335,6 @@
             }
         },
         "blocks": {
-            "core/post-title": {
-                "typography": {
-                    "fontSize": "clamp(3.375rem, 3.375rem + ((1vw - 0.48rem) * 3.846), 5.375rem)"
-                }
-            },
             "core/paragraph": {
                 "spacing": {
                     "margin": {
