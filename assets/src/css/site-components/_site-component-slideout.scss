@@ -10,7 +10,7 @@
 .site-component-slideout {
     position: fixed;
     z-index: 2000;
-    background: $color--slideout;
+    background: var(--wp--preset--color--denim);
     overflow: hidden;
     width: 0%;
     height: 100%;
@@ -27,69 +27,32 @@
     left: 0;
     padding: 0 1rem;
     overflow: auto;
-    scrollbar-color: $color--slideout--text transparent;
+    scrollbar-color: var(--wp--preset--color--white) transparent;
 }
 
 
 .slideout-content {
-    margin: 0 auto;
+    display: none;
     width: var(--wp--style--global--content-size);
 }
 
-/** Primary navigation */
 
-.slideout-primary {
-    width: auto;
-    display: none;
+.slideout-content a {
+    color: var(--wp--preset--color--white);
 
-    ul {
-        list-style: none;
-        margin: 0;
-        padding-left: 0;
-        text-align: center;
-        width: 100%;
-    }
+    display: block;
+    padding: 0;
+    outline: 0 !important;
+    transition: all .4s ease-out;
 
-    li {
-        display: block;
-        width: 100%;
-        padding: 1.25rem 0;
-        text-shadow: none;
-
-        // typography
-        letter-spacing: .8px;
-        font-family: var(--wp--preset--font-family--secondary);
-        font-weight: 200;
-        font-size: clamp(1.5rem,4vw,2rem);
-        line-height: 150%;
+    &:hover,
+    &:focus {
         text-decoration: none !important;
-        color: $color--slideout--text;
-        text-shadow: 0 1px 10px rgba(0,0,0,.2);
-    }
-
-    a {
-        display: block;
-        padding: 0;
-
-        // typography
-/*        letter-spacing: .8px;
-        font-family: var(--wp--preset--font-family--secondary);
-        font-weight: 200;
-        font-size: clamp(2rem, 4vw, 2.5rem);
-        line-height: 150%;
-        text-decoration: none !important;
-        //text-shadow: 0 1px 10px rgba(0,0,0,.2);
-        */
-        outline: 0 !important;
-        transition: all .4s ease-out;
-
-        &:hover,
-        &:focus {
-            text-decoration: none !important;
-            color: $color--slideout--text__hover;
-        }
+        color: var(--wp--preset--color--denim-dark);
     }
 }
+
+
 
 
 /** The slide effect */
@@ -99,6 +62,6 @@ body.slide-in-progress {
 }
 
 
-body.slideout-visible .slideout-primary {
+body.slideout-visible .slideout-content {
     display: flex;
 }
