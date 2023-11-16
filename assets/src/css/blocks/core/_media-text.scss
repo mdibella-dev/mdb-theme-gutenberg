@@ -58,6 +58,6 @@
 .wp-block-media-text.is-style-shaded {
     img {
         box-shadow: 0 8px 10px 0 rgba(0,0,0,.35);
-        border-radius: $base--border-radius;
+        border-radius: var(--wp--custom--base--border-radius);
     }
 }

@@ -15,6 +15,6 @@
 .wp-block-embed.is-style-shaded {
     .embed-privacy-overlay,
     .embed-privacy-container {
-        border-radius: $base--border-radius;
+        border-radius: var(--wp--custom--base--border-radius);
     }
 }
