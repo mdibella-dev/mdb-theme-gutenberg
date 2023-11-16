@@ -87,28 +87,4 @@ jQuery( document ).ready( function( $ ) {
 
         $( '.site-component-main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutExpo' );
     } );
-
-
-
-    /**
-     * Fix header centering
-     */
-
-    function toggleHeaderFix() {
-        let scrollVisible = $( '.site-component-main' ).get(0).scrollHeight > $( '.site-component-main' ).height();
-
-        if( true == scrollVisible ) {
-            let scrollWidth = $( '.site-component-main' ).get(0).offsetWidth - $( '.site-component-main' ).get(0).clientWidth;
-
-            $( 'header' ).css( 'padding-right', scrollWidth );
-        } else {
-            $( 'header' ).css( 'padding-right', '' );
-        }
-    }
-
-    // event handler for re-checking after resizing
-
-    $( window ).on( 'resize', function(e) { toggleHeaderFix(); } );
-
-    toggleHeaderFix();
 } );
