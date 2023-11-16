@@ -13,14 +13,14 @@ jQuery( document ).ready( function( $ ) {
             if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
                 $( '.is-navbar-mail' ).fadeOut();
                 $( '.site-component-slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
-                $( '.slideout-content' ).delay(800).fadeIn();
+                $( '.slideout-primary' ).delay(800).fadeIn();
                 $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                 }, duration );
             } else {
-                $( '.slideout-content' ).delay(200).fadeOut( function() {
+                $( '.slideout-primary' ).delay(200).fadeOut( function() {
                     $( '.site-component-slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
                 } );
 
