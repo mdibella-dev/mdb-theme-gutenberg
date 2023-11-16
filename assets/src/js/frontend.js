@@ -11,27 +11,16 @@ jQuery( document ).ready( function( $ ) {
             $( 'body' ).toggleClass( 'slide-in-progress' );
 
             if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
-                $( '.is-navbar-home' ).fadeOut();
                 $( '.is-navbar-mail' ).fadeOut();
-                $( '.is-navbar-scrollup' ).fadeOut();
-
                 $( '.site-component-slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
-
-                $( '.slideout-primary' ).delay(800).fadeIn( function() {
-                    $( '.is-navbar-home' ).fadeIn();
-                    $( '.is-navbar-mail' ).fadeIn();
-                } );
-
+                $( '.slideout-content' ).delay(800).fadeIn();
                 $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                 }, duration );
             } else {
-                $( '.is-navbar-home' ).fadeOut();
-                $( '.is-navbar-mail' ).fadeOut();
-
-                $( '.slideout-primary' ).delay(200).fadeOut( function() {
+                $( '.slideout-content' ).delay(200).fadeOut( function() {
                     $( '.site-component-slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
                 } );
 
@@ -39,9 +28,7 @@ jQuery( document ).ready( function( $ ) {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                     $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
 
-                    $( '.is-navbar-home' ).fadeIn();
                     $( '.is-navbar-mail' ).fadeIn();
-                    $( '.is-navbar-scrollup' ).fadeIn();
                 }, duration );
             }
         }
