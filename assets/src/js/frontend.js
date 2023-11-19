@@ -11,24 +11,21 @@ jQuery( document ).ready( function( $ ) {
             $( 'body' ).toggleClass( 'slide-in-progress' );
 
             if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
-                $( '.is-navbar-mail' ).fadeOut();
                 $( '.site-component-slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
-                $( '.slideout-primary' ).delay(800).fadeIn();
+                $( '.slideout-content' ).delay(800).fadeIn();
                 $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                 }, duration );
             } else {
-                $( '.slideout-primary' ).delay(200).fadeOut( function() {
+                $( '.slideout-content' ).delay(200).fadeOut( function() {
                     $( '.site-component-slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
                 } );
 
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                     $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
-
-                    $( '.is-navbar-mail' ).fadeIn();
                 }, duration );
             }
         }
