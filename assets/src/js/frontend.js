@@ -55,7 +55,7 @@ jQuery( document ).ready( function( $ ) {
         let tag    = $( "#" + id );
         let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
 
-        $( '.site-component-main' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
+        $( '.wp-site-blocks' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
     }
 
 
@@ -82,6 +82,6 @@ jQuery( document ).ready( function( $ ) {
     $( '.is-navbar-scrollup' ).on( 'click', function( e ) {
         e.preventDefault();
 
-        $( '.site-component-main' ).animate( { scrollTop: 0 }, 1500, 'easeInOutExpo' );
+        $( '.wp-site-blocks' ).animate( { scrollTop: 0 }, 1500, 'easeInOutExpo' );
     } );
 } );

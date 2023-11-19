@@ -43,6 +43,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Remove header fix (obsolete)
 - Fix: Slideout content doesn't disappear on small screen heights
 - Fix: The site editor creates a large gap where the slideout is implemented in the code
+- Fix: Broken scroll to function
 
 
 ### Previous changes
