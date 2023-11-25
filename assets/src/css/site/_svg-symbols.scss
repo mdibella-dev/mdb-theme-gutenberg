@@ -18,9 +18,14 @@
             mask-image: var(--symbol);
     display: inline-block;
     position: relative;
+    background-color: var(--wp--preset--color--denim);
     width: 20px;
     height: 20px;
-    background-color: $color--text;
+
+    @include breakpoint(large) {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 
