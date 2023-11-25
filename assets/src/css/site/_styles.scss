@@ -31,10 +31,16 @@
 }
 
 
-.no-root-padding-top {
-    // deprecated
-    // margin-top: calc(var(--wp--custom--main--spacing-top)*-1) !important;
+.no-root-padding-top,       // compatibility reasons, deprecated
+.no-main-padding-top {
+    margin-top: calc(-1*var(--wp--custom--main--spacing--top)) !important;
 }
+
+
+.no-main-padding-bottom {
+    margin-bottom: calc(-1*var(--wp--custom--main--spacing--bottom)) !important;
+}
+
 
 
 /**

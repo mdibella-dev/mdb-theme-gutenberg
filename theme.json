@@ -214,7 +214,10 @@
                 "border-radius": "8px"
             },
             "main": {
-                "spacing-top": "var(--wp--preset--spacing--50)"
+                "spacing": {
+                    "top": "var(--wp--preset--spacing--40)",
+                    "bottom": "var(--wp--preset--spacing--40)"
+                }
             },
             "teaserblock": {
                 "image-width": "100px",
