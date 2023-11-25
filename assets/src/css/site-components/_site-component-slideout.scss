@@ -20,10 +20,10 @@
 
 
 .slideout-content-wrapper {
-    height: calc(100% - var(--wp--custom--navbar--row-height));
+    height: 100%;
     width: 100%;
     position: relative;
-    top: var(--wp--custom--navbar--row-height);
+    top: 0;
     left: 0;
     padding: 0 1rem;
     overflow: auto;
@@ -33,7 +33,7 @@
 
 .slideout-content {
     display: none;
-    width: var(--wp--style--global--content-size);
+    width: 75%;
 }
 
 
@@ -72,14 +72,14 @@
     li {
         display: block;
         width: 100%;
-        padding: 1.125rem 0;
+        padding: 0;
 
         // typography
         letter-spacing: .8px;
         font-family: var(--wp--preset--font-family--secondary);
         font-weight: 200;
-        font-size: clamp(1.5rem,4vw,2rem);
-        line-height: 150%;
+        font-size: clamp(1.5rem, calc(1.5rem + ((1vw - .48rem) * 1.7361)), 2.75rem);
+        line-height: 200%;
         text-shadow: none;
     }
 
