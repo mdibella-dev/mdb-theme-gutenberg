@@ -1,0 +1,23 @@
+/**
+ * Site component: main
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+
+/**
+ * Margin control
+ */
+
+.site-component-main .no-root-padding-top,       // compatibility reasons, deprecated
+.site-component-main .no-main-padding-top {
+    margin-top: calc(-1*var(--wp--custom--main--spacing--top)) !important;
+}
+
+
+.site-component-main .no-main-padding-bottom {
+    margin-bottom: calc(-1*var(--wp--custom--main--spacing--bottom)) !important;
+}

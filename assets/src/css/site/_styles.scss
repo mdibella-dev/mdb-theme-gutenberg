@@ -31,17 +31,6 @@
 }
 
 
-.no-root-padding-top,       // compatibility reasons, deprecated
-.no-main-padding-top {
-    margin-top: calc(-1*var(--wp--custom--main--spacing--top)) !important;
-}
-
-
-.no-main-padding-bottom {
-    margin-bottom: calc(-1*var(--wp--custom--main--spacing--bottom)) !important;
-}
-
-
 
 /**
  * Basic styles for AJAX-driven loadmore-elements
