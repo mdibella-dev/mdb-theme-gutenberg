@@ -205,9 +205,8 @@
             "dropCap": false
         },
         "custom": {
-            "navbar": {
-                "column-width": "9rem",
-                "row-height": "clamp(5rem, calc(5rem + ((1vw - 0.48rem) * 3.8462)), 7rem)"
+            "header": {
+                "height": "clamp(5rem, calc(5rem + ((1vw - 0.48rem) * 3.8462)), 7rem)"
             },
             "base": {
                 "gap": "calc(1.5 * var(--wp--custom--base--font-size))",
