@@ -41,6 +41,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Revamp the slideout menu and remove pattern
 - Improve: Remove support for classic menu (primary menu)
 - Improve: Remove header fix (obsolete)
+- Improve: Add name to navbar
 - Fix: Slideout content doesn't disappear on small screen heights
 - Fix: The site editor creates a large gap where the slideout is implemented in the code
 - Fix: Broken scroll to function
