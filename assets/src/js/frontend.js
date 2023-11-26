@@ -11,6 +11,7 @@ jQuery( document ).ready( function( $ ) {
             $( 'body' ).toggleClass( 'slide-in-progress' );
 
             if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
+                $( '.wp-block-site-title' ).fadeOut();    
                 $( '.site-component-slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
                 $( '.slideout-content' ).delay(800).fadeIn();
                 $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
@@ -26,6 +27,7 @@ jQuery( document ).ready( function( $ ) {
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                     $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
+                    $( '.wp-block-site-title' ).fadeIn();
                 }, duration );
             }
         }
