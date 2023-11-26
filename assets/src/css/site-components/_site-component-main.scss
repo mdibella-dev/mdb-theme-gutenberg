@@ -1,5 +1,5 @@
 /**
- * Site component: main (the content area)
+ * Site component: main
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
@@ -7,12 +7,17 @@
 
 
 
-.site-component-main {
-    position: relative;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-    padding-top: var(--wp--custom--main--spacing-top);
-    scrollbar-color:var(--wp--preset--color--denim) transparent;
+
+/**
+ * Margin control
+ */
+
+.site-component-main .no-root-padding-top,       // compatibility reasons, deprecated
+.site-component-main .no-main-padding-top {
+    margin-top: calc(-1*var(--wp--custom--main--spacing--top)) !important;
+}
+
+
+.site-component-main .no-main-padding-bottom {
+    margin-bottom: calc(-1*var(--wp--custom--main--spacing--bottom)) !important;
 }

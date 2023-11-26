@@ -58,7 +58,7 @@
 
         .teaser-image {
             box-shadow: 0 1px 10px 0 rgba(0,0,0,.35);
-            border-radius: $base--border-radius !important;
+            border-radius: var(--wp--custom--base--border-radius) !important;
             padding: 0;
             width: var(--wp--custom--teaserblock--image-width);
             position: relative;
@@ -72,7 +72,7 @@
             }
 
             img {
-                border-radius: $base--border-radius !important;
+                border-radius: var(--wp--custom--base--border-radius) !important;
                 position: absolute;
                 width: 100%;
                 height: 100%;

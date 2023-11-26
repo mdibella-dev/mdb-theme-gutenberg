@@ -12,7 +12,7 @@
  */
 
 .wp-block-code {
-    border-radius: $base--border-radius !important;
+    border-radius: var(--wp--custom--base--border-radius) !important;
     box-shadow: 0 8px 20px 0 rgba(0,0,0,0.15) !important;
 
     // spacing

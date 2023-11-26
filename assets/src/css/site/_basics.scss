@@ -14,7 +14,7 @@ body {
 
 
 html {
-    font-size: 18px;
+    font-size: 18px;        // = 1rem
     margin: 0 !important;
 }
 
@@ -24,8 +24,17 @@ body {
     padding: 0;
     position: relative; // prevent scrolling at overflow:hidden (iOS)
     overflow: hidden;
-    background: var(--wp--preset--color--back-0);
-    color: var(--wp--preset--color--concrete);
+    width: 100vw;
+}
+
+
+.wp-site-blocks {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    scrollbar-color: var(--wp--preset--color--denim) transparent;
 }
 
 
@@ -61,12 +70,6 @@ ul {
     letter-spacing: .2px;
     color: var(--wp--preset--color--concrete);
     text-shadow: 0 1px 10px rgba(0,0,0,.5);
-}
-
-
-footer {
-    padding-bottom: var(--wp--style--root--padding-bottom);
-    margin-bottom: calc(var(--wp--style--root--padding-bottom) * -1);
 }
 
 

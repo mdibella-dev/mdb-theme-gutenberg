@@ -11,30 +11,11 @@
 // The naming is based on what the colors represent. The actual color palette stems from theme.json.
 
 $color--text:                               var(--wp--preset--color--concrete);
-$color--background:                         var(--wp--preset--color--darkness);
 $color--link:                               var(--wp--preset--color--denim);
 $color--link__hover:                        var(--wp--preset--color--white);
-$color--button--text:                       var(--wp--preset--color--denim);
-$color--button--background:                 transparent;
-$color--button--border:                     var(--wp--preset--color--denim);
-$color--button--text__hover:                var(--wp--preset--color--white);
-$color--button--background__hover:          var(--wp--preset--color--denim);
-$color--button--border__hover:              var(--wp--preset--color--denim);
-$color--slideout:                           var(--wp--preset--color--denim);
-$color--slideout--text:                     var(--wp--preset--color--white);
-$color--slideout--text__hover:              var(--wp--preset--color--denim-dark);
-$color--button-is-flat--text:               var(--wp--preset--color--denim);
-$color--button-is-flat--text__hover:        var(--wp--preset--color--denim);
-$color--button-is-flat--background:         transparent;
-$color--button-is-flat--background__hover:  var(--wp--preset--color--stone);
 $color--code--selection--background:        var(--wp--preset--color--denim);
 $color--code--selection--text:              var(--wp--preset--color--white);
 
-
-// Basic settings
-
-$base--gap:                                 var(--wp--custom--base--gap);
-$base--border-radius:                       var(--wp--custom--base--border-radius);
 
 
 // Dimensions

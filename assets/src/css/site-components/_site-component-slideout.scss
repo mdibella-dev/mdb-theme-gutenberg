@@ -1,5 +1,5 @@
 /**
- * Site component: slideout (main menue which slides out when mdb-button is clicked)
+ * Site component: slideout (main menue which slides out when hamburger button is clicked)
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
@@ -10,7 +10,7 @@
 .site-component-slideout {
     position: fixed;
     z-index: 2000;
-    background: $color--slideout;
+    background: var(--wp--preset--color--denim);
     overflow: hidden;
     width: 0%;
     height: 100%;
@@ -20,73 +20,89 @@
 
 
 .slideout-content-wrapper {
-    display: flex;
-    justify-content: center;
-    height: calc(100% - var(--wp--custom--navbar--row-height));
+    height: 100%;
     width: 100%;
     position: relative;
-    top: var(--wp--custom--navbar--row-height);
+    top: 0;
     left: 0;
     padding: 0 1rem;
     overflow: auto;
-    scrollbar-color: $color--slideout--text transparent;
+    scrollbar-color: var(--wp--preset--color--white) transparent;
 }
 
 
-/** Primary navigation */
+.slideout-content {
+    display: none;
+    width: 75%;
+}
+
 
 .slideout-primary {
-    width: auto;
     display: none;
+    margin: 0;
 
-    ul {
-        list-style: none;
-        margin: 0;
-        padding-left: 0;
-        text-shadow: none;
-        width: 100%;
-    }
-
-    li {
-        display: block;
-        width: 100%;
-        padding: 1.25rem 0;
-    }
 
     a {
+        color: var(--wp--preset--color--white);
+
         display: block;
         padding: 0;
-
-        // typography
-        letter-spacing: .8px;
-        font-family: var(--wp--preset--font-family--primary);
-        font-weight: 200;
-        font-size: clamp(2rem, 4vw, 2.5rem);
-        line-height: 150%;
-        text-align: center;
-        text-decoration: none !important;
-        text-shadow: 0 1px 10px rgba(0,0,0,.2);
-        color: $color--slideout--text;
         outline: 0 !important;
         transition: all .4s ease-out;
+        cursor: pointer;
 
         &:hover,
         &:focus {
             text-decoration: none !important;
-            text-shadow: 0 1px 20px rgba(255,255,255,.5);
-            color: $color--slideout--text__hover;
+            color: var(--wp--preset--color--denim-dark);
+        }
+    }
+
+
+    ul {
+        display: block;
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+
+    li {
+        display: block;
+        width: 100%;
+        padding: 0;
+
+        // typography
+        letter-spacing: .8px;
+        font-family: var(--wp--preset--font-family--secondary);
+        font-weight: 200;
+        font-size: clamp(1.5rem, calc(1.5rem + ((1vw - .48rem) * 1.1111)), 2.3rem);
+        line-height: 200%;
+        text-shadow: none;
+    }
+
+
+    li.label {
+        padding: 1.5rem 0 .125rem;
+
+        // typography
+        span {
+            font-size: 60%;
+            font-family: var(--wp--preset--font-family--primary);
+            font-weight: 400;
+            color: var(--wp--preset--color--denim-dark);
+            text-transform: uppercase;
         }
     }
 }
+
+
 
 
 /** The slide effect */
 
 body.slide-in-progress {
     overflow-y: hidden;
-}
-
-
-body.slideout-visible .slideout-primary {
-    display: unset;
 }

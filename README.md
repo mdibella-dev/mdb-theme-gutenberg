@@ -18,7 +18,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Tested up to
 
-- WordPress 6.3
+- WordPress 6.4
 
 <br>
 
@@ -26,6 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+- New: Rework of the site's main structural elements
 - New: Add block style "Fusion" to core/cover (experimental, issue [#71](https://github.com/mdibella-dev/mdb-theme-fse/issues/71))
 - New: Add color to the scrollbar (issue [#75](https://github.com/mdibella-dev/mdb-theme-fse/issues/75))
 - Improve: Reduce font size in block style pagenavigation (core/navigation)
@@ -34,7 +35,16 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Reintroduce footer gradient
 - Improve: Add more text shadow to headings
 - Improve: Change appearance of the slideout
+- Improve: Remove obsolete CSS vars
+- Improve: Reinstate secondary font type in slideout navigation
+- Improve: Remove scrollup from navbar (placement makes no sense anymore)
+- Improve: Revamp the slideout menu and remove pattern
+- Improve: Remove support for classic menu (primary menu)
+- Improve: Remove header fix (obsolete)
+- Improve: Add name to navbar
 - Fix: Slideout content doesn't disappear on small screen heights
+- Fix: The site editor creates a large gap where the slideout is implemented in the code
+- Fix: Broken scroll to function
 
 
 ### Previous changes
