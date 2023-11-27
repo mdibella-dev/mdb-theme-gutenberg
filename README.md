@@ -26,6 +26,8 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+* Bugfix: Alignment of figcaption when part of a lightbox container
+
 
 ### Previous changes
 

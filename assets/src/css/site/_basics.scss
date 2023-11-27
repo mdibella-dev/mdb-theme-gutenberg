@@ -136,9 +136,10 @@ a {
     // dimensions
     margin-top: 1rem;
     margin-bottom: 0;
+    width: 100%;
     max-width: var(--wp--style--global--content-size);
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: auto !important;  // deprecated?
+    margin-right: auto !important; // deprecated?
 }
 
 
