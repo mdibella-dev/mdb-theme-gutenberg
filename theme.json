@@ -201,8 +201,7 @@
             "fontStyle": false,
             "letterSpacing": false,
             "textDecoration": false,
-            "textTransform": false,
-            "dropCap": false
+            "textTransform": false
         },
         "custom": {
             "header": {
@@ -343,6 +342,9 @@
                         "top": "0",
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
+                },
+                "typography": {
+                    "dropCap": true
                 }
             },
             "core/list": {
