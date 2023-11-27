@@ -26,6 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
+* Improve: Add dropCap styling
 * Bugfix: Alignment of figcaption when part of a lightbox container
 
 
