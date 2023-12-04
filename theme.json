@@ -5,6 +5,11 @@
         "color": {
             "palette": [
                 {
+                    "name": "Surface",
+                    "slug": "surface",
+                    "color": "hsl(231.4, 13.7%, 10%)"
+                },
+                {
                     "name": "Back 0",
                     "slug": "back-0",
                     "color": "#2c2e3a"
@@ -269,7 +274,7 @@
             }
         },
         "color": {
-            "background": "var(--wp--preset--color--back-0)",
+            "background": "var(--wp--preset--color--surface)",
             "text": "var(--wp--preset--color--concrete)"
         },
         "elements": {
