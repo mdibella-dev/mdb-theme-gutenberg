@@ -261,7 +261,7 @@
     "styles": {
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--primary)",
-            "fontWeight": "300",
+            "fontWeight": "200",
             "fontSize": "var(--wp--preset--font-size--medium)",
             "lineHeight": "1.6",
             "letterSpacing": ".5px"
