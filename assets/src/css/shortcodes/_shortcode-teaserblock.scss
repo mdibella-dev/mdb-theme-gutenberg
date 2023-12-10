@@ -17,7 +17,7 @@
     max-width: 480px;
     margin: 0 auto;
 
-    @include breakpoint(large) {
+    @include on_breakpoint(large) {
         max-width: unset;
     }
 }
@@ -33,7 +33,7 @@
     grid-template-columns: 100%;
     gap: var(--wp--custom--teaserblock--gap);
 
-    @include breakpoint(large) {
+    @include on_breakpoint(large) {
         grid-template-columns: repeat(2, calc(50% - calc(var(--wp--custom--teaserblock--gap) / 2)));
         gap: calc(2 * var(--wp--custom--teaserblock--gap)) var(--wp--custom--teaserblock--gap);
     }
@@ -52,7 +52,7 @@
         padding: 0;
         width: 100%;
 
-        @include breakpoint(large) {
+        @include on_breakpoint(large) {
             gap: 3rem;
         }
 

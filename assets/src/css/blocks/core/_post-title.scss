@@ -18,7 +18,7 @@
 
     // styling is mostly handled by core/heading
 
-    @include breakpoint(large) {
+    @include on_breakpoint(large) {
         hyphens: none;
     }
 }
