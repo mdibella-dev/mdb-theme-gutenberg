@@ -26,7 +26,11 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-* Improve: Add dropCap styling
+* New: Add retina display support
+* Improve: Reset REM base to 16px
+* Improve: Rename responsive mixins to on_...() to emphasize the use as handler functions
+* Improve: Move several settings from CSS to theme.json
+* Improve: Code cleanups
 * Bugfix: Alignment of figcaption when part of a lightbox container
 
 
