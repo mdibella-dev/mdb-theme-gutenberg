@@ -17,8 +17,4 @@
     word-break: normal;
 
     // styling is mostly handled by core/heading
-
-    @include on_breakpoint(large) {
-        hyphens: none;
-    }
 }
