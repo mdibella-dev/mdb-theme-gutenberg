@@ -18,3 +18,9 @@
         border-radius: var(--wp--custom--base--border-radius);
     }
 }
+
+
+.embed-privacy-overlay label,
+.embed-privacy-overlay p {
+    line-height: 1.5;
+}
