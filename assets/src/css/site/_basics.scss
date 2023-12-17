@@ -14,7 +14,6 @@ body {
 
 
 html {
-    font-size: 18px;        // = 1rem
     margin: 0 !important;
 }
 
@@ -25,6 +24,11 @@ body {
     position: relative; // prevent scrolling at overflow:hidden (iOS)
     overflow: hidden;
     width: 100vw;
+
+    // theme.json: 200
+    @include on_highdensity() {
+        font-weight: 300;
+    }
 }
 
 
@@ -55,21 +59,14 @@ body {
 b,
 strong {
     font-weight: 600;
-    letter-spacing: .8px;
 }
 
 
 p,
 ol,
 ul {
-    // typography
-    /*font-family: var(--wp--preset--font-family--primary);
-    font-weight: 200;
-    font-size: var(--wp--preset--font-size--medium);
-    line-height: 1.6;
-    letter-spacing: .2px;
-    color: var(--wp--preset--color--concrete);*/
     text-shadow: 0 1px 10px rgba(0,0,0,.5);
+    word-spacing: -1px;
 }
 
 
@@ -152,30 +149,8 @@ h4,
 h5,
 h6 {
     // typography
-    font-family: var(--wp--preset--font-family--secondary);
-    font-weight: 600;
-    font-size: var(--wp--preset--font-size--large);
-    line-height: 1.3;
-    letter-spacing: 1.5px;
     text-shadow: 1px 1px 50px rgba(0,0,0,.75);
-    color: var(--wp--preset--color--gypsum);
 
     // support of plugin wp-typography;
     hyphens: manual;
-
-    // dimensions
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-
-h1 {
-    // typography
-    font-size: var(--wp--preset--font-size--xx-large);
-}
-
-
-h2 {
-    // typography
-    font-size: var(--wp--preset--font-size--x-large);
 }

@@ -8,23 +8,18 @@
 
 
 .wp-block-heading {
-    margin-bottom: var(--wp--preset--spacing--30);
-
     :not(.wp-block-heading) + & {
         margin-top: var(--wp--preset--spacing--50);
     }
-}
 
-
-:where(h1,h2,h3,h4,h5,h6).wp-block-heading + :where(h1,h2,h3,h4,h5,h6).wp-block-heading {
-    margin-top: var(--wp--preset--spacing--50);
+    & + & {
+        margin-top: var(--wp--preset--spacing--50);
+    }    
 }
 
 
 h1.wp-block-heading,
 h2.wp-block-heading {
-    margin-bottom: var(--wp--preset--spacing--40);
-
     :not(.wp-block-heading) + & {
         margin-top: var(--wp--preset--spacing--70);
     }

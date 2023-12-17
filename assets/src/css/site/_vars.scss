@@ -20,14 +20,14 @@ $color--code--selection--text:              var(--wp--preset--color--white);
 
 // Dimensions
 
-@include breakpoint(medium) {
+@include on_breakpoint(medium) {
     body {
         --wp--custom--teaserblock--image-width:     125px;
     }
 }
 
 
-@include breakpoint(large) {
+@include on_breakpoint(large) {
     body {
         --wp--custom--teaserblock--image-width:     175px;
     }

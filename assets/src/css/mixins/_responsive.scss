@@ -34,7 +34,7 @@ $breakpoints: (
  * @param $breakpoint one of the following values: mobile, small, medium, large, wide, huge
  */
 
-@mixin breakpoint( $breakpoint) {
+@mixin on_breakpoint( $breakpoint) {
 
     @if map-has-key( $breakpoints, $breakpoint ) {
         $value: map-get( $breakpoints, $breakpoint );
@@ -42,5 +42,28 @@ $breakpoints: (
         @media screen and (min-width: #{$value}) {
             @content;
         }
+    }
+}
+
+
+
+/**
+ *
+ * Creates a breakpoint for display with high pixel density (= so called Retina displays).
+ *
+ * @source: https://www.creativebloq.com/css3/master-css-pixels-retina-displays-8122955
+ * @source: https://www.hongkiat.com/blog/css-retina-display/
+ * @source: https://www.appnovation.com/blog/css-only-technique-high-res-background-images-retina-display
+ */
+
+@mixin on_highdensity() {
+
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 2dppx) {
+        @content;
     }
 }

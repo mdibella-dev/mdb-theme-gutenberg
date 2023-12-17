@@ -44,11 +44,12 @@
 
     a {
         color: var(--wp--preset--color--white);
+        font-weight: inherit;
 
         display: block;
         padding: 0;
         outline: 0 !important;
-        transition: all .4s ease-out;
+        transition: all .4s ease-in-out;
         cursor: pointer;
 
         &:hover,
@@ -77,19 +78,24 @@
         // typography
         letter-spacing: .8px;
         font-family: var(--wp--preset--font-family--secondary);
-        font-weight: 200;
-        font-size: clamp(1.5rem, calc(1.5rem + ((1vw - .48rem) * 1.1111)), 2.3rem);
+        font-weight: 300;
+        font-size: clamp(2rem, calc(2rem + ((1vw - .48rem) * .6944)), 2.5rem);
         line-height: 200%;
         text-shadow: none;
+
+        @include on_highdensity() {
+            font-weight: 400;
+        }
     }
 
 
     li.label {
         padding: 1.5rem 0 .125rem;
+        line-height: 90%;
 
         // typography
         span {
-            font-size: 60%;
+            font-size: 45%;
             font-family: var(--wp--preset--font-family--primary);
             font-weight: 400;
             color: var(--wp--preset--color--denim-dark);
