@@ -31,10 +31,16 @@
 
 
 /**
- * .is-style-transparent
+ * .is-style-shaded
  */
 
-.wp-block-image.is-style-transparent {
+
+.wp-block-image.is-style-shaded .wp-element-caption {
+    margin-top: 1.3rem;
+}
+
+
+.wp-block-image.is-style-shaded {
     // spacing
     margin-top: var(--wp--preset--spacing--50);
     margin-bottom: var(--wp--preset--spacing--50);
@@ -46,21 +52,6 @@
     &:last-child {
         margin-bottom: 0;
     }
-}
-
-
-
-/**
- * .is-style-shaded
- */
-
-
-.wp-block-image.is-style-shaded .wp-element-caption {
-    margin-top: 1.3rem;
-}
-
-
-.wp-block-image.is-style-shaded {
 
     img {
         padding: 0;
