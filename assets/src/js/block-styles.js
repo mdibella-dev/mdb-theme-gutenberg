@@ -161,11 +161,6 @@ wp.domReady( () => {
         'core/cover',
         [
             {
-                name: 'portfolio',
-                label: 'Portfolio',
-                isDefault: false,
-            },
-            {
                 name: 'fusion',
                 label: 'Fusion',
                 isDefault: false,

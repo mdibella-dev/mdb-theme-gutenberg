@@ -33,6 +33,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Code cleanups
 * Improve: Enhance slideout menu font size
 * Improve: Adjust the label font size in slideout menu
+* Improve: Remove block-style "portfolio" (core/cover)
 * Bugfix: Alignment of figcaption when part of a lightbox container
 
 
