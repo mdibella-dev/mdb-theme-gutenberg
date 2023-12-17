@@ -32,6 +32,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Move several settings from CSS to theme.json
 * Improve: Code cleanups
 * Improve: Enhance slideout menu font size
+* Improve: Adjust the label font size in slideout menu
 * Bugfix: Alignment of figcaption when part of a lightbox container
 
 
