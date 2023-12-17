@@ -31,6 +31,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Rename responsive mixins to on_...() to emphasize the use as handler functions
 * Improve: Move several settings from CSS to theme.json
 * Improve: Code cleanups
+* Improve: Enhance slideout menu font size
 * Bugfix: Alignment of figcaption when part of a lightbox container
 
 
