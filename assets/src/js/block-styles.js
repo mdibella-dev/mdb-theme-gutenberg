@@ -16,11 +16,6 @@ wp.domReady( () => {
                 name: 'shaded',
                 label: 'Schattiert',
                 isDefault: false,
-            },
-            {
-                name: 'transparent',
-                label: 'Transparent',
-                isDefault: false,
             }
         ]
     );
