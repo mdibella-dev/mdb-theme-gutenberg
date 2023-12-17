@@ -37,7 +37,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Remove block-style "transparent" (core/image, issue #44)
 * Bugfix: UX behavior of image buttons (issue #79)
 * Bugfix: Alignment of figcaption when part of a lightbox container
-* Bugfix: Ddistorted presentation in the consent text of embed-privacy
+* Bugfix: Distorted presentation in the consent text of embed-privacy
 
 
 ### Previous changes
