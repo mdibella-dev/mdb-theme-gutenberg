@@ -26,7 +26,8 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-- None
+- Improve: Cheange default fontsize of headline elements to large
+
 
 ### Previous changes
 

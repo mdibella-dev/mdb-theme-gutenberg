@@ -277,7 +277,7 @@
             "heading": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--secondary)",
-                    "fontSize": "clamp(1.4375rem, calc(1.4375rem + ((1vw - .48rem) * .1736)), 1.5625rem)",
+                    "fontSize": "var(--wp--preset--font-size--large)",
                     "fontWeight": "500",
                     "lineHeight": "1.3",
                     "letterSpacing": "1.5px"
