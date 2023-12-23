@@ -39,6 +39,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Bugfix: UX behavior of image buttons (issue #79)
 * Bugfix: Alignment of figcaption when part of a lightbox container
 * Bugfix: Distorted presentation in the consent text of embed-privacy
+* Minor fix on 404 page
 
 
 ### Previous changes
