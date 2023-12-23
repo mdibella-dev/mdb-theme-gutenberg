@@ -26,21 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-* New: Add retina display support
-* Improve: Reset REM base to 16px
-* Improve: Rename responsive mixins to on_...() to emphasize the use as handler functions
-* Improve: Move several settings from CSS to theme.json
-* Improve: Code cleanups (issue #39)
-* Improve: Enhance slideout menu font size
-* Improve: Adjust the label font size in slideout menu
-* Improve: Remove block-style "portfolio" (core/cover)
-* Improve: Remove block-style "transparent" (core/image, issue #44)
-* Improve: Add default fontsize to headline elements
-* Bugfix: UX behavior of image buttons (issue #79)
-* Bugfix: Alignment of figcaption when part of a lightbox container
-* Bugfix: Distorted presentation in the consent text of embed-privacy
-* Minor fix on 404 page
-
+-
 
 ### Previous changes
 
