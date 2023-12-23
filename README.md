@@ -35,6 +35,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 * Improve: Adjust the label font size in slideout menu
 * Improve: Remove block-style "portfolio" (core/cover)
 * Improve: Remove block-style "transparent" (core/image, issue #44)
+* Improve: Add default fontsize to headline elements
 * Bugfix: UX behavior of image buttons (issue #79)
 * Bugfix: Alignment of figcaption when part of a lightbox container
 * Bugfix: Distorted presentation in the consent text of embed-privacy
