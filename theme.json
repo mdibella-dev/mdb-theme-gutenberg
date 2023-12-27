@@ -361,9 +361,6 @@
                         "top": "0",
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
-                },
-                "typography": {
-                    "dropCap": true
                 }
             },
             "core/list": {
