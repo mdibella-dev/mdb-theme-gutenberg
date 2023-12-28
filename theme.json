@@ -378,6 +378,11 @@
             "name": "single-publication",
             "title": "Single Publication",
             "postTypes": [ "publication" ]
+        },
+        {
+            "name": "publication",
+            "title": "Publikation",
+            "postTypes": [ "publication" ]
         }
     ]
 }
