@@ -93,6 +93,10 @@
         padding: 1.5rem 0 .125rem;
         line-height: 90%;
 
+        @include on_breakpoint(medium) {
+            padding-bottom: 1.5rem;
+        }
+
         // typography
         span {
             font-size: 45%;

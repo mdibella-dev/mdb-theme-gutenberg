@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 - Improve: Change default fontsize of headline elements to large
+- Improve: Add more space between slideout labels and menu items
 
 
 ### Previous changes
