@@ -7,9 +7,7 @@
 
 
 
-
 .site-component-preloader {
-    display: flex;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -17,4 +15,12 @@
 
     // big spinner
     --sk-size: 96px;
+
+    // Initial setting for preloader
+    display: flex;
+
+    // Block editor setting
+    .block-editor-iframe__body & {
+        display: none;
+    }
 }

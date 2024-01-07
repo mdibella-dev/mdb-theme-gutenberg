@@ -11,6 +11,11 @@
 .site-component-main {
     // Initial setting for preloader
     display: none;
+
+    // Block editor setting
+    .block-editor-iframe__body & {
+        display: block;
+    }
 }
 
 
