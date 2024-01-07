@@ -10,4 +10,7 @@
 .site-component-header {
     width: 100%;
     height: var(--wp--custom--header--height);
+
+    // Initial setting for preloader
+    display: none;
 }
