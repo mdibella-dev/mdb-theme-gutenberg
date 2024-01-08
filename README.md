@@ -27,11 +27,13 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 - New: Add preloader
+- Improve: Restructure frontend.js
 - Improve: Change default fontsize of headline elements to large
 - Improve: Add more space between slideout labels and menu items
 - Improve: Increase distance between footer and main content
 - Improve: Strip unused code from spinkit library
 - Improve: Remove SCSS color vars
+- Bugfix: issue [#87](https://github.com/mdibella-dev/mdb-theme-fse/issues/87)
 
 
 
