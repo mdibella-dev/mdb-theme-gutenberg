@@ -13,7 +13,7 @@
 
 .wp-block-code {
     border-radius: var(--wp--custom--base--border-radius) !important;
-    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.15) !important;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,.15) !important;
 
     // spacing
     padding: 1.5rem !important;
@@ -36,6 +36,6 @@ pre[class*="language-"]::selection,
 pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
-    background: $color--code--selection--background !important;
-    color: $color--code--selection--text !important;
+    background: var(--wp--preset--color--denim) !important;
+    color: var(--wp--preset--color--white) !important;
 }

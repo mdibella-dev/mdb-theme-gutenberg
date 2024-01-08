@@ -7,17 +7,6 @@
 
 
 
-// Colors
-// The naming is based on what the colors represent. The actual color palette stems from theme.json.
-
-$color--text:                               var(--wp--preset--color--concrete);
-$color--link:                               var(--wp--preset--color--denim);
-$color--link__hover:                        var(--wp--preset--color--white);
-$color--code--selection--background:        var(--wp--preset--color--denim);
-$color--code--selection--text:              var(--wp--preset--color--white);
-
-
-
 // Dimensions
 
 @include on_breakpoint(medium) {
