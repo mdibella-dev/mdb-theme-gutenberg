@@ -1,16 +1,17 @@
 jQuery( document ).ready( function( $ ) {
 
+
     /**
-     * Slideout Menu Animation
+     * Action: do the slideout menu slide
      */
 
-    $( '.is-navbar-hamburger' ).on( 'click', function() {
+    function doSlide( direction = 'out' ) {
         let duration = 1000;
 
-        if( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
+        if ( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
             $( 'body' ).toggleClass( 'slide-in-progress' );
 
-            if( ! $( 'body' ).hasClass( 'slideout-visible') ) {
+            if ( direction == 'out' ) {
                 $( '.wp-block-site-title' ).fadeOut();
                 $( '.site-component-slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
                 $( '.slideout-content' ).delay(800).fadeIn();
@@ -19,7 +20,7 @@ jQuery( document ).ready( function( $ ) {
                 setTimeout( function() {
                     $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
                 }, duration );
-            } else {
+            } else if ( direction == 'in' ) {
                 $( '.slideout-content' ).delay(200).fadeOut( function() {
                     $( '.site-component-slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
                 } );
@@ -31,16 +32,33 @@ jQuery( document ).ready( function( $ ) {
                 }, duration );
             }
         }
-    } );
+    }
 
 
 
     /**
-     * Smooth Scroll to Anchor (pagenavigation)
+     * Action: show the preloader
+     */
+
+    function doPreload() {
+        setTimeout( function() {
+            $( '.site-component-preloader' ).fadeOut();
+
+            setTimeout( function() {
+                $( '.site-component-header' ).fadeIn();
+                $( '.site-component-main' ).fadeIn();
+                $( '.site-component-footer' ).fadeIn();
+            }, 500 );
+        }, 1000 );
+    }
+
+
+
+    /**
+     * Action: smooth tcroll to anchor
      */
 
     // helper function
-
     function getNumber( x ) {
       const parsed = parseInt( x );
 
@@ -52,7 +70,6 @@ jQuery( document ).ready( function( $ ) {
 
 
     // general scroll function
-
     function scrollToAnchor( id ) {
         let tag    = $( "#" + id );
         let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
@@ -61,25 +78,39 @@ jQuery( document ).ready( function( $ ) {
     }
 
 
-    // event handler
 
-    $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function( e ) {
-        let full_url = this.href;
-        let parts    = full_url.split( '#' );
+    /**
+     * Event handler: click on hamburger
+     */
 
-        if( parts.length == 2 ) {
-            e.preventDefault();
-            scrollToAnchor( parts[1] );
+    $( '.is-navbar-hamburger' ).on( 'click', function() {
+        if ( ! $( 'body' ).hasClass( 'slideout-visible') ) {
+            doSlide( 'out' );
+        } else {
+            doSlide( 'in' );
         }
     } );
 
 
 
     /**
-     * Smooth Scroll to top/bottom
+     * Event handler: click on slideout menu item
      */
 
-    // event handler for scrolling to the top
+    $( '.slideout-primary a[data-wpel-link="internal"]' ).on( 'click', function() {
+        doSlide( 'in' );
+        $( '.site-component-header' ).fadeIn();
+        $( '.site-component-main' ).fadeIn();
+        $( '.site-component-footer' ).fadeIn();
+    } );
+
+
+
+    /**
+     * Event handler: click on scroll up button (smooth scroll to top)
+     *
+     * @todo need a re-implementation of the button
+     */
 
     $( '.is-navbar-scrollup' ).on( 'click', function( e ) {
         e.preventDefault();
@@ -90,20 +121,22 @@ jQuery( document ).ready( function( $ ) {
 
 
     /**
-     * Preloader
+     * Event handler: click on pagenavigation link (smooth scroll to anchor)
      */
 
-    function doPreload() {
-            setTimeout( function() {
-            $( '.site-component-preloader' ).fadeOut();
+    $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function( e ) {
+        let full_url = this.href;
+        let parts    = full_url.split( '#' );
 
-            setTimeout( function() {
-                $( '.site-component-header' ).fadeIn();
-                $( '.site-component-main' ).fadeIn();
-                $( '.site-component-footer' ).fadeIn();
-            }, 500 );
-        }, 1000 );
-    }
+        if ( parts.length == 2 ) {
+            e.preventDefault();
+            scrollToAnchor( parts[1] );
+        }
+    } );
+
+
+
+
 
     doPreload();
 } );
