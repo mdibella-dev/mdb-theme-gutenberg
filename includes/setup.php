@@ -72,6 +72,7 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
  */
 
 function theme_scripts() {
+    
     /**
      * Registers and loads vendor styles and scripts.
      */
@@ -89,28 +90,43 @@ function theme_scripts() {
 
 
     /**
-     * Registers and loads the theme's own styles and scripts.
+     * Registers and loads the theme's own styles.
      *
      * Note: The style.css in the main directory is only used for theme identification and versioning.
      * Actually the (compressed) style information can be found in frontend(.min).css.
      */
 
-    wp_enqueue_style(
-        'mdb-frontend-style',
-        THEME_URI . 'assets/build/css/style-frontend.min.css',
-        [],
-        THEME_VERSION
-    );
+    $filename = 'assets/build/css/style-frontend.min.css';
 
-    wp_enqueue_script(
-        'mdb-frontend-script',
-        THEME_URI . 'assets/build/js/frontend.min.js',
-        [
-            'jquery'
-        ],
-        THEME_VERSION,
-        true
-    );
+    if( file_exists( THEME_DIR . $filename ) ) {
+
+        wp_enqueue_style(
+            'mdb-frontend-style',
+            THEME_URI . $filename,
+            [],
+            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
+        );
+    }
+
+
+    /**
+     * Registers and loads the theme's own scripts.
+     */
+
+    $filename = 'assets/build/js/frontend.min.js';
+
+    if( file_exists( THEME_DIR . $filename ) ) {
+
+        wp_enqueue_script(
+            'mdb-frontend-script',
+            THEME_URI . $filename,
+            [
+                'jquery'
+            ],
+            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
+            true
+        );
+    }
 
 }
 

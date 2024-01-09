@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 - New: Add preloader
+- New: Add subversion to styles/scripts to break caching if necessary
 - Improve: Restructure frontend.js
 - Improve: Change default fontsize of headline elements to large
 - Improve: Add more space between slideout labels and menu items
