@@ -62,7 +62,7 @@ jQuery( document ).ready( function( $ ) {
     function getNumber( x ) {
       const parsed = parseInt( x );
 
-      if( isNaN( parsed ) ) {
+      if ( isNaN( parsed ) ) {
           return 0;
       }
       return parsed;
