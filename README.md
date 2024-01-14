@@ -28,6 +28,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 - New: Add preloader
 - New: Add subversion to styles/scripts to break caching if necessary
+- Improve: Remove single-publication.html / issue [#85](https://github.com/mdibella-dev/mdb-theme-fse/issues/85)
 - Improve: Restructure frontend.js
 - Improve: Change default fontsize of headline elements to large
 - Improve: Add more space between slideout labels and menu items
