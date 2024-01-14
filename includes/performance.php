@@ -35,39 +35,6 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\remove_styles_scripts', 9998
 
 
 /**
- * Removes unnecessary post classes like
- * - .has-post-thumbnail,
- * - .sticky,
- * - .category-,
- * - .tags-,
- * - .status
- *
- * @since 1.0.0
- *
- * @see https://developer.wordpress.org/reference/hooks/post_class/
- *
- * @param  array $classes An array of CSS classes applied to post types.
- * @param  array $class   An array of additional CSS classes.
- * @param  int   $post_id The ID of the post.
- *
- * @return array The modified class array.
- */
-
-function remove_post_classes( $classes, $class, $post_id ) {
-    if ( ! is_admin() ) {
-        $post_type = get_post_type( $post_id );
-        $classes   = [];
-        $classes[] = sanitize_html_class( $post_type );
-    }
-
-    return $classes;
-}
-
-add_filter( 'post_class', __NAMESPACE__ . '\remove_post_classes', 10, 3 );
-
-
-
-/**
  * Removes unnecessary classes from a page's menu to reduce the DOM.
  *
  * @since 1.0.0
