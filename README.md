@@ -37,6 +37,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Remove SCSS color vars
 - Improve: Remove remove_post_classes filter (obsolete)
 - Improve: Remove remove_menu_classes filter (obsolete)
+- Improve: Split JS files for better loading experience
 - Bugfix: issue [#87](https://github.com/mdibella-dev/mdb-theme-fse/issues/87)
 
 
