@@ -72,7 +72,7 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
  */
 
 function theme_scripts() {
-    
+
     /**
      * Registers and loads vendor styles and scripts.
      */
@@ -124,7 +124,29 @@ function theme_scripts() {
                 'jquery'
             ],
             THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
-            true
+            [
+                'in_footer' => true,
+                'strategy'  => 'async'
+            ]
+        );
+    }
+
+
+    $filename = 'assets/build/js/preload.min.js';
+
+    if( file_exists( THEME_DIR . $filename ) ) {
+
+        wp_enqueue_script(
+            'mdb-preload-script',
+            THEME_URI . $filename,
+            [
+                'jquery'
+            ],
+            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
+            [
+                'in_footer' => false,
+                'strategy'  => 'defer'
+            ]
         );
     }
 
