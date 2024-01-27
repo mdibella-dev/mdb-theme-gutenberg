@@ -13,7 +13,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Requires at least
 
-- WordPress 6.2
+- WordPress 6.3
 - ACF 5.0
 
 ### Tested up to
