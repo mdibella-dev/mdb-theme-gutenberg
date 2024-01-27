@@ -38,6 +38,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Remove remove_post_classes filter (obsolete)
 - Improve: Remove remove_menu_classes filter (obsolete)
 - Improve: Split JS files for better loading experience
+- Improve: Change spacing on core/post-title
 - Bugfix: issue [#87](https://github.com/mdibella-dev/mdb-theme-fse/issues/87)
 
 
