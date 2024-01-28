@@ -375,7 +375,7 @@
                 "spacing": {
                     "margin": {
                         "top": "var(--wp--preset--spacing--40)",
-                        "bottom": "var(--wp--preset--spacing--60)"
+                        "bottom": "var(--wp--preset--spacing--70)"
                     }
                 }
             }
