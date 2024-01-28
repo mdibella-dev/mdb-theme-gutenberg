@@ -12,10 +12,10 @@ jQuery( document ).ready( function( $ ) {
                 $( '.site-component-header' ).fadeIn();
                 $( '.site-component-main' ).fadeIn();
                 $( '.site-component-footer' ).fadeIn();
-            }, 250 );
-        }, 500 );
+            }, 200 );
+        }, 400 );
     }
-    
+
 
     doPreload();
 } );
