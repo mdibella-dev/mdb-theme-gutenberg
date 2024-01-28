@@ -1,0 +1,36 @@
+/**
+ * Visual effects
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+.fx-fading-in {
+    animation-name: keyframes-fading;
+    animation-duration: .6s;
+    animation-timing-function: ease;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+.fx-fading-out {
+    animation-name: keyframes-fading;
+    animation-duration: .6s;
+    animation-timing-function: ease;
+    animation-direction: backwards;
+    animation-fill-mode: backwards;
+}
+
+
+
+@keyframes keyframes-fading {
+   0% {
+       opacity: 0;
+   }
+   100% {
+       opacity: 1;
+   }
+}
