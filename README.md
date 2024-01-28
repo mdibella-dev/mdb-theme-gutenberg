@@ -41,6 +41,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Split JS files for better loading experience
 - Improve: Change spacing on core/post-title
 - Improve: Remove fadein after click on slideout menu item
+- Improve: Remove slash separator in page navigation
 - Bugfix: issue [#87](https://github.com/mdibella-dev/mdb-theme-fse/issues/87)
 
 
