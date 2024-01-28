@@ -37,7 +37,7 @@ jQuery( document ).ready( function( $ ) {
 
 
     /**
-     * Action: smooth tcroll to anchor
+     * Action: smooth scroll to anchor
      */
 
     // helper function
