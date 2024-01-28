@@ -76,19 +76,6 @@ jQuery( document ).ready( function( $ ) {
 
 
     /**
-     * Event handler: click on slideout menu item
-     */
-
-    $( '.slideout-primary a[data-wpel-link="internal"]' ).on( 'click', function() {
-        doSlide( 'in' );
-        $( '.site-component-header' ).fadeIn();
-        $( '.site-component-main' ).fadeIn();
-        $( '.site-component-footer' ).fadeIn();
-    } );
-
-
-
-    /**
      * Event handler: click on scroll up button (smooth scroll to top)
      *
      * @todo need a re-implementation of the button
