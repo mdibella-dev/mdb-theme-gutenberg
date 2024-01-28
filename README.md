@@ -40,6 +40,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Remove remove_menu_classes filter (obsolete)
 - Improve: Split JS files for better loading experience
 - Improve: Change spacing on core/post-title
+- Improve: Remove fadein after click on slideout menu item
 - Bugfix: issue [#87](https://github.com/mdibella-dev/mdb-theme-fse/issues/87)
 
 
