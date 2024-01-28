@@ -1,7 +1,7 @@
 /* Config */
 :root {
-  --sk-size: 40px;
-  --sk-color: #29b6f6;
+    --sk-size: 40px;
+    --sk-color: #29b6f6;
 }
 
 
@@ -18,38 +18,32 @@
       </div>
   */
 .sk-bounce {
-  width: var(--sk-size);
-  height: var(--sk-size);
-  position: relative;
+    width: var(--sk-size);
+    height: var(--sk-size);
+    position: relative;
 }
 
 .sk-bounce-dot {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: var(--sk-color);
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-animation: sk-bounce 2s infinite cubic-bezier(0.455, 0.03, 0.515, 0.955);
-          animation: sk-bounce 2s infinite cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--sk-color);
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: sk-bounce 1.5s infinite cubic-bezier(.455, .03, .515, .955);
 }
 
-.sk-bounce-dot:nth-child(2) { -webkit-animation-delay: -1.0s; animation-delay: -1.0s; }
-
-@-webkit-keyframes sk-bounce {
-  0%, 100% {
-    transform: scale(0);
-  } 45%, 55% {
-    transform: scale(1);
-  }
+.sk-bounce-dot:nth-child(2) {
+    animation-delay: -.75s;
 }
+
 
 @keyframes sk-bounce {
-  0%, 100% {
-    transform: scale(0);
-  } 45%, 55% {
-    transform: scale(1);
-  }
+    0%, 100% {
+        transform: scale(0);
+    } 45%, 55% {
+        transform: scale(1);
+    }
 }
