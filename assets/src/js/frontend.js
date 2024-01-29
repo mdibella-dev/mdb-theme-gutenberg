@@ -4,7 +4,7 @@ jQuery( document ).ready( function( $ ) {
     /**
      * Action: do the slideout menu slide
      */
-
+/*
     function doSlide( direction = 'out' ) {
         let duration = 1000;
 
@@ -32,7 +32,7 @@ jQuery( document ).ready( function( $ ) {
                 }, duration );
             }
         }
-    }
+    } */
 
 
 
@@ -65,13 +65,13 @@ jQuery( document ).ready( function( $ ) {
      * Event handler: click on hamburger
      */
 
-    $( '.is-navbar-hamburger' ).on( 'click', function() {
+/*    $( '.is-navbar-hamburger' ).on( 'click', function() {
         if ( ! $( 'body' ).hasClass( 'slideout-visible') ) {
             doSlide( 'out' );
         } else {
             doSlide( 'in' );
         }
-    } );
+    } ); */
 
 
 
