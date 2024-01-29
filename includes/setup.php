@@ -152,7 +152,7 @@ function theme_scripts() {
 
 
 
-    $filename = 'assets/src/build/vendors/anime/anime.min.js';     // the library
+    $filename = 'assets/build/vendors/anime/anime.min.js';     // the library
 
     if( file_exists( THEME_DIR . $filename ) ) {
 
