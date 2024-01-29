@@ -77,16 +77,17 @@ function theme_scripts() {
      * Registers and loads vendor styles and scripts.
      */
 
-    wp_register_script(
-        'jquery-easing',
-        THEME_URI . 'assets/build/js/vendors/jquery-easing/jquery.easing.min.js',
-        [
-            'jquery'
-        ],
+    wp_enqueue_script(
+        'anime',
+        THEME_URI . 'assets/build/js/vendors/anime/anime.min.js',
+        [],
         false,
-        true
+        [
+            'in_footer' => true,
+            'strategy'  => 'async'
+        ]
     );
-    wp_enqueue_script( 'jquery-easing' );
+
 
 
     /**
@@ -150,41 +151,6 @@ function theme_scripts() {
         );
     }
 
-
-
-    $filename = 'assets/build/js/vendors/anime/anime.min.js';     // the library
-
-    if( file_exists( THEME_DIR . $filename ) ) {
-
-        wp_enqueue_script(
-            'anime',
-            THEME_URI . $filename,
-            [],
-            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
-            [
-                'in_footer' => true,
-                'strategy'  => 'async'
-            ]
-        );
-    }
-
-
-    $filename = 'assets/src/js/frontend-with-anime.js';     // experimental
-
-    if( file_exists( THEME_DIR . $filename ) ) {
-
-        wp_enqueue_script(
-            'mdb-frontend-w-anime-script',
-            THEME_URI . $filename,
-            [
-            ],
-            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
-            [
-                'in_footer' => true,
-                'strategy'  => 'async'
-            ]
-        );
-    }
 
 }
 
