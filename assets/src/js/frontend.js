@@ -1,39 +1,6 @@
 jQuery( document ).ready( function( $ ) {
 
 
-    /**
-     * Action: do the slideout menu slide
-     */
-/*
-    function doSlide( direction = 'out' ) {
-        let duration = 1000;
-
-        if ( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
-            $( 'body' ).toggleClass( 'slide-in-progress' );
-
-            if ( direction == 'out' ) {
-                $( '.wp-block-site-title' ).fadeOut();
-                $( '.site-component-slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
-                $( '.slideout-content' ).delay(800).fadeIn();
-                $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
-
-                setTimeout( function() {
-                    $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
-                }, duration );
-            } else if ( direction == 'in' ) {
-                $( '.slideout-content' ).delay(200).fadeOut( function() {
-                    $( '.site-component-slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
-                } );
-
-                setTimeout( function() {
-                    $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
-                    $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
-                    $( '.wp-block-site-title' ).fadeIn();
-                }, duration );
-            }
-        }
-    } */
-
 
 
     /**
@@ -59,19 +26,6 @@ jQuery( document ).ready( function( $ ) {
         $( '.wp-site-blocks' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
     }
 
-
-
-    /**
-     * Event handler: click on hamburger
-     */
-
-/*    $( '.is-navbar-hamburger' ).on( 'click', function() {
-        if ( ! $( 'body' ).hasClass( 'slideout-visible') ) {
-            doSlide( 'out' );
-        } else {
-            doSlide( 'in' );
-        }
-    } ); */
 
 
 
