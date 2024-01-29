@@ -152,7 +152,7 @@ function theme_scripts() {
 
 
 
-    $filename = 'assets/build/vendors/anime/anime.min.js';     // the library
+    $filename = 'assets/build/js/vendors/anime/anime.min.js';     // the library
 
     if( file_exists( THEME_DIR . $filename ) ) {
 
@@ -177,7 +177,6 @@ function theme_scripts() {
             'mdb-frontend-w-anime-script',
             THEME_URI . $filename,
             [
-                'anime'
             ],
             THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
             [
