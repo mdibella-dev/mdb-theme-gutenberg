@@ -2,7 +2,7 @@
     "name": "mdb-theme-fse",
     "version": "3.2.1",
     "description": "Development Scripts",
-    "config": {
+    "config" : {
         "SASS_SRC": "./assets/src/css",
         "SASS_BLD": "./assets/build/css"
     },
@@ -11,8 +11,5 @@
     },
     "devDependecies": {
         "sass": "^1.59.3"
-    },
-    "dependencies": {
-        "animejs": "^3.2.2"
     }
 }
