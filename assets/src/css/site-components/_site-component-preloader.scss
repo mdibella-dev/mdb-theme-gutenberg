@@ -8,6 +8,10 @@
 
 
 .site-component-preloader {
+    position: fixed;
+    z-index: 4000;
+    background: var(--wp--preset--color--back-0);
+    overflow: hidden;
     width: 100%;
     height: 100%;
     justify-content: center;
