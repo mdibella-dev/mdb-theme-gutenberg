@@ -23,12 +23,12 @@ if ( hamburger != null ) {
         // Show slideout
         if ( ! body.classList.contains( 'slideout-visible' ) ) {
 
-            let tl = anime.timeline( {
+            let timeline = anime.timeline( {
                 easing: 'easeInOutQuad',
                 duration: 400
             } );
 
-            tl
+            timeline
             .add( {
                 targets: '.wp-block-site-title',
                 opacity: 0
@@ -41,12 +41,12 @@ if ( hamburger != null ) {
         // Hide slideout
         } else {
 
-            let tl = anime.timeline( {
+            let timeline = anime.timeline( {
                 easing: 'easeInOutExpo',
                 duration: 400
             } );
 
-            tl
+            timeline
             .add( {
                 targets: '.site-component-slideout',
                 left: '-100%'
@@ -85,7 +85,7 @@ pagenav_links.forEach( link => {
         if ( parts.length == 2 ) {
             e.preventDefault();
 
-            const anchor = document.getElementById( parts[1] ); // that's the ID
+            const anchor = document.getElementById( parts[1] ); // parts[1] => that's the ID
             let   offset = anchor.offsetTop;
 
             anime( {
