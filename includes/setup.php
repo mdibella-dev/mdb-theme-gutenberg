@@ -91,31 +91,11 @@ function theme_scripts() {
 
 
     /**
-     * Registers and loads the theme's own styles.
-     *
-     * Note: The style.css in the main directory is only used for theme identification and versioning.
-     * Actually the (compressed) style information can be found in frontend(.min).css.
-     */
-
-    $filename = 'assets/build/css/style-frontend.min.css';
-
-    if( file_exists( THEME_DIR . $filename ) ) {
-
-        wp_enqueue_style(
-            'mdb-frontend-style',
-            THEME_URI . $filename,
-            [],
-            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
-        );
-    }
-
-
-    /**
      * Registers and loads the theme's own scripts.
      */
 
-    //$filename = 'assets/build/js/frontend.min.js';
-    $filename = 'assets/src/js/frontend.js';
+    $filename = 'assets/build/js/frontend.min.js';
+    //$filename = 'assets/src/js/frontend.js';
 
     if( file_exists( THEME_DIR . $filename ) ) {
 
@@ -132,7 +112,8 @@ function theme_scripts() {
     }
 
 
-    $filename = 'assets/build/js/preload.min.js';
+    //$filename = 'assets/build/js/preload.min.js';
+    $filename = 'assets/src/js/preload.js';
 
     if( file_exists( THEME_DIR . $filename ) ) {
 
@@ -150,6 +131,26 @@ function theme_scripts() {
         );
     }
 
+
+
+    /**
+    * Registers and loads the theme's own styles.
+    *
+    * Note: The style.css in the main directory is only used for theme identification and versioning.
+    * Actually the (compressed) style information can be found in frontend(.min).css.
+    */
+
+    $filename = 'assets/build/css/style-frontend.min.css';
+
+    if( file_exists( THEME_DIR . $filename ) ) {
+
+        wp_enqueue_style(
+            'mdb-frontend-style',
+            THEME_URI . $filename,
+            [],
+            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
+        );
+    }
 
 }
 
