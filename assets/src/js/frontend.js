@@ -42,7 +42,7 @@ if ( hamburger != null ) {
         } else {
 
             let tl = anime.timeline( {
-                easing: 'easeInOutQuad',
+                easing: 'easeInOutExpo',
                 duration: 400
             } );
 
@@ -86,25 +86,14 @@ pagenav_links.forEach( link => {
             e.preventDefault();
 
             const anchor = document.getElementById( parts[1] ); // that's the ID
-            let   offset = anchor.offsetTop - getNumber( anchor.style.getPropertyValue( 'padding-top' ) );
+            let   offset = anchor.offsetTop;
 
             anime( {
                 targets: '.wp-site-blocks',
-                easing: 'easeInOutQuad',
-                scrolltop: offset,
-                duration: 2500
+                easing: 'easeInOutExpo',
+                scrollTop: offset,
+                duration: 1500
             } );
         }
     } );
 } );
-
-
-// helper function
-function getNumber( x ) {
-    const parsed = parseInt( x );
-
-    if ( isNaN( parsed ) ) {
-        return 0;
-    }
-    return parsed;
-}

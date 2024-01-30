@@ -114,16 +114,15 @@ function theme_scripts() {
      * Registers and loads the theme's own scripts.
      */
 
-    $filename = 'assets/build/js/frontend.min.js';
+    //$filename = 'assets/build/js/frontend.min.js';
+    $filename = 'assets/src/js/frontend.js';
 
     if( file_exists( THEME_DIR . $filename ) ) {
 
         wp_enqueue_script(
             'mdb-frontend-script',
             THEME_URI . $filename,
-            [
-                'jquery'
-            ],
+            [],
             THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
             [
                 'in_footer' => true,
