@@ -24,7 +24,7 @@ if ( hamburger != null ) {
         if ( ! body.classList.contains( 'slideout-visible' ) ) {
 
             let timeline = anime.timeline( {
-                easing: 'easeInOutQuad',
+                easing: 'easeInOutExpo',
                 duration: 400
             } );
 
