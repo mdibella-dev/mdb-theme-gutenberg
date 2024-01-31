@@ -26,7 +26,6 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-- New: Add preloader
 - New: Add subversion to styles/scripts to break caching if necessary
 - New: Provide simple fading fx
 - Improve: Remove single-publication.html / issue [#85](https://github.com/mdibella-dev/mdb-theme-fse/issues/85)

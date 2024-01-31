@@ -77,36 +77,17 @@ function theme_scripts() {
      * Registers and loads vendor styles and scripts.
      */
 
-    wp_register_script(
-        'jquery-easing',
-        THEME_URI . 'assets/build/js/jquery.easing.min.js',
-        [
-            'jquery'
-        ],
+    wp_enqueue_script(
+        'anime',
+        THEME_URI . 'assets/build/js/vendors/anime/anime.min.js',
+        [],
         false,
-        true
+        [
+            'in_footer' => true,
+            'strategy'  => 'async'
+        ]
     );
-    wp_enqueue_script( 'jquery-easing' );
 
-
-    /**
-     * Registers and loads the theme's own styles.
-     *
-     * Note: The style.css in the main directory is only used for theme identification and versioning.
-     * Actually the (compressed) style information can be found in frontend(.min).css.
-     */
-
-    $filename = 'assets/build/css/style-frontend.min.css';
-
-    if( file_exists( THEME_DIR . $filename ) ) {
-
-        wp_enqueue_style(
-            'mdb-frontend-style',
-            THEME_URI . $filename,
-            [],
-            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
-        );
-    }
 
 
     /**
@@ -120,9 +101,7 @@ function theme_scripts() {
         wp_enqueue_script(
             'mdb-frontend-script',
             THEME_URI . $filename,
-            [
-                'jquery'
-            ],
+            [],
             THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
             [
                 'in_footer' => true,
@@ -132,21 +111,22 @@ function theme_scripts() {
     }
 
 
-    $filename = 'assets/build/js/preload.min.js';
+    /**
+    * Registers and loads the theme's own styles.
+    *
+    * Note: The style.css in the main directory is only used for theme identification and versioning.
+    * Actually the (compressed) style information can be found in frontend(.min).css.
+    */
+
+    $filename = 'assets/build/css/style-frontend.min.css';
 
     if( file_exists( THEME_DIR . $filename ) ) {
 
-        wp_enqueue_script(
-            'mdb-preload-script',
+        wp_enqueue_style(
+            'mdb-frontend-style',
             THEME_URI . $filename,
-            [
-                'jquery'
-            ],
+            [],
             THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
-            [
-                'in_footer' => false,
-                'strategy'  => 'defer'
-            ]
         );
     }
 

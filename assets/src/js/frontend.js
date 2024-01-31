@@ -1,106 +1,99 @@
-jQuery( document ).ready( function( $ ) {
-
-
-    /**
-     * Action: do the slideout menu slide
-     */
-
-    function doSlide( direction = 'out' ) {
-        let duration = 1000;
-
-        if ( ! $( 'body' ).hasClass( 'slide-in-progress') ) {
-            $( 'body' ).toggleClass( 'slide-in-progress' );
-
-            if ( direction == 'out' ) {
-                $( '.wp-block-site-title' ).fadeOut();
-                $( '.site-component-slideout' ).animate( { width: '100%' }, duration, 'easeInOutExpo' );
-                $( '.slideout-content' ).delay(800).fadeIn();
-                $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
-
-                setTimeout( function() {
-                    $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
-                }, duration );
-            } else if ( direction == 'in' ) {
-                $( '.slideout-content' ).delay(200).fadeOut( function() {
-                    $( '.site-component-slideout' ).animate( { width: 0 }, duration, 'easeInOutExpo' );
-                } );
-
-                setTimeout( function() {
-                    $( 'body' ).toggleClass( 'slide-in-progress slideout-visible' );
-                    $( '.is-navbar-hamburger span' ).toggleClass( 'svg-symbol-hamburger svg-symbol-hamburger-cross' );
-                    $( '.wp-block-site-title' ).fadeIn();
-                }, duration );
-            }
-        }
-    }
+/**
+ * Do some magic
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ * @uses    anime.js
+ */
 
 
 
-    /**
-     * Action: smooth scroll to anchor
-     */
+/**
+ * Event handler: click on hamburger => show/hide slideout
+ */
 
-    // helper function
-    function getNumber( x ) {
-      const parsed = parseInt( x );
+const hamburger = document.querySelector( '.is-navbar-hamburger' );
 
-      if ( isNaN( parsed ) ) {
-          return 0;
-      }
-      return parsed;
-    }
+if ( hamburger != null ) {
+    hamburger.addEventListener( 'click', function( e ) {
 
+        const body           = document.querySelector( 'body' );
+        const hamburger_icon = document.querySelector( '.is-navbar-hamburger span' );
 
-    // general scroll function
-    function scrollToAnchor( id ) {
-        let tag    = $( "#" + id );
-        let offset = tag.offset().top - getNumber( tag.css( 'padding-top' ) )
+        // Show slideout
+        if ( ! body.classList.contains( 'slideout-visible' ) ) {
 
-        $( '.wp-site-blocks' ).animate( { scrollTop: offset }, 2500, 'easeInOutExpo' );
-    }
+            let timeline = anime.timeline( {
+                easing: 'easeInOutExpo',
+                duration: 400
+            } );
 
+            timeline
+            .add( {
+                targets: '.wp-block-site-title',
+                opacity: 0
+            } )
+            .add( {
+                targets: '.site-component-slideout',
+                left: '0'
+            }, 100 );
 
-
-    /**
-     * Event handler: click on hamburger
-     */
-
-    $( '.is-navbar-hamburger' ).on( 'click', function() {
-        if ( ! $( 'body' ).hasClass( 'slideout-visible') ) {
-            doSlide( 'out' );
+        // Hide slideout
         } else {
-            doSlide( 'in' );
+
+            let timeline = anime.timeline( {
+                easing: 'easeInOutExpo',
+                duration: 400
+            } );
+
+            timeline
+            .add( {
+                targets: '.site-component-slideout',
+                left: '-100%'
+            } )
+            .add( {
+
+                targets: '.wp-block-site-title',
+                opacity: 1
+            }, 100 );
+
         }
+
+        hamburger_icon.classList.toggle( 'svg-symbol-hamburger' );
+        hamburger_icon.classList.toggle( 'svg-symbol-hamburger-cross' );
+        body.classList.toggle( 'slideout-visible' );
+
     } );
 
-
-
-    /**
-     * Event handler: click on scroll up button (smooth scroll to top)
-     *
-     * @todo need a re-implementation of the button
-     */
-
-    $( '.is-navbar-scrollup' ).on( 'click', function( e ) {
-        e.preventDefault();
-
-        $( '.wp-site-blocks' ).animate( { scrollTop: 0 }, 1500, 'easeInOutExpo' );
-    } );
+}
 
 
 
-    /**
-     * Event handler: click on pagenavigation link (smooth scroll to anchor)
-     */
+/**
+ * Event handler: click on pagenavigation link => smooth scroll to anchor
+ */
 
-    $( '.wp-block-navigation.is-style-pagenavigation a.wp-block-navigation-item__content' ).on( 'click', function( e ) {
+const pagenav_links = document.querySelectorAll( '.is-style-pagenavigation a.wp-block-navigation-item__content' );
+
+pagenav_links.forEach( link => {
+    link.addEventListener( 'click', function( e ) {
+
+        // Isolate the target ID
         let full_url = this.href;
         let parts    = full_url.split( '#' );
 
         if ( parts.length == 2 ) {
             e.preventDefault();
-            scrollToAnchor( parts[1] );
+
+            const anchor = document.getElementById( parts[1] ); // parts[1] => that's the ID
+            let   offset = anchor.offsetTop;
+
+            anime( {
+                targets: '.wp-site-blocks',
+                easing: 'easeInOutExpo',
+                scrollTop: offset,
+                duration: 1500
+            } );
         }
     } );
-
 } );
