@@ -44,16 +44,19 @@
         color: var(--wp--preset--color--white);
         font-weight: inherit;
 
-        display: block;
+        display: inline-block;
         padding: 0;
+        margin: .8rem 0;
         outline: 0 !important;
         transition: all .4s ease-in-out;
+        border-bottom: 2px solid transparent;
         cursor: pointer;
 
         &:hover,
         &:focus {
             text-decoration: none !important;
-            color: var(--wp--preset--color--denim-dark);
+            color: var(--wp--preset--color--white);
+            border-color: var(--wp--preset--color--white);
         }
     }
 
@@ -78,7 +81,7 @@
         font-family: var(--wp--preset--font-family--secondary);
         font-weight: 300;
         font-size: clamp(2rem, calc(2rem + ((1vw - .48rem) * .6944)), 2.5rem);
-        line-height: 200%;
+        line-height: 175%;
         text-shadow: none;
 
         @include on_highdensity() {

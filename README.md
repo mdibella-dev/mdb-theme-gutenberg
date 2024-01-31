@@ -28,6 +28,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 - New: Add subversion to styles/scripts to break caching if necessary
 - New: Provide simple fading fx
+- Improve: Change hover style on slideout
 - Improve: Convert jQuery JS to Vanilla JS / issue [#88](https://github.com/mdibella-dev/mdb-theme-fse/issues/88)
 - Improve: Remove single-publication.html / issue [#85](https://github.com/mdibella-dev/mdb-theme-fse/issues/85)
 - Improve: Restructure frontend.js
