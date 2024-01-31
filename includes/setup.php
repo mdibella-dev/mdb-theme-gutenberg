@@ -95,7 +95,6 @@ function theme_scripts() {
      */
 
     $filename = 'assets/build/js/frontend.min.js';
-    //$filename = 'assets/src/js/frontend.js';
 
     if( file_exists( THEME_DIR . $filename ) ) {
 
@@ -110,27 +109,6 @@ function theme_scripts() {
             ]
         );
     }
-
-
-    //$filename = 'assets/build/js/preload.min.js';
-    $filename = 'assets/src/js/preload.js';
-
-    if( file_exists( THEME_DIR . $filename ) ) {
-
-        wp_enqueue_script(
-            'mdb-preload-script',
-            THEME_URI . $filename,
-            [
-                'jquery'
-            ],
-            THEME_VERSION . '.' . filemtime( THEME_DIR . $filename ),
-            [
-                'in_footer' => false,
-                'strategy'  => 'defer'
-            ]
-        );
-    }
-
 
 
     /**
