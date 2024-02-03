@@ -11,13 +11,13 @@
 
 @include on_breakpoint(medium) {
     body {
-        --wp--custom--teaserblock--image-width:     125px;
+        --wp--custom--teaserblock--image-width: 125px;
     }
 }
 
 
 @include on_breakpoint(large) {
     body {
-        --wp--custom--teaserblock--image-width:     175px;
+        --wp--custom--teaserblock--image-width: 175px;
     }
 }
