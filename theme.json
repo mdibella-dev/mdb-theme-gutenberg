@@ -264,9 +264,9 @@
         "spacing": {
             "padding": {
                 "top": "0",
-                "right": "var(--wp--preset--spacing--50)",
+                "right": "1rem",
                 "bottom": "0",
-                "left": "var(--wp--preset--spacing--50)"
+                "left": "1rem"
             }
         },
         "color": {

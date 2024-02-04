@@ -26,7 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 
 ### Latest changes to the main branch
 
-
+- Improve: Reduce root padding (left/right) to 1rem
 
 ### Previous changes
 
