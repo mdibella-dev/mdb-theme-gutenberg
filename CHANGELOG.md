@@ -4,7 +4,7 @@ _New / Improve / Bugfix_
 
 <br>
 
-### 3.2.2
+### 3.3.0
 Released: 04-02-2024
 
 - New: Add subversion to styles/scripts to break caching if necessary
