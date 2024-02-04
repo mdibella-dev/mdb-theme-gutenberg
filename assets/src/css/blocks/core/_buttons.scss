@@ -28,7 +28,6 @@
     background-color: var(--wp--preset--color--denim);
     transition: background-color .2s;
 
-    .slide-in-progress &,
     .slideout-visible & {
         background-color: var(--wp--preset--color--white);
     }
