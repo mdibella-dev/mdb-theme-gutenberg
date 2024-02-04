@@ -4,6 +4,28 @@ _New / Improve / Bugfix_
 
 <br>
 
+### 3.2.2
+Released: 04-02-2024
+
+- New: Add subversion to styles/scripts to break caching if necessary
+- New: Provide simple fading fx
+- Improve: Change hover style on slideout
+- Improve: Convert jQuery JS to Vanilla JS / issue [#88](https://github.com/mdibella-dev/mdb-theme-fse/issues/88)
+- Improve: Remove single-publication.html / issue [#85](https://github.com/mdibella-dev/mdb-theme-fse/issues/85)
+- Improve: Restructure frontend.js
+- Improve: Change default fontsize of headline elements to large
+- Improve: Add more space between slideout labels and menu items
+- Improve: Increase distance between footer and main content
+- Improve: Strip unused code from spinkit library
+- Improve: Remove SCSS color vars
+- Improve: Remove remove_post_classes filter (obsolete)
+- Improve: Remove remove_menu_classes filter (obsolete)
+- Improve: Change spacing on core/post-title
+- Improve: Remove fadein after click on slideout menu item
+- Improve: Remove slash separator in page navigation
+- Bugfix: issue [#87](https://github.com/mdibella-dev/mdb-theme-fse/issues/87)
+
+
 ### 3.2.1
 Released: 23-12-2023
 
