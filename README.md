@@ -27,6 +27,11 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 - Improve: Reduce root padding (left/right) to 1rem
+- Improve: Spacing in slideout menu
+- Improve: Replace Roboto Slab font with Inter extra bold
+- Improve: Add Noto Serif Display font for small notes
+- Improve: Adjust smaller font sizes
+
 
 ### Previous changes
 

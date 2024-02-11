@@ -137,34 +137,34 @@
                 {
                     "fontFace": [
                         {
-                            "fontFamily": "Roboto Slab",
+                            "fontFamily": "Noto Serif Display",
                             "fontWeight": "100 900",
-                            "fontStyle": "normal",
+                            "fontStyle": "italic",
                             "src": [
-                                "file:./assets/fonts/RobotoSlab-VariableFont_wght.woff2"
+                                "file:./assets/fonts/NotoSerifDisplay-Italic-VariableFont_wdth,wght.ttf"
                             ]
                         }
                     ],
-                    "name": "Roboto Slab",
+                    "name": "Noto Serif Display",
                     "slug": "secondary",
-                    "fontFamily": "Roboto Slab, Georgia, serif"
+                    "fontFamily": "Noto Serif Display, serif"
                 }
             ],
             "fontSizes": [
                 {
                     "size": "0.875rem",
                     "fluid": {
-                        "min": "0.875rem",
-                        "max": "1rem"
+                        "min": "0.75rem",
+                        "max": "0.875rem"
                     },
                     "slug": "small",
                     "name": "Small"
                 },
                 {
-                    "size": "1rem",
+                    "size": "1.125rem",
                     "fluid": {
-                        "min": "1rem",
-                        "max": "1.25rem"
+                        "min": "0.875rem",
+                        "max": "1.125rem"
                     },
                     "slug": "medium",
                     "name": "Medium"
@@ -276,11 +276,12 @@
         "elements": {
             "heading": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--secondary)",
+                    "fontFamily": "var(--wp--preset--font-family--primary)",
                     "fontSize": "var(--wp--preset--font-size--large)",
-                    "fontWeight": "500",
+                    "fontWeight": "700",
                     "lineHeight": "1.3",
-                    "letterSpacing": "1.5px"
+                    "letterSpacing": "0",
+                    "wordSpacing": ".5px"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--gypsum)"
@@ -317,7 +318,7 @@
                     "fontWeight": "300",
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "lineHeight": "1.5",
-                    "letterSpacing": ".2px"
+                    "letterSpacing": ".3px"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--denim)"
