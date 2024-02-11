@@ -46,7 +46,7 @@
 
         display: inline-block;
         padding: 0;
-        margin: .8rem 0;
+        margin: 0 0 .8rem;
         outline: 0 !important;
         transition: all .4s ease-in-out;
         border-bottom: 2px solid transparent;
@@ -91,7 +91,7 @@
 
 
     li.label {
-        padding: 2rem 0 .5rem;
+        padding: 2rem 0 .8rem;
         line-height: 90%;
 
         // typography
