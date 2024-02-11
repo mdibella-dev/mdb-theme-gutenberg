@@ -56,7 +56,7 @@
         &:focus {
             text-decoration: none !important;
             color: var(--wp--preset--color--white);
-            border-color: var(--wp--preset--color--white);
+            border-color: var(--wp--preset--color--denim-dark);
         }
     }
 
@@ -78,14 +78,14 @@
 
         // typography
         letter-spacing: .8px;
-        font-family: var(--wp--preset--font-family--secondary);
-        font-weight: 300;
+        font-family: var(--wp--preset--font-family--primary);
+        font-weight: 200;
         font-size: clamp(2rem, calc(2rem + ((1vw - .48rem) * .6944)), 2.5rem);
         line-height: 175%;
         text-shadow: none;
 
         @include on_highdensity() {
-            font-weight: 400;
+            font-weight: 300;
         }
     }
 
