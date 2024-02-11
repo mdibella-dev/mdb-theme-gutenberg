@@ -31,6 +31,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Replace Roboto Slab font with Inter extra bold
 - Improve: Add Noto Serif Display font for small notes
 - Improve: Adjust smaller font sizes
+- Improve: Add better slideout hover fx
 
 
 ### Previous changes
