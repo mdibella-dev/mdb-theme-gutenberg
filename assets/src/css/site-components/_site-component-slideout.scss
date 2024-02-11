@@ -91,12 +91,8 @@
 
 
     li.label {
-        padding: 1.5rem 0 .125rem;
+        padding: 2rem 0 .5rem;
         line-height: 90%;
-
-        @include on_breakpoint(medium) {
-            padding-bottom: 1.5rem;
-        }
 
         // typography
         span {
