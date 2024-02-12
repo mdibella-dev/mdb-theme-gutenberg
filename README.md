@@ -32,6 +32,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 - Improve: Add Noto Serif Display font for small notes
 - Improve: Adjust smaller font sizes
 - Improve: Add better slideout hover fx
+- Improve: Minor fixes to vortragsliste
 
 
 ### Previous changes
