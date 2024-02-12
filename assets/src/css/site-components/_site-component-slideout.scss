@@ -61,7 +61,7 @@
              content: '';
              border-bottom: solid 2px var(--wp--preset--color--denim-dark);
              transform: scaleX(0);
-             transition: transform 250ms ease-in-out;
+             transition: transform 400ms ease-in-out;
         }
 
         &:hover:after {
