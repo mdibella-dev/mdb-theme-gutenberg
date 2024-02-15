@@ -31,6 +31,11 @@
 }
 
 
+.no-main-spacing-top-and-header-height {
+    margin-top: calc(-1 * calc( var(--wp--custom--main--spacing--top) + var(--wp--custom--header--height) ) ) !important;
+}
+
+
 
 /**
  * Basic styles for AJAX-driven loadmore-elements
