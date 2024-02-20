@@ -15,8 +15,6 @@ defined( 'ABSPATH' ) or exit;
 
 
 
-
-
 /**
  * Performs basic settings for the theme.
  *
