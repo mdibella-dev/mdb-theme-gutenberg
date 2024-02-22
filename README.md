@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, 
 ### Latest changes to the main branch
 
 - New: Add margin control class to move 1st main element behind header
+- Improve: Convert Noto Serif Display to WOFF2
 - Improve: Reduce root padding (left/right) to 1rem
 - Improve: Spacing in slideout menu
 - Improve: Replace Roboto Slab font with Inter extra bold
