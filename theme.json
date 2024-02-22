@@ -127,7 +127,8 @@
                             "fontStyle": "normal",
                             "src": [
                                 "file:./assets/fonts/Inter-VariableFont_slnt,wght.woff2"
-                            ]
+                            ],
+                            "unicodeRange": "U+0020-007F, U+00A0-00FF, U+02B0-02FF, U+0300-036F, U+2000-206F, U+20A4, U+20AC, U+2103, U+2109, U+2122"
                         }
                     ],
                     "name": "Inter",
@@ -142,7 +143,8 @@
                             "fontStyle": "italic",
                             "src": [
                                 "file:./assets/fonts/NotoSerifDisplay-Italic-VariableFont_wdth,wght.woff2"
-                            ]
+                            ],
+                            "unicodeRange": "U+0020-007F, U+2000-206F, U+20A4, U+20AC"
                         }
                     ],
                     "name": "Noto Serif Display",
