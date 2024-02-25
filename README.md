@@ -9,7 +9,7 @@ The WordPress theme for Marco Di Bella's personal website (full site editing ver
 [Marco Di Bella](https://github.com/mdibella-dev)
 
 ### Tags
-gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, jquery, variable-font-size
+gutenberg, block-editor, full-site-editing, translation-ready, responsive, svg, slideout-menu, javascript, variable-font-size
 
 ### Requires at least
 
