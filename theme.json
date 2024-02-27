@@ -143,8 +143,7 @@
                             "fontStyle": "italic",
                             "src": [
                                 "file:./assets/fonts/NotoSerifDisplay-Italic-VariableFont_wdth,wght.woff2"
-                            ],
-                            "unicodeRange": "U+0020-007F, U+2000-206F, U+20A4, U+20AC"
+                            ]
                         }
                     ],
                     "name": "Noto Serif Display",
