@@ -7,6 +7,7 @@ _New / Improve / Bugfix_
 
 - New: Add margin control class to move 1st main element behind header
 - New: Add unicode ranges to the font definition
+- New: Add CSS code related to Code Syntax Block
 - Improve: Convert Noto Serif Display to WOFF2
 - Improve: Reduce root padding (left/right) to 1rem
 - Improve: Spacing in slideout menu
