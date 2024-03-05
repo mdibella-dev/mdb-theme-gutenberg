@@ -5,6 +5,14 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+- None
+
+
+<br>
+
+### 3.3.1
+Released: 05-03-2024
+
 - New: Add margin control class to move 1st main element behind header
 - New: Add unicode ranges to the font definition
 - New: Add CSS code related to Code Syntax Block
@@ -18,9 +26,6 @@ _New / Improve / Bugfix_
 - Improve: Add better slideout hover fx
 - Improve: Minor fixes to vortragsliste
 - Bugfix: issue #91
-
-
-<br>
 
 
 ### 3.3.0
