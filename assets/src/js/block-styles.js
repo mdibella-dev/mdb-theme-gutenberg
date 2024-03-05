@@ -163,4 +163,24 @@ wp.domReady( () => {
         ]
     );
 
+
+
+    /** core/columns */
+
+    wp.blocks.registerBlockStyle(
+        'core/columns',
+        [
+            {
+                name: 'icon-text',
+                label: 'Icon & Text',
+                isDefault: false,
+            },
+            {
+                name: 'showcase',
+                label: 'Showcase',
+                isDefault: false,
+            }
+        ]
+    );
+
 } );

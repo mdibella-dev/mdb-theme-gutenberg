@@ -6,8 +6,10 @@
  */
 
 
-/** THIS IS FOR DEVELOPING AND TESTING ONLY */
 
+/**
+ * .is-style-showcase
+ */
 
 .wp-block-columns.is-style-showcase,
 .wp-block-columns.is-style-showcase .wp-block-column {
@@ -40,10 +42,18 @@
 
 
 /**
- * image sample
+ * .is-style-icon-text
+ */
 
- <!-- wp:image {"id":1956,"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-shaded"} -->
- <figure class="wp-block-image size-large is-style-shaded"><img src="https://mdb:8890/wp-content/uploads/logo-jhc-2008-pult.jpg" alt="" class="wp-image-1956" style="aspect-ratio:1;object-fit:cover"/></figure>
- <!-- /wp:image -->
+.wp-block-columns.is-style-icon-text {
+    gap: 2rem;
 
-*/
+    @include on_breakpoint(large) {
+        gap: 3rem;
+    }
+}
+
+
+.wp-block-columns.is-style-icon-text .wp-block-image img {
+    filter: drop-shadow(0 0 20px rgba(0,0,0,.35));
+}
