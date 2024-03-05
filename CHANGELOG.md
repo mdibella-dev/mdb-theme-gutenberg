@@ -16,6 +16,7 @@ _New / Improve / Bugfix_
 - Improve: Adjust smaller font sizes
 - Improve: Add better slideout hover fx
 - Improve: Minor fixes to vortragsliste
+- Bugfix: issue #91
 
 
 <br>
