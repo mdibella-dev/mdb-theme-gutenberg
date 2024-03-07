@@ -46,14 +46,24 @@
  */
 
 .wp-block-columns.is-style-icon-text {
+    margin-bottom: 2.5em;
     gap: 2rem;
 
     @include on_breakpoint(large) {
-        gap: 3rem;
+        gap: 2.5rem;
     }
 }
 
 
 .wp-block-columns.is-style-icon-text .wp-block-image img {
     filter: drop-shadow(0 0 20px rgba(0,0,0,.35));
+}
+
+
+.wp-block-columns.is-style-icon-text p {
+    line-height: 1.25;
+
+    em {
+        font-size: 90%;
+    }
 }
