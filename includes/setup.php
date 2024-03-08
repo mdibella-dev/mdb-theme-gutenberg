@@ -61,8 +61,6 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
 
 
 
-
-
 /**
  * Loads a set of necessary JS scripts and stylesheets.
  *
