@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2023-07-01 17:44+0200\n"
-"PO-Revision-Date: 2023-07-01 17:45+0200\n"
+"POT-Creation-Date: 2024-06-03 18:06+0200\n"
+"PO-Revision-Date: 2024-06-03 18:07+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -21,13 +21,41 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: includes/patterns/primary.php:42 includes/setup.php:64
-msgid "Primary Navigation"
-msgstr "Primäre Navigation"
+#: patterns/slideout-navigation.php:27
+msgid "News"
+msgstr "News"
 
-#: includes/setup.php:65
-msgid "Page Navigation"
-msgstr "Beitrags-/Seitennavigation"
+#: patterns/slideout-navigation.php:31
+msgid "Blog"
+msgstr "Blog"
+
+#: patterns/slideout-navigation.php:43
+msgid "Work"
+msgstr "Work"
+
+#: patterns/slideout-navigation.php:47
+msgid "Web &amp; Media"
+msgstr "Web &amp; Media"
+
+#: patterns/slideout-navigation.php:51
+msgid "Publications"
+msgstr "Publikationen"
+
+#: patterns/slideout-navigation.php:55
+msgid "Lectures"
+msgstr "Vorträge"
+
+#: patterns/slideout-navigation.php:68
+msgid "Personal"
+msgstr "Personal"
+
+#: patterns/slideout-navigation.php:72
+msgid "About Me"
+msgstr "Über mich"
+
+#: patterns/slideout-navigation.php:76
+msgid "Contact"
+msgstr "Kontakt"
 
 #. Theme Name of the plugin/theme
 msgid "mdb-theme-fse"
@@ -52,6 +80,12 @@ msgstr "Marco Di Bella"
 #. Author URI of the plugin/theme
 msgid "https://www.marcodibella.de"
 msgstr "https://www.marcodibella.de"
+
+#~ msgid "Primary Navigation"
+#~ msgstr "Primäre Navigation"
+
+#~ msgid "Page Navigation"
+#~ msgstr "Beitrags-/Seitennavigation"
 
 #~ msgid "404 image"
 #~ msgstr "404-Bild"
