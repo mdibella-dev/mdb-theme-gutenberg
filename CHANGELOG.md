@@ -5,7 +5,7 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
-- None
+- Improve: Convert slideout part into pattern, allows translation
 
 
 <br>
