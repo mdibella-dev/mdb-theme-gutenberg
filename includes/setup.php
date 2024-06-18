@@ -69,7 +69,6 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
 
 function theme_scripts() {
 
-
     /**
      * Registers and loads the theme's own scripts.
      */
@@ -85,7 +84,7 @@ function theme_scripts() {
             ]
         ],
         'mdb-frontend-script' => [
-            'path'    => 'assets/build/js/frontend.min.js' /*'assets/src/js/frontend.js'*/,
+            'path'    => 'assets/src/js/frontend.js', //'assets/build/js/frontend.min.js'
             'deps'    => [
                 'anime'
             ],
@@ -106,7 +105,7 @@ function theme_scripts() {
 
             if ( is_string( $setup['version'] ) ) {
                 $version = ( empty( $setup['version'] ) )? THEME_VERSION . '.' . filemtime( THEME_DIR . $setup['path'] ) : $setup['version'];
-            }  else if ( is_bool( $setup['version'] ) && ( false === $setup['version'] ) ) {
+            }  else if ( is_bool( $setup['version'] ) and ( false === $setup['version'] ) ) {
                 $version = false;
             } else {
                 $version = null;
@@ -151,7 +150,7 @@ function theme_scripts() {
 
             if ( is_string( $setup['version'] ) ) {
                 $version = ( empty( $setup['version'] ) )? THEME_VERSION . '.' . filemtime( THEME_DIR . $setup['path'] ) : $setup['version'];
-            }  else if ( is_bool( $setup['version'] ) && ( false === $setup['version'] ) ) {
+            }  else if ( is_bool( $setup['version'] ) and ( false === $setup['version'] ) ) {
                 $version = false;
             } else {
                 $version = null;
