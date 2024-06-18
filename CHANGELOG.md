@@ -5,8 +5,9 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+- New: Backport script and style registering and enqueuing procedure from ARTlyris project
+- Improve: Rename scripts and styles
 - Improve: Convert slideout part into pattern, allows translation
-
 
 <br>
 
