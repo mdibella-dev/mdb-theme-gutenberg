@@ -52,7 +52,6 @@ if ( hamburger != null ) {
                 left: '-100%'
             } )
             .add( {
-
                 targets: '.wp-block-site-title',
                 opacity: 1
             }, 100 );
