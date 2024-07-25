@@ -17,6 +17,7 @@
   position: unset;
   padding: 0.75rem 1rem;
   line-height: 0;
+  cursor: pointer;
 }
 
 .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link .svg-symbol {
@@ -36,4 +37,4 @@
   background-color: var(--wp--preset--color--denim-dark);
 }
 
-/*# sourceMappingURL=buttons.css.map */
+/*# sourceMappingURL=button.css.map */
