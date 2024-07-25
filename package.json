@@ -7,7 +7,9 @@
         "SASS_BLD": "./assets/build/css"
     },
     "scripts": {
-        "sass:frontend": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/frontend.scss $npm_package_config_SASS_BLD/frontend.min.css"
+        "sass-blocks-dev": "sass --watch --update --style=expanded assets/src/css/blocks:assets/build/css/blocks",
+        "sass-blocks": "sass --watch --style=compressed --no-source-map assets/src/css/blocks:assets/build/css/blocks",
+        "sass-frontend": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/frontend.scss $npm_package_config_SASS_BLD/frontend.min.css"
     },
     "devDependecies": {
         "sass": "^1.59.3"
