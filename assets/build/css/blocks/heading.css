@@ -1,0 +1,26 @@
+/**
+ * Block: core/heading
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+:not(.wp-block-heading) + .wp-block-heading {
+  margin-top: var(--wp--preset--spacing--50);
+}
+.wp-block-heading + .wp-block-heading {
+  margin-top: var(--wp--preset--spacing--50);
+}
+
+:not(.wp-block-heading) + h1.wp-block-heading,
+:not(.wp-block-heading) + h2.wp-block-heading {
+  margin-top: var(--wp--preset--spacing--70);
+}
+
+.wp-block-heading.is-style-welcome,
+h1.wp-block-heading.is-style-welcome {
+  font-size: clamp(3.375rem, 3.375rem + (1vw - 0.48rem) * 3.125, 5rem);
+  line-height: 1.125;
+  hyphens: none;
+}
+
+/*# sourceMappingURL=heading.css.map */

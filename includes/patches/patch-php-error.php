@@ -1,12 +1,10 @@
 <?php
 /**
- * WordPress patches.
+ * A WordPress patch.
  *
  * @author  Marco Di Bella
- * @package mdb-theme-fse
+ * @package Patches
  */
-
-namespace mdb_theme_fse;
 
 
 /** Prevent direct access */
@@ -18,7 +16,7 @@ defined( 'ABSPATH' ) or exit;
 /**
  * Removes .php-error side effect.
  *
- * @since 1.4.0
+ * @since 1.0.0
  *
  * @see https://developer.wordpress.org/reference/hooks/admin_body_class/
  *

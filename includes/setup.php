@@ -39,21 +39,30 @@ function theme_setup() {
     add_editor_style( 'assets/build/css/style-frontend.min.css' );
 
 
-    // Sets media sizes.
-    if ( 320 !== get_option( 'thumbnail_size_w' ) ) {
-        update_option( 'thumbnail_size_w', 320 );
-        update_option( 'thumbnail_size_h', 9999 );
-        update_option( 'thumbnail_crop', 0 );
-    }
+    // Load additional core block styles.
+    $styled_blocks = [
+        'button',
+        'code',
+        'columns',
+        'cover',
+        'embed',
+        'heading',
+        'image',
+        'list',
+        'media-text',
+        'navigation',
+        'paragraph',
+        'post-title',
+        'separator',
+        'site-title'
+    ];
 
-    if ( 640 !== get_option( 'medium_size_w' ) ) {
-        update_option( 'medium_size_w', 640 );
-        update_option( 'medium_size_h', 9999 );
-    }
-
-    if ( 1200 !== get_option( 'large_size_w' ) ) {
-        update_option( 'large_size_w', 1200 );
-        update_option( 'large_size_h', 9999 );
+    foreach ( $styled_blocks as $block_name ) {
+        $args = [
+            'handle' => "mdb-theme-$block_name",
+            'src'    => get_theme_file_uri( "assets/build/css/blocks/$block_name.css" ),
+        ];
+        wp_enqueue_block_style( "core/$block_name", $args );
     }
 }
 
@@ -134,7 +143,7 @@ function theme_scripts() {
 
     $styles = [
         'mdb-frontend-style' => [
-            'path'    => 'assets/build/css/frontend.min.css',
+            'path'    => 'assets/build/css/frontend.css',
             'deps'    => [],
             'version' => ''
         ]

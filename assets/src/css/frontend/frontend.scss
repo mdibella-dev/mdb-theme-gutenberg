@@ -14,7 +14,7 @@
 
 /** Mixins */
 
-@import "mixins/_responsive";
+@import "../mixins/responsive";
 
 
 /** Basic framework */
@@ -34,7 +34,7 @@
 
 /** Block elements */
 
-@import "blocks/_index";
+@import "mdb-theme-blocks/_post-terms";
 
 
 /** Shortcodes */

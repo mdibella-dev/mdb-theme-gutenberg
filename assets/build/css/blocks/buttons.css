@@ -1,0 +1,39 @@
+/**
+ * Block: core/button
+ * Theme support and custom styles
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+/**
+ * .is-style-navigation-faux-anchor
+ */
+.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link {
+  display: inline-block;
+  outline: none !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none;
+  position: unset;
+  padding: 0.75rem 1rem;
+  line-height: 0;
+}
+
+.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link .svg-symbol {
+  background-color: var(--wp--preset--color--denim);
+  transition: background-color 0.2s;
+}
+.slideout-visible .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link .svg-symbol {
+  background-color: var(--wp--preset--color--white);
+}
+
+.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:hover .svg-symbol,
+.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:focus .svg-symbol {
+  background-color: var(--wp--preset--color--white);
+}
+.slideout-visible .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:hover .svg-symbol,
+.slideout-visible .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:focus .svg-symbol {
+  background-color: var(--wp--preset--color--denim-dark);
+}
+
+/*# sourceMappingURL=buttons.css.map */
