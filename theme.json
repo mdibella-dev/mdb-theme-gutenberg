@@ -131,7 +131,7 @@
                             "unicodeRange": "U+0020-007F, U+00A0-00FF, U+02B0-02FF, U+0300-036F, U+2000-206F, U+20A4, U+20AC, U+2103, U+2109, U+2122"
                         }
                     ],
-                    "name": "Inter",
+                    "name": "Primary (Inter)",
                     "slug": "primary",
                     "fontFamily": "Inter, Arial, sans-serif"
                 },
@@ -146,11 +146,12 @@
                             ]
                         }
                     ],
-                    "name": "Noto Serif Display",
+                    "name": "Secondary (Noto Serif Display)",
                     "slug": "secondary",
                     "fontFamily": "Noto Serif Display, serif"
                 }
             ],
+            "defaultFontSizes": false,
             "fontSizes": [
                 {
                     "size": "0.875rem",
