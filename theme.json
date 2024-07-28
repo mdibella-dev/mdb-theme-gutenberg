@@ -387,7 +387,9 @@
         {
             "name": "publication",
             "title": "Publikation",
-            "postTypes": [ "publication" ]
+            "postTypes": [
+                "publication"
+            ]
         }
     ]
 }
