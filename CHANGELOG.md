@@ -8,6 +8,8 @@ _New / Improve / Bugfix_
 - New: Backport script and style registering and enqueuing procedure from ARTlyris project
 - Improve: Rename scripts and styles
 - Improve: Convert slideout part into pattern, allows translation
+- Improve: Update development scripts
+
 
 <br>
 

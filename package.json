@@ -1,6 +1,5 @@
 {
     "name": "mdb-theme-fse",
-    "version": "3.4.0",
     "description": "Development Scripts",
     "config" : {
         "SASS_SRC": "./assets/src/css",
@@ -9,7 +8,8 @@
     "scripts": {
         "sass-blocks-dev": "sass --watch --update --style=expanded assets/src/css/blocks:assets/build/css/blocks",
         "sass-blocks": "sass --watch --style=compressed --no-source-map assets/src/css/blocks:assets/build/css/blocks",
-        "sass-frontend": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/frontend/frontend.scss $npm_package_config_SASS_BLD/frontend.css"
+        "sass-frontend-dev": "sass --watch --update --style=expanded assets/src/css/frontend/frontend.scss:assets/build/css/frontend.css",
+        "sass-frontend": "sass --style=compressed --no-source-map assets/src/css/frontend/frontend.scss:assets/build/css/frontend.css"
     },
     "devDependecies": {
         "sass": "^1.59.3"
