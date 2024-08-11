@@ -164,23 +164,6 @@ a {
   top: 2px;
 }
 
-/** theme.json element: caption */
-.wp-element-caption,
-.wp-block-audio figcaption,
-.wp-block-embed figcaption,
-.wp-block-gallery figcaption,
-.wp-block-image figcaption,
-.wp-block-table figcaption,
-.wp-block-video figcaption {
-  text-align: left;
-  margin-top: 1rem;
-  margin-bottom: 0;
-  width: 100%;
-  max-width: var(--wp--style--global--content-size);
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
 /**
  * Visual effects
  *

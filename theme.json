@@ -290,6 +290,12 @@
                 },
                 "color": {
                     "text": "var(--wp--preset--color--denim-0)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "1rem",
+                        "bottom": "0"
+                    }
                 }
             },
             "button": {

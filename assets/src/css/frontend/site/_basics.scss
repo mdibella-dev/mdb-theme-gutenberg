@@ -51,8 +51,8 @@ body {
 
 
 *::selection {
-  background: var(--wp--preset--color--denim-0) !important;
-  color: var(--wp--preset--color--white) !important;
+    background: var(--wp--preset--color--denim-0) !important;
+    color: var(--wp--preset--color--white) !important;
 }
 
 
@@ -113,26 +113,4 @@ a {
     &:active {
         top: 2px;
     }
-}
-
-
-/** theme.json element: caption */
-
-.wp-element-caption,
-.wp-block-audio figcaption,
-.wp-block-embed figcaption,
-.wp-block-gallery figcaption,
-.wp-block-image figcaption,
-.wp-block-table figcaption,
-.wp-block-video figcaption {
-    // typography
-    text-align: left;
-
-    // dimensions
-    margin-top: 1rem;
-    margin-bottom: 0;
-    width: 100%;
-    max-width: var(--wp--style--global--content-size);
-    margin-left: auto !important;  // deprecated?
-    margin-right: auto !important; // deprecated?
 }
