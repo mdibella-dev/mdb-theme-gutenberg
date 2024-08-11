@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2024-06-03 18:06+0200\n"
+"POT-Creation-Date: 2024-08-11 10:56+0200\n"
 "PO-Revision-Date: 2023-01-28 16:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -55,6 +55,10 @@ msgstr ""
 
 #: patterns/slideout-navigation.php:76
 msgid "Contact"
+msgstr ""
+
+#: patterns/tag-title.php:10
+msgid "Keyword"
 msgstr ""
 
 #. Theme Name of the plugin/theme
