@@ -1,0 +1,53 @@
+/**
+ * Block: core/image
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+/**
+ * default
+ */
+.wp-block-image {
+  line-height: 0;
+  margin: 0;
+}
+.wp-block-image img {
+  width: 100%;
+  height: auto;
+}
+.wp-block-image figure {
+  width: 100% !important;
+}
+
+/**
+ * .is-style-shaded
+ */
+.wp-block-image.is-style-shaded .wp-element-caption {
+  margin-top: 1.3rem;
+}
+
+.wp-block-image.is-style-shaded {
+  margin-top: var(--wp--preset--spacing--50);
+  margin-bottom: var(--wp--preset--spacing--50);
+}
+.wp-block-image.is-style-shaded:first-child {
+  margin-top: 0;
+}
+.wp-block-image.is-style-shaded:last-child {
+  margin-bottom: 0;
+}
+.wp-block-image.is-style-shaded img {
+  padding: 0;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transform: scale(1);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.35);
+  border-radius: var(--wp--custom--base--border-radius);
+}
+.wp-block-image.is-style-shaded a:focus img,
+.wp-block-image.is-style-shaded a:hover img {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=image.css.map */

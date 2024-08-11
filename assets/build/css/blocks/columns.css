@@ -1,0 +1,64 @@
+/**
+ * Block: core/columns
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+/**
+ * .is-style-showcase
+ */
+.wp-block-columns.is-style-showcase {
+  --colgap: 2rem;
+  padding-left: var(--colgap);
+  padding-right: var(--colgap);
+  gap: var(--colgap);
+}
+@media screen and (min-width: 960px) {
+  .wp-block-columns.is-style-showcase {
+    --colgap: 3rem;
+  }
+}
+
+.wp-block-columns.is-style-showcase .wp-block-column {
+  gap: var(--colgap);
+}
+
+.wp-block-columns.is-style-showcase .wp-block-column {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wp-block-columns.is-style-showcase .wp-block-image.is-style-shaded {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.wp-block-columns.is-style-showcase .wp-block-image.is-style-shaded img {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 5px 15px rgba(0, 0, 0, 0.22);
+}
+
+/**
+ * .is-style-icon-text
+ */
+.wp-block-columns.is-style-icon-text {
+  margin-bottom: 2.5em;
+  gap: 2rem;
+}
+@media screen and (min-width: 960px) {
+  .wp-block-columns.is-style-icon-text {
+    gap: 2.5rem;
+  }
+}
+
+.wp-block-columns.is-style-icon-text .wp-block-image img {
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.35));
+}
+
+.wp-block-columns.is-style-icon-text p {
+  line-height: 1.25;
+}
+.wp-block-columns.is-style-icon-text p em {
+  font-size: 90%;
+}
+
+/*# sourceMappingURL=columns.css.map */

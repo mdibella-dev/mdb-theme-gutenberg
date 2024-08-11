@@ -1,0 +1,23 @@
+/**
+ * Block: core/site-title
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ * default
+ */
+
+.wp-block-site-title {
+    margin-top: 0 !important;
+    margin-bottom: 0!important;
+    color: var(--wp--preset--color--denim-0);
+
+    a {
+        text-transform: lowercase;
+        font-weight: 200;
+    }
+}

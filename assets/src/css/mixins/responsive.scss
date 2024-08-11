@@ -1,0 +1,67 @@
+// *
+// * Mixins for the realization of responsive websites.
+// *
+// * @author Marco Di Bella
+// *
+
+
+
+// *
+// *  Media breakpoints.
+// *
+// * @source https://developer.wordpress.org/block-editor/packages/packages-viewport/
+// *
+
+$breakpoints: (
+    mobile: 460px,
+    small:  600px,
+    medium: 782px,
+    large:  960px,
+    wide:   1280px,
+    huge:   1440px,
+) !default;
+
+
+
+// *
+// * Creates a media breakpoint.
+// *
+// * @source https://davidwalsh.name/write-media-queries-sass
+// * @source https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844
+// * @source https://webdesign.tutsplus.com/tutorials/an-introduction-to-sass-maps-usage-and-examples--cms-22184
+// *
+// * @param $breakpoint one of the following values: mobile, small, medium, large, wide, huge
+// *
+
+@mixin on_breakpoint( $breakpoint) {
+
+    @if map-has-key( $breakpoints, $breakpoint ) {
+        $value: map-get( $breakpoints, $breakpoint );
+
+        @media screen and (min-width: #{$value}) {
+            @content;
+        }
+    }
+}
+
+
+
+// *
+// * Creates a breakpoint for display with high pixel density (= so called Retina displays).
+// *
+// * @source: https://www.creativebloq.com/css3/master-css-pixels-retina-displays-8122955
+// * @source: https://www.hongkiat.com/blog/css-retina-display/
+// * @source: https://www.appnovation.com/blog/css-only-technique-high-res-background-images-retina-display
+// *
+
+@mixin on_highdensity() {
+
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 2dppx) {
+        @content;
+    }
+}

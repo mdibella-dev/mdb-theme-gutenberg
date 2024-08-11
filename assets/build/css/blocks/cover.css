@@ -1,0 +1,87 @@
+/**
+ * Block: core/cover
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+/**
+ * .is-style-fusion
+ */
+.wp-block-cover.is-style-fusion {
+  /*
+      .wp-block-cover__image-background {
+          opacity: 30%; // experimental
+      }
+  */
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__inner-container {
+  color: inherit;
+  width: 100%;
+  z-index: 10;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__inner-container .wp-block-post-title,
+.wp-block-cover.is-style-fusion .wp-block-cover__inner-container .wp-block-query-title {
+  text-shadow: 0 5px 30px rgba(0, 0, 0, 0.35);
+}
+.wp-block-cover.is-style-fusion::after, .wp-block-cover.is-style-fusion::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.wp-block-cover.is-style-fusion::before {
+  background: linear-gradient(to bottom, transparent, var(--wp--preset--color--base-0));
+  bottom: -1px;
+  height: 30%;
+  z-index: 5;
+}
+.wp-block-cover.is-style-fusion::after {
+  background: linear-gradient(to top, transparent, var(--wp--preset--color--base-0));
+  top: -1px;
+  height: 5%;
+  z-index: 4;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background {
+  display: none;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-0 + .wp-block-cover__image-background {
+  opacity: 0;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-10 + .wp-block-cover__image-background {
+  opacity: 0.1;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-20 + .wp-block-cover__image-background {
+  opacity: 0.2;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-30 + .wp-block-cover__image-background {
+  opacity: 0.3;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-40 + .wp-block-cover__image-background {
+  opacity: 0.4;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-50 + .wp-block-cover__image-background {
+  opacity: 0.5;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-60 + .wp-block-cover__image-background {
+  opacity: 0.6;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-70 + .wp-block-cover__image-background {
+  opacity: 0.7;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-80 + .wp-block-cover__image-background {
+  opacity: 0.8;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-90 + .wp-block-cover__image-background {
+  opacity: 0.9;
+}
+.wp-block-cover.is-style-fusion .wp-block-cover__background.has-background-dim-100 + .wp-block-cover__image-background {
+  opacity: 1;
+}
+
+.site-component-main .wp-block-post-content > .wp-block-cover.is-style-fusion:first-child {
+  margin-top: calc(-1 * var(--wp--custom--main--spacing-top));
+}
+
+/*# sourceMappingURL=cover.css.map */

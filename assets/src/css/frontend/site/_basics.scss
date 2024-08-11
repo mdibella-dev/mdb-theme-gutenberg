@@ -1,0 +1,138 @@
+/**
+ * HTML tags
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+html {
+    margin: 0 !important;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; // prevent scrolling at overflow:hidden (iOS)
+    overflow: hidden;
+    width: 100vw;
+
+    // theme.json: 200
+    @include on_highdensity() {
+        font-weight: 300;
+    }
+}
+
+
+.wp-site-blocks {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    scrollbar-color: var(--wp--preset--color--denim-0) transparent;
+}
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+*::selection {
+  background: var(--wp--preset--color--denim-0) !important;
+  color: var(--wp--preset--color--white) !important;
+}
+
+
+b,
+strong {
+    font-weight: 600;
+}
+
+
+// Maybe converting in a block style?
+ul > li::marker {
+    color: var(--wp--preset--color--white);
+}
+
+
+
+/**
+ * Basic elements
+ *
+ * These basic elements are partly designed via settings contained in the theme.json file.
+ * Settings that exceed the current capabilities of theme.json (as of June 2023) and/or are necessary for reasons of compatibility can be found at this point.
+ */
+
+
+/** theme.json element: link */
+
+a {
+    transition: all .2s;
+}
+
+
+/** theme.json element: button */
+
+.wp-element-button,
+.wp-block-button__link {
+    // typography
+    text-shadow: 0 1px 5px rgba(0,0,0,.5);
+
+    // other styling
+    transition: color .3s linear, background-color .3s linear, border-color .3s linear;
+    cursor: pointer;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
+
+    // dimensions
+    display: inline-block;
+    margin-bottom: 0;
+    padding: .75rem 1.5rem;
+
+    // positioning
+    position: relative;
+    top: 0;
+    left: 0;
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
+    }
+
+    &:active {
+        top: 2px;
+    }
+}
+
+
+/** theme.json element: caption */
+
+.wp-element-caption,
+.wp-block-audio figcaption,
+.wp-block-embed figcaption,
+.wp-block-gallery figcaption,
+.wp-block-image figcaption,
+.wp-block-table figcaption,
+.wp-block-video figcaption {
+    // typography
+    text-align: left;
+
+    // dimensions
+    margin-top: 1rem;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: var(--wp--style--global--content-size);
+    margin-left: auto !important;  // deprecated?
+    margin-right: auto !important; // deprecated?
+}

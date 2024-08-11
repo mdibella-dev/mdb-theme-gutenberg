@@ -1,0 +1,22 @@
+/**
+ * Block: core/list
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+/**
+ * default
+ */
+ol,
+ul {
+  display: block;
+  width: 100%;
+  padding-left: 1.5rem;
+}
+
+ol > li,
+ul > li {
+  padding-left: 0.5rem;
+}
+
+/*# sourceMappingURL=list.css.map */

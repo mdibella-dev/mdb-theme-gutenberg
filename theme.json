@@ -5,58 +5,53 @@
         "color": {
             "palette": [
                 {
-                    "name": "Back 0",
-                    "slug": "back-0",
+                    "name": "Base / 0",
+                    "slug": "base-0",
                     "color": "#2c2e3a"
                 },
                 {
-                    "name": "Back 1",
-                    "slug": "back-1",
+                    "name": "Base / 1",
+                    "slug": "base-1",
                     "color": "#30333F"
                 },
                 {
-                    "name": "Back 2",
-                    "slug": "back-2",
+                    "name": "Base / 2",
+                    "slug": "base-2",
                     "color": "#353744"
                 },
                 {
-                    "name": "Back 3",
-                    "slug": "back-3",
+                    "name": "Base / 3",
+                    "slug": "base-3",
                     "color": "#393C49"
                 },
                 {
-                    "name": "Back 4",
-                    "slug": "back-4",
+                    "name": "Base / 4",
+                    "slug": "base-4",
                     "color": "#3D404E"
                 },
                 {
-                    "name": "Back 5",
-                    "slug": "back-5",
+                    "name": "Base / 5",
+                    "slug": "base-5",
                     "color": "#424553"
                 },
                 {
-                    "name": "Denim",
-                    "slug": "denim",
+                    "name": "Denim / 0",
+                    "slug": "denim-0",
                     "color": "hsl(202,82%,50%)"
                 },
                 {
-                    "name": "Denim Dark",
-                    "slug": "denim-dark",
+                    "name": "Denim / 1",
+                    "slug": "denim-1",
                     "color": "hsl(202,82%,22%)"
                 },
                 {
-                    "name": "Concrete",
-                    "slug": "concrete",
+                    "name": "Contrast / 0",
+                    "slug": "contrast-0",
                     "color": "hsl(222,7%,53%)"
                 },
                 {
-                    "name": "Stone",
-                    "slug": "stone",
-                    "color": "hsl(222,7%,75%)"
-                },
-                {
-                    "name": "Gypsum",
-                    "slug": "gypsum",
+                    "name": "Contrast / 1",
+                    "slug": "contrast-1",
                     "color": "hsl(222,0%,90%)"
                 },
                 {
@@ -117,7 +112,6 @@
         },
         "useRootPaddingAwareAlignments": true,
         "typography": {
-            "fluid": true,
             "fontFamilies": [
                 {
                     "fontFace": [
@@ -131,7 +125,7 @@
                             "unicodeRange": "U+0020-007F, U+00A0-00FF, U+02B0-02FF, U+0300-036F, U+2000-206F, U+20A4, U+20AC, U+2103, U+2109, U+2122"
                         }
                     ],
-                    "name": "Inter",
+                    "name": "Primary (Inter)",
                     "slug": "primary",
                     "fontFamily": "Inter, Arial, sans-serif"
                 },
@@ -146,11 +140,12 @@
                             ]
                         }
                     ],
-                    "name": "Noto Serif Display",
+                    "name": "Secondary (Noto Serif Display)",
                     "slug": "secondary",
                     "fontFamily": "Noto Serif Display, serif"
                 }
             ],
+            "defaultFontSizes": false,
             "fontSizes": [
                 {
                     "size": "0.875rem",
@@ -223,35 +218,6 @@
                 "image-width": "100px",
                 "gap": "4.5rem"
             }
-        },
-        "blocks": {
-            "core/paragraph" : {
-                "color": {
-                    "custom": false,
-                    "background": false
-                }
-            },
-            "core/list" : {
-                "color": {
-                    "custom": false,
-                    "background": false
-                }
-            },
-            "core/heading": {
-                "color": {
-                    "custom": false,
-                    "background": false
-                }
-            },
-            "core/post-title": {
-                "color": {
-                    "custom": false,
-                    "background": false,
-                    "customGradient": false,
-                    "gradients": [],
-                    "defaultGradients": false
-                }
-            }
         }
     },
     "styles": {
@@ -271,8 +237,8 @@
             }
         },
         "color": {
-            "background": "var(--wp--preset--color--back-0)",
-            "text": "var(--wp--preset--color--concrete)"
+            "background": "var(--wp--preset--color--base-0)",
+            "text": "var(--wp--preset--color--contrast-0)"
         },
         "elements": {
             "heading": {
@@ -281,12 +247,13 @@
                     "fontSize": "var(--wp--preset--font-size--large)",
                     "fontWeight": "700",
                     "lineHeight": "1.3",
-                    "letterSpacing": "0",
+                    "letterSpacing": "1px",
                     "wordSpacing": ".5px"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--gypsum)"
-                }
+                    "text": "var(--wp--preset--color--contrast-1)"
+                },
+                "css":"text-shadow: 1px 1px 50px rgba(0,0,0,.3);hyphens: manual;"
             },
             "h1": {
                 "typography": {
@@ -304,7 +271,7 @@
                     "textDecoration": "none"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--denim)"
+                    "text": "var(--wp--preset--color--denim-0)"
                 },
                 "outline": "none",
                 ":hover": {
@@ -322,7 +289,7 @@
                     "letterSpacing": ".3px"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--denim)"
+                    "text": "var(--wp--preset--color--denim-0)"
                 }
             },
             "button": {
@@ -336,11 +303,11 @@
                     "textDecoration": "none"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--denim)",
+                    "text": "var(--wp--preset--color--denim-0)",
                     "background": "transparent"
                 },
                 "border": {
-                    "color": "var(--wp--preset--color--denim)",
+                    "color": "var(--wp--preset--color--denim-0)",
                     "radius": "5px",
                     "width": "2px",
                     "style": "solid"
@@ -351,7 +318,7 @@
                 ":hover": {
                     "color": {
                         "text": "var(--wp--preset--color--white)",
-                        "background": "var(--wp--preset--color--denim)"
+                        "background": "var(--wp--preset--color--denim-0)"
                     }
                 }
             }
@@ -363,7 +330,11 @@
                         "top": "0",
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
-                }
+                },
+                "typography": {
+                    "wordSpacing": "-1px"
+                },
+                "css":"text-shadow: 0 1px 10px rgba(0,0,0,.5);"
             },
             "core/list": {
                 "spacing": {
@@ -371,7 +342,11 @@
                         "top": "0",
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
-                }
+                },
+                "typography": {
+                    "wordSpacing": "-1px"
+                },
+                "css":"text-shadow: 0 1px 10px rgba(0,0,0,.5);"
             },
             "core/post-title": {
                 "spacing": {
@@ -387,7 +362,9 @@
         {
             "name": "publication",
             "title": "Publikation",
-            "postTypes": [ "publication" ]
+            "postTypes": [
+                "publication"
+            ]
         }
     ]
 }

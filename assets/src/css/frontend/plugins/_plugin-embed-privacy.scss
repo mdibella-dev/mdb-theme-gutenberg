@@ -1,0 +1,26 @@
+/**
+ * Styles related to the plugin: Embed Privacy by Epiphyt
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+.embed-privacy-container a {
+    color: var(--wp--preset--color--denim-0);
+}
+
+
+.wp-block-embed.is-style-shaded {
+    .embed-privacy-overlay,
+    .embed-privacy-container {
+        border-radius: var(--wp--custom--base--border-radius);
+    }
+}
+
+
+.embed-privacy-overlay label,
+.embed-privacy-overlay p {
+    line-height: 1.5;
+}
