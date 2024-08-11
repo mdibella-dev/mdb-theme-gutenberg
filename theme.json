@@ -223,7 +223,7 @@
     "styles": {
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--primary)",
-            "fontWeight": "200",
+            "fontWeight": "300",
             "fontSize": "var(--wp--preset--font-size--medium)",
             "lineHeight": "1.6",
             "letterSpacing": ".5px"
@@ -267,7 +267,6 @@
             },
             "link": {
                 "typography": {
-                    "fontWeight": "300",
                     "textDecoration": "none"
                 },
                 "color": {
@@ -339,8 +338,7 @@
                 },
                 "typography": {
                     "wordSpacing": "-1px"
-                },
-                "css":"text-shadow: 0 1px 10px rgba(0,0,0,.5);"
+                }
             },
             "core/list": {
                 "spacing": {
@@ -351,8 +349,7 @@
                 },
                 "typography": {
                     "wordSpacing": "-1px"
-                },
-                "css":"text-shadow: 0 1px 10px rgba(0,0,0,.5);"
+                }
             },
             "core/post-title": {
                 "spacing": {

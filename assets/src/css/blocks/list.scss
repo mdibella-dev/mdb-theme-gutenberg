@@ -26,3 +26,8 @@ ol > li,
 ul > li {
     padding-left: .5rem;
 }
+
+
+ul > li::marker {
+    color: var(--wp--preset--color--white);
+}

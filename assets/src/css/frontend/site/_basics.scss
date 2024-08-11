@@ -58,13 +58,7 @@ body {
 
 b,
 strong {
-    font-weight: 600;
-}
-
-
-// Maybe converting in a block style?
-ul > li::marker {
-    color: var(--wp--preset--color--white);
+    font-weight: 700;
 }
 
 

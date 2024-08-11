@@ -123,11 +123,7 @@ body {
 
 b,
 strong {
-  font-weight: 600;
-}
-
-ul > li::marker {
-  color: var(--wp--preset--color--white);
+  font-weight: 700;
 }
 
 /**

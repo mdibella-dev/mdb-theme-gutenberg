@@ -19,4 +19,8 @@ ul > li {
   padding-left: 0.5rem;
 }
 
+ul > li::marker {
+  color: var(--wp--preset--color--white);
+}
+
 /*# sourceMappingURL=list.css.map */
