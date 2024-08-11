@@ -35,14 +35,14 @@
     }
 
     &::before {
-        background: linear-gradient( to bottom, transparent, var(--wp--preset--color--back-0) );
+        background: linear-gradient( to bottom, transparent, var(--wp--preset--color--base-0) );
         bottom: -1px;
         height: 30%;
         z-index: 5;
     }
 
     &::after {
-        background: linear-gradient(to top, transparent, var(--wp--preset--color--back-0));
+        background: linear-gradient(to top, transparent, var(--wp--preset--color--base-0));
         top: -1px;
         height: 5%;
         z-index: 4;

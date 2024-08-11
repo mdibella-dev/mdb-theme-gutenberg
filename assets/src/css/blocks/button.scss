@@ -26,7 +26,7 @@
 
 
 .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link .svg-symbol {
-    background-color: var(--wp--preset--color--denim);
+    background-color: var(--wp--preset--color--denim-0);
     transition: background-color .2s;
 
     .slideout-visible & {
@@ -40,6 +40,6 @@
     background-color: var(--wp--preset--color--white);
 
     .slideout-visible & {
-        background-color: var(--wp--preset--color--denim-dark)
+        background-color: var(--wp--preset--color--denim-1)
     }
 }

@@ -32,7 +32,7 @@ p.is-style-tag-archive-kicker {
   font-size: var(--wp--preset--font-size--medium);
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--wp--preset--color--denim);
+  color: var(--wp--preset--color--denim-0);
   margin-bottom: 0.3rem;
 }
 p.is-style-tag-archive-kicker + * {

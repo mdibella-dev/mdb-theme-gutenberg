@@ -16,7 +16,7 @@
   font-size: var(--wp--preset--font-size--medium);
   line-height: 1.4;
   letter-spacing: 1px;
-  color: var(--wp--preset--color--denim);
+  color: var(--wp--preset--color--denim-0);
 }
 .wp-block-navigation.is-style-pagenavigation .wp-block-navigation-item__content:hover {
   color: var(--wp--preset--color--white);

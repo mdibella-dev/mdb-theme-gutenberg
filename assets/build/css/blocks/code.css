@@ -25,7 +25,7 @@ pre[class*=language-]::selection,
 pre[class*=language-] ::selection,
 code[class*=language-]::selection,
 code[class*=language-] ::selection {
-  background: var(--wp--preset--color--denim) !important;
+  background: var(--wp--preset--color--denim-0) !important;
   color: var(--wp--preset--color--white) !important;
 }
 
