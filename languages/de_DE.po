@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2024-08-11 10:56+0200\n"
-"PO-Revision-Date: 2024-08-11 10:56+0200\n"
+"POT-Creation-Date: 2024-08-11 11:33+0200\n"
+"PO-Revision-Date: 2024-08-11 11:33+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -21,43 +21,47 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: patterns/slideout-navigation.php:27
+#: patterns/footer-navigation.php:12
+msgid "Imprint"
+msgstr "Impressum"
+
+#: patterns/slideout-navigation.php:26
 msgid "News"
 msgstr "News"
 
-#: patterns/slideout-navigation.php:31
+#: patterns/slideout-navigation.php:30
 msgid "Blog"
 msgstr "Blog"
 
-#: patterns/slideout-navigation.php:43
+#: patterns/slideout-navigation.php:42
 msgid "Work"
 msgstr "Work"
 
-#: patterns/slideout-navigation.php:47
+#: patterns/slideout-navigation.php:46
 msgid "Web &amp; Media"
 msgstr "Web &amp; Media"
 
-#: patterns/slideout-navigation.php:51
+#: patterns/slideout-navigation.php:50
 msgid "Publications"
 msgstr "Publikationen"
 
-#: patterns/slideout-navigation.php:55
+#: patterns/slideout-navigation.php:54
 msgid "Lectures"
 msgstr "Vorträge"
 
-#: patterns/slideout-navigation.php:68
+#: patterns/slideout-navigation.php:67
 msgid "Personal"
 msgstr "Personal"
 
-#: patterns/slideout-navigation.php:72
+#: patterns/slideout-navigation.php:71
 msgid "About Me"
 msgstr "Über mich"
 
-#: patterns/slideout-navigation.php:76
+#: patterns/slideout-navigation.php:75
 msgid "Contact"
 msgstr "Kontakt"
 
-#: patterns/tag-title.php:10
+#: patterns/tag-title.php:9
 msgid "Keyword"
 msgstr "Schlagwort"
 
