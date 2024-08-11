@@ -78,101 +78,84 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
 
 function theme_scripts() {
 
-    /**
-     * Registers and loads the theme's own scripts.
-     */
-
-    $scripts = [
-        'anime' => [
-            'path'    => 'assets/build/vendors/anime/anime.min.js',
-            'deps'    => [],
-            'version' => false,
-            'args'    => [
-                'in_footer' => true,
-                'strategy'  => 'async'
+    $files = [
+        'scripts' => [
+            'anime' => [
+                'path'    => 'assets/build/vendors/anime/anime.min.js',
+                'deps'    => [],
+                'version' => false,
+                'args'    => [
+                    'in_footer' => true,
+                    'strategy'  => 'async'
+                ]
+            ],
+            'mdb-frontend-script' => [
+                'path'    => 'assets/build/js/frontend.min.js',
+                'deps'    => [
+                    'anime'
+                ],
+                'version' => '',
+                'args'    => [
+                    'in_footer' => true,
+                    'strategy'  => 'async'
+                ]
             ]
         ],
-        'mdb-frontend-script' => [
-            'path'    => 'assets/src/js/frontend.js', //'assets/build/js/frontend.min.js'
-            'deps'    => [
-                'anime'
-            ],
-            'version' => '',
-            'args'    => [
-                'in_footer' => true,
-                'strategy'  => 'async'
+        'styles' => [
+            'mdb-frontend-style' => [
+                'path'    => 'assets/build/css/frontend.css',
+                'deps'    => [],
+                'version' => ''
             ]
         ]
     ];
 
-    // Register (and enqueue) all scripts in the given order
-    foreach ( $scripts as $handle => $setup ) {
 
-        if ( file_exists( THEME_DIR . $setup['path'] ) ) {
+    foreach ( $files as $category => $file ) {
 
-            $version = '';
+        // Register (and enqueue) all scripts/styles in the given order
+        foreach ( $file as $handle => $setup ) {
 
-            if ( is_string( $setup['version'] ) ) {
-                $version = ( empty( $setup['version'] ) )? THEME_VERSION . '.' . filemtime( THEME_DIR . $setup['path'] ) : $setup['version'];
-            }  else if ( is_bool( $setup['version'] ) and ( false === $setup['version'] ) ) {
-                $version = false;
-            } else {
-                $version = null;
+            if ( file_exists( THEME_DIR . $setup['path'] ) ) {
+
+                $version = '';
+
+                if ( is_string( $setup['version'] ) ) {
+                    $version = ( empty( $setup['version'] ) )? THEME_VERSION . '.' . filemtime( THEME_DIR . $setup['path'] ) : $setup['version'];
+                }  else if ( is_bool( $setup['version'] ) and ( false === $setup['version'] ) ) {
+                    $version = false;
+                } else {
+                    $version = null;
+                }
+
+                if ( 'scripts' === $category ) {
+
+                    wp_register_script(
+                        $handle,
+                        THEME_URI . $setup['path'],
+                        $setup['deps'],
+                        $version,
+                        $setup['args'],
+                    );
+
+                    wp_enqueue_script( $handle );
+
+                } else if ( 'styles' === $category ) {
+
+                    wp_register_style(
+                        $handle,
+                        THEME_URI . $setup['path'],
+                        $setup['deps'],
+                        $version
+                    );
+
+                    wp_enqueue_style( $handle );
+
+                } else {
+                    // do nothing
+                }
             }
 
-            wp_register_script(
-                $handle,
-                THEME_URI . $setup['path'],
-                $setup['deps'],
-                $version,
-                $setup['args'],
-            );
-
-            wp_enqueue_script( $handle );
-        }
-
-    }
-
-
-    /**
-     * Registers and loads the theme's own styles.
-     *
-     * Note: The style.css in the main directory is only used for theme identification and versioning.
-     * Actually the (compressed) style information can be found in frontend(.min).css.
-     */
-
-    $styles = [
-        'mdb-frontend-style' => [
-            'path'    => 'assets/build/css/frontend.css',
-            'deps'    => [],
-            'version' => ''
-        ]
-    ];
-
-
-    // Register (and enqueue) all styles in the given order
-    foreach ( $styles as $handle => $setup ) {
-
-        if ( file_exists( THEME_DIR . $setup['path'] ) ) {
-
-            $version = '';
-
-            if ( is_string( $setup['version'] ) ) {
-                $version = ( empty( $setup['version'] ) )? THEME_VERSION . '.' . filemtime( THEME_DIR . $setup['path'] ) : $setup['version'];
-            }  else if ( is_bool( $setup['version'] ) and ( false === $setup['version'] ) ) {
-                $version = false;
-            } else {
-                $version = null;
-            }
-
-            wp_register_style(
-                $handle,
-                THEME_URI . $setup['path'],
-                $setup['deps'],
-                $version
-            );
-
-            wp_enqueue_style( $handle );
         }
 
     }
