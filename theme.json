@@ -35,27 +35,22 @@
                     "color": "#424553"
                 },
                 {
-                    "name": "denim-0 / 0",
+                    "name": "Denim / 0",
                     "slug": "denim-0",
                     "color": "hsl(202,82%,50%)"
                 },
                 {
-                    "name": "denim-0 / 1",
+                    "name": "Denim / 1",
                     "slug": "denim-1",
                     "color": "hsl(202,82%,22%)"
                 },
                 {
-                    "name": "contrast-0",
+                    "name": "Contrast / 0",
                     "slug": "contrast-0",
                     "color": "hsl(222,7%,53%)"
                 },
                 {
-                    "name": "Stone",
-                    "slug": "stone",
-                    "color": "hsl(222,7%,75%)"
-                },
-                {
-                    "name": "contrast-1",
+                    "name": "Contrast / 1",
                     "slug": "contrast-1",
                     "color": "hsl(222,0%,90%)"
                 },
