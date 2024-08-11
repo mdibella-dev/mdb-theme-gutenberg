@@ -62,14 +62,6 @@ strong {
 }
 
 
-p,
-ol,
-ul {
-    text-shadow: 0 1px 10px rgba(0,0,0,.5);
-    word-spacing: -1px;
-}
-
-
 // Maybe converting in a block style?
 ul > li::marker {
     color: var(--wp--preset--color--white);

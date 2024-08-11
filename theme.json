@@ -363,7 +363,8 @@
                         "top": "0",
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
-                }
+                },
+                "css":"text-shadow: 0 1px 10px rgba(0,0,0,.5);word-spacing: -1px;"
             },
             "core/list": {
                 "spacing": {
@@ -371,7 +372,8 @@
                         "top": "0",
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
-                }
+                },
+                "css":"text-shadow: 0 1px 10px rgba(0,0,0,.5);word-spacing: -1px;"
             },
             "core/post-title": {
                 "spacing": {
