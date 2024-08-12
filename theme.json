@@ -202,7 +202,7 @@
         },
         "custom": {
             "header": {
-                "height": "clamp(5rem, calc(5rem + ((1vw - 0.48rem) * 3.8462)), 7rem)"
+                "height": "5rem"
             },
             "base": {
                 "gap": "calc(1.5 * var(--wp--custom--base--font-size))",
@@ -277,7 +277,8 @@
                     "color": {
                         "text": "var(--wp--preset--color--white)"
                     }
-                }
+                },
+                "css":"transition: all 0.3s ease-in-out;"
             },
             "caption": {
                 "typography": {
