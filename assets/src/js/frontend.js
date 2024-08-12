@@ -8,68 +8,72 @@
 
 
 
+// --------------------- SLIDEOUT
+
+
+
 /**
- * Event handler: click on hamburger => show/hide slideout
+ * doSlideout()
+ *
+ * @param open_or_close true: open; false: close
  */
 
-const hamburger = document.querySelector( '.is-navbar-hamburger' );
+function doSlideout( open_or_close ) {
+    const body = document.querySelector( 'body' );
 
-if ( hamburger != null ) {
-    hamburger.addEventListener( 'click', function( e ) {
+    if ( open_or_close == false ) {
+        anime( {
+            easing: 'easeInOutExpo',
+            duration: 400,
+            targets: '.site-component-slideout',
+            right: '-100%'
+        } );
 
-        const body           = document.querySelector( 'body' );
-        const hamburger_icon = document.querySelector( '.is-navbar-hamburger span' );
+        body.classList.remove( 'slideout-visible' );
+    } else if ( open_or_close == true ) {
 
-        // Show slideout
-        if ( ! body.classList.contains( 'slideout-visible' ) ) {
+        anime( {
+            easing: 'easeInOutExpo',
+            duration: 400,
+            targets: '.site-component-slideout',
+            right: '0%'
+        } );
 
-            let timeline = anime.timeline( {
-                easing: 'easeInOutExpo',
-                duration: 400
-            } );
+        body.classList.add( 'slideout-visible' );
+    }
 
-            timeline
-            .add( {
-                targets: '.wp-block-site-title',
-                opacity: 0
-            } )
-            .add( {
-                targets: '.site-component-slideout',
-                left: '0'
-            }, 100 );
-
-        // Hide slideout
-        } else {
-
-            let timeline = anime.timeline( {
-                easing: 'easeInOutExpo',
-                duration: 400
-            } );
-
-            timeline
-            .add( {
-                targets: '.site-component-slideout',
-                left: '-100%'
-            } )
-            .add( {
-                targets: '.wp-block-site-title',
-                opacity: 1
-            }, 100 );
-
-        }
-
-        hamburger_icon.classList.toggle( 'svg-symbol-hamburger' );
-        hamburger_icon.classList.toggle( 'svg-symbol-hamburger-cross' );
-        body.classList.toggle( 'slideout-visible' );
-
-    } );
-
+    const hamburger_icon = document.querySelector( '.is-navbar-hamburger span' );
+    hamburger_icon.classList.toggle( 'svg-symbol-hamburger' );
+    hamburger_icon.classList.toggle( 'svg-symbol-hamburger-cross' );
 }
 
 
+/**
+ * Event handler:
+ * - on resize: close the slideout
+ * - on click on trigger: open/close the slideout (depends on current state)
+ */
+
+// on resize
+window.addEventListener( 'resize', (event) => { doSlideout( false ); } );
+
+
+// on click on trigger
+document.querySelector( '.slideout-trigger' ).addEventListener( 'click', (event) => {
+    const body = document.querySelector( 'body' );
+
+    doSlideout( ! body.classList.contains( 'slideout-visible' ) );
+} );
+
+
+
+// --------------------- PAGENAVIGATION
+
+
 
 /**
- * Event handler: click on pagenavigation link => smooth scroll to anchor
+ * Event handler:
+ * - by clicking on the link => do smooth scroll to anchor
  */
 
 const pagenav_links = document.querySelectorAll( '.is-style-pagenavigation a.wp-block-navigation-item__content' );

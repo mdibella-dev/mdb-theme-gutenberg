@@ -13,7 +13,7 @@
   color: var(--wp--preset--color--denim-0);
 }
 .wp-block-site-title a {
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-weight: 200;
 }
 
