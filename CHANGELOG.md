@@ -6,9 +6,13 @@ _New / Improve / Bugfix_
 ### Latest changes to the main branch
 
 - New: Backport script and style registering and enqueuing procedure from ARTlyris project
+- New: Conventional desktop navigation
 - Improve: Rename scripts and styles
 - Improve: Convert slideout part into pattern, allows translation
 - Improve: Update development scripts
+- Improve: Make slideout mobile only
+- Improve: Move hamburger icon to the right side; change slideout direction
+- Improve: Move a lot of stylesheet settings to the theme.json
 
 
 <br>
