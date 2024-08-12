@@ -396,14 +396,10 @@ body.logged-in.admin-bar .site-component-slideout {
   height: inherit;
 }
 
-/**
- * Site component: navbar (navigation bar at the top side respectively)
- *
- * @author  Marco Di Bella
- * @package mdb-theme-fse
- */
 .primary-mobile-navigation {
   display: flex;
+  position: relative;
+  z-index: 3000;
 }
 @media screen and (min-width: 960px) {
   .primary-mobile-navigation {

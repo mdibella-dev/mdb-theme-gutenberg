@@ -7,7 +7,6 @@
 
 
 
-
 .site-component-header {
     width: 100%;
     height: var(--wp--custom--header--height);
@@ -22,5 +21,25 @@
     & > .wp-block-group,
     & > .wp-block-group > .wp-block-group {
         height: inherit;
+    }
+}
+
+
+.primary-mobile-navigation {
+    display: flex;
+    position: relative;
+    z-index: 3000;
+
+    @include on_breakpoint(large) {
+        display: none !important;
+    }
+}
+
+
+.primary-desktop-navigation {
+    display: none;
+
+    @include on_breakpoint(large) {
+        display: flex !important;
     }
 }
