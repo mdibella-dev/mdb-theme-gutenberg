@@ -12,8 +12,15 @@
     width: 100%;
     height: var(--wp--custom--header--height);
 
+
     // Block editor setting
     .block-editor-iframe__body & {
         display: block;
+    }
+
+
+    & > .wp-block-group,
+    & > .wp-block-group > .wp-block-group {
+        height: inherit;
     }
 }

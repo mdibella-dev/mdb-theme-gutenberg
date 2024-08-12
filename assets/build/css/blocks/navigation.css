@@ -6,20 +6,40 @@
  * @package mdb-theme-fse
  */
 /**
- * .is-style-pagenavigation
+ * default
  */
-.wp-block-navigation.is-style-pagenavigation {
+.wp-block-navigation .wp-block-navigation__container {
+  gap: 1.75rem;
+}
+.wp-block-navigation .wp-block-navigation-item {
+  color: var(--wp--preset--color--denim-0);
+}
+.wp-block-navigation .wp-block-navigation-item__content {
+  font-family: var(--wp--preset--font-family--primary);
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  hyphens: none;
+}
+.wp-block-navigation .wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--white);
+}
+
+/**
+ * .is-style-pagenavigation
+ *
+ * Note:
+ */
+.wp-block-navigation.is-style-pagenavigation .wp-block-navigation__container {
   gap: 1rem 2rem;
 }
 .wp-block-navigation.is-style-pagenavigation .wp-block-navigation-item__content {
-  font-family: var(--wp--preset--font-family--primary);
   font-size: var(--wp--preset--font-size--medium);
+  font-weight: unset;
   line-height: 1.4;
+  text-transform: none;
   letter-spacing: 1px;
-  color: var(--wp--preset--color--denim-0);
-}
-.wp-block-navigation.is-style-pagenavigation .wp-block-navigation-item__content:hover {
-  color: var(--wp--preset--color--white);
 }
 
 /*# sourceMappingURL=navigation.css.map */

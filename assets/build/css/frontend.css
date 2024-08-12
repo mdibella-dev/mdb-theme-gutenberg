@@ -132,11 +132,6 @@ strong {
  * These basic elements are partly designed via settings contained in the theme.json file.
  * Settings that exceed the current capabilities of theme.json (as of June 2023) and/or are necessary for reasons of compatibility can be found at this point.
  */
-/** theme.json element: link */
-a {
-  transition: all 0.2s;
-}
-
 /** theme.json element: button */
 .wp-element-button,
 .wp-block-button__link {
@@ -397,6 +392,9 @@ body.logged-in.admin-bar .site-component-slideout {
 .block-editor-iframe__body .site-component-header {
   display: block;
 }
+.site-component-header > .wp-block-group, .site-component-header > .wp-block-group > .wp-block-group {
+  height: inherit;
+}
 
 /**
  * Site component: navbar (navigation bar at the top side respectively)
@@ -404,45 +402,22 @@ body.logged-in.admin-bar .site-component-slideout {
  * @author  Marco Di Bella
  * @package mdb-theme-fse
  */
-.site-component-navbar {
-  position: relative;
-  z-index: 3000;
-  height: 100%;
-  width: auto;
-  margin: 0 auto;
-}
-
-.navbar-content-wrapper {
+.primary-mobile-navigation {
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  height: 100%;
-  padding: 1rem;
-  background: transparent;
+}
+@media screen and (min-width: 960px) {
+  .primary-mobile-navigation {
+    display: none !important;
+  }
 }
 
-.navbar-content {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
+.primary-desktop-navigation {
+  display: none;
 }
-
-.navbar-content-first {
-  order: 1;
-  flex-grow: 0;
-  justify-content: flex-start;
-}
-
-.navbar-content-second {
-  order: 2;
-  flex-grow: 2;
-}
-
-.navbar-content-third {
-  order: 3;
-  flex-grow: 0;
-  justify-content: flex-end;
+@media screen and (min-width: 960px) {
+  .primary-desktop-navigation {
+    display: flex !important;
+  }
 }
 
 /**

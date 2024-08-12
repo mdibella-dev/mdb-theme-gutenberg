@@ -7,51 +7,21 @@
 
 
 
-.site-component-navbar {
-    position: relative;
-    z-index: 3000;
-    height: 100%;
-    width: auto;
-    margin: 0 auto;
-}
 
 
-.navbar-content-wrapper {
+.primary-mobile-navigation {
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    height: 100%;
-    padding: 1rem;
-    background: transparent;
+
+    @include on_breakpoint(large) {
+        display: none !important;
+    }
 }
 
 
-.navbar-content {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
+.primary-desktop-navigation {
+    display: none;
 
-
-// left
-.navbar-content-first {
-    order: 1;
-    flex-grow: 0;
-    justify-content: flex-start;
-}
-
-
-// middle
-.navbar-content-second {
-    order: 2;
-    flex-grow: 2;
-}
-
-
-// right
-.navbar-content-third {
-    order: 3;
-    flex-grow: 0;
-    justify-content: flex-end;
+    @include on_breakpoint(large) {
+        display: flex !important;
+    }
 }
