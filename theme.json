@@ -112,6 +112,7 @@
         },
         "useRootPaddingAwareAlignments": true,
         "typography": {
+            "fluid": true,
             "fontFamilies": [
                 {
                     "fontFace": [
@@ -149,55 +150,52 @@
             "fontSizes": [
                 {
                     "size": "0.875rem",
-                    "fluid": {
-                        "min": "0.75rem",
-                        "max": "0.875rem"
-                    },
                     "slug": "small",
-                    "name": "Small"
+                    "name": "S",
+                    "fluid": false
                 },
                 {
                     "size": "1.125rem",
-                    "fluid": {
-                        "min": "0.875rem",
-                        "max": "1.125rem"
-                    },
                     "slug": "medium",
-                    "name": "Medium"
+                    "name": "M",
+                    "fluid": false
                 },
                 {
                     "size": "1.375rem",
-                    "fluid": {
-                        "min": "1.375rem",
-                        "max": "1.625rem"
-                    },
                     "slug": "large",
-                    "name": "Large"
+                    "name": "L",
+                    "fluid": false
                 },
                 {
                     "size": "2rem",
-                    "fluid": {
-                        "min": "2rem",
-                        "max": "2.625rem"
-                    },
                     "slug": "x-large",
-                    "name": "X-large"
+                    "name": "XL",
+                    "fluid": false
                 },
                 {
-                    "size": "3rem",
+                    "size": "2.5rem",
+                    "slug": "xx-large",
+                    "name": "2XL",
+                    "fluid": {
+                        "min": "2.5rem",
+                        "max": "4rem"
+                    }
+                },
+                {
+                    "size": "3.5rem",
+                    "slug": "xxx-large",
+                    "name": "3XL",
                     "fluid": {
                         "min": "3rem",
-                        "max": "4rem"
-                    },
-                    "slug": "xx-large",
-                    "name": "2X-Large"
+                        "max": "4.5rem"
+                    }
                 }
             ],
             "fontWeight": true,
-            "fontStyle": false,
-            "letterSpacing": false,
+            "fontStyle": true,
+            "letterSpacing": true,
+            "textTransform": true,
             "textDecoration": false,
-            "textTransform": false,
             "dropCap": false
         },
         "custom": {
@@ -231,9 +229,9 @@
         "spacing": {
             "padding": {
                 "top": "0",
-                "right": "1rem",
+                "right": "2rem",
                 "bottom": "0",
-                "left": "1rem"
+                "left": "2rem"
             }
         },
         "color": {

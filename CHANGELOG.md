@@ -7,6 +7,8 @@ _New / Improve / Bugfix_
 
 - New: Backport script and style registering and enqueuing procedure from ARTlyris project
 - New: Conventional desktop navigation
+- Improve: Modify the font sizes
+- Improve: Increase the left and right minimum spacing
 - Improve: Rename scripts and styles
 - Improve: Convert slideout part into pattern, allows translation
 - Improve: Update development scripts
