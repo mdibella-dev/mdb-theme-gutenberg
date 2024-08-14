@@ -55,7 +55,13 @@ function doSlideout( open_or_close ) {
  */
 
 // on resize
-window.addEventListener( 'resize', (event) => { doSlideout( false ); } );
+window.addEventListener( 'resize', (event) => { 
+    const body = document.querySelector( 'body' );
+
+    if ( body.classList.contains( 'slideout-visible' ) ) {
+        doSlideout( false );
+    }
+} );
 
 
 // on click on trigger
