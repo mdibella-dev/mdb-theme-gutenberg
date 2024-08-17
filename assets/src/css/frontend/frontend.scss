@@ -45,3 +45,36 @@
 /** Plugins */
 
 @import "plugins/_index";
+
+
+
+
+.masonry {
+    --column-count: 1;
+    --column-gap: 3rem;
+
+    column-count: var(--column-count);
+    gap: var(--column-gap);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 2080px;
+    overflow: hidden;
+    width: 100%;
+
+
+    @include on_breakpoint(medium) {
+        --column-count: 2;
+    }
+
+
+    @include on_breakpoint(large) {
+        --column-count: 3;
+    }
+
+
+    & > .wp-block-image {
+        width: calc( ( 100% - var(--column-gap) * ( ( var(--column-count) - 1 ) ) ) / var(--column-count) );
+        margin: 0 !important;
+    }
+}
