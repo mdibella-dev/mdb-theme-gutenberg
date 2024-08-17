@@ -167,24 +167,18 @@
                     "fluid": false
                 },
                 {
-                    "size": "2rem",
+                    "size": "1.875rem",
                     "slug": "x-large",
                     "name": "XL",
-                    "fluid": false
-                },
-                {
-                    "size": "2.5rem",
-                    "slug": "xx-large",
-                    "name": "2XL",
                     "fluid": {
-                        "min": "2.5rem",
-                        "max": "4rem"
+                        "min": "1.875rem",
+                        "max": "2.25rem"
                     }
                 },
                 {
-                    "size": "3.5rem",
-                    "slug": "xxx-large",
-                    "name": "3XL",
+                    "size": "3rem",
+                    "slug": "xx-large",
+                    "name": "2XL",
                     "fluid": {
                         "min": "3rem",
                         "max": "4.5rem"
