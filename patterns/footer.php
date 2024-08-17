@@ -8,12 +8,12 @@
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80"},"padding":{"bottom":"var:preset|spacing|40"}}},"className":"site-component-footer has-global-padding is-layout-constrained"} -->
 <div class="wp-block-group site-component-footer has-global-padding is-layout-constrained" style="margin-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--40)">
 
-    <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center"><a href="/impressum"><?php echo __( 'Imprint', 'mdb-theme-fse' ); ?></a></p>
+    <!-- wp:paragraph {"align":"center","fontSize":"standard"} -->
+    <p class="has-text-align-center has-standard-font-size"" style="font-size:1rem"><a href="/impressum"><?php echo __( 'Imprint', 'mdb-theme-fse' ); ?></a></p>
     <!-- /wp:paragraph -->
 
-    <!-- wp:buttons {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-    <div class="wp-block-buttons">
+    <!-- wp:buttons {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"style":{"spacing":{"margin":{"bottom":"3rem"}},"blockGap":"1.75rem"}} -->
+    <div class="wp-block-buttons" style="margin-bottom:3rem;gap:1.75rem">
         <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
         <div class="wp-block-button is-style-navigation-faux-anchor"><a class="wp-block-button__link wp-element-button" href="mailto:kontakt@marcodibella.de"><span class="svg-symbol svg-symbol-mail"></span></a></div>
         <!-- /wp:button -->
@@ -37,8 +37,8 @@
     </div>
     <!-- /wp:buttons -->
 
-    <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Created with passion and love with <a href="https://wordpress.org/" target="_blank" rel="noreferrer noopener">WordPress</a> on an <a href="https://www.apple.com/" target="_blank" rel="noreferrer noopener">Apple Computer</a>.</p>
+    <!-- wp:paragraph {"align":"center","fontSize":"small","style":{"spacing":{"margin":{"bottom":"0"}}} -->
+    <p class="has-text-align-center has-small-font-size" style="margin-bottom:0">Created with passion and love with <a href="https://wordpress.org/" target="_blank" rel="noreferrer noopener">WordPress</a> on an <a href="https://www.apple.com/" target="_blank" rel="noreferrer noopener">Apple Computer</a>.</p>
     <!-- /wp:paragraph -->
 
 </div>
