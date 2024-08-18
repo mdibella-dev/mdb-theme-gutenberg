@@ -840,14 +840,14 @@ pre.wp-block-code {
 
 .masonry {
   --column-count: 1;
-  --column-gap: 3rem;
+  --column-gap: 48px;
   column-count: var(--column-count);
   gap: var(--column-gap);
   display: flex;
   flex-flow: column wrap;
   overflow: hidden;
   width: 100%;
-  height: 1480px;
+  height: auto;
 }
 @media screen and (min-width: 782px) {
   .masonry {
