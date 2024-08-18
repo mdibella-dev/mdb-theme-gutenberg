@@ -99,6 +99,15 @@ function theme_scripts() {
                     'in_footer' => true,
                     'strategy'  => 'async'
                 ]
+            ],
+            'mdb-masonry-script' => [
+                'path'    => 'assets/build/js/masonry.min.js',
+                'deps'    => [],
+                'version' => '',
+                'args'    => [
+                    'in_footer' => true,
+                    'strategy'  => 'async'
+                ]
             ]
         ],
         'styles' => [
