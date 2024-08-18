@@ -11,6 +11,7 @@
 .site-component-footer {
     background: url("../../images/footer-gradient.png");
     background-repeat: repeat-x;
+    margin-top: 0 !important;
 
     // Block editor setting
     .block-editor-iframe__body & {

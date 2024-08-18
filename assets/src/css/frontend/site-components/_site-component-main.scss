@@ -9,7 +9,8 @@
 
 
 .site-component-main {
-    
+    margin-top: 0 !important;
+
     // Block editor setting
     .block-editor-iframe__body & {
         display: block;

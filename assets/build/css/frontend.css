@@ -363,6 +363,9 @@ body.logged-in.admin-bar .site-component-slideout {
  * @author  Marco Di Bella
  * @package mdb-theme-fse
  */
+.site-component-main {
+  margin-top: 0 !important;
+}
 .block-editor-iframe__body .site-component-main {
   display: block;
 }
@@ -520,6 +523,7 @@ body.logged-in.admin-bar .site-component-slideout {
 .site-component-footer {
   background: url("../../images/footer-gradient.png");
   background-repeat: repeat-x;
+  margin-top: 0 !important;
 }
 .block-editor-iframe__body .site-component-footer {
   display: block;
