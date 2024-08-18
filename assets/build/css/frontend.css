@@ -388,6 +388,7 @@ body.logged-in.admin-bar .site-component-slideout {
 .site-component-header {
   width: 100%;
   height: var(--wp--custom--header--height);
+  margin-top: 0 !important;
 }
 .block-editor-iframe__body .site-component-header {
   display: block;
