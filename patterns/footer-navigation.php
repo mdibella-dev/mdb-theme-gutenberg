@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Tag title
+ * Title: Footer Navigation
  * Slug: mdb-theme-fse/footer-navigation
  */
 ?>
@@ -12,8 +12,8 @@
     <p class="has-text-align-center has-standard-font-size"" style="font-size:1rem"><a href="/impressum"><?php echo __( 'Imprint', 'mdb-theme-fse' ); ?></a></p>
     <!-- /wp:paragraph -->
 
-    <!-- wp:buttons {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"style":{"spacing":{"margin":{"bottom":"3rem"}},"blockGap":"1.75rem"}} -->
-    <div class="wp-block-buttons" style="margin-bottom:3rem;gap:1.75rem">
+    <!-- wp:buttons {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"style":{"spacing":{"margin":{"bottom":"3rem"},"blockGap":"1.75rem"}}} -->
+    <div class="wp-block-buttons" style="margin-bottom:3rem">
         <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
         <div class="wp-block-button is-style-navigation-faux-anchor"><a class="wp-block-button__link wp-element-button" href="mailto:kontakt@marcodibella.de"><span class="svg-symbol svg-symbol-mail"></span></a></div>
         <!-- /wp:button -->
