@@ -56,11 +56,10 @@
     column-count: var(--column-count);
     gap: var(--column-gap);
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 2080px;
+    flex-flow: column wrap;
     overflow: hidden;
     width: 100%;
+    height: 1480px; // !!!
 
 
     @include on_breakpoint(medium) {
