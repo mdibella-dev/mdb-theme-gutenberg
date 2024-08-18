@@ -41,7 +41,9 @@ function register_block_styles() {
     wp_enqueue_script(
         'mdb-masonry-script',
         THEME_URI . 'assets/build/js/masonry.min.js',
-        [],
+        [
+            'wp-dom-ready'
+        ],
         THEME_VERSION,
         true
     );
