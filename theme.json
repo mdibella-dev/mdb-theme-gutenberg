@@ -74,6 +74,7 @@
         "spacing": {
             "margin": true,
             "padding": true,
+            "blockGap": true,
             "spacingScale": {
                 "steps": 0
             },
@@ -350,6 +351,11 @@
                         "top": "var(--wp--preset--spacing--40)",
                         "bottom": "var(--wp--preset--spacing--70)"
                     }
+                }
+            },
+            "core/buttons": {
+                "spacing": {
+                    "blockGap": true
                 }
             }
         }
