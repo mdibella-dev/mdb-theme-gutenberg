@@ -6,8 +6,8 @@ _New / Improve / Bugfix_
 ### Latest changes to the main branch
 
 - New: Backport script and style registering and enqueuing procedure from ARTlyris project
-- New: Conventional desktop navigation
-- New: Blockgap support
+- New: Add conventional desktop navigation
+- New: Add blockgap support
 - Improve: Modify the font sizes
 - Improve: Increase the left and right minimum spacing
 - Improve: Rename scripts and styles
