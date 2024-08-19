@@ -336,8 +336,10 @@
             "core/post-title": {
                 "spacing": {
                     "margin": {
-                        "top": "var(--wp--preset--spacing--50)",
                         "bottom": "var(--wp--preset--spacing--70)"
+                    },
+                    "padding": {
+                        "top": "var(--wp--preset--spacing--50)"
                     }
                 }
             },
