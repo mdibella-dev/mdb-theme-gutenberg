@@ -5,8 +5,8 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80"},"padding":{"bottom":"var:preset|spacing|40"}}},"className":"site-component-footer has-global-padding is-layout-constrained"} -->
-<div class="wp-block-group site-component-footer has-global-padding is-layout-constrained" style="margin-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--40)">
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70"},"padding":{"bottom":"var:preset|spacing|40"}}},"className":"site-component-footer has-global-padding is-layout-constrained"} -->
+<div class="wp-block-group site-component-footer has-global-padding is-layout-constrained" style="margin-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--40)">
 
     <!-- wp:paragraph {"align":"center","fontSize":"standard"} -->
     <p class="has-text-align-center has-standard-font-size"" style="font-size:1rem"><a href="/impressum"><?php echo __( 'Imprint', 'mdb-theme-fse' ); ?></a></p>

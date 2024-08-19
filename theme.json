@@ -74,7 +74,6 @@
         "spacing": {
             "margin": true,
             "padding": true,
-            "blockGap": true,
             "spacingScale": {
                 "steps": 0
             },
@@ -348,7 +347,7 @@
             "core/post-title": {
                 "spacing": {
                     "margin": {
-                        "top": "var(--wp--preset--spacing--40)",
+                        "top": "var(--wp--preset--spacing--50)",
                         "bottom": "var(--wp--preset--spacing--70)"
                     }
                 }
