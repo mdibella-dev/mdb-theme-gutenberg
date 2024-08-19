@@ -324,23 +324,11 @@
         },
         "blocks": {
             "core/paragraph": {
-                "spacing": {
-                    "margin": {
-                        "top": "0",
-                        "bottom": "var(--wp--preset--spacing--30)"
-                    }
-                },
                 "typography": {
                     "wordSpacing": "-1px"
                 }
             },
             "core/list": {
-                "spacing": {
-                    "margin": {
-                        "top": "0",
-                        "bottom": "var(--wp--preset--spacing--30)"
-                    }
-                },
                 "typography": {
                     "wordSpacing": "-1px"
                 }
