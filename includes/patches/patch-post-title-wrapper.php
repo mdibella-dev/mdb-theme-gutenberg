@@ -15,6 +15,7 @@ defined( 'ABSPATH' ) or exit;
 
 /**
  * Removes the (additional) post-title-wrapper.
+ * Reduces the padding bottom of the styles wrapper. 
  *
  * @since 1.0.0
  *
@@ -27,7 +28,8 @@ defined( 'ABSPATH' ) or exit;
 
 function block_editor_settings_all( $editor_settings ) {
     $editor_settings['styles'][] = [
-        'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; }'
+        'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; }' .
+                 '.editor-styles-wrapper { padding-bottom: 5vh !important }'
     ];
 
     return $editor_settings;
