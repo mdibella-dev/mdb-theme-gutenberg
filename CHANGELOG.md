@@ -8,6 +8,7 @@ _New / Improve / Bugfix_
 - New: Backport script and style registering and enqueuing procedure from ARTlyris project
 - New: Add conventional desktop navigation
 - New: Add blockgap support
+- New: Add masonry gallery support (testwise)
 - Improve: Modify the font sizes
 - Improve: Increase the left and right minimum spacing
 - Improve: Rename scripts and styles
@@ -16,6 +17,8 @@ _New / Improve / Bugfix_
 - Improve: Make slideout mobile only
 - Improve: Move hamburger icon to the right side; change slideout direction
 - Improve: Move a lot of stylesheet settings to the theme.json
+- Improve: Mark .is-style-showcase as deprecated
+- Fix: Reduce the large extra padding in block editor styles wrapper
 
 
 <br>
