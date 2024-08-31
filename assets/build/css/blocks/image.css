@@ -43,7 +43,7 @@
   transform: scale(1);
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.35);
   border-radius: var(--wp--custom--base--border-radius);
-  background-color: var(--wp--preset--color--base-2);
+  background-color: var(--wp--preset--color--base-3);
 }
 .wp-block-image.is-style-shaded a:focus img,
 .wp-block-image.is-style-shaded a:hover img {
