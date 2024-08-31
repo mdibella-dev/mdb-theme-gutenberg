@@ -1,0 +1,36 @@
+/**
+ * Block: core/table
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+@import "../mixins/responsive";
+
+
+
+/**
+ * .is-style-portfolio
+ */
+
+
+.wp-block-table.is-style-portfolio {
+    td,
+    th {
+        border: unset;
+        padding: 0;
+        padding-bottom: .5em;
+        vertical-align: top;
+        width: auto;
+
+        &:first-child {
+            padding-right: 1.5em;
+            width: 50px;
+
+            @include on_breakpoint(large) {
+                max-width: 80px;
+            }
+        }
+    }
+}
