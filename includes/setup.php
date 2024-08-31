@@ -44,7 +44,6 @@ function theme_setup() {
         'button',
         'code',
         'columns',
-        'cover',
         'embed',
         'heading',
         'image',
@@ -54,7 +53,8 @@ function theme_setup() {
         'paragraph',
         'post-title',
         'separator',
-        'site-title'
+        'site-title',
+        'table'
     ];
 
     foreach ( $styled_blocks as $block_name ) {
