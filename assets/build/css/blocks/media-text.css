@@ -43,6 +43,7 @@
   position: relative;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   transform: scale(1);
+  background-color: var(--wp--preset--color--base-2);
 }
 .wp-block-media-text.is-style-shaded .wp-block-media-text__media a:focus img,
 .wp-block-media-text.is-style-shaded .wp-block-media-text__media a:hover img {
