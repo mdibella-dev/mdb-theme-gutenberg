@@ -8,9 +8,9 @@ _New / Improve / Bugfix_
 - New: Backport script and style registering and enqueuing procedure from ARTlyris project
 - New: Add conventional desktop navigation
 - New: Add blockgap support
-- New: Add masonry gallery support (testwise)
 - New: Add pattern "related-posts"
 - New: Add template "portfolio"
+- New: Add template "page-no-title"
 - Improve: Update theme.json to v3 (minimum requirement: WP 6.6)
 - Improve: Modify the font sizes
 - Improve: Increase the left and right minimum spacing

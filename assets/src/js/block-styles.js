@@ -16,11 +16,6 @@ wp.domReady( () => {
                 name: 'shaded',
                 label: 'Schattiert',
                 isDefault: false,
-            },
-            {
-                name: 'masonry',
-                label: 'Masonry',
-                isDefault: false,
             }
         ]
     );

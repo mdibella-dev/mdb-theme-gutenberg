@@ -838,30 +838,4 @@ pre.wp-block-code {
   background: #202020 !important;
 }
 
-.masonry {
-  --column-count: 1;
-  --column-gap: 60px;
-  column-count: var(--column-count);
-  gap: var(--column-gap);
-  display: flex;
-  flex-flow: column wrap;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-}
-@media screen and (min-width: 782px) {
-  .masonry {
-    --column-count: 2;
-  }
-}
-@media screen and (min-width: 960px) {
-  .masonry {
-    --column-count: 3;
-  }
-}
-.masonry > .wp-block-image {
-  width: calc((100% - var(--column-gap) * (var(--column-count) - 1)) / var(--column-count));
-  margin: 0 !important;
-}
-
 /*# sourceMappingURL=frontend.css.map */
