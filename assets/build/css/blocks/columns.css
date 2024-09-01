@@ -5,7 +5,7 @@
  * @package mdb-theme-fse
  */
 /**
- * .is-style-showcase (deprecated)
+ * .is-style-showcase
  */
 .wp-block-columns.is-style-showcase {
   --colgap: 2rem;
