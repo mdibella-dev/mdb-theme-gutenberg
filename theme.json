@@ -364,6 +364,20 @@
             "postTypes": [
                 "publication"
             ]
+        },
+        {
+            "name": "portfolio",
+            "title": "Portfolio",
+            "postTypes": [
+                "portfolio"
+            ]
+        },
+        {
+            "name": "page-no-title",
+            "title": "Page No Title",
+            "postTypes": [
+                "page"
+            ]
         }
     ]
 }
