@@ -9,6 +9,8 @@ _New / Improve / Bugfix_
 - New: Add conventional desktop navigation
 - New: Add blockgap support
 - New: Add masonry gallery support (testwise)
+- New: Add pattern "related-posts" 
+- New: Add template "portfolio"
 - Improve: Update theme.json to v3 (minimum requirement: WP 6.6)
 - Improve: Modify the font sizes
 - Improve: Increase the left and right minimum spacing
