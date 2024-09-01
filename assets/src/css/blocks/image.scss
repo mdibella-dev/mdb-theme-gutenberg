@@ -41,18 +41,6 @@
 
 
 .wp-block-image.is-style-shaded {
-    // spacing
-    margin-top: var(--wp--preset--spacing--50);
-    margin-bottom: var(--wp--preset--spacing--50);
-
-    &:first-child {
-        margin-top: 0;
-    }
-
-    &:last-child {
-        margin-bottom: 0;
-    }
-
     img {
         padding: 0;
         position: relative;

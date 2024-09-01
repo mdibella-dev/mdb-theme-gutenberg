@@ -79,7 +79,7 @@
             "spacingScale": {
                 "steps": 0
             },
-            "defaultSpacingSizes": false,            
+            "defaultSpacingSizes": false,
             "spacingSizes": [
                 {
                     "size": "clamp(1.5rem, 5vw, 2rem)",
@@ -224,11 +224,6 @@
                 "border": {
                     "radius": false
                 }
-            },
-            "core/image": {
-                "spacing": {
-                    "margin": true
-                }
             }
         }
     },
@@ -352,11 +347,11 @@
                     "wordSpacing": "-1px"
                 }
             },
-            "core/post-title": {
+            "core/image": {
                 "spacing": {
                     "margin": {
                         "top": "var(--wp--preset--spacing--50)",
-                        "bottom": "var(--wp--preset--spacing--80)"
+                        "bottom": "var(--wp--preset--spacing--50)"
                     }
                 }
             }

@@ -26,16 +26,6 @@
   margin-top: 1.3rem;
 }
 
-.wp-block-image.is-style-shaded {
-  margin-top: var(--wp--preset--spacing--50);
-  margin-bottom: var(--wp--preset--spacing--50);
-}
-.wp-block-image.is-style-shaded:first-child {
-  margin-top: 0;
-}
-.wp-block-image.is-style-shaded:last-child {
-  margin-bottom: 0;
-}
 .wp-block-image.is-style-shaded img {
   padding: 0;
   position: relative;
