@@ -634,10 +634,6 @@ body.logged-in.admin-bar .site-component-slideout {
  * @package mdb-theme-fse
  * @source  https://stackoverflow.com/questions/15167545/how-to-crop-a-rectangular-image-into-a-square-with-css/55966300#55966300
  */
-.teaserblock.loadmore {
-  margin-top: var(--wp--preset--spacing--60);
-}
-
 .teaserblock .loadmore-content-wrapper {
   max-width: 480px;
   margin: 0 auto;

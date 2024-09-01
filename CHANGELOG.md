@@ -9,7 +9,7 @@ _New / Improve / Bugfix_
 - New: Add conventional desktop navigation
 - New: Add blockgap support
 - New: Add masonry gallery support (testwise)
-- New: Add pattern "related-posts" 
+- New: Add pattern "related-posts"
 - New: Add template "portfolio"
 - Improve: Update theme.json to v3 (minimum requirement: WP 6.6)
 - Improve: Modify the font sizes
@@ -21,6 +21,7 @@ _New / Improve / Bugfix_
 - Improve: Move hamburger icon to the right side; change slideout direction
 - Improve: Move a lot of stylesheet settings to the theme.json
 - Improve: Remove extra margin from core/post-title
+- Improve: Remove extra margin from .loadmore.teasers
 - Fix: Reduce the large extra padding in block editor styles wrapper
 
 
