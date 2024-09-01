@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2024-08-11 11:33+0200\n"
-"PO-Revision-Date: 2024-08-11 11:33+0200\n"
+"POT-Creation-Date: 2024-09-01 16:02+0200\n"
+"PO-Revision-Date: 2024-09-01 16:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -24,6 +24,10 @@ msgstr ""
 #: patterns/footer-navigation.php:12
 msgid "Imprint"
 msgstr "Impressum"
+
+#: patterns/related-posts.php:11
+msgid "Related posts"
+msgstr "Ähnliche Beiträge"
 
 #: patterns/slideout-navigation.php:26
 msgid "News"
