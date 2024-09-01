@@ -18,6 +18,7 @@ _New / Improve / Bugfix_
 - Improve: Make slideout mobile only
 - Improve: Move hamburger icon to the right side; change slideout direction
 - Improve: Move a lot of stylesheet settings to the theme.json
+- Improve: Remove extra margin from core/post-title
 - Fix: Reduce the large extra padding in block editor styles wrapper
 
 
