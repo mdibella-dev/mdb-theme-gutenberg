@@ -5,6 +5,12 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+
+<br>
+
+### 4.0.0
+Released: 01-09-2024
+
 - New: Backport script and style registering and enqueuing procedure from ARTlyris project
 - New: Add conventional desktop navigation
 - New: Add blockgap support
@@ -24,8 +30,6 @@ _New / Improve / Bugfix_
 - Improve: Remove extra margin from .loadmore.teasers
 - Fix: Reduce the large extra padding in block editor styles wrapper
 
-
-<br>
 
 ### 3.3.1
 Released: 05-03-2024
