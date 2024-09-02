@@ -5,7 +5,9 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+- Improve: Remove .is-style-welcome
 - Fix: Missing left/right padding in heading area
+- Fix: Hyphens setting on headings
 
 <br>
 

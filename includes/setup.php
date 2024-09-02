@@ -51,7 +51,6 @@ function theme_setup() {
         'media-text',
         'navigation',
         'paragraph',
-        'post-title',
         'separator',
         'site-title',
         'table'

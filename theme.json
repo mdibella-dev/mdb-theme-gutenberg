@@ -260,7 +260,7 @@
                 "color": {
                     "text": "var(--wp--preset--color--contrast-1)"
                 },
-                "css":"text-shadow: 1px 1px 50px rgba(0,0,0,.3);hyphens: manual;"
+                "css":"text-shadow: 1px 1px 50px rgba(0,0,0,.3);hyphens:auto;word-break:unset;"
             },
             "h1": {
                 "typography": {

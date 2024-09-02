@@ -16,11 +16,4 @@
   margin-top: var(--wp--preset--spacing--70);
 }
 
-.wp-block-heading.is-style-welcome,
-h1.wp-block-heading.is-style-welcome {
-  font-size: clamp(3.375rem, 3.375rem + (1vw - 0.48rem) * 3.125, 5rem);
-  line-height: 1.125;
-  hyphens: none;
-}
-
 /*# sourceMappingURL=heading.css.map */
