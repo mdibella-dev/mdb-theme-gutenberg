@@ -5,6 +5,7 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+- Fix: Missing left/right padding in heading area
 
 <br>
 
