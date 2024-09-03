@@ -127,35 +127,6 @@ strong {
 }
 
 /**
- * Basic elements
- *
- * These basic elements are partly designed via settings contained in the theme.json file.
- * Settings that exceed the current capabilities of theme.json (as of June 2023) and/or are necessary for reasons of compatibility can be found at this point.
- */
-/** theme.json element: button */
-.wp-element-button,
-.wp-block-button__link {
-  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
-  transition: color 0.3s linear, background-color 0.3s linear, border-color 0.3s linear;
-  cursor: pointer;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 0.75rem 1.5rem;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.wp-element-button:hover,
-.wp-block-button__link:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
-}
-.wp-element-button:active,
-.wp-block-button__link:active {
-  top: 2px;
-}
-
-/**
  * Visual effects
  *
  * @author  Marco Di Bella

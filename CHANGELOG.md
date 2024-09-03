@@ -6,8 +6,11 @@ _New / Improve / Bugfix_
 ### Latest changes to the main branch
 
 - Improve: Remove .is-style-welcome
+- Improve: Move button styles to blocks/button.scss
 - Fix: Missing left/right padding in heading area
 - Fix: Hyphens setting on headings
+- Fix: line break in buttons
+
 
 <br>
 
