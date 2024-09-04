@@ -8,6 +8,7 @@ _New / Improve / Bugfix_
 - Improve: Remove .is-style-welcome
 - Improve: Move button styles to blocks/button.scss
 - Improve: Darken the base-0 color
+- Improve: Adjust some aspects of the typography
 - Fix: Missing left/right padding in heading area
 - Fix: Hyphens setting on headings
 - Fix: Line break in buttons
