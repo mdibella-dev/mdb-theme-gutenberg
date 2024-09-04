@@ -7,7 +7,7 @@
                 {
                     "name": "Base / 0",
                     "slug": "base-0",
-                    "color": "#2C2E3A"
+                    "color": "hsl(231.4,13.7%,15%)"
                 },
                 {
                     "name": "Base / 1",
@@ -230,10 +230,10 @@
     "styles": {
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--primary)",
-            "fontWeight": "300",
+            "fontWeight": "290",
             "fontSize": "var(--wp--preset--font-size--medium)",
             "lineHeight": "1.6",
-            "letterSpacing": ".5px"
+            "letterSpacing": ".3px"
         },
         "spacing": {
             "padding": {
@@ -252,15 +252,14 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
                     "fontSize": "var(--wp--preset--font-size--large)",
-                    "fontWeight": "700",
+                    "fontWeight": "625",
                     "lineHeight": "1.3",
-                    "letterSpacing": "1px",
-                    "wordSpacing": ".5px"
+                    "letterSpacing": "1px"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--contrast-1)"
+                    "text": "var(--wp--preset--color--white)"
                 },
-                "css":"text-shadow: 1px 1px 50px rgba(0,0,0,.3);hyphens:auto;word-break:unset;"
+                "css":"text-shadow: 1px 1px 50px rgba(0,0,0,.3);hyphens:auto;word-break:unset;word-spacing:.5px"
             },
             "h1": {
                 "typography": {
@@ -290,7 +289,7 @@
             "caption": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
-                    "fontWeight": "300",
+                    "fontWeight": "290",
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "lineHeight": "1.5",
                     "letterSpacing": ".3px"
@@ -338,14 +337,10 @@
         },
         "blocks": {
             "core/paragraph": {
-                "typography": {
-                    "wordSpacing": "-1px"
-                }
+                "css": "word-spacing:-1px"
             },
             "core/list": {
-                "typography": {
-                    "wordSpacing": "-1px"
-                }
+                "css": "word-spacing:-1px"
             },
             "core/image": {
                 "spacing": {
@@ -353,6 +348,11 @@
                         "top": "var(--wp--preset--spacing--50)",
                         "bottom": "var(--wp--preset--spacing--50)"
                     }
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontWeight": "900"
                 }
             }
         }

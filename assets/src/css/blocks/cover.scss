@@ -1,0 +1,58 @@
+/**
+ * Block: core/cover
+ * Theme support and custom styles
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+
+
+
+ :where(:not(.block-editor-block-list__layout)) .is-style-welcome {
+
+     padding-top: var(--wp--custom--header--height);
+     padding-bottom: 0;
+     margin-top: calc(-1 * (var(--wp--custom--main--spacing--top) + var(--wp--custom--header--height))) !important;
+
+     .wp-block-cover__inner-container {
+
+         img {
+             vertical-align: top;
+             filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.35));
+         }
+     }
+
+
+     &::after {
+         content: " ";
+         position: absolute;
+         display: block;
+         width: 100%;
+         bottom: 0;
+         left: 0;
+         height: 200px;
+         z-index: 2;
+         background: var(--wp--preset--color--base-0);
+         -webkit-mask-image: linear-gradient(transparent,black 95%);
+                 mask-image: linear-gradient(transparent,black 95%);
+     }
+
+     &::before {
+         content: "Hallo";
+         position: absolute;
+         z-index: 3;
+         // mock h1
+         text-shadow: 1px 5px 30px rgba(0,0,0,.6);
+         color: var(--wp--preset--color--white);
+         font-family: var(--wp--preset--font-family--primary);
+         font-size: var(--wp--preset--font-size--xx-large);      // need a special one
+         font-weight: 625;
+         letter-spacing: 1px;
+         // initial state
+         display: none;
+     }
+
+ }

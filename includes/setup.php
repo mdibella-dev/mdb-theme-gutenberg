@@ -44,6 +44,7 @@ function theme_setup() {
         'button',
         'code',
         'columns',
+        'cover',
         'embed',
         'heading',
         'image',

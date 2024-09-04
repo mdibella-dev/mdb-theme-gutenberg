@@ -166,6 +166,7 @@ wp.domReady( () => {
     );
 
 
+
     /** core/columns */
 
     wp.blocks.registerBlockStyle(
@@ -179,6 +180,21 @@ wp.domReady( () => {
             {
                 name: 'showcase',
                 label: 'Showcase',
+                isDefault: false,
+            }
+        ]
+    );
+
+
+
+    /** core/cover */
+
+    wp.blocks.registerBlockStyle(
+        'core/cover',
+        [
+            {
+                name: 'welcome',
+                label: 'Welcome',
                 isDefault: false,
             }
         ]

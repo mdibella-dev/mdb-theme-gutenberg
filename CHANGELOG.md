@@ -5,11 +5,16 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+- New: Add .is-style-welcome for core/cover
 - Improve: Remove .is-style-welcome
 - Improve: Move button styles to blocks/button.scss
+- Improve: Darken the base-0 color
+- Improve: Adjust some aspects of the typography
 - Fix: Missing left/right padding in heading area
 - Fix: Hyphens setting on headings
-- Fix: line break in buttons
+- Fix: Line break in buttons
+- Fix: Missing padding in buttons
+- Fix: Add z-index to header element
 
 
 <br>
