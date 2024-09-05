@@ -8,9 +8,7 @@
 
 
 
-
-.wp-element-button,
-.wp-block-button__link {
+.wp-block-button:not(.is-style-navigation-faux-anchor) > .wp-block-button__link {
     // typography
     text-shadow: 0 1px 5px rgba(0,0,0,.5);
 

@@ -15,6 +15,7 @@ _New / Improve / Bugfix_
 - Fix: Line break in buttons
 - Fix: Missing padding in buttons
 - Fix: Add z-index to header element
+- Fix: Button padding
 
 
 <br>
