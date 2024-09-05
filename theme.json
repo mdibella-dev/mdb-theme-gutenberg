@@ -352,7 +352,7 @@
             },
             "core/post-title": {
                 "typography": {
-                    "fontWeight": "900"
+                    "fontWeight": "800"
                 }
             }
         }
