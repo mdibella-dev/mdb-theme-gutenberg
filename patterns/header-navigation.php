@@ -9,8 +9,8 @@
 <div class="wp-block-group alignfull">
     <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"2em"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
     <div class="wp-block-group alignwide">
-        <!-- wp:paragraph {"align":"left","fontSize":"standard","style":{"typography":{"textTransform":"uppercase"}}} -->
-        <p class="has-text-align-left has-standard-font-size" style="font-size:1rem;text-transform:uppercase"><a href="/" rel="home">Marco <strong>Di Bella</strong></a></p>
+        <!-- wp:paragraph {"align":"left","style":{"typography":{"textTransform":"uppercase","fontSize":"1rem"}}} -->
+        <p class="has-text-align-left" style="font-size:1rem;text-transform:uppercase"><a href="/" rel="home">Marco <strong>Di Bella</strong></a></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:group {"className":"wp-group","layout":{"type":"flex","flexWrap":"nowrap"}} -->
