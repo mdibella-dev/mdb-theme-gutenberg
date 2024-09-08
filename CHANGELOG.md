@@ -5,12 +5,19 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+<br>
+
+### 4.0.1
+Released: 08-09-2024
+
 - New: Add .is-style-welcome for core/cover
 - Improve: Remove .is-style-welcome
 - Improve: Move button styles to blocks/button.scss
 - Improve: Darken the base-0 color
 - Improve: Adjust some aspects of the typography
 - Improve: Remove scrollbar color
+- Improve: Replace site-title block with better looking p tag (which also remove h1 SEO problems)
+- improve: Add different button shadows (experimental)
 - Fix: Missing left/right padding in heading area
 - Fix: Hyphens setting on headings
 - Fix: Line break in buttons
@@ -18,8 +25,6 @@ _New / Improve / Bugfix_
 - Fix: Add z-index to header element
 - Fix: Button padding
 
-
-<br>
 
 ### 4.0.0
 Released: 01-09-2024
