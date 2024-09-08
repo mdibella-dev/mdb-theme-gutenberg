@@ -9,7 +9,7 @@
 <div class="wp-block-group site-component-footer has-global-padding is-layout-constrained" style="margin-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--40)">
 
     <!-- wp:paragraph {"align":"center","fontSize":"standard"} -->
-    <p class="has-text-align-center has-standard-font-size"" style="font-size:1rem"><a href="/impressum"><?php echo __( 'Imprint', 'mdb-theme-fse' ); ?></a></p>
+    <p class="has-text-align-center has-standard-font-size" style="font-size:1rem"><a href="/impressum"><?php echo __( 'Imprint', 'mdb-theme-fse' ); ?></a></p>
     <!-- /wp:paragraph -->
 
     <!-- wp:buttons {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"style":{"spacing":{"margin":{"bottom":"3rem"},"blockGap":"2rem"}}} -->
