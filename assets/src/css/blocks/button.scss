@@ -15,7 +15,7 @@
     // other styling
     transition: color .3s linear, background-color .3s linear, border-color .3s linear;
     cursor: pointer;
-    box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
 
     // dimensions
     display: block;
@@ -28,12 +28,11 @@
     left: 0;
 
     &:hover {
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
     }
 
     &:active {
         top: 2px;
-        box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.25), 0 -10px 10px rgba(0, 0, 0, 0.15);
     }
 }
 
