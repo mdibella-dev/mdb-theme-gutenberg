@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Related posts
+ * Title: Related Posts
  * Slug: mdb-theme-fse/related-posts
  */
 ?>
