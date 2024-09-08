@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../src/css/blocks/cover.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAaC;EAEI;EACA;EACA;;AAII;EACI;EACA;;AAKR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACQ;;AAGZ;EACI;EACA;EACA;EAEA;EACA;EACA;EACA;EACA;EACA;EAEA","file":"cover.css"}
+{"version":3,"sourceRoot":"","sources":["../../../src/css/blocks/cover.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAaA;EAEI;EACA;EACA;;AAGA;EACI;;AAEA;EACI;EACA;;AAKR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACQ","file":"cover.css"}
