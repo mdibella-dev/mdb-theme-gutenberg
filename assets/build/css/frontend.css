@@ -795,7 +795,7 @@ body.logged-in.admin-bar .site-component-slideout {
 }
 
 /**
- * Styles related to the plugin: Code Syntax Block by Marcus Kazmierczak 
+ * Styles related to the plugin: Code Syntax Block by Marcus Kazmierczak
  *
  * @author  Marco Di Bella
  * @package mdb-theme-fse
@@ -807,7 +807,7 @@ code {
 }
 
 pre.wp-block-code {
-  background: #202020 !important;
+  background: #282c34 !important;
 }
 
 /*# sourceMappingURL=frontend.css.map */
