@@ -7,6 +7,7 @@ _New / Improve / Bugfix_
 
 - Improve: Revert "Add different button shadows (experimental)"
 - Improve: Change button color settings
+- Improve: Change background color (wp-block-code)
 
 
 <br>
