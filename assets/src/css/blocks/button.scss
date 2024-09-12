@@ -8,31 +8,22 @@
 
 
 
-.wp-block-button:not(.is-style-navigation-faux-anchor) > .wp-block-button__link {
+.wp-block-button > .wp-block-button__link {
     // typography
     text-shadow: 0 1px 5px rgba(0,0,0,.5);
 
     // other styling
     transition: color .3s linear, background-color .3s linear, border-color .3s linear;
     cursor: pointer;
-    box-shadow: 0 1px 10px 0 rgba(0,0,0,.15);
+    box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
 
     // dimensions
     display: block;
     margin-bottom: 0;
-    padding: .75rem 1.5rem !important;
-
-    // positioning
-    position: relative;
-    top: 0;
-    left: 0;
+    padding: .75rem 1.5rem;
 
     &:hover {
-        box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10);
-    }
-
-    &:active {
-        top: 2px;
+        box-shadow: none;
     }
 }
 
@@ -44,20 +35,19 @@
 
 .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link  {
     display: inline-block;
+    padding: 0;
+    line-height: 0;
+    text-shadow: none;
+    box-shadow: none;
     outline: none !important;
     border: none !important;
     background: none !important;
-    box-shadow: none;
-    position: unset;
-    padding: 0;
-    line-height: 0;
-    cursor: pointer;
 }
 
 
 .wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link .svg-symbol {
     background-color: var(--wp--preset--color--denim-0);
-    transition: background-color .2s;
+    transition: background-color .3s;
 
     .slideout-visible & {
         background-color: var(--wp--preset--color--white);

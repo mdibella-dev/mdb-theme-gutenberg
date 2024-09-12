@@ -5,6 +5,10 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+- Improve: Revert "Add different button shadows (experimental)"
+- Improve: Change button color settings
+
+
 <br>
 
 ### 4.0.1
@@ -17,7 +21,7 @@ Released: 08-09-2024
 - Improve: Adjust some aspects of the typography
 - Improve: Remove scrollbar color
 - Improve: Replace site-title block with better looking p tag (which also remove h1 SEO problems)
-- improve: Add different button shadows (experimental)
+- Improve: Add different button shadows (experimental)
 - Fix: Missing left/right padding in heading area
 - Fix: Hyphens setting on headings
 - Fix: Line break in buttons
