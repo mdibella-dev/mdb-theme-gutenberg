@@ -58,6 +58,11 @@
                     "name": "White",
                     "slug": "white",
                     "color": "#FFFFFF"
+                },
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000000"
                 }
             ],
             "gradients": [],
@@ -315,8 +320,8 @@
                     "textDecoration": "none"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--denim-0)",
-                    "background": "transparent"
+                    "text": "var(--wp--preset--color--white)",
+                    "background": "var(--wp--preset--color--denim-0)"
                 },
                 "border": {
                     "color": "var(--wp--preset--color--denim-0)",
@@ -329,8 +334,8 @@
                 },
                 ":hover": {
                     "color": {
-                        "text": "var(--wp--preset--color--white)",
-                        "background": "var(--wp--preset--color--denim-0)"
+                        "text": "var(--wp--preset--color--denim-0)",
+                        "background": "transparent"
                     }
                 }
             }
