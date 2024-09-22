@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2024-09-01 16:02+0200\n"
-"PO-Revision-Date: 2024-09-01 16:03+0200\n"
+"POT-Creation-Date: 2024-09-22 20:40+0200\n"
+"PO-Revision-Date: 2024-09-22 20:41+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -24,6 +24,23 @@ msgstr ""
 #: patterns/footer-navigation.php:12
 msgid "Imprint"
 msgstr "Impressum"
+
+#: patterns/publications-filter.php:277
+msgid "Current filter: "
+msgstr "Aktueller Filter: "
+
+#: patterns/publications-filter.php:281
+msgid "Filter"
+msgstr "Filter"
+
+#: patterns/publications-filter.php:288
+msgid "No filter"
+msgstr "Kein Filter"
+
+#: patterns/publications-filter.php:300
+#, php-format
+msgid "%1$s only"
+msgstr "Nur %1$s"
 
 #: patterns/related-posts.php:11
 msgid "Related posts"
@@ -92,6 +109,9 @@ msgstr "Marco Di Bella"
 #. Author URI of the plugin/theme
 msgid "https://www.marcodibella.de"
 msgstr "https://www.marcodibella.de"
+
+#~ msgid "Filtered by: "
+#~ msgstr "Filter: "
 
 #~ msgid "Primary Navigation"
 #~ msgstr "Primäre Navigation"
