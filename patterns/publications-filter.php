@@ -274,8 +274,6 @@ document.addEventListener( 'click', function( e ) {
 }
 </style>
 
-<p class="publications-current-filter-display"><?php echo __( 'Current filter: ', 'mdb-theme-fse' ); ?><span class="publications-current-filter"></span></p>
-
 <div class="publications-filters">
     <div class="publications-filters-button">
         <a href="#" onclick="doDropdown( 'toggle' );"><span><?php echo __( 'Filter', 'mdb-theme-fse' ); ?></span><span class="svg-symbol svg-symbol-chevron-down"></span></a>
