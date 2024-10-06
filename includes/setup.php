@@ -106,6 +106,11 @@ function theme_scripts() {
                 'path'    => 'assets/build/css/frontend.css',
                 'deps'    => [],
                 'version' => ''
+            ],
+            'mdb-publications-style' => [
+                'path'    => 'assets/build/css/patterns/publications.css',
+                'deps'    => [],
+                'version' => ''
             ]
         ]
     ];
