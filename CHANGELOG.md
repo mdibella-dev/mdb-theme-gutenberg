@@ -9,6 +9,7 @@ _New / Improve / Bugfix_
 - Improve: Change button color settings
 - Improve: Change background color (wp-block-code)
 - Improve: Add new SASS scripts
+- Improve: Overhaul frontend style SCSS files
 
 
 
