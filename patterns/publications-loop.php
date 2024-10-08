@@ -37,7 +37,7 @@ if ( $query->have_posts() ) {
 
                 <!-- wp:group {"className":"publications-list-item-arrow"} -->
                 <div class="publications-list-item-arrow">
-                    <a href="<?php echo the_permalink(); ?>">Link</a>
+                    <a href="<?php echo the_permalink(); ?>" title="<?php echo __( 'Show publication details', 'mdb-theme-fse' ); ?>"><?php echo __( 'Details', 'mdb-theme-fse' ); ?></a>
                 </div>
                 <!-- /wp:group -->
 
