@@ -5,6 +5,7 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+- New: Publications filter and filtered list
 - Improve: Revert "Add different button shadows (experimental)"
 - Improve: Change button color settings
 - Improve: Change background color (wp-block-code)
