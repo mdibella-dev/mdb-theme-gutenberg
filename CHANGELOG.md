@@ -11,6 +11,7 @@ _New / Improve / Bugfix_
 - Improve: Change background color (wp-block-code)
 - Improve: Add new SASS scripts
 - Improve: Overhaul frontend style SCSS files
+- Improve: Remove hyphens settings in h1 for better support pf wp-typography
 
 
 
