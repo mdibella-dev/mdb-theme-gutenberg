@@ -30,12 +30,13 @@
         position: absolute;
         display: block;
         width: 100%;
-        bottom: 0;
+        bottom: -1px;
         left: 0;
         height: 200px;
         z-index: 10;
         background: var(--wp--preset--color--base-0);
         -webkit-mask-image: linear-gradient(transparent,black 95%);
                 mask-image: linear-gradient(transparent,black 95%);
+        filter: blur(.4px);
     }
 }
