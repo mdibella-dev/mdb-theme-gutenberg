@@ -45,6 +45,11 @@
                     "color": "hsl(202,82%,22%)"
                 },
                 {
+                    "name": "Denim / 2",
+                    "slug": "denim-2",
+                    "color": "hsl(202,82%,85%)"
+                },
+                {
                     "name": "Contrast / 0",
                     "slug": "contrast-0",
                     "color": "hsl(222,7%,53%)"
@@ -320,7 +325,7 @@
                     "textDecoration": "none"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--white)",
+                    "text": "var(--wp--preset--color--denim-2)",
                     "background": "var(--wp--preset--color--denim-0)"
                 },
                 "border": {
@@ -334,8 +339,11 @@
                 },
                 ":hover": {
                     "color": {
-                        "text": "var(--wp--preset--color--denim-0)",
-                        "background": "transparent"
+                        "text": "var(--wp--preset--color--denim-2)",
+                        "background":  "var(--wp--preset--color--denim-1)"
+                    },
+                    "border": {
+                        "color": "var(--wp--preset--color--denim-1)"
                     }
                 }
             }
