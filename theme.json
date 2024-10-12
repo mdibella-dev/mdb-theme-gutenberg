@@ -325,8 +325,8 @@
                     "textDecoration": "none"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--denim-2)",
-                    "background": "var(--wp--preset--color--denim-0)"
+                    "text": "var(--wp--preset--color--denim-0)",
+                    "background": "transparent"
                 },
                 "border": {
                     "color": "var(--wp--preset--color--denim-0)",
@@ -337,13 +337,11 @@
                 "dimensions": {
                     "minHeight": "auto"
                 },
+                "css":"box-shadow:0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10)",
                 ":hover": {
                     "color": {
                         "text": "var(--wp--preset--color--denim-2)",
-                        "background":  "var(--wp--preset--color--denim-1)"
-                    },
-                    "border": {
-                        "color": "var(--wp--preset--color--denim-1)"
+                        "background":  "var(--wp--preset--color--denim-0)"
                     }
                 }
             }
