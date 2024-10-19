@@ -37,9 +37,5 @@
     </div>
     <!-- /wp:buttons -->
 
-    <!-- wp:paragraph {"align":"center","fontSize":"small","style":{"spacing":{"margin":{"bottom":"0"}}} -->
-    <p class="has-text-align-center has-small-font-size" style="margin-bottom:0">Created with passion and love with <a href="https://wordpress.org/" target="_blank" rel="noreferrer noopener">WordPress</a> on an <a href="https://www.apple.com/" target="_blank" rel="noreferrer noopener">Apple Computer</a>.</p>
-    <!-- /wp:paragraph -->
-
 </div>
 <!-- /wp:group -->
