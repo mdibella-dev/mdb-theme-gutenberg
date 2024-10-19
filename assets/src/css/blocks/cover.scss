@@ -20,7 +20,7 @@
 
         img {
             vertical-align: top;
-            filter: drop-shadow(0px 20px 30px rgba(0,0,0,0.5));
+            filter: saturate(.9) drop-shadow(0px 25px 250px rgba(0, 0, 0, 0)) blur(.4px);
         }
     }
 
