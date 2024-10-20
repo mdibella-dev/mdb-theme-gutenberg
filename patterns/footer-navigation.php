@@ -12,8 +12,8 @@
     <p class="has-text-align-center" style="font-size:1rem"><a href="/impressum"><?php echo __( 'Imprint', 'mdb-theme-fse' ); ?></a></p>
     <!-- /wp:paragraph -->
 
-    <!-- wp:buttons {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"style":{"spacing":{"margin":{"bottom":"3rem"},"blockGap":"2rem"}}} -->
-    <div class="wp-block-buttons" style="margin-bottom:3rem">
+    <!-- wp:buttons {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"style":{"spacing":{"margin":{"bottom":"0"},"blockGap":"2rem"}}} -->
+    <div class="wp-block-buttons" style="margin-bottom:0">
         <!-- wp:button {"className":"is-style-navigation-faux-anchor"} -->
         <div class="wp-block-button is-style-navigation-faux-anchor"><a class="wp-block-button__link wp-element-button" href="mailto:kontakt@marcodibella.de"><span class="svg-symbol svg-symbol-mail"></span></a></div>
         <!-- /wp:button -->
