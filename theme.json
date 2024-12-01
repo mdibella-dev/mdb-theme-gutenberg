@@ -7,12 +7,12 @@
                 {
                     "name": "Base / 0",
                     "slug": "base-0",
-                    "color": "hsl(231.4,13.7%,15%)"
+                    "color": "hsl(231.4,13.7%,8%)"
                 },
                 {
                     "name": "Base / 1",
                     "slug": "base-1",
-                    "color": "#30333F"
+                    "color": "hsl(231.4,13.7%,10%)"
                 },
                 {
                     "name": "Base / 2",
