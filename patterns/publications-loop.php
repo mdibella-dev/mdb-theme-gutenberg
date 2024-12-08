@@ -2,6 +2,8 @@
 /**
  * Title: Publications Loop
  * Slug: mdb-theme-fse/publications-loop
+ * Template Types: publications
+ * Inserter: no
  */
 
 use mdb_theme_core\api as publication;

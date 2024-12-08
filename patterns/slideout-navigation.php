@@ -2,6 +2,7 @@
 /**
  * Title: Slideout Navigation
  * Slug: mdb-theme-fse/slideout-navigation
+ * Inserter: no
  */
 ?>
 

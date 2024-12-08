@@ -2,6 +2,8 @@
 /**
  * Title: Publications Filter
  * Slug: mdb-theme-fse/publications-filter
+ * Template Types: publications
+ * Inserter: no
  */
 ?>
 
