@@ -146,25 +146,17 @@
                 {
                     "fontFace": [
                         {
-                            "fontFamily": "Lora",
-                            "fontWeight": "400 693",
-                            "fontStyle": "normal",
-                            "src": [
-                                "file:./assets/fonts/Lora-VariableFont_wght.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Lora",
-                            "fontWeight": "400 693",
+                            "fontFamily": "Noto Serif Display",
+                            "fontWeight": "100 900",
                             "fontStyle": "italic",
                             "src": [
-                                "file:./assets/fonts/Lora-Italic-VariableFont_wght.ttf"
+                                "file:./assets/fonts/NotoSerifDisplay-Italic-VariableFont_wdth,wght.woff2"
                             ]
                         }
                     ],
-                    "name": "Secondary (Lora)",
+                    "name": "Secondary (Noto Serif Display)",
                     "slug": "secondary",
-                    "fontFamily": "Lora, Georgia, Times, serif"
+                    "fontFamily": "Noto Serif Display, serif"
                 }
             ],
             "defaultFontSizes": false,
@@ -253,11 +245,11 @@
     },
     "styles": {
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--secondary)",
-            "fontWeight": "300",
+            "fontFamily": "var(--wp--preset--font-family--primary)",
+            "fontWeight": "290",
             "fontSize": "var(--wp--preset--font-size--medium)",
-            "lineHeight": "1.8",
-            "letterSpacing": ".6px"
+            "lineHeight": "1.6",
+            "letterSpacing": ".3px"
         },
         "spacing": {
             "padding": {
