@@ -37,20 +37,20 @@
 
 
 :not(.is-open) .publications-filters-button a {
-    color: var(--wp--custom--color--link);
-    border-color: var(--wp--custom--color--link);
+    color: var(--wp--preset--color--denim-0);
+    border-color: var(--wp--preset--color--denim-0);
 
     .svg-symbol {
-        background-color: var(--wp--custom--color--link);
+        background-color: var(--wp--preset--color--denim-0);
     }
 
     &:hover,
     &:focus {
-        color: var(--wp--custom--color--link-hover);
-        border-color: var(--wp--custom--color--link-hover);
+        color: var(--wp--preset--color--white);
+        border-color: var(--wp--preset--color--white);
 
         .svg-symbol {
-            background-color: var(--wp--custom--color--link-hover);
+            background-color: var(--wp--preset--color--white);
         }
     }
 }
@@ -81,7 +81,7 @@
     padding: 0 1rem;
     border-radius: 4px;
     border-top-left-radius: 0;
-    background: var(--wp--custom--color--link-hover);
+    background: hsl(202.1, 81.7%, 30%);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
@@ -153,7 +153,7 @@
 
 
 .publications-filters.is-open .publications-filters-button a {
-    background: var(--wp--custom--color--link-hover);
+    background: hsl(202.1, 81.7%, 30%);
     color: var(--wp--preset--color--white);
 }
 
