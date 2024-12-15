@@ -20,7 +20,7 @@
 
 
     .wp-block-navigation-item {
-        color: var(--wp--custom--color--link);
+        color: var(--wp--preset--color--denim-0);
     }
 
 
@@ -33,8 +33,8 @@
         hyphens: none;
 
         &:hover {
-            // necessary to correct the wrong colour inheritance
-            color: var(--wp--custom--color--link-hover);
+         // necessary to correct the wrong colour inheritance
+         color: var(--wp--preset--color--white);
         }
     }
 
