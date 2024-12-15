@@ -240,7 +240,7 @@
     "styles": {
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--primary)",
-            "fontWeight": "290",
+            "fontWeight": "300",
             "fontSize": "var(--wp--preset--font-size--medium)",
             "lineHeight": "1.6",
             "letterSpacing": ".3px"
@@ -317,11 +317,12 @@
             "button": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
-                    "fontWeight": "300",
-                    "fontSize": "1rem",
+                    "fontWeight": "400",
+                    "fontSize": "var(--wp--preset--font-size--small)",
                     "lineHeight": "1.2",
                     "letterSpacing": ".4px",
-                    "textDecoration": "none"
+                    "textDecoration": "none",
+                    "textTransform": "uppercase"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--white)",
@@ -329,16 +330,29 @@
                 },
                 "border": {
                     "color": "transparent",
-                    "radius": "5px"
+                    "radius": "5px",
+                    "width": "1px",
+                    "style": "solid"
                 },
                 "dimensions": {
                     "minHeight": "auto"
                 },
-                "css":"box-shadow:0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10)",
+                "spacing": {
+                    "padding": {
+                        "top": ".85rem",
+                        "right": "2rem",
+                        "bottom": ".85rem",
+                        "left": "2rem"
+                    }
+                },
+                "css":"transition: all 0.3s ease-in-out;cursor: pointer;",
                 ":hover": {
                     "color": {
                         "text": "var(--wp--preset--color--white)",
-                        "background":  "var(--wp--preset--color--denim-1)"
+                        "background": "transparent"
+                    },
+                    "border": {
+                        "color": "var(--wp--preset--color--white)"
                     }
                 }
             }
