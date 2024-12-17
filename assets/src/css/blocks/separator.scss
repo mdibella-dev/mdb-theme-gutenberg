@@ -13,17 +13,8 @@
 
 .wp-block-separator {
     // styling
-    border-top: 1px solid var(--wp--preset--color--denim-1);
+    border-top: 1px solid var(--wp--preset--color--denim-0);
     border-bottom: 1px solid transparent;         // don't know why the original code needs both border lines
     border-left: none;
     border-right: none;
-
-    // spacing
-    margin-top: var(--wp--preset--spacing--50);
-    margin-bottom: var(--wp--preset--spacing--50);
-
-
-    & + * {
-        margin-top: 0 !important;
-    }
 }
