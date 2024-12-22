@@ -22,5 +22,11 @@
         padding: 8px 12px;
         word-break: unset;
         hyphens: none;
+        background: var(--wp--preset--color--base-2);
+
+        &:hover,
+        &:focus {
+            background: transparent;
+        }
     }
 }
