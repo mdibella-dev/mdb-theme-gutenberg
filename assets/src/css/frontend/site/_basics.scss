@@ -24,11 +24,6 @@ body {
     position: relative; // prevent scrolling at overflow:hidden (iOS)
     overflow: hidden;
     width: 100vw;
-
-    // theme.json: 200
-    @include on_highdensity() {
-        font-weight: 300;
-    }
 }
 
 
