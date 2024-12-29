@@ -6,7 +6,7 @@
             "palette": [
                 {
                     "name": "Base / 0",
-                    "slug": "base-0",                    
+                    "slug": "base-0",
                     "color": "hsl(240, 12.2%, 8%);"
                 },
                 {
@@ -222,22 +222,6 @@
                     "name": "Secondary (Noto Serif Display)",
                     "slug": "secondary",
                     "fontFamily": "Noto Serif Display, serif"
-                },
-                {
-                    "fontFace": [
-                        {
-                            "fontFamily": "Inter",
-                            "fontWeight": "100 900",
-                            "fontStyle": "normal",
-                            "src": [
-                                "file:./assets/fonts/Inter-VariableFont_slnt,wght.woff2"
-                            ],
-                            "unicodeRange": "U+0020-007F, U+00A0-00FF, U+02B0-02FF, U+0300-036F, U+2000-206F, U+20A4, U+20AC, U+2103, U+2109, U+2122"
-                        }
-                    ],
-                    "name": "Primary (Inter)",
-                    "slug": "inter",
-                    "fontFamily": "Inter, Arial, sans-serif"
                 }
             ],
             "defaultFontSizes": false,
