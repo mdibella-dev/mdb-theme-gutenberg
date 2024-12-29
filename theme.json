@@ -7,7 +7,7 @@
                 {
                     "name": "Base / 0",
                     "slug": "base-0",
-                    "color": "hsl(231.4,13.7%,15%)"
+                    "color": "hsl(240, 12.2%, 8%);"
                 },
                 {
                     "name": "Base / 1",
@@ -130,18 +130,73 @@
                 {
                     "fontFace": [
                         {
-                            "fontFamily": "Inter",
-                            "fontWeight": "100 900",
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "200",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Inter-VariableFont_slnt,wght.woff2"
-                            ],
-                            "unicodeRange": "U+0020-007F, U+00A0-00FF, U+02B0-02FF, U+0300-036F, U+2000-206F, U+20A4, U+20AC, U+2103, U+2109, U+2122"
+                                "file:./assets/fonts/Gilroy-Ultralight.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Light.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Regular.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Medium.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Semibold.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Bold.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Extrabold.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Heavy.ttf"
+                            ]
                         }
                     ],
-                    "name": "Primary (Inter)",
+                    "name": "Primary (Gilroy)",
                     "slug": "primary",
-                    "fontFamily": "Inter, Arial, sans-serif"
+                    "fontFamily": "Gilroy, Arial, sans-serif"
                 },
                 {
                     "fontFace": [
@@ -157,6 +212,22 @@
                     "name": "Secondary (Noto Serif Display)",
                     "slug": "secondary",
                     "fontFamily": "Noto Serif Display, serif"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Inter-VariableFont_slnt,wght.woff2"
+                            ],
+                            "unicodeRange": "U+0020-007F, U+00A0-00FF, U+02B0-02FF, U+0300-036F, U+2000-206F, U+20A4, U+20AC, U+2103, U+2109, U+2122"
+                        }
+                    ],
+                    "name": "Primary (Inter)",
+                    "slug": "inter",
+                    "fontFamily": "Inter, Arial, sans-serif"
                 }
             ],
             "defaultFontSizes": false,
@@ -240,10 +311,10 @@
     "styles": {
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--primary)",
-            "fontWeight": "290",
+            "fontWeight": "200",
             "fontSize": "var(--wp--preset--font-size--medium)",
-            "lineHeight": "1.6",
-            "letterSpacing": ".3px"
+            "lineHeight": "1.8",
+            "letterSpacing": ".8px"
         },
         "spacing": {
             "padding": {
@@ -262,9 +333,9 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
                     "fontSize": "var(--wp--preset--font-size--large)",
-                    "fontWeight": "625",
+                    "fontWeight": "500",
                     "lineHeight": "1.3",
-                    "letterSpacing": "1px"
+                    "letterSpacing": ".8px"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--white)"
@@ -299,10 +370,10 @@
             "caption": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
-                    "fontWeight": "290",
+                    "fontWeight": "200",
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "lineHeight": "1.5",
-                    "letterSpacing": ".3px"
+                    "textAlign": "center"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--denim-0)"
