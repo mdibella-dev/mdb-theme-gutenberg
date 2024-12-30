@@ -62,12 +62,17 @@
                 {
                     "name": "Contrast / 0",
                     "slug": "contrast-0",
-                    "color": "hsl(222,7%,23%)"
+                    "color": "hsl(222,7%,43%)"
                 },
                 {
                     "name": "Contrast / 1",
                     "slug": "contrast-1",
                     "color": "hsl(222,0%,90%)"
+                },
+                {
+                    "name": "Contrast / 2",
+                    "slug": "contrast-2",
+                    "color": "hsl(222,7%,23%)"
                 },
                 {
                     "name": "White",
@@ -240,8 +245,8 @@
                     "slug": "medium",
                     "name": "M",
                     "fluid": {
-                        "min": "1.125rem",
-                        "max": "1.25rem"
+                        "min": "1.06rem",
+                        "max": "1.2rem"
                     }
                 },
                 {
@@ -337,7 +342,7 @@
                     "letterSpacing": ".8px"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--white)"
+                    "text": "var(--wp--preset--color--contrast-1)"
                 },
                 "css":"text-shadow: 1px 1px 50px rgba(0,0,0,.3);word-break:unset;word-spacing:.5px"
             },
