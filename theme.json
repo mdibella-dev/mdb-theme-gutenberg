@@ -72,7 +72,7 @@
                 {
                     "name": "Contrast / 2",
                     "slug": "contrast-2",
-                    "color": "hsl(222,7%,23%)"
+                    "color": "hsl(222,7%,32%)"
                 },
                 {
                     "name": "White",
@@ -261,7 +261,7 @@
             ],
             "fontWeight": true,
             "fontStyle": true,
-            "letterSpacing": true,
+            "letterSpacing": false,
             "textTransform": true,
             "textDecoration": false,
             "dropCap": false
@@ -300,9 +300,9 @@
     "styles": {
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--primary)",
-            "fontWeight": "300",
+            "fontWeight": "200",
             "fontSize": "var(--wp--preset--font-size--medium)",
-            "lineHeight": "1.8",
+            "lineHeight": "1.7",
             "letterSpacing": ".8px"
         },
         "spacing": {
@@ -311,7 +311,8 @@
                 "right": "2rem",
                 "bottom": "0",
                 "left": "2rem"
-            }
+            },
+            "blockGap": "2.25rem"
         },
         "color": {
             "background": "var(--wp--preset--color--base-0)",
