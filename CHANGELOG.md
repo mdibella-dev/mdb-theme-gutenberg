@@ -14,6 +14,7 @@ _New / Improve / Bugfix_
 - Improve: Overhaul frontend style SCSS files
 - Improve: Remove hyphens settings in h1 for better support pf wp-typography
 - Improve: Move several style settings to theme.json resp. template files
+- Improve: Remove seondary font
 
 
 
