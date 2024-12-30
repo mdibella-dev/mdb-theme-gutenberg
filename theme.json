@@ -363,7 +363,7 @@
                     "fontWeight": "300",
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "lineHeight": "1.5",
-                    "textAlign": "center"
+                    "textAlign": "left"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--denim-0)"
@@ -371,9 +371,12 @@
                 "spacing": {
                     "margin": {
                         "top": "1rem",
-                        "bottom": "0"
+                        "bottom": "0",
+                        "left": "auto",
+                        "right": "auto"
                     }
-                }
+                },
+                "css":"width: 100%;max-width: var(--wp--style--global--content-size);"
             },
             "button": {
                 "typography": {
