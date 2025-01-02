@@ -102,7 +102,7 @@
             "padding": true,
             "blockGap": true,
             "spacingScale": {
-                "steps": 0
+                "steps": 1
             },
             "defaultSpacingSizes": false,
             "spacingSizes": [
@@ -277,7 +277,8 @@
                 "spacing": {
                     "top": "var(--wp--preset--spacing--40)",
                     "bottom": "var(--wp--preset--spacing--40)"
-                }
+                },
+                "blockGap": "2.25rem"
             },
             "teaserblock": {
                 "image-width": "100px",
@@ -312,7 +313,7 @@
                 "bottom": "0",
                 "left": "2rem"
             },
-            "blockGap": "2.25rem"
+            "blockGap": "var(--wp--custom--main--block-gap)"
         },
         "color": {
             "background": "var(--wp--preset--color--base-0)",

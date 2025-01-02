@@ -15,6 +15,7 @@ _New / Improve / Bugfix_
 - Improve: Remove hyphens settings in h1 for better support pf wp-typography
 - Improve: Move several style settings to theme.json resp. template files
 - Improve: Remove seondary font
+- Fix margin-block-start after wp-block-heading
 
 
 
