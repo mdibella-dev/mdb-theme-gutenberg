@@ -41,7 +41,8 @@
 
 .has-concrete-background-from-left,
 .has-concrete-background-from-right {
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: center top;
     margin-top: calc(-1*calc(var(--wp--custom--main--spacing--top) + var(--wp--custom--header--height))) !important;
 }
 
