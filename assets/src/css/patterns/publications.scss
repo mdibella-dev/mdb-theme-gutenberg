@@ -172,7 +172,7 @@
 
 
 /**
- * .publications-filters-ist
+ * .publications-filters-list
  */
 
 .publications-list {
@@ -190,6 +190,7 @@
     gap: 1.5rem;
     justify-content: space-between;
     padding-left: 0;
+    line-height: 1.4 !important;
 
     @include on_breakpoint(medium) {
         flex-direction: row;
@@ -234,4 +235,10 @@
         flex-grow: 0;
         order: 2;
     }
+}
+
+.publications-list-item-pubnote {
+    margin-top:.5em;
+    font-size: 90%;
+    color: var(--wp--preset--color--contrast-2);
 }
