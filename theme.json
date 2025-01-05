@@ -144,7 +144,7 @@
                             "fontWeight": "200",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Gilroy-Ultralight.ttf"
+                                "file:./assets/fonts/gilroy-ultralight.ttf"
                             ]
                         },
                         {
@@ -152,7 +152,7 @@
                             "fontWeight": "300",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Gilroy-Light.ttf"
+                                "file:./assets/fonts/gilroy-light.ttf"
                             ]
                         },
                         {
@@ -160,7 +160,7 @@
                             "fontWeight": "400",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Gilroy-Regular.ttf"
+                                "file:./assets/fonts/gilroy-regular.ttf"
                             ]
                         },
                         {
@@ -168,7 +168,7 @@
                             "fontWeight": "500",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Gilroy-Medium.ttf"
+                                "file:./assets/fonts/gilroy-medium.ttf"
                             ]
                         },
                         {
@@ -176,7 +176,7 @@
                             "fontWeight": "600",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Gilroy-Semibold.ttf"
+                                "file:./assets/fonts/gilroy-semibold.ttf"
                             ]
                         },
                         {
@@ -184,7 +184,7 @@
                             "fontWeight": "700",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Gilroy-Bold.ttf"
+                                "file:./assets/fonts/gilroy-bold.ttf"
                             ]
                         },
                         {
@@ -192,7 +192,7 @@
                             "fontWeight": "800",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Gilroy-Extrabold.ttf"
+                                "file:./assets/fonts/gilroy-extrabold.ttf"
                             ]
                         },
                         {
