@@ -80,7 +80,13 @@
                     "color": "#000000"
                 }
             ],
-            "gradients": [],
+            "gradients": [
+                {
+                    "name": "Base / 1 (top) to Base / 0 (bottom)",
+                    "slug": "base-1-top-to-base-0-bottom",
+                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--base-1), var(--wp--preset--color--base-0))"
+                }
+            ],
             "duotone": [],
             "defaultPalette" : false,
             "defaultGradients": false,
