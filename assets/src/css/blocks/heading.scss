@@ -19,6 +19,11 @@
 }
 
 
+:root :where(.is-layout-constrained) > .wp-block-heading + * {
+    margin-block-start: calc(var(--wp--custom--main--block-gap) / 3);
+}
+
+
 h1.wp-block-heading,
 h2.wp-block-heading {
     :not(.wp-block-heading) + & {

@@ -6,12 +6,16 @@ _New / Improve / Bugfix_
 ### Latest changes to the main branch
 
 - New: Publications filter and filtered list
+- New: Gilroy as primary font
 - Improve: Revert "Add different button shadows (experimental)"
 - Improve: Change button color settings
 - Improve: Change background color (wp-block-code)
 - Improve: Add new SASS scripts
 - Improve: Overhaul frontend style SCSS files
 - Improve: Remove hyphens settings in h1 for better support pf wp-typography
+- Improve: Move several style settings to theme.json resp. template files
+- Improve: Remove seondary font
+- Fix margin-block-start after wp-block-heading
 
 
 

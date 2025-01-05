@@ -88,10 +88,9 @@
 
             // typography
             line-height: 1.4;
-            letter-spacing: .4px;
             font-family: var(--wp--preset--font-family--primary);
-            font-weight: 300;
-            font-size: 1rem;
+            font-weight: 400;
+            font-size: var(--wp--preset--font-size--medium);;
             text-shadow: 0 1px 20px rgba(0,0,0,.5);
 
             // support of plugin wp-typography

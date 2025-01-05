@@ -7,12 +7,22 @@
                 {
                     "name": "Base / 0",
                     "slug": "base-0",
-                    "color": "hsl(231.4,13.7%,15%)"
+                    "color": "hsl(240, 12.2%, 8%);"
                 },
                 {
                     "name": "Base / 1",
                     "slug": "base-1",
-                    "color": "#30333F"
+                    "color": "hsl(231.4,13.7%,10%)"
+                },
+                {
+                    "name": "Base / 1b",
+                    "slug": "base-1b",
+                    "color": "hsl(230, 13%, 18%)"
+                },
+                {
+                    "name": "Base / 1b",
+                    "slug": "base-1b",
+                    "color": "hsl(230, 13%, 18%)"
                 },
                 {
                     "name": "Base / 2",
@@ -37,7 +47,7 @@
                 {
                     "name": "Denim / 0",
                     "slug": "denim-0",
-                    "color": "hsl(202,82%,45%)"
+                    "color": "hsl(202,82%,35%)"
                 },
                 {
                     "name": "Denim / 1",
@@ -52,12 +62,17 @@
                 {
                     "name": "Contrast / 0",
                     "slug": "contrast-0",
-                    "color": "hsl(222,7%,53%)"
+                    "color": "hsl(222,7%,45%)"
                 },
                 {
                     "name": "Contrast / 1",
                     "slug": "contrast-1",
-                    "color": "hsl(222,0%,90%)"
+                    "color": "hsl(222,7%,80%)"
+                },
+                {
+                    "name": "Contrast / 2",
+                    "slug": "contrast-2",
+                    "color": "hsl(222,7%,30%)"
                 },
                 {
                     "name": "White",
@@ -87,7 +102,7 @@
             "padding": true,
             "blockGap": true,
             "spacingScale": {
-                "steps": 0
+                "steps": 1
             },
             "defaultSpacingSizes": false,
             "spacingSizes": [
@@ -130,48 +145,94 @@
                 {
                     "fontFace": [
                         {
-                            "fontFamily": "Inter",
-                            "fontWeight": "100 900",
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "200",
                             "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/Inter-VariableFont_slnt,wght.woff2"
-                            ],
-                            "unicodeRange": "U+0020-007F, U+00A0-00FF, U+02B0-02FF, U+0300-036F, U+2000-206F, U+20A4, U+20AC, U+2103, U+2109, U+2122"
-                        }
-                    ],
-                    "name": "Primary (Inter)",
-                    "slug": "primary",
-                    "fontFamily": "Inter, Arial, sans-serif"
-                },
-                {
-                    "fontFace": [
+                                "file:./assets/fonts/Gilroy-Ultralight.ttf"
+                            ]
+                        },
                         {
-                            "fontFamily": "Noto Serif Display",
-                            "fontWeight": "100 900",
-                            "fontStyle": "italic",
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
                             "src": [
-                                "file:./assets/fonts/NotoSerifDisplay-Italic-VariableFont_wdth,wght.woff2"
+                                "file:./assets/fonts/Gilroy-Light.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Regular.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Medium.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Semibold.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Bold.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Extrabold.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gilroy",
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/Gilroy-Heavy.ttf"
                             ]
                         }
                     ],
-                    "name": "Secondary (Noto Serif Display)",
-                    "slug": "secondary",
-                    "fontFamily": "Noto Serif Display, serif"
+                    "name": "Primary (Gilroy)",
+                    "slug": "primary",
+                    "fontFamily": "Gilroy, Arial, sans-serif"
                 }
             ],
             "defaultFontSizes": false,
             "fontSizes": [
                 {
-                    "size": "0.875rem",
+                    "size": "1rem",
                     "slug": "small",
                     "name": "S",
-                    "fluid": false
+                    "fluid": {
+                        "min": "0.875rem",
+                        "max": "1rem"
+                    }
                 },
                 {
                     "size": "1.125rem",
                     "slug": "medium",
                     "name": "M",
-                    "fluid": false
+                    "fluid": {
+                        "min": "1.0625rem",
+                        "max": "1.25rem"
+                    }
                 },
                 {
                     "size": "1.375rem",
@@ -200,7 +261,7 @@
             ],
             "fontWeight": true,
             "fontStyle": true,
-            "letterSpacing": true,
+            "letterSpacing": false,
             "textTransform": true,
             "textDecoration": false,
             "dropCap": false
@@ -210,14 +271,14 @@
                 "height": "5rem"
             },
             "base": {
-                "gap": "calc(1.5 * var(--wp--custom--base--font-size))",
                 "border-radius": "8px"
             },
             "main": {
                 "spacing": {
                     "top": "var(--wp--preset--spacing--40)",
                     "bottom": "var(--wp--preset--spacing--40)"
-                }
+                },
+                "blockGap": "2.25rem"
             },
             "teaserblock": {
                 "image-width": "100px",
@@ -240,10 +301,10 @@
     "styles": {
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--primary)",
-            "fontWeight": "290",
+            "fontWeight": "300",
             "fontSize": "var(--wp--preset--font-size--medium)",
-            "lineHeight": "1.6",
-            "letterSpacing": ".3px"
+            "lineHeight": "1.7",
+            "letterSpacing": ".8px"
         },
         "spacing": {
             "padding": {
@@ -251,7 +312,8 @@
                 "right": "2rem",
                 "bottom": "0",
                 "left": "2rem"
-            }
+            },
+            "blockGap": "var(--wp--custom--main--block-gap)"
         },
         "color": {
             "background": "var(--wp--preset--color--base-0)",
@@ -262,12 +324,12 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
                     "fontSize": "var(--wp--preset--font-size--large)",
-                    "fontWeight": "625",
+                    "fontWeight": "700",
                     "lineHeight": "1.3",
-                    "letterSpacing": "1px"
+                    "letterSpacing": ".8px"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--white)"
+                    "text": "var(--wp--preset--color--contrast-1)"
                 },
                 "css":"text-shadow: 1px 1px 50px rgba(0,0,0,.3);word-break:unset;word-spacing:.5px"
             },
@@ -291,7 +353,7 @@
                 "outline": "none",
                 ":hover": {
                     "color": {
-                        "text": "var(--wp--preset--color--white)"
+                        "text": "var(--wp--preset--color--contrast-1)"
                     }
                 },
                 "css":"transition: all 0.3s ease-in-out;"
@@ -299,10 +361,10 @@
             "caption": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
-                    "fontWeight": "290",
+                    "fontWeight": "300",
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "lineHeight": "1.5",
-                    "letterSpacing": ".3px"
+                    "textAlign": "left"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--denim-0)"
@@ -310,9 +372,12 @@
                 "spacing": {
                     "margin": {
                         "top": "1rem",
-                        "bottom": "0"
+                        "bottom": "0",
+                        "left": "auto",
+                        "right": "auto"
                     }
-                }
+                },
+                "css":"width: 100%;max-width: var(--wp--style--global--content-size);"
             },
             "button": {
                 "typography": {
@@ -321,27 +386,39 @@
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "lineHeight": "1.2",
                     "letterSpacing": ".4px",
-                    "textTransform": "uppercase",
-                    "textDecoration": "none"
+                    "textDecoration": "none",
+                    "textTransform": "uppercase"
                 },
                 "color": {
-                    "text": "var(--wp--preset--color--denim-0)",
-                    "background": "transparent"
+                    "text": "var(--wp--preset--color--contrast-1)",
+                    "background": "var(--wp--preset--color--denim-0)"
                 },
                 "border": {
-                    "color": "var(--wp--preset--color--denim-0)",
+                    "color": "transparent",
                     "radius": "5px",
-                    "width": "2px",
+                    "width": "1px",
                     "style": "solid"
                 },
                 "dimensions": {
                     "minHeight": "auto"
                 },
-                "css":"box-shadow:0 10px 20px rgba(0,0,0,.15), 0 6px 6px rgba(0,0,0,.10)",
+                "spacing": {
+                    "padding": {
+                        "top": ".85rem",
+                        "right": "2rem",
+                        "bottom": ".85rem",
+                        "left": "2rem"
+                    },
+                    "margin": "0"
+                },
+                "css":"transition: all 0.3s ease-in-out;cursor: pointer;",
                 ":hover": {
                     "color": {
-                        "text": "var(--wp--preset--color--denim-2)",
-                        "background":  "var(--wp--preset--color--denim-0)"
+                        "text": "var(--wp--preset--color--contrast-1)",
+                        "background": "transparent"
+                    },
+                    "border": {
+                        "color": "var(--wp--preset--color--contrast-1)"
                     }
                 }
             }

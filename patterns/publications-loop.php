@@ -2,6 +2,8 @@
 /**
  * Title: Publications Loop
  * Slug: mdb-theme-fse/publications-loop
+ * Template Types: publications
+ * Inserter: no
  */
 
 use mdb_theme_core\api as publication;
@@ -48,8 +50,8 @@ if ( $query->have_posts() ) {
                     <p><?php echo $part[0]; ?></p>
                     <!-- /wp:paragraph -->
 
-                    <!-- wp:paragraph {"style":{"typography":{"fontSize":"90%"},"spacing":{"margin":{"top":".5em"}}},"fontFamily":"secondary"} -->
-                    <p class="has-secondary-font-family" style="margin-top:.5em;font-size:90%"><?php echo $part[1]; ?></p>
+                    <!-- wp:paragraph {"className":"publications-list-item-pubnote"} -->
+                    <p class="publications-list-item-pubnote"><?php echo $part[1]; ?></p>
                     <!-- /wp:paragraph -->
 
                 </div>

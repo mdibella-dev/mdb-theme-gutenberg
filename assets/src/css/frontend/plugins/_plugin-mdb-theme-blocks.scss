@@ -19,8 +19,17 @@
 
     .wp-element-button {
         font-size: .625rem;
-        padding: 8px 12px;
+        padding: 9px 12px 6px;
+        line-height: 1;
         word-break: unset;
         hyphens: none;
+        background: var(--wp--preset--color--base-2);
+
+        &:hover,
+        &:focus {
+            background: transparent;
+            border-color: var(--wp--preset--color--contrast-1);
+            color: var(--wp--preset--color--contrast-1)
+        }
     }
 }

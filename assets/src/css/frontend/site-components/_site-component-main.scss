@@ -32,3 +32,19 @@
 .site-component-main .no-main-padding-bottom {
     margin-bottom: calc(-1*var(--wp--custom--main--spacing--bottom)) !important;
 }
+
+
+
+/**
+ * Background images
+ */
+
+.has-concrete-background-01 {
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: calc(-1*calc(var(--wp--custom--main--spacing--top) + var(--wp--custom--header--height))) !important;
+}
+
+.has-concrete-background-01 {
+    background-image: url("../../images/concrete-background-01.png");
+}
