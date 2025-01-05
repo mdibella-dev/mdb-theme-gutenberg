@@ -20,11 +20,6 @@
                     "color": "hsl(230, 13%, 18%)"
                 },
                 {
-                    "name": "Base / 1b",
-                    "slug": "base-1b",
-                    "color": "hsl(230, 13%, 18%)"
-                },
-                {
                     "name": "Base / 2",
                     "slug": "base-2",
                     "color": "#353744"
