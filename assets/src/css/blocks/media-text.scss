@@ -7,6 +7,9 @@
  */
 
 
+@import "../lib/_responsive";
+
+
 
 /**
  * default
@@ -76,5 +79,31 @@
 
 
 .wp-block-media-text.unstacks-on-large {
+    grid-template-columns: 100%;
 
+    & > .wp-block-media-text__media {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    & > .wp-block-media-text__content {
+        grid-column: 1;
+        grid-row: 2;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+
+@include on_breakpoint(large) {
+    .wp-block-media-text.unstacks-on-large {
+        grid-template-columns: 50% 1fr !important;
+
+        & > .wp-block-media-text__content {
+            grid-column: 2;
+            grid-row: 1;
+            padding: 1rem;
+            margin: auto;
+        }
+    }
 }
