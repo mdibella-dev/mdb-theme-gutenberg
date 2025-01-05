@@ -39,17 +39,12 @@
  * Background images
  */
 
-.has-concrete-background-from-left,
-.has-concrete-background-from-right {
+.has-concrete-background-01 {
     background-repeat: no-repeat;
     background-position: center top;
     margin-top: calc(-1*calc(var(--wp--custom--main--spacing--top) + var(--wp--custom--header--height))) !important;
 }
 
-.has-concrete-background-from-left {
-    background-image: url("../../images/concrete-background-from-left.png");
-}
-
-.has-concrete-background-from-right {
-    background-image: url("../../images/concrete-background-from-right.png");
+.has-concrete-background-01 {
+    background-image: url("../../images/concrete-background-01.png");
 }
