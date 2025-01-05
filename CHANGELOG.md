@@ -5,8 +5,15 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+
+<br>
+
+### 4.1.0
+Released: 05-01-2025
+
 - New: Publications filter and filtered list
 - New: Gilroy as primary font
+- New: Add unstacks on large to media-text element
 - Improve: Revert "Add different button shadows (experimental)"
 - Improve: Change button color settings
 - Improve: Change background color (wp-block-code)
@@ -17,9 +24,6 @@ _New / Improve / Bugfix_
 - Improve: Remove seondary font
 - Fix margin-block-start after wp-block-heading
 
-
-
-<br>
 
 ### 4.0.1
 Released: 08-09-2024
