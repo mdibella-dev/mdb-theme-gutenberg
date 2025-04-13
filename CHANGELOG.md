@@ -8,6 +8,7 @@ _New / Improve / Bugfix_
 - Fix list marker position and color
 - Make strong/bold tag thicker
 - Remove smallnote paragraph style
+- Remove footer gradient
 
 
 <br>
