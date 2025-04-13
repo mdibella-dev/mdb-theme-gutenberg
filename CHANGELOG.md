@@ -5,6 +5,9 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
+- Fix list marker
+- Remove smallnote paragraph style
+
 
 <br>
 
