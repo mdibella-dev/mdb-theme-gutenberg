@@ -4,7 +4,11 @@
 <!-- wp:group {"tagName":"main","className":"site-component-main","style":{"spacing":{"padding":{"top":"var:custom|main|spacing|top","bottom":"var:custom|main|spacing|bottom"}}}} -->
 <main class="wp-block-group site-component-main" style="padding-top:var(--wp--custom--main--spacing--top);padding-bottom:var(--wp--custom--main--spacing--bottom);">
 
-    <!-- wp:post-content {"layout":{"inherit":true}} /-->
+    <!-- wp:group {"className":"entry-content has-global-padding is-layout-constrained"} -->
+    <div class="wp-block-group entry-content has-global-padding is-layout-constrained">
+        <!-- wp:pattern {"slug":"mdb-theme-fse/publication-content"} /-->
+    </div>
+    <!-- wp:group -->
 
 </main>
 <!-- /wp:group -->
