@@ -9,7 +9,7 @@ _New / Improve / Bugfix_
 - Make strong/bold tag thicker
 - Remove smallnote paragraph style
 - Remove footer gradient
-
+- Show post date in single.html (backport from mdb-tw)
 
 <br>
 
