@@ -5,7 +5,8 @@ _New / Improve / Bugfix_
 
 ### Latest changes to the main branch
 
-- Fix list marker
+- Fix list marker position and color
+- Make strong/bold tag thicker
 - Remove smallnote paragraph style
 
 
