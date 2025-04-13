@@ -86,19 +86,6 @@ wp.domReady( () => {
 
 
 
-    /** core/paragraph */
-
-    wp.blocks.registerBlockStyle(
-        'core/paragraph',
-        {
-            name: 'smallnote',
-            label: 'Hinweiszeile',
-            isDefault: false,
-        }
-    );
-
-
-
     /** core/navigation */
 
     wp.blocks.registerBlockStyle(
