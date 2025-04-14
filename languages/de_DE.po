@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2024-09-22 20:40+0200\n"
-"PO-Revision-Date: 2024-09-22 20:41+0200\n"
+"POT-Creation-Date: 2025-04-14 20:49+0200\n"
+"PO-Revision-Date: 2025-04-14 20:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -10,14 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
@@ -25,60 +24,94 @@ msgstr ""
 msgid "Imprint"
 msgstr "Impressum"
 
-#: patterns/publications-filter.php:277
-msgid "Current filter: "
-msgstr "Aktueller Filter: "
+#: patterns/publication-content.php:98
+msgid "Publication"
+msgstr "Publikation"
 
-#: patterns/publications-filter.php:281
+#: patterns/publication-content.php:111
+msgid "Author"
+msgid_plural "Authors"
+msgstr[0] "Autor"
+msgstr[1] "Autoren"
+
+#: patterns/publication-content.php:127
+msgid "Publication Year"
+msgstr "Veröffentlichungsjahr"
+
+#: patterns/publication-content.php:153
+msgid "Keywords"
+msgstr "Schlagwort"
+
+#: patterns/publication-content.php:171
+msgid "Suggested Citation"
+msgstr "Vorgeschlagene Zitation"
+
+#: patterns/publication-content.php:200
+msgid "Sources"
+msgstr "Quellen"
+
+#: patterns/publication-content.php:251
+msgid "Cited by"
+msgstr "Zitiert von"
+
+#: patterns/publications-filter.php:131
 msgid "Filter"
 msgstr "Filter"
 
-#: patterns/publications-filter.php:288
+#: patterns/publications-filter.php:138
 msgid "No filter"
 msgstr "Kein Filter"
 
-#: patterns/publications-filter.php:300
+#: patterns/publications-filter.php:150
 #, php-format
 msgid "%1$s only"
 msgstr "Nur %1$s"
 
-#: patterns/related-posts.php:11
+#: patterns/publications-loop.php:42
+msgid "Show publication details"
+msgstr "Zeige Publikationsdetails"
+
+#: patterns/publications-loop.php:42
+msgid "Details"
+msgstr "Details"
+
+#: patterns/related-posts.php:13
 msgid "Related posts"
 msgstr "Ähnliche Beiträge"
 
-#: patterns/slideout-navigation.php:26
-msgid "News"
-msgstr "News"
-
-#: patterns/slideout-navigation.php:30
+#: patterns/single-postdate.php:9 patterns/slideout-navigation.php:31
 msgid "Blog"
 msgstr "Blog"
 
-#: patterns/slideout-navigation.php:42
+#: patterns/slideout-navigation.php:27
+msgid "News"
+msgstr "News"
+
+#: patterns/slideout-navigation.php:43
 msgid "Work"
 msgstr "Work"
 
-#: patterns/slideout-navigation.php:46
+#: patterns/slideout-navigation.php:47
 msgid "Web &amp; Media"
 msgstr "Web &amp; Media"
 
-#: patterns/slideout-navigation.php:50
+#: patterns/slideout-navigation.php:51
 msgid "Publications"
 msgstr "Publikationen"
 
-#: patterns/slideout-navigation.php:54
+#: patterns/slideout-navigation.php:55
 msgid "Lectures"
 msgstr "Vorträge"
 
-#: patterns/slideout-navigation.php:67
+#: patterns/slideout-navigation.php:68
 msgid "Personal"
 msgstr "Personal"
 
-#: patterns/slideout-navigation.php:71
+#: patterns/slideout-navigation.php:72
 msgid "About Me"
 msgstr "Über mich"
 
-#: patterns/slideout-navigation.php:75
+#: patterns/slideout-navigation.php:76
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -110,8 +143,8 @@ msgstr "Marco Di Bella"
 msgid "https://www.marcodibella.de"
 msgstr "https://www.marcodibella.de"
 
-#~ msgid "Filtered by: "
-#~ msgstr "Filter: "
+#~ msgid "Current filter: "
+#~ msgstr "Aktueller Filter: "
 
 #~ msgid "Primary Navigation"
 #~ msgstr "Primäre Navigation"

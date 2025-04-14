@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2024-09-22 20:40+0200\n"
+"POT-Creation-Date: 2025-04-14 20:49+0200\n"
 "PO-Revision-Date: 2023-01-28 16:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,14 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
@@ -25,60 +24,94 @@ msgstr ""
 msgid "Imprint"
 msgstr ""
 
-#: patterns/publications-filter.php:277
-msgid "Current filter: "
+#: patterns/publication-content.php:98
+msgid "Publication"
 msgstr ""
 
-#: patterns/publications-filter.php:281
+#: patterns/publication-content.php:111
+msgid "Author"
+msgid_plural "Authors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: patterns/publication-content.php:127
+msgid "Publication Year"
+msgstr ""
+
+#: patterns/publication-content.php:153
+msgid "Keywords"
+msgstr ""
+
+#: patterns/publication-content.php:171
+msgid "Suggested Citation"
+msgstr ""
+
+#: patterns/publication-content.php:200
+msgid "Sources"
+msgstr ""
+
+#: patterns/publication-content.php:251
+msgid "Cited by"
+msgstr ""
+
+#: patterns/publications-filter.php:131
 msgid "Filter"
 msgstr ""
 
-#: patterns/publications-filter.php:288
+#: patterns/publications-filter.php:138
 msgid "No filter"
 msgstr ""
 
-#: patterns/publications-filter.php:300
+#: patterns/publications-filter.php:150
 #, php-format
 msgid "%1$s only"
 msgstr ""
 
-#: patterns/related-posts.php:11
+#: patterns/publications-loop.php:42
+msgid "Show publication details"
+msgstr ""
+
+#: patterns/publications-loop.php:42
+msgid "Details"
+msgstr ""
+
+#: patterns/related-posts.php:13
 msgid "Related posts"
 msgstr ""
 
-#: patterns/slideout-navigation.php:26
-msgid "News"
-msgstr ""
-
-#: patterns/slideout-navigation.php:30
+#: patterns/single-postdate.php:9 patterns/slideout-navigation.php:31
 msgid "Blog"
 msgstr ""
 
-#: patterns/slideout-navigation.php:42
+#: patterns/slideout-navigation.php:27
+msgid "News"
+msgstr ""
+
+#: patterns/slideout-navigation.php:43
 msgid "Work"
 msgstr ""
 
-#: patterns/slideout-navigation.php:46
+#: patterns/slideout-navigation.php:47
 msgid "Web &amp; Media"
 msgstr ""
 
-#: patterns/slideout-navigation.php:50
+#: patterns/slideout-navigation.php:51
 msgid "Publications"
 msgstr ""
 
-#: patterns/slideout-navigation.php:54
+#: patterns/slideout-navigation.php:55
 msgid "Lectures"
 msgstr ""
 
-#: patterns/slideout-navigation.php:67
+#: patterns/slideout-navigation.php:68
 msgid "Personal"
 msgstr ""
 
-#: patterns/slideout-navigation.php:71
+#: patterns/slideout-navigation.php:72
 msgid "About Me"
 msgstr ""
 
-#: patterns/slideout-navigation.php:75
+#: patterns/slideout-navigation.php:76
 msgid "Contact"
 msgstr ""
 
