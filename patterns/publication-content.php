@@ -180,7 +180,7 @@ global $post;
 * Show sources
 */
 
-if ( have_rows( 'ref_sources') ) {
+if ( have_rows( 'ref_sources' ) ) {
     $source = [];
 
     while ( have_rows( 'ref_sources' ) ) {
@@ -208,7 +208,7 @@ if ( have_rows( 'ref_sources') ) {
                 <!-- wp:list-item -->
                 <li><a
                     href="<?php echo sanitize_url( $link ); ?>"
-                    target="<?php echo (api\is_external( $link ) == true ) ? '_blank' : '_self'; ?>"
+                    target="<?php echo (is_external( $link ) == true ) ? '_blank' : '_self'; ?>"
                     ><?php echo $title; ?></a></li>
                 <!-- /wp:list-item -->
                 <?php
