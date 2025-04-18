@@ -1,58 +1,36 @@
 wp.domReady( () => {
 
-    /** core/image */
+    /**
+     * Unregister unused default core block styles
+     */
 
     wp.blocks.unregisterBlockStyle(
-        'core/image',
+         'core/image',
+         [
+             'rounded'
+         ]
+    );
+
+    wp.blocks.unregisterBlockStyle(
+        'core/button',
         [
-            'rounded'
+            'fill',
+            'outline',
         ]
     );
 
-    wp.blocks.registerBlockStyle(
-        'core/image',
+    wp.blocks.unregisterBlockStyle(
+        'core/separator',
         [
-            {
-                name: 'shaded',
-                label: 'Schattiert',
-                isDefault: false,
-            }
-        ]
-    );
-
-
-
-    /** core/media-text */
-
-    wp.blocks.registerBlockStyle(
-        'core/media-text',
-        [
-            {
-                name: 'shaded',
-                label: 'Schattiert',
-                isDefault: false,
-            }
+            'wide',
+            'dots',
         ]
     );
 
 
-
-    /** core/embed */
-
-    wp.blocks.registerBlockStyle(
-        'core/embed',
-        [
-            {
-                name: 'shaded',
-                label: 'Schattiert',
-                isDefault: false,
-            }
-        ]
-    );
-
-
-    // Remove unused block variations
-    // Current block manager plugins are failing
+    /**
+     * Unregister unused default core block variations
+     */
 
     wp.blocks.unregisterBlockVariation( 'core/embed', 'amazon-kindle' );
     wp.blocks.unregisterBlockVariation( 'core/embed', 'animoto' );
@@ -85,29 +63,57 @@ wp.domReady( () => {
     wp.blocks.unregisterBlockVariation( 'core/embed', 'wordpress' );
 
 
-
-    /** core/navigation */
-
-    wp.blocks.registerBlockStyle(
-        'core/navigation',
-        {
-            name: 'pagenavigation',
-            label: 'Beitragsnavigation',
-            isDefault: false,
-        }
-    );
-
-
-
-    /** core/button */
+    /**
+     * Unregister unused custom core block styles
+     */
 
     wp.blocks.unregisterBlockStyle(
-        'core/button',
+         'core/navigation',
+         [
+             'pagenavigation'
+         ]
+    );
+
+
+    /**
+     * Register custom core block styles
+     */
+
+    wp.blocks.registerBlockStyle(
+        'core/image',
         [
-            'fill',
-            'outline',
+            {
+                name: 'shaded',
+                label: 'Schattiert',
+                isDefault: false,
+            }
         ]
     );
+
+
+    wp.blocks.registerBlockStyle(
+        'core/media-text',
+        [
+            {
+                name: 'shaded',
+                label: 'Schattiert',
+                isDefault: false,
+            }
+        ]
+    );
+
+
+    wp.blocks.registerBlockStyle(
+        'core/embed',
+        [
+            {
+                name: 'shaded',
+                label: 'Schattiert',
+                isDefault: false,
+            }
+        ]
+    );
+
 
     wp.blocks.registerBlockStyle(
         'core/button',
@@ -126,35 +132,17 @@ wp.domReady( () => {
     );
 
 
-
-    /** core/separator */
-
-    wp.blocks.unregisterBlockStyle(
-        'core/separator',
-        [
-            'wide',
-            'dots',
-        ]
-    );
-
-
-
-    /** core/table */
-
     wp.blocks.registerBlockStyle(
         'core/table',
         [
             {
-                name: 'portfolio-details',
-                label: 'Portfolio Details',
+                name: 'portfolio',
+                label: 'Portfolio',
                 isDefault: false,
             },
         ]
     );
 
-
-
-    /** core/columns */
 
     wp.blocks.registerBlockStyle(
         'core/columns',
@@ -167,21 +155,6 @@ wp.domReady( () => {
             {
                 name: 'showcase',
                 label: 'Showcase',
-                isDefault: false,
-            }
-        ]
-    );
-
-
-
-    /** core/cover */
-
-    wp.blocks.registerBlockStyle(
-        'core/cover',
-        [
-            {
-                name: 'welcome',
-                label: 'Welcome',
                 isDefault: false,
             }
         ]
