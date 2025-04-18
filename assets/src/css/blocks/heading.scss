@@ -30,3 +30,10 @@ h2.wp-block-heading {
         margin-top: var(--wp--preset--spacing--70);
     }
 }
+
+
+.wp-block-heading.is-style-alternate {
+    text-transform: uppercase;
+    color: var(--wp--preset--color--contrast-2);
+    font-weight: 400;
+}

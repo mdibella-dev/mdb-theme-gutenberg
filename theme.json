@@ -57,17 +57,17 @@
                 {
                     "name": "Contrast / 0",
                     "slug": "contrast-0",
-                    "color": "hsl(222,7%,45%)"
+                    "color": "hsl(221.3,7%,45.1%)"
                 },
                 {
                     "name": "Contrast / 1",
                     "slug": "contrast-1",
-                    "color": "hsl(222,7%,80%)"
+                    "color": "hsl(223,7%,80%)"
                 },
                 {
                     "name": "Contrast / 2",
                     "slug": "contrast-2",
-                    "color": "hsl(222,7%,30%)"
+                    "color": "hsl(223.6,7.2%,30%)"
                 },
                 {
                     "name": "White",
