@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdb-theme-fse\n"
-"POT-Creation-Date: 2025-04-14 20:49+0200\n"
-"PO-Revision-Date: 2025-04-14 20:51+0200\n"
+"POT-Creation-Date: 2025-04-21 12:32+0200\n"
+"PO-Revision-Date: 2025-04-21 12:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -79,7 +79,7 @@ msgstr "Details"
 msgid "Related posts"
 msgstr "Ähnliche Beiträge"
 
-#: patterns/single-postdate.php:9 patterns/slideout-navigation.php:31
+#: patterns/single-title.php:11 patterns/slideout-navigation.php:31
 msgid "Blog"
 msgstr "Blog"
 
@@ -116,8 +116,8 @@ msgid "Contact"
 msgstr "Kontakt"
 
 #: patterns/tag-title.php:9
-msgid "Keyword"
-msgstr "Schlagwort"
+msgid "Topic"
+msgstr "Thema"
 
 #. Theme Name of the plugin/theme
 msgid "mdb-theme-fse"
@@ -142,6 +142,9 @@ msgstr "Marco Di Bella"
 #. Author URI of the plugin/theme
 msgid "https://www.marcodibella.de"
 msgstr "https://www.marcodibella.de"
+
+#~ msgid "Keyword"
+#~ msgstr "Schlagwort"
 
 #~ msgid "Current filter: "
 #~ msgstr "Aktueller Filter: "
