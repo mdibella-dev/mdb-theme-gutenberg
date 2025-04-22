@@ -44,7 +44,7 @@
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><a href="/mediengestaltung-webdesign/"><?php echo __( 'Web &amp; Media', 'mdb-theme-fse' ); ?></a></li>
+                        <li><a href="/portfolio/"><?php echo __( 'Web &amp; Media', 'mdb-theme-fse' ); ?></a></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
