@@ -107,8 +107,8 @@ if ( has_post_thumbnail() ) {
 
 if ( isset( $authors ) and count( $authors ) ) {
 ?>
-    <!-- wp:heading {"fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
-    <h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo _n( 'Author', 'Authors', count( $authors ) , 'mdb-theme-fse' ); ?></h2>
+    <!-- wp:heading {"className":"is-style-alternate","fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
+    <h2 class="wp-block-heading has-large-font-size is-style-alternate" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo _n( 'Author', 'Authors', count( $authors ) , 'mdb-theme-fse' ); ?></h2>
     <!-- /wp:heading -->
     <!-- wp:paragraph -->
     <p><?php echo implode( ', ', $authors );?></p>
@@ -123,8 +123,8 @@ if ( isset( $authors ) and count( $authors ) ) {
 
 if ( isset( $year ) ) {
 ?>
-    <!-- wp:heading {"fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
-    <h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Publication Year', 'mdb-theme-fse' ); ?></h2>
+    <!-- wp:heading {"className":"is-style-alternate","fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
+    <h2 class="wp-block-heading has-large-font-size is-style-alternate" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Publication Year', 'mdb-theme-fse' ); ?></h2>
     <!-- /wp:heading -->
     <!-- wp:paragraph -->
     <p><?php echo $year; ?></p>
@@ -149,8 +149,8 @@ if ( ! is_wp_error( $terms ) and ! empty( $terms ) ) {
         $keywords[] = $term->name;
     }
     ?>
-    <!-- wp:heading {"fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
-    <h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Keywords', 'mdb-theme-fse' ); ?></h2>
+    <!-- wp:heading {"className":"is-style-alternate","fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
+    <h2 class="wp-block-heading has-large-font-size is-style-alternate" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Keywords', 'mdb-theme-fse' ); ?></h2>
     <!-- /wp:heading -->
     <!-- wp:paragraph -->
     <p><?php echo implode( ', ', $keywords ); ?></p>
@@ -167,8 +167,8 @@ global $post;
        $part = publication\build_citation( $post->ID, MDB_BUILD_ARRAY );
 
 ?>
-<!-- wp:heading {"fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
-<h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Suggested Citation', 'mdb-theme-fse' ); ?></h2>
+<!-- wp:heading {"className":"is-style-alternate","fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
+<h2 class="wp-block-heading has-large-font-size is-style-alternate" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Suggested Citation', 'mdb-theme-fse' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p><?php echo $part[0] . ' ' . $part[1]; ?></p>
@@ -196,8 +196,8 @@ if ( have_rows( 'ref_sources' ) ) {
 
     if ( count( $source ) ) {
     ?>
-        <!-- wp:heading {"fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
-        <h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Sources', 'mdb-theme-fse' ); ?></h2>
+        <!-- wp:heading {"className":"is-style-alternate","fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
+        <h2 class="wp-block-heading has-large-font-size is-style-alternate" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Sources', 'mdb-theme-fse' ); ?></h2>
         <!-- /wp:heading -->
         <!-- wp:list {"ordered":true} -->
         <ol class="wp-block-list">
@@ -247,8 +247,8 @@ if ( have_rows( 'ref_cites') ) {
 
     if ( count( $cites ) ) {
     ?>
-        <!-- wp:heading {"fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
-        <h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Cited by', 'mdb-theme-fse' ); ?></h2>
+        <!-- wp:heading {"className":"is-style-alternate","fontSize":"large","style":{"spacing":{"top":"var:preset|spacing|50","bottom":"-0.2rem"}}} -->
+        <h2 class="wp-block-heading has-large-font-size is-style-alternate" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:-0.2rem;"><?php echo __( 'Cited by', 'mdb-theme-fse' ); ?></h2>
         <!-- /wp:heading -->
         <!-- wp:list {"ordered":true} -->
         <ol class="wp-block-list">
