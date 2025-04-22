@@ -239,7 +239,10 @@
                     "size": "1.375rem",
                     "slug": "large",
                     "name": "L",
-                    "fluid": false
+                    "fluid": {
+                        "min": "1.125rem",
+                        "max": "1.375rem"
+                    }
                 },
                 {
                     "size": "1.875rem",
