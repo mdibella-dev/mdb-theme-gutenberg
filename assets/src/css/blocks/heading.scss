@@ -34,6 +34,9 @@ h2.wp-block-heading {
 
 .wp-block-heading.is-style-alternate {
     text-transform: uppercase;
-    color: var(--wp--preset--color--contrast-2);
+    color: var(--wp--preset--color--contrast-3);
     font-weight: 400;
+    text-shadow: 0 0 5px rgba(0,0,0,.2);
+    letter-spacing: 1.4px;
+    padding-bottom: 0.25rem;
 }
