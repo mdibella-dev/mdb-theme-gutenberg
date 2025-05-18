@@ -11,8 +11,7 @@
  * default
  */
 
-ol,
-ul {
+.wp-block-list:not(.is-style-no-markers) {
     // prevent margin-collapsing
     display: block;
     width: 100%;
@@ -21,8 +20,16 @@ ul {
     padding-left: 2rem;
 }
 
-
-ol > li,
-ul > li {
+.wp-block-list:not(.is-style-no-markers) > li {
     padding-left: 1rem;
+}
+
+
+.wp-block-list.is-style-no-markers {
+    list-style: none !important;
+}
+
+.wp-block-list.is-style-no-markers > li::marker {
+    content: none; /* Hides the bullet */
+    padding-left: 0;
 }
