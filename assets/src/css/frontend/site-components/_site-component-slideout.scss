@@ -49,19 +49,6 @@
         margin: 0 0 .8rem;
         outline: 0 !important;
         cursor: pointer;
-
-
-        &:after {
-             display:block;
-             content: '';
-             border-bottom: solid 2px var(--wp--preset--color--denim-1);
-             transform: scaleX(0);
-             transition: transform 400ms ease-in-out;
-        }
-
-        &:hover:after {
-            transform: scaleX(1);
-        }
     }
 
 
