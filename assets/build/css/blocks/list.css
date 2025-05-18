@@ -1,1 +1,1 @@
-ol,ul{display:block;width:100%;padding-left:2rem}ol>li,ul>li{padding-left:1rem}
+.wp-block-list:not(.is-style-no-markers){display:block;width:100%;padding-left:2rem}.wp-block-list:not(.is-style-no-markers)>li{padding-left:1rem}.wp-block-list.is-style-no-markers{list-style:none !important}.wp-block-list.is-style-no-markers>li::marker{content:none;padding-left:0}
