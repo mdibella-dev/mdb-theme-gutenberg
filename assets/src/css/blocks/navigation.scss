@@ -18,13 +18,4 @@
         color: var(--wp--preset--color--denim-0);
     }
 
-
-    .wp-block-navigation-item__content {
-
-        &:hover {
-         // necessary to correct the wrong colour inheritance
-         color: var(--wp--preset--color--white);
-        }
-    }
-
 }

@@ -354,13 +354,7 @@
                 "color": {
                     "text": "var(--wp--preset--color--denim-0)"
                 },
-                "outline": "none",
-                ":hover": {
-                    "color": {
-                        "text": "var(--wp--preset--color--contrast-1)"
-                    }
-                },
-                "css":"transition: all 0.3s ease-in-out;"
+                "outline": "none"
             },
             "caption": {
                 "typography": {
@@ -415,16 +409,7 @@
                     },
                     "margin": "0"
                 },
-                "css":"transition: all 0.3s ease-in-out;cursor: pointer;",
-                ":hover": {
-                    "color": {
-                        "text": "var(--wp--preset--color--contrast-1)",
-                        "background": "transparent"
-                    },
-                    "border": {
-                        "color": "var(--wp--preset--color--contrast-1)"
-                    }
-                }
+                "css":"cursor: pointer;"
             }
         },
         "blocks": {
