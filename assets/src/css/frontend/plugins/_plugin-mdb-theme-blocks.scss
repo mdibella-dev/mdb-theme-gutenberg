@@ -24,12 +24,6 @@
         word-break: unset;
         hyphens: none;
         background: var(--wp--preset--color--base-2);
-
-        &:hover,
-        &:focus {
-            background: transparent;
-            border-color: var(--wp--preset--color--contrast-1);
-            color: var(--wp--preset--color--contrast-1)
-        }
+        color: var(--wp--preset--color--contrast-1);
     }
 }
