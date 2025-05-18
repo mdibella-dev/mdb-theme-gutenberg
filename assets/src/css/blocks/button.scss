@@ -32,13 +32,3 @@
         background-color: var(--wp--preset--color--white);
     }
 }
-
-
-.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:hover .svg-symbol,
-.wp-block-button.is-style-navigation-faux-anchor > .wp-block-button__link:focus .svg-symbol {
-    background-color: var(--wp--preset--color--white);
-
-    .slideout-visible & {
-        background-color: var(--wp--preset--color--denim-1)
-    }
-}
