@@ -19,16 +19,16 @@
 }
 
 
-:root :where(.is-layout-constrained) > .wp-block-heading + * {
-    margin-block-start: calc(var(--wp--custom--main--block-gap) / 3);
-}
-
-
 h1.wp-block-heading,
 h2.wp-block-heading {
     :not(.wp-block-heading) + & {
-        margin-top: var(--wp--preset--spacing--70);
+        margin-top: var(--wp--preset--spacing--60);
     }
+}
+
+
+:root :where(.is-layout-constrained) > .wp-block-heading + * {
+    margin-block-start: calc(var(--wp--custom--main--block-gap) / 3);
 }
 
 
@@ -36,7 +36,6 @@ h2.wp-block-heading {
     text-transform: uppercase;
     color: var(--wp--preset--color--contrast-3);
     font-weight: 400;
-    text-shadow: 0 0 5px rgba(0,0,0,.2);
     letter-spacing: 1.8px;
     padding-bottom: 0.25rem;
 }
