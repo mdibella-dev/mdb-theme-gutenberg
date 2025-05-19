@@ -349,7 +349,8 @@
             },
             "link": {
                 "typography": {
-                    "textDecoration": "none"
+                    "textDecoration": "none",
+                    "fontWeight": "500"
                 },
                 "color": {
                     "text": "var(--wp--preset--color--denim-0)"
