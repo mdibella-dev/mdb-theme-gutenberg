@@ -381,9 +381,9 @@
             "button": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
-                    "fontWeight": "400",
+                    "fontWeight": "500",
                     "fontSize": "var(--wp--preset--font-size--small)",
-                    "lineHeight": "1.2",
+                    "lineHeight": "1.1",
                     "letterSpacing": ".4px",
                     "textDecoration": "none",
                     "textTransform": "uppercase"
@@ -403,9 +403,9 @@
                 },
                 "spacing": {
                     "padding": {
-                        "top": ".85rem",
+                        "top": "1rem",
                         "right": "2rem",
-                        "bottom": ".85rem",
+                        "bottom": "1rem",
                         "left": "2rem"
                     },
                     "margin": "0"
