@@ -176,11 +176,11 @@
  */
 
 .publications-list {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     gap: 3.5rem;
     list-style: none;
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 
 .publications-list-item {
