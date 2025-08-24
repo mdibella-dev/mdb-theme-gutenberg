@@ -1,7 +1,11 @@
 # Changelog
 
-_New / Improve / Bugfix_
+All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+<br>
 
 ## [unreleased]
 
@@ -14,6 +18,7 @@ _New / Improve / Bugfix_
 ### Fixed
 - Fix list marker position and color
 
+<br>
 
 ## [4.1.0] - 2025-01-05
 
@@ -34,6 +39,7 @@ _New / Improve / Bugfix_
 ### Fixed
 - Fix margin-block-start after wp-block-heading
 
+<br>
 
 ## [4.0.1] - 2024-09-08
 
@@ -56,6 +62,7 @@ _New / Improve / Bugfix_
 - Fix: Add z-index to header element
 - Fix: Button padding
 
+<br>
 
 ## [4.0.0] - 2024-09-01
 
@@ -82,6 +89,7 @@ _New / Improve / Bugfix_
 ### Fixed
 - Fix: Reduce the large extra padding in block editor styles wrapper
 
+<br>
 
 ## [3.3.1] - 2024-03-05
 
@@ -102,6 +110,7 @@ _New / Improve / Bugfix_
 ### Fixed
 - Bugfix: issue #91
 
+<br>
 
 ## [3.3.0] -2024-02-04
 
@@ -127,6 +136,7 @@ _New / Improve / Bugfix_
 ### Fixed
 - Bugfix: issue [#87](https://github.com/mdibella-dev/mdb-theme-fse/issues/87)
 
+<br>
 
 ## [3.2.1] - 2023-12-23
 
@@ -149,6 +159,7 @@ _New / Improve / Bugfix_
 - Bugfix: Distorted presentation in the consent text of embed-privacy
 - Minor fix on 404 page
 
+<br>
 
 ## [3.2.0] - 2023-11-26
 
@@ -176,6 +187,7 @@ _New / Improve / Bugfix_
 - Fix: The site editor creates a large gap where the slideout is implemented in the code
 - Fix: Broken scroll to function
 
+<br>
 
 ## [3.1.1] - 2023-09-19
 
@@ -197,6 +209,7 @@ _New / Improve / Bugfix_
 - Bugfix: Use correct gap on core/media-text block when stacked on mobile
 - Bugfix: Add proper color setting for text selections
 
+<br>
 
 ## [3.1.0] - 2023-07-15
 
@@ -221,6 +234,7 @@ _New / Improve / Bugfix_
 - Bugfix: Fix header centering ([#63](https://github.com/mdibella-dev/mdb-theme-fse/issues/63))
 - Bugfix: Set root padding top/bottom in root-container (block editor)
 
+<br>
 
 ## [3.0.0] - 2023-07-01
 
@@ -251,6 +265,7 @@ _New / Improve / Bugfix_
 - Bugfix: 404 image is not displayed in the block editor ([#45](https://github.com/mdibella-dev/mdb-theme-fse/issues/45))
 - Bugfix: ScrollToID misses the anchor
 
+<br>
 
 ## [2.0.0] - 2023-06-16
 
@@ -282,6 +297,7 @@ _New / Improve / Bugfix_
 - Bugfix: Fix 1rem setting
 - Bugfix: Fix ScrollUp shows up in the slideout menu ([#43](https://github.com/mdibella-dev/mdb-theme-fse/issues/43))
 
+<br>
 
 ## [1.6.0] - 2023-04-01
 
@@ -310,6 +326,8 @@ _New / Improve / Bugfix_
 - Bugfix: Remove ARIA tags from template parts, as they lead to invalid block code in Gutenberg
 - Bugfix: Change THEME_URI to THEME_DIR when loading textdomain
 
+<br>
+
 ## [1.5.0] -2023-02-01
 
 ### Added
@@ -327,6 +345,7 @@ _New / Improve / Bugfix_
 - Bugfix: Namespace issues
 - Bugfix: Fatal error when using theme's consts
 
+<br>
 
 ## [1.4.0] - 2023-01-02
 
@@ -344,6 +363,7 @@ _New / Improve / Bugfix_
 - Bugfix: Fix missing row gap in tags list
 - Bugfix: Missing custom block styles in backend ([#27](https://github.com/mdibella-dev/mdb-theme-fse/issues/27))
 
+<br>
 
 ## [1.3.0] - 2022-12-08
 
@@ -368,6 +388,7 @@ _New / Improve / Bugfix_
 - Bugfix: Add minimal gap between flat buttons in navbar ([#12](https://github.com/mdibella-dev/mdb-theme-fse/issues/12))
 - Bugfix: Remove additional padding-left in #primary, #secondary ([#23](https://github.com/mdibella-dev/mdb-theme-fse/issues/23))
 
+<br>
 
 ## [1.2.0] - 2022-11-12
 
@@ -387,6 +408,7 @@ _New / Improve / Bugfix_
 - Bugfix: Slideout: Can't access all menu items in mobile view ([#11](https://github.com/mdibella-dev/mdb-theme-fse/issues/11))
 - Bugfix: Path to 404 image in block pattern
 
+<br>
 
 ## [1.1.0] - 2023-10-27
 
@@ -417,6 +439,7 @@ _New / Improve / Bugfix_
 - Bugfix: publication-title forces cover to break out from container when content is too long ([#6](https://github.com/mdibella-dev/mdb-theme-fse/issues/6))
 - Bugfix: Slideout: Visual identitation of the content-wrapper ([#7](https://github.com/mdibella-dev/mdb-theme-fse/issues/7))
 
+<br>
 
 ## [1.0.0] - 2022-07-30
 
