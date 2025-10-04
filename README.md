@@ -1,4 +1,4 @@
-# mdb-theme-fse
+# mdb-theme-gutenberg
 The WordPress theme for Marco Di Bella's personal website (full site editing version). Based on mdb-theme (2.1).
 
 <br>
